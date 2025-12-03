@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_LightningSkull",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.0,
+      "CollisionRadius": 50.0,
+      "Speed": 5500.0,
+      "GravityScale": 3.0,
+      "ExplosionRadius": 500.0,
+      "ExplosionDamage": 12.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_EliteEnemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Enemy/FX_Projectile_EliteEnemy.28"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Cue.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Enemy.42"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Ice_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Ice_Cue.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  }
+]

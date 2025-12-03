@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "CrabAOEDA",
+    "Name": "DA_AOE_ImmortalSnail_Ram",
+    "Class": "UScriptClass'CrabAOEDA'",
+    "Properties": {
+      "Radius": 1000.0,
+      "Damage": 1E+11,
+      "KnockbackStrength": 5000.0,
+      "AOEFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Enemy.42"
+      },
+      "AOESound": {
+        "ObjectName": "SoundCue'A_ImmortalSnail_Ping'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/ImmortalSnail/Ping/A_ImmortalSnail_Ping.0"
+      }
+    }
+  }
+]

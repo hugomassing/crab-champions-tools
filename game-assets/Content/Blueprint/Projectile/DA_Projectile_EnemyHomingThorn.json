@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_EnemyHomingThorn",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.0,
+      "CollisionRadius": 25.0,
+      "Speed": 2500.0,
+      "HomingScale": 25.0,
+      "HomingLerpSpeed": 0.5,
+      "ExplosionRadius": 150.0,
+      "ExplosionDamage": 15.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_HomingThorn'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Thorn/FX_Projectile_HomingThorn.39"
+      }
+    }
+  }
+]

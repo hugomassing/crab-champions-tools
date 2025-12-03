@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_Scorpion_Heavy",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "CollisionRadius": 100.0,
+      "Speed": 8500.0,
+      "GravityScale": 5.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 100.0,
+      "ExplosionDamage": 10.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Scorpion'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Enemy/FX_Projectile_Scorpion.45"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Cue.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Enemy.42"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Water'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Water/A_Impact_Water.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "id": "AirStrike",
+  "gameId": "DA_Ability_AirStrike",
+  "name": "Air Strike",
+  "description": "A delayed but devastating explosion that penetrates enemy armor",
+  "rarity": "Greed",
+  "cooldown": 10,
+  "spawnType": "AboveCrosshair",
+  "spawnDelay": 0.01,
+  "hitmarkerType": "Loud",
+  "projectileId": "DA_Projectile_AirStrike",
+  "requiresUnlock": true,
+  "iconPath": "T_Icon_AirStrike"
+}

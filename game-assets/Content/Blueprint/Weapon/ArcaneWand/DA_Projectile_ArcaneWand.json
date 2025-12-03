@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_ArcaneWand",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 2.0,
+      "CollisionRadius": 100.0,
+      "GravityScale": 2.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 1500.0,
+      "ExplosionDamage": 25.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_ArcaneWand'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Arcane/FX_Projectile_ArcaneWand.67"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_ArcaneWand'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_ArcaneWand.78"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Arcane_Large'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Arcane/A_Explosion_Arcane_Large.0"
+      }
+    }
+  }
+]

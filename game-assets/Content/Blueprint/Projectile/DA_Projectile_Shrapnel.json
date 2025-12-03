@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_Shrapnel",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 4.0,
+      "CollisionRadius": 150.0,
+      "Speed": 2500.0,
+      "AccelerationScale": -0.5,
+      "MaxBounces": 16,
+      "ExplosionRadius": 500.0,
+      "ExplosionDamage": 8.0,
+      "ExplosionKnockbackStrength": 2500.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Shrapnel'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Shrapnel/FX_Projectile_Shrapnel.35"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Cue.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Enemy.42"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Water'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Water/A_Impact_Water.0"
+      }
+    }
+  }
+]

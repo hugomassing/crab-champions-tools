@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_GrapplingHook",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 2.0,
+      "CollisionRadius": 50.0,
+      "Speed": 25000.0,
+      "GravityScale": 3.0,
+      "GrapplingScale": 1.0,
+      "bGlueToHitCharacters": true,
+      "ProximityDamageRadius": 500.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 0.0,
+      "ExplosionDamage": 5.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_GrapplingHook_TEST'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/GrapplingHook/FX_Projectile_GrapplingHook_TEST.45"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Small.42"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_UI_Hitmarker_Normal_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_Hitmarker_Normal_Cue.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_EQC_BestEnemyCoreLoc_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'CrabEnemyEQC'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_EQC_BestEnemyCoreLoc_C'Default__BP_EQC_BestEnemyCoreLoc_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQC_BestEnemyCoreLoc.1"
+    }
+  },
+  {
+    "Type": "BP_EQC_BestEnemyCoreLoc_C",
+    "Name": "Default__BP_EQC_BestEnemyCoreLoc_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQC_BestEnemyCoreLoc.BP_EQC_BestEnemyCoreLoc_C'",
+    "Properties": {
+      "EQCType": "ECrabEQCType::BestEnemyCoreLoc"
+    }
+  }
+]

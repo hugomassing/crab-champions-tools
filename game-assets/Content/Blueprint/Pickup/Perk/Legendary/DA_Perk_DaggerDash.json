@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "CrabPerkDA",
+    "Name": "DA_Perk_DaggerDash",
+    "Class": "UScriptClass'CrabPerkDA'",
+    "Properties": {
+      "PerkType": "ECrabPerkType::DaggerDash",
+      "EnhanceableType": "ECrabEnhanceableType::Enhanceable",
+      "LevelDescription": "Each dagger deals PrimaryBuff damage per second",
+      "BaseBuff": 100.0,
+      "bGetBuffAsMultiplier": true,
+      "Name": "Dagger Dash",
+      "Description": "Dashing sends an arc of daggers in the direction that you are looking",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Perk_Legendary'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Legendary.0"
+      },
+      "LootPool": "ECrabLootPool::Speed",
+      "Rarity": "ECrabRarity::Legendary",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_DefaultPerk_Legendary_TEST'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Perk/FX_Pickup_DefaultPerk_Legendary_TEST.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

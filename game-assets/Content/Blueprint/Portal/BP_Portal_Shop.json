@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Portal_Shop_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Portal_Shop_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabPortal'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Portal_Shop_C'Default__BP_Portal_Shop_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.1"
+    }
+  },
+  {
+    "Type": "BP_Portal_Shop_C",
+    "Name": "Default__BP_Portal_Shop_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.BP_Portal_Shop_C'",
+    "Properties": {
+      "PortalMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Portal_Shop_C:PortalMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.8"
+      },
+      "PortalNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Portal_Shop_C:PortalNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.3"
+      },
+      "PortalAC": {
+        "ObjectName": "AudioComponent'Default__BP_Portal_Shop_C:PortalAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.2"
+      },
+      "IslandType": "ECrabIslandType::Shop",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Shop'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Island/T_Icon_Shop.0"
+      },
+      "Description": "Visit Tony the Shopkeeper and buy loot!",
+      "Tint": {
+        "R": 0.2,
+        "G": 0.1,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "7C59FF"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Icon_Shop'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Shop.2"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Portal'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Portal/FX_Portal.120"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Portal_Ambience'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Portal/Ambience/A_Portal_Ambience.0"
+      },
+      "InteractableCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Portal_Shop_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.7"
+      },
+      "InteractWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Portal_Shop_C:InteractWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.9"
+      },
+      "InteractUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_Portal_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact_Portal.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Portal_Shop_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.7"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "PortalAC",
+    "Outer": "Default__BP_Portal_Shop_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Portal_Shop_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.7"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "PortalNC",
+    "Outer": "Default__BP_Portal_Shop_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Portal_Shop_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.7"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Portal_Shop_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Portal_Shop_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.4"
+      },
+      "VariableGuid": "D441BA83-4C284783-F00DEFA6-27F56168",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Portal_Shop_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Portal_Shop_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.5"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "InteractableCollision",
+    "Outer": "Default__BP_Portal_Shop_C",
+    "Class": "UScriptClass'SphereComponent'"
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PortalMesh",
+    "Outer": "Default__BP_Portal_Shop_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Portal_Shop_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.7"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "InteractWC",
+    "Outer": "Default__BP_Portal_Shop_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Portal_Shop_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.7"
+      }
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_LightningScepter",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 1.5,
+      "CollisionRadius": 50.0,
+      "GravityScale": 2.0,
+      "MaxBounces": 1,
+      "BounceVelocityScale": 0.75,
+      "ProximityDamageRadius": 325.0,
+      "ExplosionRadius": 325.0,
+      "ExplosionDamage": 2.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_LightningScepter'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Pickup/Weapon/LightningScepter/OLD/FX_Projectile_LightningScepter.65"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail_Minimal'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail_Minimal.15"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_LightningScepter'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_LightningScepter.128"
+      }
+    }
+  }
+]

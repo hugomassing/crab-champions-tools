@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_BossSkull_BulletHell",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "TargetType": "ECrabTargetType::None",
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_BossSkull_BulletHell'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Projectile_BossSkull_BulletHell.0"
+      },
+      "bRequiresLOS": false,
+      "Weight": 0.25,
+      "LoopingActionInterval": 0.05,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Skull_Attack_BulletHell_01'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/Attack/AM_Skull_Attack_BulletHell_01.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Attack_Looping'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Attack/FX_Attack_Looping.47"
+      }
+    }
+  }
+]

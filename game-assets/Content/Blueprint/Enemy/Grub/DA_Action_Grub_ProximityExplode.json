@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "CrabProximityExplodeActionDA",
+    "Name": "DA_Action_Grub_ProximityExplode",
+    "Class": "UScriptClass'CrabProximityExplodeActionDA'",
+    "Properties": {
+      "ExplosionAOEDA": {
+        "ObjectName": "CrabAOEDA'DA_AOE_Grub_ProximityExplosion'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/DA_AOE_Grub_ProximityExplosion.0"
+      },
+      "Range": 1500.0,
+      "bMustBeGrounded": true,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Grub_Slam'",
+        "ObjectPath": "CrabChampions/Content/Character/Grub/Animation/Slam/AM_Grub_Slam.0"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Spawner_Spawn_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Spawner/A_Spawner_Spawn_Cue.0"
+      }
+    }
+  }
+]

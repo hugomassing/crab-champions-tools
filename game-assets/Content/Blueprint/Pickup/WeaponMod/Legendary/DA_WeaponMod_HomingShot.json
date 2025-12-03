@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabWeaponModDA",
+    "Name": "DA_WeaponMod_HomingShot",
+    "Class": "UScriptClass'CrabWeaponModDA'",
+    "Properties": {
+      "WeaponModType": "ECrabWeaponModType::HomingShot",
+      "TriggerChanceType": "ECrabTriggerChanceType::FullScalingTriggerChance",
+      "LevelDescription": "PrimaryBuff% chance for shots to home towards nearby enemies",
+      "BaseBuff": 10.0,
+      "bLimited": true,
+      "bRequiresUnlock": true,
+      "Name": "Homing Shot",
+      "Description": "Chance for shots to home towards nearby enemies",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_WeaponMod_HomingShot'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/T_Icon_WeaponMod_HomingShot.0"
+      },
+      "LootPool": "ECrabLootPool::Skill",
+      "Rarity": "ECrabRarity::Legendary",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_HomingShot'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/WeaponMod/HomingShot/FX_Pickup_HomingShot.35"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Crab_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Interact/A_Crab_Interact.0"
+      }
+    }
+  }
+]

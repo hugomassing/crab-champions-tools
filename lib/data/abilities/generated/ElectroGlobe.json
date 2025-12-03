@@ -1,0 +1,12 @@
+{
+  "id": "ElectroGlobe",
+  "gameId": "DA_Ability_ElectroGlobe",
+  "name": "Electro Globe",
+  "description": "Slow moving high voltage orb",
+  "rarity": "Greed",
+  "cooldown": 10,
+  "hitmarkerType": "Quiet",
+  "projectileId": "DA_Projectile_ElectroGlobe",
+  "requiresUnlock": true,
+  "iconPath": "T_Icon_VoltaicGlobe"
+}

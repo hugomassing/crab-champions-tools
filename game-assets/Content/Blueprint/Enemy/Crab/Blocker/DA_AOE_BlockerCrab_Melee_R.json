@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "CrabAOEDA",
+    "Name": "DA_AOE_BlockerCrab_Melee_R",
+    "Class": "UScriptClass'CrabAOEDA'",
+    "Properties": {
+      "SocketName": "claw_03_r",
+      "Radius": 400.0,
+      "Damage": 15.0,
+      "DamageType": "ECrabDamageType::Melee",
+      "KnockbackStrength": 2500.0
+    }
+  }
+]

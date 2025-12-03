@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_ClusterLauncher",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 1.0,
+      "CollisionRadius": 25.0,
+      "Speed": 10000.0,
+      "GravityScale": 0.3,
+      "bExplodeAfterLifetime": true,
+      "ExplosionDelay": 1.0,
+      "ExplosionRadius": 750.0,
+      "ExplosionDamage": 8.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Cluster'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Organic/FX_Projectile_Cluster.63"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Cluster'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Cluster.84"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Water'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Water/A_Impact_Water.0"
+      }
+    }
+  }
+]

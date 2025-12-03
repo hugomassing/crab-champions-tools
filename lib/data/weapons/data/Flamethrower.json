@@ -1,0 +1,10 @@
+{
+  "additionalDescription": "Sprays continuous streams of fire that deal damage over time. Enemies caught in the flames take sustained damage. Excellent for area denial and dealing with groups of enemies. The fire effect persists briefly after contact.",
+  "tags": ["flame", "continuous", "dot", "area-denial"],
+  "tips": [
+    "Sweep the flames across groups of enemies",
+    "The damage over time effect stacks",
+    "Excellent for clearing tight corridors and chokepoints"
+  ]
+}
+

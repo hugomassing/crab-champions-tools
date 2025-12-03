@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_EQSTestingPawn_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_EQSTestingPawn_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EQSTestingPawn'",
+      "ObjectPath": "/Script/AIModule"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_EQSTestingPawn_C'Default__BP_EQSTestingPawn_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.1"
+    }
+  },
+  {
+    "Type": "BP_EQSTestingPawn_C",
+    "Name": "Default__BP_EQSTestingPawn_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.BP_EQSTestingPawn_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_EQSTestingPawn_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.7"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_EQSTestingPawn_C:CharMoveComp'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.3"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_EQSTestingPawn_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.2"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_EQSTestingPawn_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_EQSTestingPawn_C",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_EQSTestingPawn_C",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Properties": {
+      "PrimaryComponentTick": {
+        "bCanEverTick": false
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_EQSTestingPawn_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_EQSTestingPawn_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.4"
+      },
+      "VariableGuid": "792A8097-43584000-53838C91-57E0F738",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_EQSTestingPawn_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_EQSTestingPawn_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.5"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_EQSTestingPawn_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Crab'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/SK_Crab.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_EQSTestingPawn_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQSTestingPawn.2"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bCanEverTick": false
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrabStrikeActionDA",
+    "Name": "DA_Action_EliteLightningCrab_Strike",
+    "Class": "UScriptClass'CrabStrikeActionDA'",
+    "Properties": {
+      "StrikeToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_EliteLightningCrab_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Elite/Lightning/BP_Strike_EliteLightningCrab.0"
+      },
+      "NumLineStrikesToSpawn": 3,
+      "FormationType": "ECrabFormationType::Circle",
+      "FormationSpacing": 1500.0,
+      "bRequiresLOS": false,
+      "Weight": 0.25,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_EnemyMelee_02'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/Melee/AM_Crab_EnemyMelee_02.0"
+      },
+      "FXSocketName": "claw_03_l",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Attack_Looping'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Attack/FX_Attack_Looping.47"
+      }
+    }
+  }
+]

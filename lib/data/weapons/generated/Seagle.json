@@ -1,0 +1,20 @@
+{
+  "id": "Seagle",
+  "gameId": "DA_Weapon_Seagle",
+  "name": "Seagle",
+  "description": "High damage high recoil pistol",
+  "rarity": "Greed",
+  "stats": {
+    "fireRate": 4,
+    "clipSize": 10,
+    "reloadDuration": 1.25,
+    "baseSpread": 0.25,
+    "maxSpread": 4,
+    "aimingSpreadMultiplier": 0.01,
+    "verticalRecoil": 12
+  },
+  "projectileId": "DA_Projectile_Seagle",
+  "requiresUnlock": true,
+  "iconPath": "T_UI_Icon_Rifle_Silhouette",
+  "tintColor": "rgb(255, 89, 0)"
+}

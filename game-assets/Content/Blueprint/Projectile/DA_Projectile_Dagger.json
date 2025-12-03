@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_Dagger",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 1.5,
+      "CollisionRadius": 16.0,
+      "Speed": 5000.0,
+      "MaxPiercings": 99,
+      "MaxBounces": 99,
+      "ProximityDamageRadius": 250.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 0.0,
+      "ExplosionDamage": 3.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Dagger'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Dagger/FX_Projectile_Dagger.38"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Dagger'",
+        "ObjectPath": "CrabChampions/Content/Audio/Projectile/Dagger/A_Projectile_Dagger.0"
+      }
+    }
+  }
+]

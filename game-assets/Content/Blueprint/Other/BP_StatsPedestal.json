@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_StatsPedestal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_StatsPedestal_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabStatsPedestal'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_StatsPedestal_C'Default__BP_StatsPedestal_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.1"
+    }
+  },
+  {
+    "Type": "BP_StatsPedestal_C",
+    "Name": "Default__BP_StatsPedestal_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.BP_StatsPedestal_C'",
+    "Properties": {
+      "PedestalMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_StatsPedestal_C:PedestalMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.5"
+      },
+      "StatsWC": {
+        "ObjectName": "WidgetComponent'Default__BP_StatsPedestal_C:StatsWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.6"
+      },
+      "PedestalMeshToSpawn": {
+        "ObjectName": "StaticMesh'S_Pedestal_Generic'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Interactable/Pedestal/Generic/S_Pedestal_Generic.2"
+      },
+      "StatsUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Stats_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Mode/Survival/UI_Stats_OLD.0"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_StatsPedestal_C:PedestalMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_StatsPedestal_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_StatsPedestal_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.2"
+      },
+      "VariableGuid": "EF09A1E2-4BCFD6A3-FFB5D69D-49301892",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_StatsPedestal_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_StatsPedestal_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PedestalMesh",
+    "Outer": "Default__BP_StatsPedestal_C",
+    "Class": "UScriptClass'StaticMeshComponent'"
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "StatsWC",
+    "Outer": "Default__BP_StatsPedestal_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_StatsPedestal_C:PedestalMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_StatsPedestal.5"
+      }
+    }
+  }
+]

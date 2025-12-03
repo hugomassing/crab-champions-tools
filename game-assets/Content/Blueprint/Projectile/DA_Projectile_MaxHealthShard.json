@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_MaxHealthShard",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "CollisionRadius": 25.0,
+      "Speed": 5500.0,
+      "GravityScale": 4.0,
+      "ExplosionDamage": 0.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_MaxHealthRock_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_MaxHealthRock.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_DestructibleShard'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Shard/FX_Projectile_DestructibleShard.29"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Crystal'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Crystal.101"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Crystal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Crystal/A_Explosion_Crystal.0"
+      }
+    }
+  }
+]

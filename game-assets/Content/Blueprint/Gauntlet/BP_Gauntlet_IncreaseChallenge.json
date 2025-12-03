@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Gauntlet_IncreaseChallenge_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Gauntlet_IncreaseChallenge_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabGauntlet'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Gauntlet_IncreaseChallenge_C'Default__BP_Gauntlet_IncreaseChallenge_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.1"
+    }
+  },
+  {
+    "Type": "BP_Gauntlet_IncreaseChallenge_C",
+    "Name": "Default__BP_Gauntlet_IncreaseChallenge_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.BP_Gauntlet_IncreaseChallenge_C'",
+    "Properties": {
+      "GauntletNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Gauntlet_IncreaseChallenge_C:GauntletNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.3"
+      },
+      "GauntletAC": {
+        "ObjectName": "AudioComponent'Default__BP_Gauntlet_IncreaseChallenge_C:GauntletAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.2"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Gauntlet_IncreaseChallenge'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Gauntlet/FX_Gauntlet_IncreaseChallenge.133"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Gauntlet_Spawn'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Gauntlet/A_Gauntlet_Spawn.0"
+      },
+      "GauntletType": "ECrabGauntletType::IncreaseChallenge",
+      "InteractableCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_IncreaseChallenge_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.7"
+      },
+      "InteractWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Gauntlet_IncreaseChallenge_C:InteractWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.8"
+      },
+      "InteractUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_Gauntlet_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact_Gauntlet.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_IncreaseChallenge_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.7"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "GauntletAC",
+    "Outer": "Default__BP_Gauntlet_IncreaseChallenge_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_IncreaseChallenge_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.7"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GauntletNC",
+    "Outer": "Default__BP_Gauntlet_IncreaseChallenge_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_IncreaseChallenge_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.7"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Gauntlet_IncreaseChallenge_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Gauntlet_IncreaseChallenge_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.4"
+      },
+      "VariableGuid": "659F280A-47DF8DD3-ECD68B9B-A8EB9EC4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Gauntlet_IncreaseChallenge_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Gauntlet_IncreaseChallenge_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.5"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "InteractableCollision",
+    "Outer": "Default__BP_Gauntlet_IncreaseChallenge_C",
+    "Class": "UScriptClass'SphereComponent'"
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "InteractWC",
+    "Outer": "Default__BP_Gauntlet_IncreaseChallenge_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_IncreaseChallenge_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.7"
+      }
+    }
+  }
+]

@@ -1,0 +1,325 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Enemy_BossSkull_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabBossC'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Enemy_BossSkull_C'Default__BP_Enemy_BossSkull_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.1"
+    }
+  },
+  {
+    "Type": "BP_Enemy_BossSkull_C",
+    "Name": "Default__BP_Enemy_BossSkull_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.BP_Enemy_BossSkull_C'",
+    "Properties": {
+      "PotentialPhaseLesserEnemiesToSpawn": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Skull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/BP_Enemy_Skull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_IceSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Ice/BP_Enemy_IceSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FireSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Fire/BP_Enemy_FireSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_LightningSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Lightning/BP_Enemy_LightningSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_PoisonSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Poison/BP_Enemy_PoisonSkull.0"
+        }
+      ],
+      "NumPhaseTwoLesserEnemiesToSpawn": 1,
+      "NumPhaseThreeLesserEnemiesToSpawn": 2,
+      "HealthBarWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Enemy_BossSkull_C:HealthBarWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.12"
+      },
+      "CapsuleScaleMultiplier": 6.0,
+      "ScaleMultiplier": 5.0,
+      "EnemySpawnSettings": {
+        "IslandToStartSpawningAt": 3,
+        "SpawnCost": 2500,
+        "SpawnWeight": 0.2,
+        "SpawnLimit": 3
+      },
+      "EnemyCategory": "ECrabEnemyCategory::Boss",
+      "EnemyName": "King Skull",
+      "HealthBarHeightOffset": 0.0,
+      "bShouldFloat": true,
+      "HeightOffset": 500.0,
+      "AISettings": {
+        "MovementType": "ECrabEnemyMovementType::MoveDirectlyToEnemy",
+        "TimeBetweenActionsMin": 2.0,
+        "RangedActionEnvQueries": [
+          {
+            "ObjectName": "EnvQuery'EQS_FindCloseAttackLoc'",
+            "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindCloseAttackLoc.0"
+          },
+          {
+            "ObjectName": "EnvQuery'EQS_FindRangedAttackLoc'",
+            "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindRangedAttackLoc.0"
+          }
+        ]
+      },
+      "ActionDAs": [
+        {
+          "ObjectName": "CrabProjectileActionDA'DA_Action_BossSkull_Arc'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Action_BossSkull_Arc.0"
+        },
+        {
+          "ObjectName": "CrabProjectileActionDA'DA_Action_BossSkull_BulletHell'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Action_BossSkull_BulletHell.0"
+        },
+        {
+          "ObjectName": "CrabStrikeActionDA'DA_Action_BossSkull_EnergyRingStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Action_BossSkull_EnergyRingStrike.0"
+        },
+        {
+          "ObjectName": "CrabProjectileActionDA'DA_Action_BossSkull_Fan'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Action_BossSkull_Fan.0"
+        },
+        {
+          "ObjectName": "CrabStrikeActionDA'DA_Action_BossSkull_FireStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Action_BossSkull_FireStrike.0"
+        },
+        {
+          "ObjectName": "CrabProjectileActionDA'DA_Action_BossSkull_HomingShape'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Action_BossSkull_HomingShape.0"
+        },
+        {
+          "ObjectName": "CrabProjectileActionDA'DA_Action_BossSkull_Rock'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Action_BossSkull_Rock.0"
+        },
+        {
+          "ObjectName": "CrabProjectileActionDA'DA_Action_BossSkull_TripleFan'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/DA_Action_BossSkull_TripleFan.0"
+        }
+      ],
+      "HealthBarUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_BossHealthBar_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_BossHealthBar_OLD.0"
+      },
+      "EnemySpawnMontage": {
+        "ObjectName": "AnimMontage'AM_Skull_Spawn'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/Spawn/AM_Skull_Spawn.0"
+      },
+      "EnemySpawnFX": {
+        "ObjectName": "NiagaraSystem'FX_Spawn'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Spawn/FX_Spawn.22"
+      },
+      "EnemySpawnSound": {
+        "ObjectName": "SoundCue'A_Skull_Ambient_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Skull/Ambient/A_Skull_Ambient_Cue.0"
+      },
+      "MeshFX": {
+        "ObjectName": "NiagaraSystem'FX_Cosmetic_LargeEnemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Cosmetic/FX_Cosmetic_LargeEnemy.17"
+      },
+      "EliminatedMontage": {
+        "ObjectName": "AnimMontage'AM_Skull_Eliminated'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/Attack/AM_Skull_Eliminated.0"
+      },
+      "GibFX": {
+        "ObjectName": "NiagaraSystem'FX_Gib_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Gib/FX_Gib_Medium.72"
+      },
+      "GibSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Elimination_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Elimination_Cue.0"
+      },
+      "HC": {
+        "ObjectName": "CrabHC'Default__BP_Enemy_BossSkull_C:HC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.5"
+      },
+      "DebuffNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_BossSkull_C:DebuffNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.7"
+      },
+      "DebuffAC": {
+        "ObjectName": "AudioComponent'Default__BP_Enemy_BossSkull_C:DebuffAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.2"
+      },
+      "ChainLightningNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_BossSkull_C:ChainLightningNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.6"
+      },
+      "MeshToSpawn": {
+        "ObjectName": "SkeletalMesh'SK_Skull'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/SK_Skull.0"
+      },
+      "MeshMat": {
+        "ObjectName": "MaterialInstanceConstant'MI_Skull'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/MI_Skull.0"
+      },
+      "AnimationBlueprintToUse": {
+        "ObjectName": "AnimBlueprintGeneratedClass'AnimBP_SK_Skull_C'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/AnimBP_SK_Skull.2"
+      },
+      "DebuffFX": {
+        "ObjectName": "NiagaraSystem'FX_Debuff_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Debuff/FX_Debuff_Enemy.136"
+      },
+      "BaseWalkSpeed": 750.0,
+      "LifeSpanCleanupTime": 3.0,
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_BossSkull_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.11"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CrabCMC'Default__BP_Enemy_BossSkull_C:CharMoveComp'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_BossSkull_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_BossSkull_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.3"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DebuffAC",
+    "Outer": "Default__BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_BossSkull_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.11"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CrabCMC",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'CrabCMC'"
+  },
+  {
+    "Type": "CrabHC",
+    "Name": "HC",
+    "Outer": "Default__BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'CrabHC'",
+    "Properties": {
+      "BaseMaxHealth": 2000.0
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChainLightningNC",
+    "Outer": "Default__BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_BossSkull_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.11"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "DebuffNC",
+    "Outer": "Default__BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_BossSkull_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.11"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Enemy_BossSkull_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.8"
+      },
+      "VariableGuid": "0280A896-47406AFE-6F9D9EA2-6BC41857",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Enemy_BossSkull_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_BossSkull_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "HealthBarWC",
+    "Outer": "Default__BP_Enemy_BossSkull_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_BossSkull_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.3"
+      }
+    }
+  }
+]

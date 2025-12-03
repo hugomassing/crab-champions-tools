@@ -1,0 +1,10 @@
+{
+  "additionalDescription": "Fires projectiles that apply poison damage over time. Enemies hit by the poison take sustained damage after the initial hit. Excellent for weakening tough enemies and dealing damage while repositioning.",
+  "tags": ["cannon", "poison", "dot", "debuff"],
+  "tips": [
+    "Poison damage continues after the initial hit",
+    "Great for weakening high-health enemies",
+    "Apply poison and reposition while damage ticks"
+  ]
+}
+

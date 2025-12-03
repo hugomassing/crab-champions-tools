@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_GI_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'CrabGI'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Transient | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_GI_C'Default__BP_GI_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/BP_GI.1"
+    }
+  },
+  {
+    "Type": "BP_GI_C",
+    "Name": "Default__BP_GI_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/BP_GI.BP_GI_C'",
+    "Properties": {
+      "LoadingScreenUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_LoadingScreen_C'",
+        "ObjectPath": "CrabChampions/Content/UI/LoadingScreen/UI_LoadingScreen.0"
+      },
+      "CrabChampionsVersion": 2347,
+      "BackButton": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Back'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Back.0"
+      },
+      "BumperL": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Bumper_L'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Bumper_L.0"
+      },
+      "BumperR": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Bumper_R'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Bumper_R.0"
+      },
+      "ButtonD": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Button_D'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Button_D.0"
+      },
+      "ButtonL": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Button_L'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Button_L.0"
+      },
+      "ButtonR": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Button_R'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Button_R.0"
+      },
+      "ButtonU": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Button_U'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Button_U.0"
+      },
+      "DPadD": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_DPad_D'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_DPad_D.0"
+      },
+      "DPadL": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_DPad_L'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_DPad_L.0"
+      },
+      "DPadR": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_DPad_R'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_DPad_R.0"
+      },
+      "DPadU": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_DPad_U'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_DPad_U.0"
+      },
+      "StartButton": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Start'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Start.0"
+      },
+      "StickL": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Stick_L'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Stick_L.0"
+      },
+      "StickLHorizontal": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Stick_L_Horizontal'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Stick_L_Horizontal.0"
+      },
+      "StickLVertical": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Stick_L_Vertical'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Stick_L_Vertical.0"
+      },
+      "StickR": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Stick_R'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Stick_R.0"
+      },
+      "StickRHorizontal": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Stick_R_Horizontal'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Stick_R_Horizontal.0"
+      },
+      "StickRVertical": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Stick_R_Vertical'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Stick_R_Vertical.0"
+      },
+      "TriggerL": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Trigger_L'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Trigger_L.0"
+      },
+      "TriggerR": {
+        "ObjectName": "Texture2D'T_Icon_Gamepad_Trigger_R'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Gamepad/T_Icon_Gamepad_Trigger_R.0"
+      },
+      "MasterSoundClass": {
+        "ObjectName": "SoundClass'SoundClass_Master'",
+        "ObjectPath": "CrabChampions/Content/Audio/Blueprint/SoundClass/SoundClass_Master.0"
+      },
+      "MasterSoundMix": {
+        "ObjectName": "SoundMix'SoundMix_Master'",
+        "ObjectPath": "CrabChampions/Content/Audio/Blueprint/SoundMix/SoundMix_Master.0"
+      },
+      "GameplaySoundClass": {
+        "ObjectName": "SoundClass'SoundClass_Gameplay'",
+        "ObjectPath": "CrabChampions/Content/Audio/Blueprint/SoundClass/SoundClass_Gameplay.0"
+      },
+      "GameplaySoundMix": {
+        "ObjectName": "SoundMix'SoundMix_Gameplay'",
+        "ObjectPath": "CrabChampions/Content/Audio/Blueprint/SoundMix/SoundMix_Gameplay.0"
+      },
+      "MusicSoundClass": {
+        "ObjectName": "SoundClass'SoundClass_Music'",
+        "ObjectPath": "CrabChampions/Content/Audio/Blueprint/SoundClass/SoundClass_Music.0"
+      },
+      "MusicSoundMix": {
+        "ObjectName": "SoundMix'SoundMix_Music'",
+        "ObjectPath": "CrabChampions/Content/Audio/Blueprint/SoundMix/SoundMix_Music.0"
+      },
+      "CosmeticsDA": {
+        "ObjectName": "CrabCosmeticsDA'DA_Cosmetics'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DataAsset/DA_Cosmetics.0"
+      }
+    }
+  }
+]

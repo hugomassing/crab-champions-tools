@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_LaserSkull_Single",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "TargetType": "ECrabTargetType::TelegraphedLoc",
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_LaserSkull'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Laser/DA_Projectile_LaserSkull.0"
+      },
+      "bStopMovementDuringAction": true,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Skull_Attack_Ranged_Long'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/Attack/AM_Skull_Attack_Ranged_Long.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp_BeamTelegraph'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp_BeamTelegraph.66"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_LaserWindUp'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Sniper/Bolt/A_LaserWindUp.0"
+      }
+    }
+  }
+]

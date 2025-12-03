@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "CrabWeaponDA",
+    "Name": "DA_Weapon_SniperCrab",
+    "Class": "UScriptClass'CrabWeaponDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Sniper'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Weapon/Placeholder/Sniper/S_Sniper.2"
+      },
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_SniperCrab_Weapon'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Sniper/DA_Projectile_SniperCrab_Weapon.0"
+      },
+      "bFireFromRoot": false,
+      "FiringSpreadIncrement": 0.0,
+      "MaxSpread": 0.0,
+      "bInfiniteClipSize": true,
+      "FireMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Shotgun_Fire'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Shotgun_Fire.0"
+      },
+      "MuzzleFlashFX": {
+        "ObjectName": "NiagaraSystem'FX_MuzzleFlash_Large'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/MuzzleFlash/FX_MuzzleFlash_Large.22"
+      },
+      "GunshotSound": {
+        "ObjectName": "SoundCue'A_Gunshot_Seagle'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Seagle/A_Gunshot_Seagle.0"
+      },
+      "LowAmmoSound": {
+        "ObjectName": "SoundCue'A_UI_LowAmmo'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_LowAmmo.0"
+      },
+      "Tint": {
+        "R": 1.0,
+        "G": 0.05,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF3F00"
+      }
+    }
+  }
+]

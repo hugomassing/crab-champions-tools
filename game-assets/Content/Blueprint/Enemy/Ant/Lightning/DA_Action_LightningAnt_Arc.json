@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_LightningAnt_Arc",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_LightningAnt'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Ant/Lightning/DA_Projectile_LightningAnt.0"
+      },
+      "FormationType": "ECrabFormationType::SmallArc",
+      "FormationSpacing": 5.0,
+      "LoopingActionInterval": 0.25,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Ant_Attack_Ranged_Light'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Ant/Attack/AM_Ant_Attack_Ranged_Light.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp.32"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Ant_Attack_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Ant/Attack/A_Ant_Attack_Cue.0"
+      }
+    }
+  }
+]

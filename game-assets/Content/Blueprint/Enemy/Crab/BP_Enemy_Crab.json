@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Enemy_Crab_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Enemy_Crab_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabEnemyC'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Enemy_Crab_C'Default__BP_Enemy_Crab_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.1"
+    }
+  },
+  {
+    "Type": "BP_Enemy_Crab_C",
+    "Name": "Default__BP_Enemy_Crab_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.BP_Enemy_Crab_C'",
+    "Properties": {
+      "HealthBarWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Enemy_Crab_C:HealthBarWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.12"
+      },
+      "CapsuleScaleMultiplier": 1.5,
+      "ScaleMultiplier": 2.0,
+      "bCollideWithCharacters": false,
+      "EnemySpawnSettings": {
+        "SpawnCost": 30,
+        "SpawnWeight": 4.0
+      },
+      "EnemyName": "Crab",
+      "HealthBarHeightOffset": 75.0,
+      "BannedEnemyBuffs": [
+        "ECrabEnemyBuff::Frenzied",
+        "ECrabEnemyBuff::Shielded"
+      ],
+      "AISettings": {
+        "MovementType": "ECrabEnemyMovementType::MoveDirectlyToEnemy",
+        "TimeBetweenMoves": 0.4,
+        "JumpProbability": 1.5,
+        "TimeBetweenActionsMin": 0.01,
+        "TimeBetweenActionsMax": 0.15
+      },
+      "ActionDAs": [
+        {
+          "ObjectName": "CrabAOEActionDA'DA_Action_Crab_Melee_L'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/DA_Action_Crab_Melee_L.0"
+        },
+        {
+          "ObjectName": "CrabAOEActionDA'DA_Action_Crab_Melee_R'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/DA_Action_Crab_Melee_R.0"
+        }
+      ],
+      "JumpSpeed": 5000.0,
+      "HealthBarUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_GenericHealthBar_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_GenericHealthBar_OLD.0"
+      },
+      "EnemySpawnMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_EnemySpawn'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/Spawn/AM_Crab_EnemySpawn.0"
+      },
+      "EnemySpawnFX": {
+        "ObjectName": "NiagaraSystem'FX_Spawn'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Spawn/FX_Spawn.22"
+      },
+      "EnemySpawnSound": {
+        "ObjectName": "SoundCue'A_Scorpion_Spawn'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Scorpion/Spawn/A_Scorpion_Spawn.0"
+      },
+      "HitReactMontages": [
+        {
+          "ObjectName": "AnimMontage'AM_Crab_EnemyHitReact_01'",
+          "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/HitReact/01/AM_Crab_EnemyHitReact_01.0"
+        },
+        {
+          "ObjectName": "AnimMontage'AM_Crab_EnemyHitReact_02'",
+          "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/HitReact/02/AM_Crab_EnemyHitReact_02.0"
+        }
+      ],
+      "EliminatedSound": {
+        "ObjectName": "SoundCue'A_Crab_Death'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Death/A_Crab_Death.0"
+      },
+      "GibFX": {
+        "ObjectName": "NiagaraSystem'FX_Gib_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Gib/FX_Gib_Medium.72"
+      },
+      "GibSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Elimination_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Elimination_Cue.0"
+      },
+      "HC": {
+        "ObjectName": "CrabHC'Default__BP_Enemy_Crab_C:HC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.5"
+      },
+      "DebuffNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_Crab_C:DebuffNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.7"
+      },
+      "DebuffAC": {
+        "ObjectName": "AudioComponent'Default__BP_Enemy_Crab_C:DebuffAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.2"
+      },
+      "ChainLightningNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_Crab_C:ChainLightningNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.6"
+      },
+      "MeshToSpawn": {
+        "ObjectName": "SkeletalMesh'SK_Crab'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/SK_Crab.0"
+      },
+      "MeshMat": {
+        "ObjectName": "MaterialInstanceConstant'MI_EnemyCrabTest'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_EnemyCrabTest.0"
+      },
+      "AnimationBlueprintToUse": {
+        "ObjectName": "AnimBlueprintGeneratedClass'SK_Crab_AnimBP_Enemy_C'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/SK_Crab_AnimBP_Enemy.8"
+      },
+      "DebuffFX": {
+        "ObjectName": "NiagaraSystem'FX_Debuff_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Debuff/FX_Debuff_Enemy.136"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Crab_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.11"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CrabCMC'Default__BP_Enemy_Crab_C:CharMoveComp'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Crab_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Crab_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.3"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DebuffAC",
+    "Outer": "Default__BP_Enemy_Crab_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Crab_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.11"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Enemy_Crab_C",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CrabCMC",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Enemy_Crab_C",
+    "Class": "UScriptClass'CrabCMC'"
+  },
+  {
+    "Type": "CrabHC",
+    "Name": "HC",
+    "Outer": "Default__BP_Enemy_Crab_C",
+    "Class": "UScriptClass'CrabHC'",
+    "Properties": {
+      "BaseMaxHealth": 15.0
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChainLightningNC",
+    "Outer": "Default__BP_Enemy_Crab_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Crab_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.11"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "DebuffNC",
+    "Outer": "Default__BP_Enemy_Crab_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Crab_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.11"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Enemy_Crab_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Enemy_Crab_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.8"
+      },
+      "VariableGuid": "07A6815F-4F7A2261-EEBB22AB-DCB5E81A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Enemy_Crab_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Enemy_Crab_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Enemy_Crab_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Crab_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "HealthBarWC",
+    "Outer": "Default__BP_Enemy_Crab_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Crab_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.3"
+      }
+    }
+  }
+]

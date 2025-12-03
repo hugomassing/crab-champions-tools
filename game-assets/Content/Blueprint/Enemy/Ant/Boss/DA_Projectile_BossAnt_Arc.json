@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_BossAnt_Arc",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.0,
+      "Speed": 5000.0,
+      "GravityScale": 0.8,
+      "ExplosionRadius": 500.0,
+      "ExplosionDamage": 15.0,
+      "ExplosionKnockbackStrength": 2500.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_BossAnt'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Enemy/FX_Projectile_BossAnt.83"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Cue.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Medium.73"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Small'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Small/A_Explosion_Small.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  }
+]

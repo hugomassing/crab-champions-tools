@@ -1,0 +1,12 @@
+{
+  "id": "BlackHole",
+  "gameId": "DA_Ability_BlackHole",
+  "name": "Black Hole",
+  "description": "Create a powerful black hole",
+  "rarity": "Greed",
+  "cooldown": 9,
+  "hitmarkerType": "Quiet",
+  "projectileId": "DA_Projectile_BlackHole",
+  "requiresUnlock": true,
+  "iconPath": "T_Icon_BlackHole"
+}

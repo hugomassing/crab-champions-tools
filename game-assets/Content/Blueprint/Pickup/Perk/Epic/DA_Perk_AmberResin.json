@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabPerkDA",
+    "Name": "DA_Perk_AmberResin",
+    "Class": "UScriptClass'CrabPerkDA'",
+    "Properties": {
+      "PerkType": "ECrabPerkType::AmberResin",
+      "LevelDescription": "Healing is increased by PrimaryBuff%",
+      "BaseBuff": 40.0,
+      "bGetBuffAsMultiplier": true,
+      "Name": "Amber Resin",
+      "Description": "Healing is more effective",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Perk_AmberResin'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_AmberResin.0"
+      },
+      "LootPool": "ECrabLootPool::Health",
+      "Rarity": "ECrabRarity::Epic",
+      "PickupTag": "ECrabPickupTag::Healing",
+      "bRequiresMatchingPickupTag": true,
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_AmberResin'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Perk/AmberResin/FX_Pickup_AmberResin.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

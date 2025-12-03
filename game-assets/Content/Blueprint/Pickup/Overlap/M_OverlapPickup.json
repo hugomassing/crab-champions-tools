@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_OverlapPickup",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 1,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "None",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "bUsedWithNiagaraMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "9AEEBBAD-41E086F0-DDA806A5-F049BF78",
+      "CachedExpressionData": {
+        "FunctionInfos": [
+          {
+            "StateId": "08068CA3-4B36BC11-5730D4A6-6223AECD",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_PickupGlow'",
+              "ObjectPath": "CrabChampions/Content/Material/Function/MF_PickupGlow.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "FunctionInfos": [
+        {
+          "StateId": "08068CA3-4B36BC11-5730D4A6-6223AECD",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_PickupGlow'",
+            "ObjectPath": "CrabChampions/Content/Material/Function/MF_PickupGlow.0"
+          }
+        }
+      ],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabWeaponModDA",
+    "Name": "DA_WeaponMod_MaceShot",
+    "Class": "UScriptClass'CrabWeaponModDA'",
+    "Properties": {
+      "WeaponModType": "ECrabWeaponModType::MaceShot",
+      "TriggerChanceType": "ECrabTriggerChanceType::HalfScalingTriggerChance",
+      "EnhanceableType": "ECrabEnhanceableType::Enhanceable",
+      "LevelDescription": "PrimaryBuff% chance to fire mace balls that deal SecondaryBuff damage per second along with your shots",
+      "BaseBuff": 2.5,
+      "bHyperbolicBuff": true,
+      "Name": "Mace Shot",
+      "Description": "Chance to fire mace balls along with your shots",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_WeaponMod_MaceShot'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/T_Icon_WeaponMod_MaceShot.0"
+      },
+      "LootPool": "ECrabLootPool::Damage",
+      "Rarity": "ECrabRarity::Epic",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_MaceShot'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/WeaponMod/MaceShot/FX_Pickup_MaceShot.22"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Crab_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Interact/A_Crab_Interact.0"
+      }
+    }
+  }
+]

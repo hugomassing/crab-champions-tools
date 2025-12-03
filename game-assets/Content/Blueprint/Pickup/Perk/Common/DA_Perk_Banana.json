@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "CrabPerkDA",
+    "Name": "DA_Perk_Banana",
+    "Class": "UScriptClass'CrabPerkDA'",
+    "Properties": {
+      "PerkType": "ECrabPerkType::Banana",
+      "LevelDescription": "Max health multiplier increased by PrimaryBuff%",
+      "BaseBuff": 20.0,
+      "bGetBuffAsMultiplier": true,
+      "Name": "Banana",
+      "Description": "Max health multiplier increased",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Perk_Banana'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Banana.0"
+      },
+      "LootPool": "ECrabLootPool::Health",
+      "Rarity": "ECrabRarity::Common",
+      "SpawnWeight": 1.5,
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Banana'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Consumable/FX_Pickup_Banana.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Crown_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Crown_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabCrown'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Crown_C'Default__BP_Crown_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.1"
+    }
+  },
+  {
+    "Type": "BP_Crown_C",
+    "Name": "Default__BP_Crown_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_Crown.BP_Crown_C'",
+    "Properties": {
+      "CrownMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Crown_C:CrownMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.8"
+      },
+      "CrownNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Crown_C:CrownNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.3"
+      },
+      "CrownAC": {
+        "ObjectName": "AudioComponent'Default__BP_Crown_C:CrownAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.2"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Crown'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Prop/Crown/S_Crown.2"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Crown'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Crown.54"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Pickup_Ambience_Health_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Pickup/A_Pickup_Ambience_Health_Cue.0"
+      },
+      "InteractableCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Crown_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.7"
+      },
+      "InteractWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Crown_C:InteractWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.9"
+      },
+      "InteractUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_Minimal_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact_Minimal.0"
+      },
+      "InteractUIHeightOffset": -100.0,
+      "InteractMessage": "BECOME A CHAMPION",
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Crown_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.7"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "CrownAC",
+    "Outer": "Default__BP_Crown_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Crown_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.7"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "CrownNC",
+    "Outer": "Default__BP_Crown_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Crown_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.7"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Crown_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Crown_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.4"
+      },
+      "VariableGuid": "B8CD45B8-48B463E7-C4B27EAF-0C65F088",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Crown_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Crown_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.5"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "InteractableCollision",
+    "Outer": "Default__BP_Crown_C",
+    "Class": "UScriptClass'SphereComponent'"
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CrownMesh",
+    "Outer": "Default__BP_Crown_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Crown_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.7"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "InteractWC",
+    "Outer": "Default__BP_Crown_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Crown_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Crown.7"
+      }
+    }
+  }
+]

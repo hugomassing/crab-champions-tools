@@ -1,0 +1,19 @@
+{
+  "id": "DualPistols",
+  "gameId": "DA_Weapon_DualPistols",
+  "name": "Dual Pistols",
+  "description": "Well rounded dual pistols",
+  "rarity": "Greed",
+  "stats": {
+    "fireRate": 6,
+    "clipSize": 20,
+    "reloadDuration": 0,
+    "verticalRecoil": 2,
+    "horizontalRecoil": 1,
+    "recoilInterpSpeed": 4
+  },
+  "projectileId": "DA_Projectile_DualPistols",
+  "requiresUnlock": true,
+  "iconPath": "T_UI_Icon_Rifle_Silhouette",
+  "tintColor": "rgb(255, 89, 0)"
+}

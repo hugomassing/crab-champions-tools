@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_IceBlast",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 0.66,
+      "CollisionRadius": 16.0,
+      "Speed": 10000.0,
+      "ProximityDamageRadius": 500.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 750.0,
+      "ExplosionDamage": 15.0,
+      "ExplosionDebuff": {
+        "DebuffType": "ECrabDebuffType::Ice",
+        "DebuffStack": 50
+      },
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_IceBlast_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_IceBlast.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_IceBlast'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Wave/FX_Projectile_IceBlast.47"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'IceStorm'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/IceStorm.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_IceBlast'",
+        "ObjectPath": "CrabChampions/Content/FX/Ability/IceBlast/FX_Explosion_IceBlast.140"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Crystal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Crystal/A_Explosion_Crystal.0"
+      }
+    }
+  }
+]

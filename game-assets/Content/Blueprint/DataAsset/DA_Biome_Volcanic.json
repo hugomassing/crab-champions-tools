@@ -1,0 +1,348 @@
+[
+  {
+    "Type": "CrabBiomeDA",
+    "Name": "DA_Biome_Volcanic",
+    "Class": "UScriptClass'CrabBiomeDA'",
+    "Properties": {
+      "Biome": "ECrabBiome::Volcanic",
+      "ArenaIslands": [
+        {
+          "IslandName": "Volcanic_Arena_A",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Arena_B",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Arena_C",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Arena_D",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Arena_E",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Arena_F",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Arena_G",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Arena_H",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Arena_I",
+          "SpawnWeight": 1.0
+        }
+      ],
+      "HordeIslands": [
+        {
+          "IslandName": "Volcanic_Horde_A",
+          "SpawnWeight": 1.0
+        },
+        {
+          "IslandName": "Volcanic_Horde_B",
+          "SpawnWeight": 1.0
+        }
+      ],
+      "ShopIslands": [
+        {
+          "IslandName": "Tropical_Shop",
+          "SpawnWeight": 1.0
+        }
+      ],
+      "Enemies": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Ant_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Ant/BP_Enemy_Ant.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_BossAnt_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Ant/Boss/BP_Enemy_BossAnt.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_BossSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Boss/BP_Enemy_BossSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Crab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_BlockerCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Blocker/BP_Enemy_BlockerCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Grub_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/BP_Enemy_Grub.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_ChaoticGrub_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/Chaotic/BP_Enemy_ChaoticGrub.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_EnragedGrub_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/Enraged/BP_Enemy_EnragedGrub.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_EliteFireCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Elite/Fire/BP_Enemy_EliteFireCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_EliteFireSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Fire/BP_Enemy_EliteFireSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_EliteBarrelSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Barrel/BP_Enemy_EliteBarrelSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_EliteLightningCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Elite/Lightning/BP_Enemy_EliteLightningCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_ElitePoisonGrub_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/Elite/Poison/BP_Enemy_ElitePoisonGrub.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_ElitePumpkin_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pumpkin/Elite/BP_Enemy_ElitePumpkin.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FireCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Fire/BP_Enemy_FireCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_GrenadeCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_LauncherCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Launcher/BP_Enemy_LauncherCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_LightningCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Lightning/BP_Enemy_LightningCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_PoisonCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Poison/BP_Enemy_PoisonCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Pufferfish_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FirePumpkin_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pumpkin/Fire/BP_Enemy_FirePumpkin.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_ShotgunCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Shotgun/BP_Enemy_ShotgunCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Skull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/BP_Enemy_Skull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_BlockerSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Blocker/BP_Enemy_BlockerSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_LaserSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Laser/BP_Enemy_LaserSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Slug_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/BP_Enemy_Slug.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FireSlug_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/Fire/BP_Enemy_FireSlug.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_SniperCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Sniper/BP_Enemy_SniperCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FireSlug_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/Fire/BP_Enemy_FireSlug.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FireCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Fire/BP_Enemy_FireCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FireAnt_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Ant/Fire/BP_Enemy_FireAnt.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FireSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Fire/BP_Enemy_FireSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_LightningSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Lightning/BP_Enemy_LightningSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_LightningSlug_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/Lightning/BP_Enemy_LightningSlug.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_LightningAnt_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Ant/Lightning/BP_Enemy_LightningAnt.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_PoisonSlug_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/Poison/BP_Enemy_PoisonSlug.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_PoisonSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Poison/BP_Enemy_PoisonSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_PoisonAnt_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Ant/Poison/BP_Enemy_PoisonAnt.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_LaserCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Laser/BP_Enemy_LaserCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_MinigunCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Minigun/BP_Enemy_MinigunCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_HomingGrub_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/Homing/BP_Enemy_HomingGrub.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Limpet_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Starfish_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Starfish/BP_Enemy_Starfish.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_HammerCrab_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Hammer/BP_Enemy_HammerCrab.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_EliteRammingGrub_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/Elite/Ramming/BP_Enemy_EliteRammingGrub.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_BarrageSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Barrage/BP_Enemy_BarrageSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_EliteBeamSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/BP_Enemy_EliteBeamSkull.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_EliteLandmineLimpet_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/Elite/Landmine/BP_Enemy_EliteLandmineLimpet.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Enemy_FloatingSkull_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Floating/BP_Enemy_FloatingSkull.0"
+        }
+      ],
+      "CombatDestructibles": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_BlackHoleRock_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Rock/BP_Destructible_BlackHoleRock.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_EnergyRingRock_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Rock/BP_Destructible_EnergyRingRock.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_FireRock_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Rock/BP_Destructible_FireRock.0"
+        }
+      ],
+      "RewardDestructibles": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_MediumCrystal_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Crystal/BP_Destructible_MediumCrystal.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_MegaCrystal_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Crystal/BP_Destructible_MegaCrystal.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_ChallengeCrystal_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Crystal/BP_Destructible_ChallengeCrystal.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_MegaChallengeCrystal_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Crystal/BP_Destructible_MegaChallengeCrystal.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_HealthRock_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Rock/BP_Destructible_HealthRock.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_MaxHealthRock_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Rock/BP_Destructible_MaxHealthRock.0"
+        }
+      ],
+      "PhysicsDestructibles": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_ExplosiveBarrel_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_ExplosiveBarrel.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_ChaoticBarrel_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_ChaoticBarrel.0"
+        }
+      ],
+      "AmbienceFX": {
+        "ObjectName": "NiagaraSystem'FX_Ambience_Lava'",
+        "ObjectPath": "CrabChampions/Content/FX/Ambience/FX_Ambience_Lava.28"
+      },
+      "AmbienceSound": {
+        "ObjectName": "SoundCue'A_Ambience_Wind'",
+        "ObjectPath": "CrabChampions/Content/Audio/Ambience/Old/Wind/A_Ambience_Wind.0"
+      },
+      "SmallOceanImpactFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Lava_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Lava_Small.27"
+      },
+      "SmallOceanImpactSound": {
+        "ObjectName": "SoundCue'A_Impact_Water'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Water/A_Impact_Water.0"
+      },
+      "LargeOceanImpactFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Lava_Large'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Lava_Large.27"
+      },
+      "LargeOceanImpactSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Medium_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Medium_Cue.0"
+      },
+      "UnderwaterDebuff": {
+        "DebuffType": "ECrabDebuffType::Fire",
+        "DebuffStack": 15
+      },
+      "MusicPlaylist": {
+        "ObjectName": "SoundCue'A_Music_Gameplay_Volcanic'",
+        "ObjectPath": "CrabChampions/Content/Audio/Music/A_Music_Gameplay_Volcanic.0"
+      },
+      "ShopMusic": {
+        "ObjectName": "SoundCue'A_Music_Shop_Volcanic'",
+        "ObjectPath": "CrabChampions/Content/Audio/Music/A_Music_Shop_Volcanic.0"
+      }
+    }
+  }
+]

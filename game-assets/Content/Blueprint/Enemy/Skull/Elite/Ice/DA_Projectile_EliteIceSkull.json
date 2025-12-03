@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_EliteIceSkull",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "CollisionRadius": 100.0,
+      "Speed": 7500.0,
+      "GravityScale": 1.5,
+      "ExplosionRadius": 500.0,
+      "ExplosionDamage": 12.0,
+      "ExplosionKnockbackStrength": 2500.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Ice'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Enemy/FX_Projectile_Ice.63"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Cue.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Ice'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Ice.64"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Water'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Water/A_Impact_Water.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  }
+]

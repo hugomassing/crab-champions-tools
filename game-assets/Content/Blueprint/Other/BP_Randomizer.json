@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Randomizer_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Randomizer_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabRandomizer'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Randomizer_C'Default__BP_Randomizer_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.1"
+    }
+  },
+  {
+    "Type": "BP_Randomizer_C",
+    "Name": "Default__BP_Randomizer_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_Randomizer.BP_Randomizer_C'",
+    "Properties": {
+      "RandomizerMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Randomizer_C:RandomizerMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.6"
+      },
+      "RandomizerNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Randomizer_C:RandomizerNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.2"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_Chest_Epic'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Interactable/Chest/Epic/SK_Chest_Epic.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Chest'",
+        "ObjectPath": "CrabChampions/Content/FX/Chest/FX_Chest.62"
+      },
+      "InteractableCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Randomizer_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.7"
+      },
+      "InteractWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Randomizer_C:InteractWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.8"
+      },
+      "InteractUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_Minimal_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact_Minimal.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Randomizer_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.7"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "RandomizerNC",
+    "Outer": "Default__BP_Randomizer_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Randomizer_C:RandomizerMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.6"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Randomizer_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Randomizer_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.3"
+      },
+      "VariableGuid": "325DAA3D-47C4D502-BD209F88-5B99A33F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Randomizer_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Randomizer_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.4"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "RandomizerMesh",
+    "Outer": "Default__BP_Randomizer_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Randomizer_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.7"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "InteractableCollision",
+    "Outer": "Default__BP_Randomizer_C",
+    "Class": "UScriptClass'SphereComponent'"
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "InteractWC",
+    "Outer": "Default__BP_Randomizer_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Randomizer_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Randomizer.7"
+      }
+    }
+  }
+]

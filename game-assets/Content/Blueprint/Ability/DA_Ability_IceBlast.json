@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CrabAbilityDA",
+    "Name": "DA_Ability_IceBlast",
+    "Class": "UScriptClass'CrabAbilityDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_IceBlast'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_IceBlast.0"
+      },
+      "HitmarkerType": "ECrabHitmarkerType::Quiet",
+      "Cooldown": 6.0,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_Grenade_Throw'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Grenade_Throw.0"
+      },
+      "bRequiresUnlock": true,
+      "Name": "Ice Blast",
+      "Description": "Freezes nearby enemies",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_IceBlast'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Ability/T_Icon_IceBlast.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "Tint": {
+        "R": 0.0,
+        "G": 0.25,
+        "B": 0.7,
+        "A": 1.0,
+        "Hex": "0089DA"
+      },
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_IceBlast'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Ability/FX_Pickup_IceBlast.47"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      }
+    }
+  }
+]

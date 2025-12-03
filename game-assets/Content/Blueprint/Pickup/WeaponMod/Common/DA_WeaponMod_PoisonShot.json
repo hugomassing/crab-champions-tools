@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabWeaponModDA",
+    "Name": "DA_WeaponMod_PoisonShot",
+    "Class": "UScriptClass'CrabWeaponModDA'",
+    "Properties": {
+      "WeaponModType": "ECrabWeaponModType::PoisonShot",
+      "TriggerChanceType": "ECrabTriggerChanceType::FullScalingTriggerChance",
+      "LevelDescription": "PrimaryBuff% chance for shots to poison enemies (each stack of poison causes enemies to take increased damage: 50 poison stacks = 50% more damage taken)",
+      "BaseBuff": 3.0,
+      "bLimited": true,
+      "Name": "Poison Shot",
+      "Description": "Shots poison enemies (each stack of poison causes enemies to take increased damage: 50 poison stacks = 50% more damage taken)",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_WeaponMod_PoisonShot'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/T_Icon_WeaponMod_PoisonShot.0"
+      },
+      "LootPool": "ECrabLootPool::Elemental",
+      "Rarity": "ECrabRarity::Common",
+      "PickupTag": "ECrabPickupTag::Poison",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_PoisonShot'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/WeaponMod/FX_Pickup_PoisonShot.56"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary_Minimal'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary_Minimal.63"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Crab_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Interact/A_Crab_Interact.0"
+      }
+    }
+  }
+]

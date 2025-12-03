@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Gauntlet_EndIsland_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Gauntlet_EndIsland_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabGauntlet'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Gauntlet_EndIsland_C'Default__BP_Gauntlet_EndIsland_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.1"
+    }
+  },
+  {
+    "Type": "BP_Gauntlet_EndIsland_C",
+    "Name": "Default__BP_Gauntlet_EndIsland_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.BP_Gauntlet_EndIsland_C'",
+    "Properties": {
+      "GauntletNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Gauntlet_EndIsland_C:GauntletNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.3"
+      },
+      "GauntletAC": {
+        "ObjectName": "AudioComponent'Default__BP_Gauntlet_EndIsland_C:GauntletAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.2"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Gauntlet_EndIsland'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Gauntlet/FX_Gauntlet_EndIsland.133"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Portal_Ambience'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Portal/Ambience/A_Portal_Ambience.0"
+      },
+      "GauntletType": "ECrabGauntletType::EndIsland",
+      "InteractableCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_EndIsland_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.7"
+      },
+      "InteractWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Gauntlet_EndIsland_C:InteractWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.8"
+      },
+      "InteractUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_Gauntlet_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact_Gauntlet.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_EndIsland_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.7"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "GauntletAC",
+    "Outer": "Default__BP_Gauntlet_EndIsland_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_EndIsland_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.7"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "GauntletNC",
+    "Outer": "Default__BP_Gauntlet_EndIsland_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_EndIsland_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.7"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Gauntlet_EndIsland_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Gauntlet_EndIsland_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.4"
+      },
+      "VariableGuid": "659F280A-47DF8DD3-ECD68B9B-A8EB9EC4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Gauntlet_EndIsland_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Gauntlet_EndIsland_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.5"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "InteractableCollision",
+    "Outer": "Default__BP_Gauntlet_EndIsland_C",
+    "Class": "UScriptClass'SphereComponent'"
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "InteractWC",
+    "Outer": "Default__BP_Gauntlet_EndIsland_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Gauntlet_EndIsland_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.7"
+      }
+    }
+  }
+]

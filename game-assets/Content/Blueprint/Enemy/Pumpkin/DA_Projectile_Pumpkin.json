@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_Pumpkin",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.5,
+      "CollisionRadius": 100.0,
+      "Speed": 4000.0,
+      "GravityScale": 0.4,
+      "HomingLerpSpeed": 0.5,
+      "ExplosionRadius": 600.0,
+      "ExplosionDamage": 10.0,
+      "ExplosionKnockbackStrength": 2500.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Pumpkin'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Pumpkin/FX_Projectile_Pumpkin.56"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Cue.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Enemy.42"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Small'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Small/A_Explosion_Small.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  }
+]

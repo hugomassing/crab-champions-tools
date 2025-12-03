@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "CrabAOEActionDA",
+    "Name": "DA_Action_EliteRammingGrub_Melee",
+    "Class": "UScriptClass'CrabAOEActionDA'",
+    "Properties": {
+      "AOEDA": {
+        "ObjectName": "CrabAOEDA'DA_AOE_EliteRammingGrub_Melee'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/Elite/Ramming/DA_AOE_EliteRammingGrub_Melee.0"
+      },
+      "Range": 2000.0,
+      "Weight": 5000.0,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Grub_Spin'",
+        "ObjectPath": "CrabChampions/Content/Character/Grub/Animation/Spin/AM_Grub_Spin.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Melee_Player'",
+        "ObjectPath": "CrabChampions/Content/FX/Melee/FX_Melee_Player.77"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Crab_Dash'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Dash/A_Crab_Dash.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "id": "Flamethrower",
+  "gameId": "DA_Weapon_Flamethrower",
+  "name": "Flamethrower",
+  "description": "Burn burn burn!",
+  "rarity": "Greed",
+  "stats": {
+    "fireRate": 12,
+    "clipSize": 40,
+    "reloadDuration": 1.25,
+    "baseSpread": 0,
+    "verticalRecoil": 5,
+    "horizontalRecoil": 2.5
+  },
+  "crosshairType": "Circle",
+  "projectileId": "DA_Projectile_Flamethrower",
+  "requiresUnlock": true,
+  "iconPath": "T_UI_Icon_OrbLauncher_Silhouette",
+  "tintColor": "rgb(255, 108, 0)"
+}

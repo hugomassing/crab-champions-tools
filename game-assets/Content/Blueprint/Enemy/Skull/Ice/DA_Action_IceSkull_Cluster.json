@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_IceSkull_Cluster",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_IceSkull'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Ice/DA_Projectile_IceSkull.0"
+      },
+      "FormationType": "ECrabFormationType::SmallCluster",
+      "Spread": 1000.0,
+      "LoopingActionInterval": 0.5,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Skull_Attack_Ranged'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/Attack/AM_Skull_Attack_Ranged.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp.32"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Skull_RangedAttack_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Skull/RangedAttack/A_Skull_RangedAttack_Cue.0"
+      }
+    }
+  }
+]

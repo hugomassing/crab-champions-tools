@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_PoisonSkull_PiercingWave",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.5,
+      "Speed": 4000.0,
+      "MaxPiercings": 99,
+      "ProximityDamageRadius": 350.0,
+      "ExplosionRadius": 0.0,
+      "ExplosionDamage": 4.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_PoisonEnemy_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_PoisonEnemy.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_EnemyPiercingWave'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Wave/FX_Projectile_EnemyPiercingWave.47"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Cue.0"
+      }
+    }
+  }
+]

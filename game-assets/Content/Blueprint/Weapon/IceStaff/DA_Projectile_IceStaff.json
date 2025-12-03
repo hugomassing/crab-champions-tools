@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_IceStaff",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 1.0,
+      "CollisionRadius": 50.0,
+      "Speed": 10000.0,
+      "ExplosionRadius": 250.0,
+      "ExplosionDamage": 12.0,
+      "ExplosionDamageAreaSpawnChance": 25.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_IceStaff_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_IceStaff.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Bullet/FX_Projectile_IceStaff.63"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/IceStaff/A_Impact_IceStaff.0"
+      }
+    }
+  }
+]

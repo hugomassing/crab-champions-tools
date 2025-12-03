@@ -1,0 +1,563 @@
+[
+  {
+    "Type": "CrabCosmeticsDA",
+    "Name": "DA_Cosmetics",
+    "Class": "UScriptClass'CrabCosmeticsDA'",
+    "Properties": {
+      "CrabSkins": [
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Default",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Default'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Default.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Crab_Default'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/Default/MI_Crab_Default.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Blue Ice",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_BlueIce'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_BlueIce.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_BlueIce'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_BlueIce.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Snow",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Snow'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Snow.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Snow'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Snow.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Flow",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Flow'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Flow.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Flow'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Flow.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Iridescent",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Iridescent'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Iridescent.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Iridescent'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Iridescent.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Pink",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Pink'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Pink.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Pink'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Pink.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Aqua",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Aqua'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Aqua.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Aqua'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Aqua.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Watermelon",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Watermelon'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Watermelon.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Watermelon'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Watermelon.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Tiger",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Tiger'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Tiger.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Tiger'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Tiger.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Blue Tiger",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_BlueTiger'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_BlueTiger.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_BlueTiger'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_BlueTiger.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Red Tiger",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_RedTiger'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_RedTiger.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_RedTiger'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_RedTiger.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Glimmer",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Glimmer'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Glimmer.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Glimmer'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Glimmer.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Silver",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Silver'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Silver.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Silver'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Silver.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Emerald",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Emerald'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Emerald.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Emerald'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Emerald.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Ruby",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Ruby'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Ruby.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Ruby'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Ruby.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Jet Black",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_JetBlack'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_JetBlack.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_JetBlack'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_JetBlack.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Sapphire",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Sapphire'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Sapphire.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Sapphire'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Sapphire.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Chemical",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Chemical'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Chemical.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Chemical'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Chemical.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Grid",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Grid'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Grid.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Grid'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Grid.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Cheetah",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Cheetah'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Cheetah.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Cheetah'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Cheetah.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Geometric",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Geometric'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Geometric.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Geometric'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Geometric.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Orange",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Orange'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Orange.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Orange'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Orange.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Purple Tiger",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_PurpleTiger'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_PurpleTiger.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_PurpleTiger'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_PurpleTiger.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Regal",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Regal'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Regal.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Regal'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Regal.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Warped",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Warped'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Warped.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Warped'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Warped.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Waves",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Waves'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Waves.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Waves'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Waves.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Amber",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Amber'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Amber.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Amber'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Amber.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Gold",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Gold'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Gold.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Gold'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Gold.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Swirl",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Swirl'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Swirl.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Swirl'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Swirl.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Jelly",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Jelly'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Jelly.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Jelly'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Jelly.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Obsidian",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Obsidian'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Obsidian.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Obsidian'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Obsidian.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Hot Rod",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_HotRod'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_HotRod.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_HotRod'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_HotRod.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Toxic",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Toxic'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Toxic.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Toxic'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Toxic.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Festive",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Festive'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Festive.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Festive'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Festive.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Ocean",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Ocean'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Ocean.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Ocean'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Ocean.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Fake Gold",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Gold'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Gold.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_FakeGold'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_FakeGold.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Kaleidoscopic",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Kaleidoscopic'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Kaleidoscopic.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Kaleidoscopic'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Kaleidoscopic.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Prismatic",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Prismatic'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Prismatic.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Prismatic'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Prismatic.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Focus",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Focus'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Focus.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Focus'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Focus.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Vibrations",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Vibrations'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Vibrations.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Vibrations'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Vibrations.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Chrome",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Chrome'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Chrome.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Chrome'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Chrome.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Vampire",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Vampire'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Vampire.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Vampire'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Vampire.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Heat",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Heat'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Heat.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Heat'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Heat.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Reptile",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Reptile'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Reptile.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Reptile'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Reptile.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Damascus",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Damascus'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Damascus.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Damascus'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Damascus.0"
+          }
+        },
+        {
+          "CosmeticType": "ECrabCosmeticType::CrabSkin",
+          "CosmeticName": "Current",
+          "CosmeticIcon": {
+            "ObjectName": "Texture2D'T_Thumbnail_Current'",
+            "ObjectPath": "CrabChampions/Content/UI/Thumbnail/T_Thumbnail_Current.0"
+          },
+          "CosmeticObject": {
+            "ObjectName": "MaterialInstanceConstant'MI_Current'",
+            "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Current.0"
+          }
+        }
+      ]
+    }
+  }
+]

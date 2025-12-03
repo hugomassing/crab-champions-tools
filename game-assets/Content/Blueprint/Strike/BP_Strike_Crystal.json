@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Strike_Crystal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Strike_Crystal_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Crystal.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabStrike'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Strike_Crystal_C'Default__BP_Strike_Crystal_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Crystal.1"
+    }
+  },
+  {
+    "Type": "BP_Strike_Crystal_C",
+    "Name": "Default__BP_Strike_Crystal_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Strike/BP_Strike_Crystal.BP_Strike_Crystal_C'",
+    "Properties": {
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Strike_Skull'",
+        "ObjectPath": "CrabChampions/Content/FX/Strike/FX_Strike_Skull.61"
+      },
+      "SpawnSound": {
+        "ObjectName": "SoundCue'A_Ant_Spawn_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Ant/Spawn/A_Ant_Spawn_Cue.0"
+      },
+      "Radius": 2000.0,
+      "ExplosionDelay": 1.0,
+      "Damage": 400.0,
+      "DamageType": "ECrabDamageType::Lesser",
+      "KnockbackStrength": 0.0,
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Generic_Large_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Generic/Large/A_Explosion_Generic_Large_Cue.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Strike_Crystal_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Strike_Crystal_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Crystal.2"
+      },
+      "VariableGuid": "85B2FB9F-43F91662-ED5FA18C-73A50F72",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Strike_Crystal_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Strike_Crystal_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Crystal.3"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Strike_Crystal_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Crystal.3"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Strike_Crystal_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Crystal.3"
+      }
+    }
+  }
+]

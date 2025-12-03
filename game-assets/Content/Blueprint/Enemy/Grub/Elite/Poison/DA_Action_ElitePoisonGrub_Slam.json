@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_ElitePoisonGrub_Slam",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "TargetType": "ECrabTargetType::CurrentLoc",
+      "SocketNames": [
+        "core"
+      ],
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_ElitePoisonGrub'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Grub/Elite/Poison/DA_Projectile_ElitePoisonGrub.0"
+      },
+      "FormationType": "ECrabFormationType::LargeRing",
+      "FormationSpacing": 500.0,
+      "Weight": 0.5,
+      "bStopMovementDuringAction": true,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Grub_Slam'",
+        "ObjectPath": "CrabChampions/Content/Character/Grub/Animation/Slam/AM_Grub_Slam.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp_AOE'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp_AOE.74"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Crab_Bunnyhop_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Bunnyhop/A_Crab_Bunnyhop_Cue.0"
+      }
+    }
+  }
+]

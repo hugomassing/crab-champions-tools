@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabWeaponModDA",
+    "Name": "DA_WeaponMod_DaggerArc",
+    "Class": "UScriptClass'CrabWeaponModDA'",
+    "Properties": {
+      "WeaponModType": "ECrabWeaponModType::DaggerArc",
+      "TriggerChanceType": "ECrabTriggerChanceType::HalfScalingTriggerChance",
+      "EnhanceableType": "ECrabEnhanceableType::Enhanceable",
+      "LevelDescription": "PrimaryBuff% chance to fire arcs of daggers that deal SecondaryBuff damage per second along with your shots",
+      "BaseBuff": 2.0,
+      "bHyperbolicBuff": true,
+      "Name": "Dagger Arc",
+      "Description": "Chance to fire arcs of daggers along with your shots",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_WeaponMod_DaggerArc'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/T_Icon_WeaponMod_DaggerArc.0"
+      },
+      "LootPool": "ECrabLootPool::Damage",
+      "Rarity": "ECrabRarity::Epic",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_DaggerArc'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/WeaponMod/DaggerArc/FX_Pickup_DaggerArc.22"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Crab_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Interact/A_Crab_Interact.0"
+      }
+    }
+  }
+]

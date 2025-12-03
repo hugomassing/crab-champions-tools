@@ -1,0 +1,22 @@
+{
+  "id": "Crossbow",
+  "gameId": "DA_Weapon_Crossbow",
+  "name": "Crossbow",
+  "description": "A crossbow that fires in a wide arc",
+  "rarity": "Greed",
+  "stats": {
+    "fireRate": 2,
+    "clipSize": 12,
+    "reloadDuration": 0,
+    "baseSpread": 0.5,
+    "aimingSpreadMultiplier": 0.1
+  },
+  "crosshairType": "Dot",
+  "formationType": "LargeArc",
+  "formationSpacing": 0.5,
+  "formationExpansionDampening": 25,
+  "projectileId": "DA_Projectile_Crossbow",
+  "requiresUnlock": true,
+  "iconPath": "T_UI_Icon_Crossbow_Silhouette",
+  "tintColor": "rgb(188, 255, 0)"
+}

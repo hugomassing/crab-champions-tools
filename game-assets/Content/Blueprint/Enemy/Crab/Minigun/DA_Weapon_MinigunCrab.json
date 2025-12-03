@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabWeaponDA",
+    "Name": "DA_Weapon_MinigunCrab",
+    "Class": "UScriptClass'CrabWeaponDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Minigun'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Weapon/Placeholder/Minigun/S_Minigun.2"
+      },
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_MinigunCrab_Weapon'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Minigun/DA_Projectile_MinigunCrab_Weapon.0"
+      },
+      "bFireFromRoot": false,
+      "BaseFireRate": 25.0,
+      "BaseSpread": 1.0,
+      "FiringSpreadIncrement": 1.0,
+      "MaxSpread": 1.0,
+      "SpreadRecovery": 0.25,
+      "bInfiniteClipSize": true,
+      "FireMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Rifle_Fire'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Rifle_Fire.0"
+      },
+      "MuzzleFlashFX": {
+        "ObjectName": "NiagaraSystem'FX_MuzzleFlash_Large'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/MuzzleFlash/FX_MuzzleFlash_Large.22"
+      },
+      "GunshotSound": {
+        "ObjectName": "SoundCue'A_Gunshot_SMG_Balanced_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/SMG/Balanced/A_Gunshot_SMG_Balanced_Cue.0"
+      },
+      "LowAmmoSound": {
+        "ObjectName": "SoundCue'A_UI_LowAmmo'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_LowAmmo.0"
+      },
+      "Tint": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      }
+    }
+  }
+]

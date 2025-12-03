@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "EnvQuery",
+    "Name": "EQS_FindFarAttackLoc",
+    "Class": "UScriptClass'EnvQuery'",
+    "Properties": {
+      "QueryName": "EQS_FindFarAttackLoc",
+      "Options": [
+        {
+          "ObjectName": "EnvQueryOption'EQS_FindFarAttackLoc:EnvQueryOption_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindFarAttackLoc.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryGenerator_Donut",
+    "Name": "EnvQueryGenerator_Donut_0",
+    "Outer": "EQS_FindFarAttackLoc",
+    "Class": "UScriptClass'EnvQueryGenerator_Donut'",
+    "Properties": {
+      "InnerRadius": {
+        "DefaultValue": 5000.0
+      },
+      "OuterRadius": {
+        "DefaultValue": 7500.0
+      },
+      "NumberOfRings": {
+        "DefaultValue": 2
+      },
+      "PointsPerRing": {
+        "DefaultValue": 16
+      },
+      "bUseSpiralPattern": true,
+      "Center": {
+        "ObjectName": "BlueprintGeneratedClass'BP_EQC_BestEnemyC_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQC_BestEnemyC.0"
+      },
+      "ProjectionData": {
+        "VersionNum": 1,
+        "ProjectDown": 5000.0,
+        "ProjectUp": 5000.0,
+        "SerializedChannel": "ECC_Visibility",
+        "TraceMode": "EEnvQueryTrace::Navigation"
+      },
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryOption",
+    "Name": "EnvQueryOption_0",
+    "Outer": "EQS_FindFarAttackLoc",
+    "Class": "UScriptClass'EnvQueryOption'",
+    "Properties": {
+      "Generator": {
+        "ObjectName": "EnvQueryGenerator_Donut'EQS_FindFarAttackLoc:EnvQueryGenerator_Donut_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindFarAttackLoc.1"
+      },
+      "Tests": [
+        {
+          "ObjectName": "EnvQueryTest_Dot'EQS_FindFarAttackLoc:EnvQueryTest_Dot_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindFarAttackLoc.4"
+        },
+        {
+          "ObjectName": "EnvQueryTest_Trace'EQS_FindFarAttackLoc:EnvQueryTest_Trace_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindFarAttackLoc.5"
+        },
+        {
+          "ObjectName": "EnvQueryTest_Distance'EQS_FindFarAttackLoc:EnvQueryTest_Distance_1'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindFarAttackLoc.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryTest_Distance",
+    "Name": "EnvQueryTest_Distance_1",
+    "Outer": "EQS_FindFarAttackLoc",
+    "Class": "UScriptClass'EnvQueryTest_Distance'",
+    "Properties": {
+      "DistanceTo": {
+        "ObjectName": "BlueprintGeneratedClass'BP_EQC_BestEnemyC_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQC_BestEnemyC.0"
+      },
+      "TestOrder": 2,
+      "TestPurpose": "EEnvTestPurpose::Score",
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryTest_Dot",
+    "Name": "EnvQueryTest_Dot_0",
+    "Outer": "EQS_FindFarAttackLoc",
+    "Class": "UScriptClass'EnvQueryTest_Dot'",
+    "Properties": {
+      "LineA": {
+        "Rotation": {
+          "ObjectName": "BlueprintGeneratedClass'BP_EQC_BestEnemyC_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQC_BestEnemyC.0"
+        }
+      },
+      "LineB": {
+        "LineFrom": {
+          "ObjectName": "Class'EnvQueryContext_Item'",
+          "ObjectPath": "/Script/AIModule"
+        },
+        "LineTo": {
+          "ObjectName": "BlueprintGeneratedClass'BP_EQC_BestEnemyC_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQC_BestEnemyC.0"
+        }
+      },
+      "TestMode": "EEnvTestDot::Dot2D",
+      "TestPurpose": "EEnvTestPurpose::Filter",
+      "FilterType": "EEnvTestFilterType::Maximum",
+      "FloatValueMax": {
+        "DefaultValue": 0.33
+      },
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryTest_Trace",
+    "Name": "EnvQueryTest_Trace_0",
+    "Outer": "EQS_FindFarAttackLoc",
+    "Class": "UScriptClass'EnvQueryTest_Trace'",
+    "Properties": {
+      "TraceData": {
+        "VersionNum": 1,
+        "TraceChannel": "TraceTypeQuery2",
+        "SerializedChannel": "ECC_Camera"
+      },
+      "TraceFromContext": {
+        "DefaultValue": true
+      },
+      "Context": {
+        "ObjectName": "BlueprintGeneratedClass'BP_EQC_BestEnemyCoreLoc_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQC_BestEnemyCoreLoc.0"
+      },
+      "TestOrder": 1,
+      "TestPurpose": "EEnvTestPurpose::Filter",
+      "BoolValue": {
+        "DefaultValue": false
+      },
+      "VerNum": 1
+    }
+  }
+]

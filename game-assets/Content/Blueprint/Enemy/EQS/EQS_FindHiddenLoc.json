@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "EnvQuery",
+    "Name": "EQS_FindHiddenLoc",
+    "Class": "UScriptClass'EnvQuery'",
+    "Properties": {
+      "QueryName": "EQS_FindHiddenLoc",
+      "Options": [
+        {
+          "ObjectName": "EnvQueryOption'EQS_FindHiddenLoc:EnvQueryOption_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindHiddenLoc.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryGenerator_Donut",
+    "Name": "EnvQueryGenerator_Donut_0",
+    "Outer": "EQS_FindHiddenLoc",
+    "Class": "UScriptClass'EnvQueryGenerator_Donut'",
+    "Properties": {
+      "InnerRadius": {
+        "DefaultValue": 3000.0
+      },
+      "OuterRadius": {
+        "DefaultValue": 7500.0
+      },
+      "PointsPerRing": {
+        "DefaultValue": 16
+      },
+      "bUseSpiralPattern": true,
+      "ProjectionData": {
+        "VersionNum": 1,
+        "ProjectDown": 5000.0,
+        "ProjectUp": 5000.0,
+        "SerializedChannel": "ECC_Visibility",
+        "TraceMode": "EEnvQueryTrace::Navigation"
+      },
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryOption",
+    "Name": "EnvQueryOption_0",
+    "Outer": "EQS_FindHiddenLoc",
+    "Class": "UScriptClass'EnvQueryOption'",
+    "Properties": {
+      "Generator": {
+        "ObjectName": "EnvQueryGenerator_Donut'EQS_FindHiddenLoc:EnvQueryGenerator_Donut_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindHiddenLoc.1"
+      },
+      "Tests": [
+        {
+          "ObjectName": "EnvQueryTest_Trace'EQS_FindHiddenLoc:EnvQueryTest_Trace_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindHiddenLoc.4"
+        },
+        {
+          "ObjectName": "EnvQueryTest_Distance'EQS_FindHiddenLoc:EnvQueryTest_Distance_1'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindHiddenLoc.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryTest_Distance",
+    "Name": "EnvQueryTest_Distance_1",
+    "Outer": "EQS_FindHiddenLoc",
+    "Class": "UScriptClass'EnvQueryTest_Distance'",
+    "Properties": {
+      "TestOrder": 1,
+      "TestPurpose": "EEnvTestPurpose::Score",
+      "ScoringEquation": "EEnvTestScoreEquation::InverseLinear",
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryTest_Trace",
+    "Name": "EnvQueryTest_Trace_0",
+    "Outer": "EQS_FindHiddenLoc",
+    "Class": "UScriptClass'EnvQueryTest_Trace'",
+    "Properties": {
+      "TraceData": {
+        "VersionNum": 1,
+        "TraceChannel": "TraceTypeQuery2",
+        "SerializedChannel": "ECC_Camera"
+      },
+      "TraceFromContext": {
+        "DefaultValue": true
+      },
+      "Context": {
+        "ObjectName": "BlueprintGeneratedClass'BP_EQC_BestEnemyCoreLoc_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/BP_EQC_BestEnemyCoreLoc.0"
+      },
+      "TestPurpose": "EEnvTestPurpose::Score",
+      "ScoringFactor": {
+        "DefaultValue": 2.0
+      },
+      "VerNum": 1
+    }
+  }
+]

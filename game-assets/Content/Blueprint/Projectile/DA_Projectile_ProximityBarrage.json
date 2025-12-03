@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_ProximityBarrage",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "CollisionRadius": 25.0,
+      "Speed": 3500.0,
+      "ChaoticScale": 1.0,
+      "HomingScale": 1.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 250.0,
+      "ExplosionDamage": 75.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Bomb'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Bomb/FX_Projectile_Bomb.25"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Bomb'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Bomb.70"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Small'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Small/A_Explosion_Small.0"
+      }
+    }
+  }
+]

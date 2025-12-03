@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Enemy_Limpet_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabEnemyC'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Enemy_Limpet_C'Default__BP_Enemy_Limpet_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.1"
+    }
+  },
+  {
+    "Type": "BP_Enemy_Limpet_C",
+    "Name": "Default__BP_Enemy_Limpet_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.BP_Enemy_Limpet_C'",
+    "Properties": {
+      "HealthBarWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Enemy_Limpet_C:HealthBarWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.12"
+      },
+      "CapsuleScaleMultiplier": 4.0,
+      "ScaleMultiplier": 2.0,
+      "EnemySpawnSettings": {
+        "IslandToStartSpawningAt": 2,
+        "BannedIslandTypes": [
+          "ECrabIslandType::Arcade"
+        ],
+        "SpawnCost": 300
+      },
+      "EnemyCategory": "ECrabEnemyCategory::Medium",
+      "EnemyName": "Limpet",
+      "DamageReductionWhenNoActionIsActive": 0.25,
+      "AISettings": {
+        "TimeBetweenMoves": 3.0,
+        "TimeBetweenActionsMin": 3.0,
+        "TimeBetweenActionsMax": 5.0,
+        "RangedActionEnvQueries": [
+          {
+            "ObjectName": "EnvQuery'EQS_FindCloseAttackLoc'",
+            "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindCloseAttackLoc.0"
+          },
+          {
+            "ObjectName": "EnvQuery'EQS_FindRangedAttackLoc'",
+            "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindRangedAttackLoc.0"
+          }
+        ]
+      },
+      "ActionDAs": [
+        {
+          "ObjectName": "CrabProjectileActionDA'DA_Action_Limpet_Fan'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/DA_Action_Limpet_Fan.0"
+        }
+      ],
+      "HealthBarUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_GenericHealthBar_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_GenericHealthBar_OLD.0"
+      },
+      "EnemySpawnFX": {
+        "ObjectName": "NiagaraSystem'FX_Spawn'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Spawn/FX_Spawn.22"
+      },
+      "EnemySpawnSound": {
+        "ObjectName": "SoundCue'A_Skull_Ambient_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Skull/Ambient/A_Skull_Ambient_Cue.0"
+      },
+      "MeshFX": {
+        "ObjectName": "NiagaraSystem'FX_Cosmetic_MediumEnemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Cosmetic/FX_Cosmetic_MediumEnemy.17"
+      },
+      "MeshSound": {
+        "ObjectName": "SoundCue'A_Skull_Ambient_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Skull/Ambient/A_Skull_Ambient_Cue.0"
+      },
+      "GibFX": {
+        "ObjectName": "NiagaraSystem'FX_Gib_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Gib/FX_Gib_Medium.72"
+      },
+      "GibSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Elimination_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Elimination_Cue.0"
+      },
+      "HC": {
+        "ObjectName": "CrabHC'Default__BP_Enemy_Limpet_C:HC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.5"
+      },
+      "DebuffNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_Limpet_C:DebuffNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.7"
+      },
+      "DebuffAC": {
+        "ObjectName": "AudioComponent'Default__BP_Enemy_Limpet_C:DebuffAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.2"
+      },
+      "ChainLightningNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_Limpet_C:ChainLightningNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.6"
+      },
+      "MeshToSpawn": {
+        "ObjectName": "SkeletalMesh'SK_Limpet'",
+        "ObjectPath": "CrabChampions/Content/Character/Limpet/SK_Limpet.0"
+      },
+      "MeshMat": {
+        "ObjectName": "MaterialInstanceConstant'MI_Limpet'",
+        "ObjectPath": "CrabChampions/Content/Character/Limpet/Texture/MI_Limpet.0"
+      },
+      "AnimationBlueprintToUse": {
+        "ObjectName": "AnimBlueprintGeneratedClass'SK_Limpet_AnimBP_C'",
+        "ObjectPath": "CrabChampions/Content/Character/Limpet/SK_Limpet_AnimBP.2"
+      },
+      "Tint": {
+        "R": 0.192708,
+        "G": 0.103341,
+        "B": 0.040029,
+        "A": 1.0,
+        "Hex": "795A38"
+      },
+      "DebuffFX": {
+        "ObjectName": "NiagaraSystem'FX_Debuff_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Debuff/FX_Debuff_Enemy.136"
+      },
+      "BaseWalkSpeed": 750.0,
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Limpet_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.11"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CrabCMC'Default__BP_Enemy_Limpet_C:CharMoveComp'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Limpet_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Limpet_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.3"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DebuffAC",
+    "Outer": "Default__BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Limpet_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.11"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CrabCMC",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'CrabCMC'"
+  },
+  {
+    "Type": "CrabHC",
+    "Name": "HC",
+    "Outer": "Default__BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'CrabHC'",
+    "Properties": {
+      "BaseMaxHealth": 75.0
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChainLightningNC",
+    "Outer": "Default__BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Limpet_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.11"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "DebuffNC",
+    "Outer": "Default__BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Limpet_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.11"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Enemy_Limpet_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.8"
+      },
+      "VariableGuid": "07A6815F-4F7A2261-EEBB22AB-DCB5E81A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Enemy_Limpet_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Limpet_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "HealthBarWC",
+    "Outer": "Default__BP_Enemy_Limpet_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Limpet_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Limpet/BP_Enemy_Limpet.3"
+      }
+    }
+  }
+]

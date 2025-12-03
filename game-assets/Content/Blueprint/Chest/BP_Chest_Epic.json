@@ -1,0 +1,204 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Chest_Epic_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Chest_Epic_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabChest'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Chest_Epic_C'Default__BP_Chest_Epic_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.1"
+    }
+  },
+  {
+    "Type": "BP_Chest_Epic_C",
+    "Name": "Default__BP_Chest_Epic_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.BP_Chest_Epic_C'",
+    "Properties": {
+      "ChestMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Chest_Epic_C:ChestMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.7"
+      },
+      "ChestNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Chest_Epic_C:ChestNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.3"
+      },
+      "ChestAC": {
+        "ObjectName": "AudioComponent'Default__BP_Chest_Epic_C:ChestAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.2"
+      },
+      "ChestLocationWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Chest_Epic_C:ChestLocationWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.9"
+      },
+      "LootPool": "ECrabLootPool::EpicChest",
+      "Rarity": "ECrabRarity::Epic",
+      "ChestMeshToSpawn": {
+        "ObjectName": "SkeletalMesh'SK_Chest_Epic'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Interactable/Chest/Epic/SK_Chest_Epic.0"
+      },
+      "ChestFX": {
+        "ObjectName": "NiagaraSystem'FX_Chest'",
+        "ObjectPath": "CrabChampions/Content/FX/Chest/FX_Chest.62"
+      },
+      "ChestSound": {
+        "ObjectName": "SoundCue'A_Chest_Ambience_Test'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Portal/Ambience/A_Chest_Ambience_Test.0"
+      },
+      "OpenFX": {
+        "ObjectName": "NiagaraSystem'FX_Chest_Open'",
+        "ObjectPath": "CrabChampions/Content/FX/Chest/FX_Chest_Open.97"
+      },
+      "OpenSound": {
+        "ObjectName": "SoundCue'A_Loot_Chest_Open_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/A_Loot_Chest_Open_Cue.0"
+      },
+      "SpawnAnim": {
+        "ObjectName": "AnimSequence'Chest_Epic_Spawn_01'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Interactable/Chest/Epic/Chest_Epic_Spawn_01.0"
+      },
+      "OpenAnim": {
+        "ObjectName": "AnimSequence'Chest_Epic_Open_01'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Interactable/Chest/Epic/Chest_Epic_Open_01.0"
+      },
+      "ChestLocationUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "InteractableCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Chest_Epic_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.8"
+      },
+      "InteractWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Chest_Epic_C:InteractWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.10"
+      },
+      "InteractUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_Minimal_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact_Minimal.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Chest_Epic_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.8"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "ChestAC",
+    "Outer": "Default__BP_Chest_Epic_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Chest_Epic_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.8"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChestNC",
+    "Outer": "Default__BP_Chest_Epic_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Chest_Epic_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.8"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Chest_Epic_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Chest_Epic_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.4"
+      },
+      "VariableGuid": "20EA45EA-45CA2D18-78822B83-E3CE447E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Chest_Epic_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Chest_Epic_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.5"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "ChestMesh",
+    "Outer": "Default__BP_Chest_Epic_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Chest_Epic_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.8"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "InteractableCollision",
+    "Outer": "Default__BP_Chest_Epic_C",
+    "Class": "UScriptClass'SphereComponent'"
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "ChestLocationWC",
+    "Outer": "Default__BP_Chest_Epic_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Chest_Epic_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.8"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "InteractWC",
+    "Outer": "Default__BP_Chest_Epic_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Chest_Epic_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.8"
+      }
+    }
+  }
+]

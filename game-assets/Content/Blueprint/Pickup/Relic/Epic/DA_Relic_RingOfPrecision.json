@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "CrabRelicDA",
+    "Name": "DA_Relic_RingOfPrecision",
+    "Class": "UScriptClass'CrabRelicDA'",
+    "Properties": {
+      "RelicType": "ECrabRelicType::RingOfPrecision",
+      "LevelDescription": "Critical hit damage multiplier increased by PrimaryBuff%",
+      "BaseBuff": 150.0,
+      "bGetBuffAsMultiplier": true,
+      "Name": "Ring Of Precision",
+      "Description": "Critical hit damage multiplier increased by 150%",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Relic_Epic'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Relic/T_Icon_Relic_Epic.0"
+      },
+      "LootPool": "ECrabLootPool::Critical",
+      "Rarity": "ECrabRarity::Epic",
+      "PickupTag": "ECrabPickupTag::Critical",
+      "bRequiresMatchingPickupTag": true,
+      "SpawnWeight": 0.3,
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Relic'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Relic/FX_Pickup_Relic.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

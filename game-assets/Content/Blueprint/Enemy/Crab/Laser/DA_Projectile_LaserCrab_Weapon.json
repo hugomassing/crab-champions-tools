@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_LaserCrab_Weapon",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.0,
+      "CollisionRadius": 100.0,
+      "Speed": 12500.0,
+      "ExplosionRadius": 250.0,
+      "ExplosionDamage": 20.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_LaserCrab_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Laser/BP_DamageArea_LaserCrab.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_EnemyBullet_Long'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Enemy/FX_Projectile_EnemyBullet_Long.17"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Sand_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Sand/A_Impact_Sand_Cue.0"
+      }
+    }
+  }
+]

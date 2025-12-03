@@ -1,0 +1,12 @@
+{
+  "id": "Grenade",
+  "gameId": "DA_Ability_Grenade",
+  "name": "Grenade",
+  "description": "Goes boom!",
+  "rarity": "Greed",
+  "cooldown": 0,
+  "hitmarkerType": "Loud",
+  "projectileId": "DA_Projectile_Grenade",
+  "requiresUnlock": false,
+  "iconPath": "T_Icon_Grenade"
+}

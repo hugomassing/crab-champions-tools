@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "EnvQuery",
+    "Name": "EQS_FindSafeSpawnLocs",
+    "Class": "UScriptClass'EnvQuery'",
+    "Properties": {
+      "QueryName": "EQS_FindSpawnLoc",
+      "Options": [
+        {
+          "ObjectName": "EnvQueryOption'EQS_FindSafeSpawnLocs:EnvQueryOption_1'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindSafeSpawnLocs.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryGenerator_Donut",
+    "Name": "EnvQueryGenerator_Donut_0",
+    "Outer": "EQS_FindSafeSpawnLocs",
+    "Class": "UScriptClass'EnvQueryGenerator_Donut'",
+    "Properties": {
+      "InnerRadius": {
+        "DefaultValue": 600.0
+      },
+      "OuterRadius": {
+        "DefaultValue": 1200.0
+      },
+      "bUseSpiralPattern": true,
+      "ProjectionData": {
+        "VersionNum": 1,
+        "ProjectDown": 1000.0,
+        "SerializedChannel": "ECC_Visibility",
+        "TraceMode": "EEnvQueryTrace::Navigation"
+      },
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryOption",
+    "Name": "EnvQueryOption_1",
+    "Outer": "EQS_FindSafeSpawnLocs",
+    "Class": "UScriptClass'EnvQueryOption'",
+    "Properties": {
+      "Generator": {
+        "ObjectName": "EnvQueryGenerator_Donut'EQS_FindSafeSpawnLocs:EnvQueryGenerator_Donut_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindSafeSpawnLocs.1"
+      },
+      "Tests": [
+        {
+          "ObjectName": "EnvQueryTest_Trace'EQS_FindSafeSpawnLocs:EnvQueryTest_Trace_1'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindSafeSpawnLocs.4"
+        },
+        {
+          "ObjectName": "EnvQueryTest_Distance'EQS_FindSafeSpawnLocs:EnvQueryTest_Distance_1'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindSafeSpawnLocs.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnvQueryTest_Distance",
+    "Name": "EnvQueryTest_Distance_1",
+    "Outer": "EQS_FindSafeSpawnLocs",
+    "Class": "UScriptClass'EnvQueryTest_Distance'",
+    "Properties": {
+      "TestOrder": 1,
+      "TestPurpose": "EEnvTestPurpose::Score",
+      "VerNum": 1
+    }
+  },
+  {
+    "Type": "EnvQueryTest_Trace",
+    "Name": "EnvQueryTest_Trace_1",
+    "Outer": "EQS_FindSafeSpawnLocs",
+    "Class": "UScriptClass'EnvQueryTest_Trace'",
+    "Properties": {
+      "TraceData": {
+        "VersionNum": 1,
+        "SerializedChannel": "ECC_Visibility",
+        "bTraceComplex": true
+      },
+      "TraceFromContext": {
+        "DefaultValue": true
+      },
+      "TestPurpose": "EEnvTestPurpose::Filter",
+      "BoolValue": {
+        "DefaultValue": false
+      },
+      "VerNum": 1
+    }
+  }
+]

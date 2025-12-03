@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# game assets (uncomment if you don't want to track raw game files)
+# /game-assets
+
+# generated data files (uncomment if you want to regenerate on build)
+# /lib/data/*.json

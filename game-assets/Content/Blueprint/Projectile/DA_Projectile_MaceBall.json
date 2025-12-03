@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_MaceBall",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.0,
+      "CollisionRadius": 50.0,
+      "Speed": 3000.0,
+      "GravityScale": 1.0,
+      "MaxPiercings": 99,
+      "MaxBounces": 99,
+      "ProximityDamageRadius": 250.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 0.0,
+      "ExplosionDamage": 4.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_MaceBall'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/MaceBall/FX_Projectile_MaceBall.38"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_MaceBall'",
+        "ObjectPath": "CrabChampions/Content/Audio/Projectile/MaceBall/A_Projectile_MaceBall.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      }
+    }
+  }
+]

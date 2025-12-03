@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "CrabMeleeDA",
+    "Name": "DA_Melee_Dagger",
+    "Class": "UScriptClass'CrabMeleeDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Dagger'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Weapon/Placeholder/Dagger/S_Dagger.2"
+      },
+      "HitmarkerType": "ECrabHitmarkerType::Quiet",
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_Melee_Dagger'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Melee/AM_Crab_Melee_Dagger.0"
+      },
+      "Range": 1250.0,
+      "Damage": 40.0,
+      "KnockbackStrength": 1000.0,
+      "bRequiresUnlock": true,
+      "Name": "Dagger",
+      "Description": "Fast but limited range",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dagger'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Melee/T_Icon_Dagger.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Dagger'",
+        "ObjectPath": "CrabChampions/Content/FX/Melee/Pickup/FX_Pickup_Dagger.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      }
+    }
+  }
+]

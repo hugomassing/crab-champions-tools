@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_Hornet_Flip",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Hornet'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Hornet/DA_Projectile_Hornet.0"
+      },
+      "FormationSpacing": 15.0,
+      "LoopingActionInterval": 0.4,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Hornet_Attack_Flip'",
+        "ObjectPath": "CrabChampions/Content/Character/Hornet/Animation/AM_Hornet_Attack_Flip.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp.32"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Hornet_Attack_TEST'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Hornet/Attack/A_Hornet_Attack_TEST.0"
+      }
+    }
+  }
+]

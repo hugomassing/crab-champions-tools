@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabWeaponModDA",
+    "Name": "DA_WeaponMod_XShot",
+    "Class": "UScriptClass'CrabWeaponModDA'",
+    "Properties": {
+      "WeaponModType": "ECrabWeaponModType::XShot",
+      "TriggerChanceType": "ECrabTriggerChanceType::FullScalingTriggerChance",
+      "LevelDescription": "PrimaryBuff% chance to fire in an X shot formation",
+      "BaseBuff": 4.0,
+      "bLimited": true,
+      "bRequiresUnlock": true,
+      "Name": "X Shot",
+      "Description": "Chance to fire in an X shot formation",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_WeaponMod_Epic'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/T_Icon_WeaponMod_Epic.0"
+      },
+      "LootPool": "ECrabLootPool::Luck",
+      "Rarity": "ECrabRarity::Epic",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_HomingShot'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/WeaponMod/HomingShot/FX_Pickup_HomingShot.35"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Crab_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Interact/A_Crab_Interact.0"
+      }
+    }
+  }
+]

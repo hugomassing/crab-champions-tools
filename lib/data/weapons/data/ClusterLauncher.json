@@ -1,0 +1,10 @@
+{
+  "additionalDescription": "Fires projectiles that split into multiple smaller explosives on impact. Creates area denial and excels at clearing groups. The cluster effect makes it devastating against tightly packed enemies.",
+  "tags": ["launcher", "explosive", "aoe", "cluster"],
+  "tips": [
+    "Aim at the center of enemy groups for maximum effect",
+    "The cluster explosion covers a wide area",
+    "Great for area denial and crowd control"
+  ]
+}
+

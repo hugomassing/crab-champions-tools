@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CameraShake_PortalTransition_OLD_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'CameraShakeBase'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CameraShake_PortalTransition_OLD_C'Default__BP_CameraShake_PortalTransition_OLD_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/BP_CameraShake_PortalTransition_OLD.1"
+    }
+  },
+  {
+    "Type": "BP_CameraShake_PortalTransition_OLD_C",
+    "Name": "Default__BP_CameraShake_PortalTransition_OLD_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Cinematic/BP_CameraShake_PortalTransition_OLD.BP_CameraShake_PortalTransition_OLD_C'",
+    "Properties": {
+      "bSingleInstance": true,
+      "RootShakePattern": {
+        "ObjectName": "PerlinNoiseCameraShakePattern'Default__BP_CameraShake_PortalTransition_OLD_C:PerlinNoiseCameraShakePattern_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/BP_CameraShake_PortalTransition_OLD.2"
+      }
+    }
+  },
+  {
+    "Type": "PerlinNoiseCameraShakePattern",
+    "Name": "PerlinNoiseCameraShakePattern_0",
+    "Outer": "Default__BP_CameraShake_PortalTransition_OLD_C",
+    "Class": "UScriptClass'PerlinNoiseCameraShakePattern'",
+    "Properties": {
+      "LocationAmplitudeMultiplier": 5.0,
+      "X": {
+        "Amplitude": 25.0
+      },
+      "Y": {
+        "Amplitude": 25.0
+      },
+      "Z": {
+        "Amplitude": 25.0
+      },
+      "RotationAmplitudeMultiplier": 5.0,
+      "Yaw": {
+        "Amplitude": 0.0
+      },
+      "Duration": 10.0
+    }
+  }
+]

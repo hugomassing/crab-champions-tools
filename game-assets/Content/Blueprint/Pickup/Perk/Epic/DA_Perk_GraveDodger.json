@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "CrabPerkDA",
+    "Name": "DA_Perk_GraveDodger",
+    "Class": "UScriptClass'CrabPerkDA'",
+    "Properties": {
+      "PerkType": "ECrabPerkType::GraveDodger",
+      "LevelDescription": "Heal for PrimaryBuff% of your max health when reaching 1 health",
+      "BaseBuff": 20.0,
+      "bHyperbolicBuff": true,
+      "bGetBuffAsMultiplier": true,
+      "Name": "Grave Dodger",
+      "Description": "Heal for a percentage of your max health when reaching 1 health (triggers once per island)",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Perk_Epic'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Epic.0"
+      },
+      "LootPool": "ECrabLootPool::Health",
+      "Rarity": "ECrabRarity::Epic",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_DefaultPerk_Epic_TEST'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Perk/FX_Pickup_DefaultPerk_Epic_TEST.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

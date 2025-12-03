@@ -1,0 +1,22 @@
+{
+  "id": "Minigun",
+  "gameId": "DA_Weapon_Minigun",
+  "name": "Minigun",
+  "description": "High fire rate but low damage minigun",
+  "rarity": "Greed",
+  "stats": {
+    "fireRate": 25,
+    "clipSize": 200,
+    "reloadDuration": 2.25,
+    "baseSpread": 0.1,
+    "spreadRecovery": 0.25,
+    "aimingSpreadMultiplier": 0.8,
+    "verticalRecoil": 2.5,
+    "horizontalRecoil": 0,
+    "recoilInterpSpeed": 4
+  },
+  "projectileId": "DA_Projectile_Minigun",
+  "requiresUnlock": true,
+  "iconPath": "T_UI_Icon_Rifle_Silhouette",
+  "tintColor": "rgb(255, 108, 0)"
+}

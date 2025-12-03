@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_FireSkull_Fan",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_FireSkull'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Fire/DA_Projectile_FireSkull.0"
+      },
+      "LoopingActionInterval": 0.66,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Skull_Attack_Fan_Short'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/Attack/AM_Skull_Attack_Fan_Short.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Attack_Looping'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Attack/FX_Attack_Looping.47"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Skull_RangedAttack_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Skull/RangedAttack/A_Skull_RangedAttack_Cue.0"
+      }
+    }
+  }
+]

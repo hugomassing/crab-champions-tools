@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "FC_SlomoRamp",
+    "Class": "UScriptClass'CurveFloat'",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": -16.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -16.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.05,
+            "Value": 0.2,
+            "ArriveTangent": -6.680905,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -6.680905,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.1,
+            "Value": 0.1,
+            "ArriveTangent": 1.359715,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 1.359715,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.125,
+            "Value": 0.3,
+            "ArriveTangent": 5.9883814,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 5.9883814,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.0000001,
+            "ArriveTangent": 0.07034479,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.07034479,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

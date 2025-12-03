@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_ShotgunCrab_Weapon",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Speed": 7500.0,
+      "ChaoticScale": 0.5,
+      "ExplosionRadius": 50.0,
+      "ExplosionDamage": 12.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Bullet_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Bullet/FX_Projectile_Bullet_Enemy.42"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Sand_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Sand/A_Impact_Sand_Cue.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_TimeBolt",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 1.0,
+      "CollisionRadius": 25.0,
+      "Speed": 10000.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 50.0,
+      "ExplosionDamage": 60.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Dagger'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Dagger/FX_Projectile_Dagger.38"
+      }
+    }
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "CrabWeaponDA",
+    "Name": "DA_Weapon_IceStaff",
+    "Class": "UScriptClass'CrabWeaponDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Pickup/Weapon/IceStaff/S_IceStaff.2"
+      },
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/IceStaff/DA_Projectile_IceStaff.0"
+      },
+      "StartingWeaponMod": {
+        "WeaponModDA": {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_IceShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_IceShot.0"
+        }
+      },
+      "CrosshairType": "ECrabCrosshairType::Circle",
+      "ShotSpawnType": "ECrabShotSpawnType::AboveCrosshair",
+      "WeaponModTriggerRollMultiplier": 3.5,
+      "BaseSpread": 1.0,
+      "FiringSpreadIncrement": 0.5,
+      "AimingSpreadMultiplier": 0.33,
+      "VerticalRecoil": 0.0,
+      "HorizontalRecoil": 0.0,
+      "BaseClipSize": 25,
+      "ReloadDuration": 1.25,
+      "EquipMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Generic_Equip'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Generic_Equip.0"
+      },
+      "EquipSound": {
+        "ObjectName": "SoundCue'A_Foley_Equip_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Equip/A_Foley_Equip_Cue.0"
+      },
+      "CosmeticFX": {
+        "ObjectName": "NiagaraSystem'FX_Cosmetic_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/Cosmetic/FX_Cosmetic_IceStaff.33"
+      },
+      "FireMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Rifle_Fire'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Rifle_Fire.0"
+      },
+      "MuzzleFlashFX": {
+        "ObjectName": "NiagaraSystem'FX_MuzzleFlash_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/MuzzleFlash/FX_MuzzleFlash_IceStaff.34"
+      },
+      "GunshotSound": {
+        "ObjectName": "SoundCue'A_Gunshot_IceStaff_Short'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/IceStaff/A_Gunshot_IceStaff_Short.0"
+      },
+      "LowAmmoSound": {
+        "ObjectName": "SoundCue'A_UI_LowAmmo'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_LowAmmo.0"
+      },
+      "EmptyClipSound": {
+        "ObjectName": "SoundCue'A_BulletShell_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Shell/A_BulletShell_Cue.0"
+      },
+      "ReloadMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_IceStaff_Reload'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_IceStaff_Reload.0"
+      },
+      "MagOutSound": {
+        "ObjectName": "SoundCue'A_Reload_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/IceStaff/A_Reload_IceStaff.0"
+      },
+      "bRequiresUnlock": true,
+      "Name": "Ice Staff",
+      "Description": "Rains down icy shards from above",
+      "Icon": {
+        "ObjectName": "Texture2D'T_UI_Icon_OrbLauncher_Silhouette'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Weapon/T_UI_Icon_OrbLauncher_Silhouette.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "Tint": {
+        "R": 0.0,
+        "G": 0.25,
+        "B": 0.7,
+        "A": 1.0,
+        "Hex": "0089DA"
+      },
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/Pickup/FX_Pickup_IceStaff.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Portal_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Portal/Interact/A_Portal_Interact.0"
+      }
+    }
+  }
+]

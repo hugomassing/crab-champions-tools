@@ -1,0 +1,17 @@
+{
+  "id": "LaserCannons",
+  "gameId": "DA_Weapon_LaserCannons",
+  "name": "Laser Cannons",
+  "description": "High tech low recoil lasers",
+  "rarity": "Greed",
+  "stats": {
+    "fireRate": 16,
+    "clipSize": 50,
+    "reloadDuration": 1.25
+  },
+  "crosshairType": "Circle",
+  "projectileId": "DA_Projectile_LaserCannons",
+  "requiresUnlock": true,
+  "iconPath": "T_UI_Icon_Rifle_Silhouette",
+  "tintColor": "rgb(188, 255, 0)"
+}

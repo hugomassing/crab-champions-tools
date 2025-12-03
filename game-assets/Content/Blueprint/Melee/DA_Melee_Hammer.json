@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "CrabMeleeDA",
+    "Name": "DA_Melee_Hammer",
+    "Class": "UScriptClass'CrabMeleeDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Hammer'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Weapon/Placeholder/Hammer/S_Hammer.2"
+      },
+      "HitmarkerType": "ECrabHitmarkerType::Loud",
+      "Cooldown": 6.0,
+      "MeleeModDebuffMultiplier": 5.0,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_Melee_Hammer'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Melee/AM_Crab_Melee_Hammer.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Hammer_WindUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Melee/Hammer/FX_Hammer_WindUp.67"
+      },
+      "LaunchHeight": 5000.0,
+      "SlamDelay": 0.5,
+      "SlamSpeed": 4000.0,
+      "SlamMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Melee_HammerSlam'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Melee/AM_Crab_Melee_HammerSlam.0"
+      },
+      "SlamSelfKnockbackStrength": 2500.0,
+      "Range": 2500.0,
+      "Damage": 125.0,
+      "KnockbackStrength": 7500.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_Hammer_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_Hammer.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Hammer'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Hammer.139"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Hammer_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Hammer.0"
+      },
+      "bRequiresUnlock": true,
+      "Name": "Hammer",
+      "Description": "Slow but powerful",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Hammer'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Melee/T_Icon_Hammer.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "Tint": {
+        "R": 1.0,
+        "G": 0.025,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF2B00"
+      },
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Hammer'",
+        "ObjectPath": "CrabChampions/Content/FX/Melee/Pickup/FX_Pickup_Hammer.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      }
+    }
+  }
+]

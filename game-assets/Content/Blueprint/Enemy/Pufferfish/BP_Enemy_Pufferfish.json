@@ -1,0 +1,260 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Enemy_Pufferfish_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabEnemyC'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Enemy_Pufferfish_C'Default__BP_Enemy_Pufferfish_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.1"
+    }
+  },
+  {
+    "Type": "BP_Enemy_Pufferfish_C",
+    "Name": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.BP_Enemy_Pufferfish_C'",
+    "Properties": {
+      "HealthBarWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Enemy_Pufferfish_C:HealthBarWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.12"
+      },
+      "CapsuleScaleMultiplier": 3.0,
+      "ScaleMultiplier": 2.0,
+      "EnemySpawnSettings": {
+        "IslandToStartSpawningAt": 2,
+        "bIsExplosiveEnemy": true,
+        "SpawnCost": 125
+      },
+      "EnemyCategory": "ECrabEnemyCategory::Medium",
+      "EnemyName": "Pufferfish",
+      "HealthBarHeightOffset": 0.0,
+      "BannedEnemyBuffs": [
+        "ECrabEnemyBuff::Frenzied",
+        "ECrabEnemyBuff::Speedy",
+        "ECrabEnemyBuff::Shielded"
+      ],
+      "AISettings": {
+        "MovementType": "ECrabEnemyMovementType::MoveDirectlyToEnemy",
+        "TimeBetweenActionsMin": 0.25,
+        "TimeBetweenActionsMax": 0.25
+      },
+      "ActionDAs": [
+        {
+          "ObjectName": "CrabProximityExplodeActionDA'DA_Action_Pufferfish_ProximityExplode'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/DA_Action_Pufferfish_ProximityExplode.0"
+        }
+      ],
+      "HealthBarUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_GenericHealthBar_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_GenericHealthBar_OLD.0"
+      },
+      "EnemySpawnFX": {
+        "ObjectName": "NiagaraSystem'FX_Spawn'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Spawn/FX_Spawn.22"
+      },
+      "EnemySpawnSound": {
+        "ObjectName": "SoundCue'A_Pufferfish'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Pufferfish/A_Pufferfish.0"
+      },
+      "GibFX": {
+        "ObjectName": "NiagaraSystem'FX_Gib_Slug'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Gib/FX_Gib_Slug.72"
+      },
+      "GibSound": {
+        "ObjectName": "SoundCue'A_Slug_Explode_Cue_OLD'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Slug/Explode/Old/A_Slug_Explode_Cue_OLD.0"
+      },
+      "HC": {
+        "ObjectName": "CrabHC'Default__BP_Enemy_Pufferfish_C:HC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.5"
+      },
+      "DebuffNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_Pufferfish_C:DebuffNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.7"
+      },
+      "DebuffAC": {
+        "ObjectName": "AudioComponent'Default__BP_Enemy_Pufferfish_C:DebuffAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.2"
+      },
+      "ChainLightningNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_Pufferfish_C:ChainLightningNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.6"
+      },
+      "MeshToSpawn": {
+        "ObjectName": "SkeletalMesh'SK_Pufferfish'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Pufferfish/SK_Pufferfish.0"
+      },
+      "MeshMat": {
+        "ObjectName": "Material'M_Pufferfish'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Pufferfish/M_Pufferfish.0"
+      },
+      "AnimationBlueprintToUse": {
+        "ObjectName": "AnimBlueprintGeneratedClass'AnimBP_SK_Pufferfish_C'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Pufferfish/AnimBP_SK_Pufferfish.3"
+      },
+      "Tint": {
+        "R": 1.0,
+        "G": 0.025,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF2B00"
+      },
+      "DebuffFX": {
+        "ObjectName": "NiagaraSystem'FX_Debuff_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Debuff/FX_Debuff_Enemy.136"
+      },
+      "BaseWalkSpeed": 1250.0,
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Pufferfish_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.11"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CrabCMC'Default__BP_Enemy_Pufferfish_C:CharMoveComp'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Pufferfish_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Pufferfish_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.3"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DebuffAC",
+    "Outer": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Pufferfish_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.11"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CrabCMC",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'CrabCMC'"
+  },
+  {
+    "Type": "CrabHC",
+    "Name": "HC",
+    "Outer": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'CrabHC'",
+    "Properties": {
+      "BaseMaxHealth": 75.0
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChainLightningNC",
+    "Outer": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Pufferfish_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.11"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "DebuffNC",
+    "Outer": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Pufferfish_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.11"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Enemy_Pufferfish_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.8"
+      },
+      "VariableGuid": "07A6815F-4F7A2261-EEBB22AB-DCB5E81A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Enemy_Pufferfish_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Pufferfish_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "HealthBarWC",
+    "Outer": "Default__BP_Enemy_Pufferfish_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_Pufferfish_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/BP_Enemy_Pufferfish.3"
+      }
+    }
+  }
+]

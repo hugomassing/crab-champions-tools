@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_EliteBeamSkull_Homing",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 4.0,
+      "CollisionRadius": 100.0,
+      "Speed": 2500.0,
+      "MaxSpeed": 10000.0,
+      "HomingScale": 4.0,
+      "HomingDelay": 1.5,
+      "HomingAccelerationScale": 1.25,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 125.0,
+      "ExplosionDamage": 15.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_EliteEnemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Enemy/FX_Projectile_EliteEnemy.28"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Enemy.42"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/IceStaff/A_Impact_IceStaff.0"
+      }
+    }
+  }
+]

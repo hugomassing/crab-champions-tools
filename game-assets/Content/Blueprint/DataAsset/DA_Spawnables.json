@@ -1,0 +1,2277 @@
+[
+  {
+    "Type": "CrabSpawnablesDA",
+    "Name": "DA_Spawnables",
+    "Class": "UScriptClass'CrabSpawnablesDA'",
+    "Properties": {
+      "IceMat": {
+        "ObjectName": "MaterialInstanceConstant'MI_IceRock'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Destructible/Rock/MI_IceRock.0"
+      },
+      "IceSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Ice_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Ice_Cue.0"
+      },
+      "IceThawFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Ice'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Ice.64"
+      },
+      "FireSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Fire_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Fire_Cue.0"
+      },
+      "LightningSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Lightning_Cue_OLD'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Lightning_Cue_OLD.0"
+      },
+      "ChainLightningFX": {
+        "ObjectName": "NiagaraSystem'FX_ChainLightning'",
+        "ObjectPath": "CrabChampions/Content/FX/Debuff/Lightning/FX_ChainLightning.12"
+      },
+      "PoisonSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Poison_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Poison_Cue.0"
+      },
+      "ArcaneFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Bomb'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Bomb.70"
+      },
+      "ArcaneSound": {
+        "ObjectName": "SoundCue'A_Explosion_Arcane_Small'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Arcane/A_Explosion_Arcane_Small.0"
+      },
+      "ShieldBreakFX": {
+        "ObjectName": "NiagaraSystem'FX_ShieldBreak'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_ShieldBreak.77"
+      },
+      "ShieldBreakSound": {
+        "ObjectName": "SoundCue'A_Explosion_Crystal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Crystal/A_Explosion_Crystal.0"
+      },
+      "GenericExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Medium.73"
+      },
+      "GenericExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Generic_Large_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Generic/Large/A_Explosion_Generic_Large_Cue.0"
+      },
+      "IceExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Ice'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Ice.64"
+      },
+      "IceExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Ice_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Ice_Cue.0"
+      },
+      "FireExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Fire'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Fire.63"
+      },
+      "FireExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Fire_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Fire_Cue.0"
+      },
+      "LightningExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Lightning'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Lightning.63"
+      },
+      "LightningExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Lightning_Cue_OLD'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Lightning_Cue_OLD.0"
+      },
+      "PoisonExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Poison'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Poison.86"
+      },
+      "PoisonExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Poison_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Poison_Cue.0"
+      },
+      "Weapons": [
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_DualPistols'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/DualPistols/DA_Weapon_DualPistols.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_AutoRifle'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/AutoRifle/DA_Weapon_AutoRifle.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_DualShotguns'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/DualShotguns/DA_Weapon_DualShotguns.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_AutoShotgun'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/AutoShotgun/DA_Weapon_AutoShotgun.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_BurstPistol'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/BurstPistol/DA_Weapon_BurstPistol.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_Sniper'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/Sniper/DA_Weapon_Sniper.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_Crossbow'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/Crossbow/DA_Weapon_Crossbow.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_OrbLauncher'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/OrbLauncher/DA_Weapon_OrbLauncher.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_RocketLauncher'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/RocketLauncher/DA_Weapon_RocketLauncher.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_Minigun'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/Minigun/DA_Weapon_Minigun.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_BladeLauncher'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/BladeLauncher/DA_Weapon_BladeLauncher.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_ClusterLauncher'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/ClusterLauncher/DA_Weapon_ClusterLauncher.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_Flamethrower'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/Flamethrower/DA_Weapon_Flamethrower.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_ArcaneWand'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/ArcaneWand/DA_Weapon_ArcaneWand.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_LaserCannons'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/LaserCannons/DA_Weapon_LaserCannons.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_Seagle'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/Seagle/DA_Weapon_Seagle.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_MarksmanRifle'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/MarksmanRifle/DA_Weapon_MarksmanRifle.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_IceStaff'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/IceStaff/DA_Weapon_IceStaff.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_LightningScepter'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/LightningScepter/DA_Weapon_LightningScepter.0"
+        },
+        {
+          "ObjectName": "CrabWeaponDA'DA_Weapon_PoisonCannon'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/PoisonCannon/DA_Weapon_PoisonCannon.0"
+        }
+      ],
+      "Abilities": [
+        {
+          "ObjectName": "CrabAbilityDA'DA_Ability_Grenade'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Ability/DA_Ability_Grenade.0"
+        },
+        {
+          "ObjectName": "CrabAbilityDA'DA_Ability_GrapplingHook'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Ability/DA_Ability_GrapplingHook.0"
+        },
+        {
+          "ObjectName": "CrabAbilityDA'DA_Ability_BlackHole'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Ability/DA_Ability_BlackHole.0"
+        },
+        {
+          "ObjectName": "CrabAbilityDA'DA_Ability_LaserBeam'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Ability/DA_Ability_LaserBeam.0"
+        },
+        {
+          "ObjectName": "CrabAbilityDA'DA_Ability_IceBlast'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Ability/DA_Ability_IceBlast.0"
+        },
+        {
+          "ObjectName": "CrabAbilityDA'DA_Ability_ElectroGlobe'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Ability/DA_Ability_ElectroGlobe.0"
+        },
+        {
+          "ObjectName": "CrabAbilityDA'DA_Ability_AirStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Ability/DA_Ability_AirStrike.0"
+        }
+      ],
+      "MeleeWeapons": [
+        {
+          "ObjectName": "CrabMeleeDA'DA_Melee_Claw'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Melee/DA_Melee_Claw.0"
+        },
+        {
+          "ObjectName": "CrabMeleeDA'DA_Melee_Dagger'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Melee/DA_Melee_Dagger.0"
+        },
+        {
+          "ObjectName": "CrabMeleeDA'DA_Melee_Hammer'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Melee/DA_Melee_Hammer.0"
+        },
+        {
+          "ObjectName": "CrabMeleeDA'DA_Melee_Pickaxe'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Melee/DA_Melee_Pickaxe.0"
+        },
+        {
+          "ObjectName": "CrabMeleeDA'DA_Melee_Katana'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Melee/DA_Melee_Katana.0"
+        }
+      ],
+      "WeaponMods": [
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_DoubleShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_DoubleShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_BouncingShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_BouncingShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_AcceleratingShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_AcceleratingShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ZigZagShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_ZigZagShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SpiralShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_SpiralShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SnakeShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_SnakeShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ChaoticShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_ChaoticShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_BoomerangShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_BoomerangShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_OrbitingShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_OrbitingShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_RecoilShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_RecoilShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_FastShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_FastShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_KnockbackShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_KnockbackShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_BigMag'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_BigMag.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_HighCaliber'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_HighCaliber.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_WindUp'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_WindUp.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SteadyShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_SteadyShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_TrickShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_TrickShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_GripTape'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_GripTape.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_BlindFire'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_BlindFire.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_TimeShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_TimeShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_TimeBolt'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_TimeBolt.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_UltraShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_UltraShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SharpShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_SharpShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_GlueShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_GlueShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_BigShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_BigShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_StreakShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_StreakShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_MagShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_MagShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_HeavyShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_HeavyShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_HeavyHitter'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_HeavyHitter.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_RapidFire'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_RapidFire.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_EscalatingShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_EscalatingShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_IceShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_IceShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_FireShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_FireShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_LightningShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_LightningShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_PoisonShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_PoisonShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ArcaneShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_ArcaneShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_RandomShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_RandomShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_EfficientShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_EfficientShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ReloadArc'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_ReloadArc.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SonicBoom'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_SonicBoom.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_TripleShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_TripleShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ArcShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_ArcShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_XShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_XShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ScatterShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_ScatterShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_TargetingShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_TargetingShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_LinkShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_LinkShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_DrillShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_DrillShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_DoubleTap'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_DoubleTap.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_HealthShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_HealthShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_MoneyShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_MoneyShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_DamageShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_DamageShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_Supercharged'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_Supercharged.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_Juiced'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_Juiced.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_AuraShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_AuraShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_PiercingShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_PiercingShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_BubbleShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_BubbleShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_PumpkinShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_PumpkinShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_DaggerArc'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_DaggerArc.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_PiercingWave'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_PiercingWave.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ArcaneBlast'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_ArcaneBlast.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ShotgunBlast'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_ShotgunBlast.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_MaceShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_MaceShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_FireworkShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_FireworkShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ThornShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Epic/DA_WeaponMod_ThornShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_Firepower'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_Firepower.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SquareShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_SquareShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SplitShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_SplitShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_HomingShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_HomingShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SplashDamage'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_SplashDamage.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SparkShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_SparkShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_ProximityBarrage'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_ProximityBarrage.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_HomingBlades'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_HomingBlades.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_BombShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_BombShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_LandmineShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_LandmineShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_TorpedoShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_TorpedoShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_FireballShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_FireballShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SharpenedAxe'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_SharpenedAxe.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_TriangleShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_TriangleShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_BeamShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_BeamShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SporeShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_SporeShot.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_IceStorm'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_IceStorm.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_FireStorm'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_FireStorm.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_LightningStorm'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_LightningStorm.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_PoisonStorm'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_PoisonStorm.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_IceStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_IceStrike.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_FireStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_FireStrike.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_LightningStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_LightningStrike.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_PoisonStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_PoisonStrike.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_SpikeStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_SpikeStrike.0"
+        },
+        {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_DiceShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Legendary/DA_WeaponMod_DiceShot.0"
+        }
+      ],
+      "AbilityMods": [
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_GlueExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Common/DA_AbilityMod_GlueExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_ChaoticExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Common/DA_AbilityMod_ChaoticExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_BigAbility'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Common/DA_AbilityMod_BigAbility.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_IronExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Common/DA_AbilityMod_IronExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_TimeExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Common/DA_AbilityMod_TimeExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_ImplodingExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Common/DA_AbilityMod_ImplodingExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_BiggerBoom'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Common/DA_AbilityMod_BiggerBoom.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_HeatSink'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Common/DA_AbilityMod_HeatSink.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_BouncingExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_BouncingExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_DamageExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_DamageExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_TripleAbility'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_TripleAbility.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_LayeredExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_LayeredExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_AuraExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_AuraExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_BubbleBlast'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_BubbleBlast.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_DaggerBlast'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_DaggerBlast.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_FireworkExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_FireworkExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_ThornExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_ThornExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_SparkExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_SparkExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_BarrelExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_BarrelExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_LandmineExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_LandmineExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_GiantDrill'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_GiantDrill.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_SentryTurret'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_SentryTurret.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_SniperTurret'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_SniperTurret.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_Grenadier'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Epic/DA_AbilityMod_Grenadier.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_SplitAbility'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_SplitAbility.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_TargetingExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_TargetingExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_CloneExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_CloneExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_BombExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_BombExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_SpinningBlade'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_SpinningBlade.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_SporeExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_SporeExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_UltraMushroom'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_UltraMushroom.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_ScytheVortex'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_ScytheVortex.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_CrystalBarrage'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_CrystalBarrage.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_EnergyRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_EnergyRing.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_IceExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_IceExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_FireExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_FireExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_LightningExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_LightningExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_PoisonExplosion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_PoisonExplosion.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_SpikeStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_SpikeStrike.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_CrystalStrike'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_CrystalStrike.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_MortarTurret'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_MortarTurret.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_WaveTurret'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_WaveTurret.0"
+        },
+        {
+          "ObjectName": "CrabAbilityModDA'DA_AbilityMod_BeamTurret'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/AbilityMod/Legendary/DA_AbilityMod_BeamTurret.0"
+        }
+      ],
+      "MeleeMods": [
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_Vampire'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Common/DA_MeleeMod_Vampire.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_BigClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Common/DA_MeleeMod_BigClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_SharpClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Common/DA_MeleeMod_SharpClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_IronClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Common/DA_MeleeMod_IronClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_TimeClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Common/DA_MeleeMod_TimeClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_Blender'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Common/DA_MeleeMod_Blender.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_IceClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Epic/DA_MeleeMod_IceClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_FireClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Epic/DA_MeleeMod_FireClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_LightningClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Epic/DA_MeleeMod_LightningClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_PoisonClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Epic/DA_MeleeMod_PoisonClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_ArcaneClaws'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Epic/DA_MeleeMod_ArcaneClaws.0"
+        },
+        {
+          "ObjectName": "CrabMeleeModDA'DA_MeleeMod_Brawler'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/MeleeMod/Greed/DA_MeleeMod_Brawler.0"
+        }
+      ],
+      "Perks": [
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Mango'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Mango.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Fortitude'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Fortitude.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_ValuedCustomer'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_ValuedCustomer.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_PersonalSpace'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_PersonalSpace.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Bullseye'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Bullseye.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Banana'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Banana.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Endurance'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Endurance.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Regenerator'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Regenerator.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Scavenger'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Scavenger.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Bulletproof'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Bulletproof.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_HardTarget'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_HardTarget.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Vitality'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Vitality.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_DamageCombo'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_DamageCombo.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_ElementalSpecialist'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_ElementalSpecialist.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_ElementalExpert'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_ElementalExpert.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Sharpshooter'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Sharpshooter.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_HotShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_HotShot.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_AntiCrit'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_AntiCrit.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_PowerPunch'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_PowerPunch.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CriticalThinking'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_CriticalThinking.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CriticalArrow'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_CriticalArrow.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_SpecialDelivery'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_SpecialDelivery.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_TonysBlackCard'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_TonysBlackCard.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_DangerClose'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_DangerClose.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_EagleEye'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_EagleEye.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_PowerArmor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_PowerArmor.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Equalizer'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Equalizer.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_SpeedDemon'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_SpeedDemon.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Stamina'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Stamina.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_ExplosiveArmor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_ExplosiveArmor.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_PoisonousArmor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_PoisonousArmor.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_HotSteam'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_HotSteam.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_BountyHunter'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_BountyHunter.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Slugger'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Slugger.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Magnify'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Magnify.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_IceCold'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_IceCold.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Firestarter'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Firestarter.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_HighVoltage'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_HighVoltage.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Toxic'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Toxic.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_PotentMagic'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_PotentMagic.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CrystalCombo'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_CrystalCombo.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Snatcher'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Snatcher.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Paycheck'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Paycheck.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CrystalFertilizer'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_CrystalFertilizer.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Driller'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_Driller.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_StreamerLoot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_StreamerLoot.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_EnhancedTurrets'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Common/DA_Perk_EnhancedTurrets.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_DamageAura'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_DamageAura.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_IceAura'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_IceAura.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_FireAura'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_FireAura.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_LightningAura'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_LightningAura.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_PoisonAura'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_PoisonAura.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_FlammableArmor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_FlammableArmor.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_OrbitingScythes'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_OrbitingScythes.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CrimsonHaze'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_CrimsonHaze.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_GrimReaper'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_GrimReaper.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_AmberResin'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_AmberResin.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Survivor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_Survivor.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Shockwave'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_Shockwave.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_SilverLining'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_SilverLining.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_TastyOrange'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_TastyOrange.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Checklist'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_Checklist.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Assassin'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_Assassin.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Gemstone'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_Gemstone.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Collector'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_Collector.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_MoneyIsPower'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_MoneyIsPower.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_HealthIsPower'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_HealthIsPower.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_SpeedIsPower'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_SpeedIsPower.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_MegaCrit'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_MegaCrit.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CriticalBlast'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_CriticalBlast.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_ExplodingEnemies'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_ExplodingEnemies.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_AllYouCanEat'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_AllYouCanEat.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_BigChests'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_BigChests.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_PerformanceBonus'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_PerformanceBonus.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_DoubleVision'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_DoubleVision.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_TotemEnthusiast'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_TotemEnthusiast.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_SturdyTotems'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_SturdyTotems.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_BonusCrystals'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_BonusCrystals.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_GoldCoating'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Epic/DA_Perk_GoldCoating.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_RareTreasure'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_RareTreasure.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_FreezingEnemies'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_FreezingEnemies.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_FlammableEnemies'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_FlammableEnemies.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_ElectricEnemies'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_ElectricEnemies.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_PoisonousEnemies'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_PoisonousEnemies.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_FaultyChests'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_FaultyChests.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CrystalAsteroids'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_CrystalAsteroids.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_BonusChests'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_BonusChests.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CarePackage'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_CarePackage.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_LevelUp'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_LevelUp.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_CriticalLightning'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_CriticalLightning.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_IceDash'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_IceDash.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_LightningDash'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_LightningDash.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_DaggerDash'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_DaggerDash.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Powerslide'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Legendary/DA_Perk_Powerslide.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_LeapOfFaith'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_LeapOfFaith.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Bribe'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_Bribe.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_DoubleTrouble'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_DoubleTrouble.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Juggernaut'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_Juggernaut.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_BigBones'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_BigBones.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_GlassCannon'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_GlassCannon.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_DamageSeeker'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_DamageSeeker.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_BruteForce'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_BruteForce.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_UpTheAnte'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_UpTheAnte.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_SlipperySlope'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_SlipperySlope.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_Workaholic'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_Workaholic.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_RisingStar'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_RisingStar.0"
+        },
+        {
+          "ObjectName": "CrabPerkDA'DA_Perk_LimitedLoot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Perk/Greed/DA_Perk_LimitedLoot.0"
+        }
+      ],
+      "Relics": [
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfVigor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_RingOfVigor.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfHealing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_RingOfHealing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfArmor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_RingOfArmor.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfHealthyTurrets'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_RingOfHealthyTurrets.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_AdrenalineAmulet'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_AdrenalineAmulet.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_Icebreaker'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_Icebreaker.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfDestruction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_RingOfDestruction.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_PortalRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_PortalRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfReloading'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_RingOfReloading.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_CoralAmulet'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_CoralAmulet.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_BlacksmithAmulet'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_BlacksmithAmulet.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_ComboRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_ComboRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_TonysAmulet'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Common/DA_Relic_TonysAmulet.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_EtherealArmor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_EtherealArmor.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfReinforcement'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfReinforcement.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfDefense'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfDefense.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfDeflection'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfDeflection.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_FullMetalJacket'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_FullMetalJacket.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfRepulsion'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfRepulsion.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfPower'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfPower.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_TimeRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_TimeRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfFury'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfFury.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfWisdom'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfWisdom.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfPrecision'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfPrecision.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_IceRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_IceRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_FireRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_FireRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_LightningRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_LightningRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_PoisonRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_PoisonRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_ArcaneRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_ArcaneRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_TurboRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_TurboRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_AmmoRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_AmmoRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfRocketJumping'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfRocketJumping.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_SkillRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_SkillRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_DuplicationRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_DuplicationRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_BlacksmithRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_BlacksmithRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfDividends'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfDividends.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfValue'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfValue.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfPotential'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Epic/DA_Relic_RingOfPotential.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfRegeneratingArmor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Legendary/DA_Relic_RingOfRegeneratingArmor.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfProtection'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Legendary/DA_Relic_RingOfProtection.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfSwiftness'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Legendary/DA_Relic_RingOfSwiftness.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfGravity'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Legendary/DA_Relic_RingOfGravity.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfLuck'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Legendary/DA_Relic_RingOfLuck.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_PortalAmulet'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Legendary/DA_Relic_PortalAmulet.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_AbilityRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Legendary/DA_Relic_AbilityRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_TwinRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Legendary/DA_Relic_TwinRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfTankiness'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Greed/DA_Relic_RingOfTankiness.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_OverspillGoblet'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Greed/DA_Relic_OverspillGoblet.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_TriggerRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Greed/DA_Relic_TriggerRing.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_RingOfFavoritism'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Greed/DA_Relic_RingOfFavoritism.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_HighRoller'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Greed/DA_Relic_HighRoller.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_HoarderBackpack'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Greed/DA_Relic_HoarderBackpack.0"
+        },
+        {
+          "ObjectName": "CrabRelicDA'DA_Relic_UpgradeRing'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Relic/Greed/DA_Relic_UpgradeRing.0"
+        }
+      ],
+      "Consumables": [
+        {
+          "ObjectName": "CrabConsumableDA'DA_Consumable_Armor'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Consumable/Common/DA_Consumable_Armor.0"
+        },
+        {
+          "ObjectName": "CrabConsumableDA'DA_Consumable_CrystalBundle'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Consumable/Common/DA_Consumable_CrystalBundle.0"
+        },
+        {
+          "ObjectName": "CrabConsumableDA'DA_Consumable_Key'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Consumable/Common/DA_Consumable_Key.0"
+        },
+        {
+          "ObjectName": "CrabConsumableDA'DA_Consumable_DoubleKey'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Consumable/Epic/DA_Consumable_DoubleKey.0"
+        },
+        {
+          "ObjectName": "CrabConsumableDA'DA_Consumable_QuadKey'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Consumable/Legendary/DA_Consumable_QuadKey.0"
+        }
+      ],
+      "HealthPickup": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Pickup_Health_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Health/BP_Pickup_Health.0"
+      },
+      "ScavengerHealthPickup": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Pickup_ScavengerHealth_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Health/BP_Pickup_ScavengerHealth.0"
+      },
+      "CrystalPickup": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Pickup_Crystal_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.0"
+      },
+      "BananaAmbienceFX": {
+        "ObjectName": "NiagaraSystem'FX_Ambience_Banana'",
+        "ObjectPath": "CrabChampions/Content/FX/Ambience/FX_Ambience_Banana.37"
+      },
+      "CriticalBlastFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_CriticalBlast'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_CriticalBlast.49"
+      },
+      "CriticalBlastSound": {
+        "ObjectName": "SoundCue'A_Explosion_Small'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Small/A_Explosion_Small.0"
+      },
+      "TimeBoltDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_TimeBolt'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_TimeBolt.0"
+      },
+      "UltraShotDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_UltraShot'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_UltraShot.0"
+      },
+      "ReloadArcDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_ReloadArc'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_ReloadArc.0"
+      },
+      "LinkDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Link'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Link.0"
+      },
+      "DrillDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Drill'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Drill.0"
+      },
+      "BubbleDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Bubble'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Bubble.0"
+      },
+      "PumpkinDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Pumpkin'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Pumpkin.0"
+      },
+      "DaggerDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Dagger'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Dagger.0"
+      },
+      "PiercingWaveDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_PiercingWave'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_PiercingWave.0"
+      },
+      "ArcaneBlastDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_ArcaneBlast'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_ArcaneBlast.0"
+      },
+      "ShotgunDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Shotgun'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Shotgun.0"
+      },
+      "MaceBallDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_MaceBall'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_MaceBall.0"
+      },
+      "FireworkDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Firework'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Firework.0"
+      },
+      "ThornDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Thorn'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Thorn.0"
+      },
+      "BeamDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Beam'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Beam.0"
+      },
+      "SparkDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Spark'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Spark.0"
+      },
+      "ProximityBarrageDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_ProximityBarrage'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_ProximityBarrage.0"
+      },
+      "HomingBladeDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_HomingBlade'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_HomingBlade.0"
+      },
+      "BombDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Bomb'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Bomb.0"
+      },
+      "TorpedoDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Torpedo'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Torpedo.0"
+      },
+      "FireballDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Fireball'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Fireball.0"
+      },
+      "SharpenedAxeDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_SharpenedAxe'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_SharpenedAxe.0"
+      },
+      "TriangleDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Triangle'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Triangle.0"
+      },
+      "SpinningBladeDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_SpinningBlade'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_SpinningBlade.0"
+      },
+      "ScytheDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Scythe'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Scythe.0"
+      },
+      "BarrelRainBarrel": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_ExplosiveBarrel_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_ExplosiveBarrel.0"
+      },
+      "LandmineRainLandmine": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Landmine_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/BP_Destructible_Landmine.0"
+      },
+      "Landmine": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_LandmineShot_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/BP_Destructible_LandmineShot.0"
+      },
+      "HomingBarrel": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_HomingBarrel_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_HomingBarrel.0"
+      },
+      "SporeMushroom": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_SporeMushroom_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/BP_Destructible_SporeMushroom.0"
+      },
+      "UltraMushroom": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_UltraMushroom_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/BP_Destructible_UltraMushroom.0"
+      },
+      "CrimsonHazeDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_CrimsonHaze_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_CrimsonHaze.0"
+      },
+      "GiantDrillDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_GiantDrill_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_GiantDrill.0"
+      },
+      "ScytheVortexDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_ScytheVortex_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_ScytheVortex.0"
+      },
+      "CrystalBarrageDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_CrystalBarrage_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_CrystalBarrage.0"
+      },
+      "EnergyRingDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_EnergyRing_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_EnergyRing.0"
+      },
+      "IceStormDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_IceStorm_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_IceStorm.0"
+      },
+      "FireStormDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_FireStorm_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_FireStorm.0"
+      },
+      "LightningStormDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_LightningStorm_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_LightningStorm.0"
+      },
+      "PoisonStormDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_PoisonStorm_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_PoisonStorm.0"
+      },
+      "IceExplosionDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_IceExplosion_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_IceExplosion.0"
+      },
+      "FireExplosionDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_FireExplosion_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_FireExplosion.0"
+      },
+      "LightningExplosionDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_LightningExplosion_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_LightningExplosion.0"
+      },
+      "PoisonExplosionDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_PoisonExplosion_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_PoisonExplosion.0"
+      },
+      "MeteorShowerStrike": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_MeteorShower_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_MeteorShower.0"
+      },
+      "CriticalArrow": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_CriticalArrow_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalArrow.0"
+      },
+      "IceStrike": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_Ice_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Ice.0"
+      },
+      "FireStrike": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_Fire_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Fire.0"
+      },
+      "LightningStrike": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_Lightning_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Lightning.0"
+      },
+      "PoisonStrike": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_Poison_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Poison.0"
+      },
+      "SpikeStrike": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_Spike_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Spike.0"
+      },
+      "CrystalStrike": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_Crystal_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Crystal.0"
+      },
+      "CriticalLightning": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_CriticalLightning_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalLightning.0"
+      },
+      "HealFX": {
+        "ObjectName": "NiagaraSystem'FX_Heal'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/FX_Heal.22"
+      },
+      "HealSound": {
+        "ObjectName": "SoundCue'A_Heal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Bunnyhop/A_Heal.0"
+      },
+      "MaxHealthUpFX": {
+        "ObjectName": "NiagaraSystem'FX_MaxHealthUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/FX_MaxHealthUp.22"
+      },
+      "MaxHealthUpSound": {
+        "ObjectName": "SoundCue'A_Heal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Bunnyhop/A_Heal.0"
+      },
+      "IceAuraFX": {
+        "ObjectName": "NiagaraSystem'FX_IceAura'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/Perk/FX_IceAura.15"
+      },
+      "IceAuraSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Ice_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Ice_Cue.0"
+      },
+      "FireAuraFX": {
+        "ObjectName": "NiagaraSystem'FX_FireAura'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/Perk/FX_FireAura.15"
+      },
+      "FireAuraSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Fire_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Fire_Cue.0"
+      },
+      "LightningAuraFX": {
+        "ObjectName": "NiagaraSystem'FX_LightningAura'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/Perk/FX_LightningAura.15"
+      },
+      "LightningAuraSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Lightning_Cue_OLD'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Lightning_Cue_OLD.0"
+      },
+      "PoisonAuraFX": {
+        "ObjectName": "NiagaraSystem'FX_PoisonAura'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/Perk/FX_PoisonAura.15"
+      },
+      "PoisonAuraSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Poison_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Poison_Cue.0"
+      },
+      "RareTreasureFX": {
+        "ObjectName": "NiagaraSystem'FX_RareTreasure'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Spawn/FX_RareTreasure.38"
+      },
+      "RareTreasureSound": {
+        "ObjectName": "SoundCue'A_UI_Buff'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/A_UI_Buff.0"
+      },
+      "ExplodingEnemiesFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Medium.73"
+      },
+      "ExplodingEnemiesSound": {
+        "ObjectName": "SoundCue'A_Explosion_Small'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Small/A_Explosion_Small.0"
+      },
+      "IceDashFX": {
+        "ObjectName": "NiagaraSystem'FX_IceAura'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/Perk/FX_IceAura.15"
+      },
+      "IceDashSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Ice_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Ice_Cue.0"
+      },
+      "LightningDashFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Lightning'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Lightning.63"
+      },
+      "LightningDashSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Lightning_Cue_OLD'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Lightning_Cue_OLD.0"
+      },
+      "PowerslideFX": {
+        "ObjectName": "NiagaraSystem'FX_Powerslide'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/Perk/FX_Powerslide.27"
+      },
+      "LobbyPhysicsCrown": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PhysicsActor_Crown_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Crown.0"
+      },
+      "SentryTurret": {
+        "ObjectName": "BlueprintGeneratedClass'BP_SentryTurret_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Turret/Sentry/BP_SentryTurret.0"
+      },
+      "SniperTurret": {
+        "ObjectName": "BlueprintGeneratedClass'BP_SniperTurret_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Turret/Sniper/BP_SniperTurret.0"
+      },
+      "MortarTurret": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MortarTurret_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Turret/Mortar/BP_MortarTurret.0"
+      },
+      "WaveTurret": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WaveTurret_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Turret/Wave/BP_WaveTurret.0"
+      },
+      "BeamTurret": {
+        "ObjectName": "BlueprintGeneratedClass'BP_BeamTurret_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Turret/Beam/BP_BeamTurret.0"
+      },
+      "IslandTotems": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Crystal_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Crystal.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Loot_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Loot.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Gold_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Gold.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Glass_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Glass.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Fuse_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Fuse.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Greed_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Greed.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Chance_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Chance.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Gamble_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Gamble.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Random_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Random.0"
+        }
+      ],
+      "ShopTotems": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Upgrade_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Upgrade.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Enhancement_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Enhancement.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Health_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Health.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Crystal_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Crystal.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Loot_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Loot.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Gold_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Gold.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Greed_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Greed.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Chance_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Chance.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Gamble_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Gamble.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Totem_Random_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Random.0"
+        }
+      ],
+      "ContractTotem": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Totem_Contract_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.0"
+      },
+      "XLTotem": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Totem_XL_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_XL.0"
+      },
+      "RerollTotem": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Totem_Reroll_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Reroll.0"
+      },
+      "IncreaseChallengeGauntlet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Gauntlet_IncreaseChallenge_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_IncreaseChallenge.0"
+      },
+      "EndIslandGauntlet": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Gauntlet_EndIsland_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Gauntlet/BP_Gauntlet_EndIsland.0"
+      },
+      "EnemyMirroredProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Mirrored'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Mirrored.0"
+      },
+      "EnemyShrapnelProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Shrapnel'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Shrapnel.0"
+      },
+      "EnemyHomingThornDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_EnemyHomingThorn'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_EnemyHomingThorn.0"
+      },
+      "EnemyHomingBarrel": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_EnemyHomingBarrel_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_EnemyHomingBarrel.0"
+      },
+      "EnemyIceDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_IceRock_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_IceRock.0"
+      },
+      "EnemyFireDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_FireEnemy_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_FireEnemy.0"
+      },
+      "EnemyLightningDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_LightningRock_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_LightningRock.0"
+      },
+      "EnemyPoisonDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_PoisonEnemy_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_PoisonEnemy.0"
+      },
+      "EnemyEnergyRingDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_EnemyEnergyRing_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_EnemyEnergyRing.0"
+      },
+      "EnemySpikeStrike": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_EnemySpike_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_EnemySpike.0"
+      },
+      "FreezingGroundDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_FreezingGround_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_FreezingGround.0"
+      },
+      "BurningGroundDamageArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_BurningGround_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_BurningGround.0"
+      },
+      "RevivalHarvestArea": {
+        "ObjectName": "BlueprintGeneratedClass'BP_HarvestArea_Revival_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_Revival.0"
+      },
+      "HarvestAreas": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_HarvestArea_TEST_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.0"
+        }
+      ],
+      "DemolitionDestructibles": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Nest_TEST_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/BP_Destructible_Nest_TEST.0"
+        }
+      ],
+      "ParkourDestructibles": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_CrystalShard_Small_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/BP_Destructible_CrystalShard_Small.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_CrystalShard_Large_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/BP_Destructible_CrystalShard_Large.0"
+        }
+      ],
+      "HealthRock": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_HealthRock_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Rock/BP_Destructible_HealthRock.0"
+      },
+      "CrystalAsteroid": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_CrystalAsteroid_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/BP_Destructible_CrystalAsteroid.0"
+      },
+      "RewardSpawnPoint": {
+        "ObjectName": "BlueprintGeneratedClass'BP_SpawnPoint_Reward_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/SpawnPoint/BP_SpawnPoint_Reward.0"
+      },
+      "DamageChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Damage_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Damage.0"
+      },
+      "CriticalChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Critical_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Critical.0"
+      },
+      "ElementalChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Elemental_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Elemental.0"
+      },
+      "SpeedChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Speed_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Speed.0"
+      },
+      "LuckChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Luck_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Luck.0"
+      },
+      "HealthChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Health_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Health.0"
+      },
+      "EconomyChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Economy_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Economy.0"
+      },
+      "SkillChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Skill_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Skill.0"
+      },
+      "GreedChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Greed_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Greed.0"
+      },
+      "UpgradeChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Upgrade_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Upgrade.0"
+      },
+      "RandomChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Random_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Random.0"
+      },
+      "Anvil": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Anvil_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.0"
+      },
+      "RelicChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Relic_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Relic.0"
+      },
+      "SpikedChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Spiked_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Spiked.0"
+      },
+      "EpicChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Epic_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Epic.0"
+      },
+      "LegendaryChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Legendary_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Legendary.0"
+      },
+      "RegenerationChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Regeneration_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Regeneration.0"
+      },
+      "KeyChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Key_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Key.0"
+      },
+      "SecretChest": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Chest_Secret_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Chest/BP_Chest_Secret.0"
+      },
+      "CommonPickupSound": {
+        "ObjectName": "SoundCue'A_Crab_Pickup_Common'",
+        "ObjectPath": "CrabChampions/Content/Audio/Pickup/Old/A_Crab_Pickup_Common.0"
+      },
+      "EpicPickupSound": {
+        "ObjectName": "SoundCue'A_Crab_Pickup_Epic'",
+        "ObjectPath": "CrabChampions/Content/Audio/Pickup/Old/A_Crab_Pickup_Epic.0"
+      },
+      "LegendaryPickupSound": {
+        "ObjectName": "SoundCue'A_Crab_Pickup_Legendary'",
+        "ObjectPath": "CrabChampions/Content/Audio/Pickup/Old/A_Crab_Pickup_Legendary.0"
+      },
+      "StreamerLootUpgradePickupSound": {
+        "ObjectName": "SoundCue'A_StreamerLoot_TEMP'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Combo/A_StreamerLoot_TEMP.0"
+      },
+      "PurchaseSound": {
+        "ObjectName": "SoundCue'A_Purchase'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Purchase/A_Purchase.0"
+      },
+      "BossMusic": {
+        "ObjectName": "SoundCue'A_Music_Boss'",
+        "ObjectPath": "CrabChampions/Content/Audio/Music/A_Music_Boss.0"
+      },
+      "VictoryMusic": {
+        "ObjectName": "SoundCue'A_Music_Victory'",
+        "ObjectPath": "CrabChampions/Content/Audio/Music/A_Music_Victory.0"
+      },
+      "ShopPedestal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ShopPedestal_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_ShopPedestal.0"
+      },
+      "InfiniteShopPedestal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_InfiniteShopPedestal_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_InfiniteShopPedestal.0"
+      },
+      "TargetDummy": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Enemy_TargetDummy_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/TargetDummy/BP_Enemy_TargetDummy.0"
+      },
+      "ImmortalSnail": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Enemy_ImmortalSnail_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/ImmortalSnail/BP_Enemy_ImmortalSnail.0"
+      },
+      "Starfish": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Starfish_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Starfish/BP_Enemy_Starfish.0"
+      },
+      "FindSafeSpawnLocsEnvQuery": {
+        "ObjectName": "EnvQuery'EQS_FindSafeSpawnLocs'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/EQS/EQS_FindSafeSpawnLocs.0"
+      },
+      "NewRunPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_NewRun_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_NewRun.0"
+      },
+      "ContinueRunPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_ContinueRun_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_ContinueRun.0"
+      },
+      "ArenaPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Arena_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Arena.0"
+      },
+      "HordePortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Horde_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Horde.0"
+      },
+      "DemolitionPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Demolition_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Demolition.0"
+      },
+      "GauntletPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Gauntlet_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Gauntlet.0"
+      },
+      "ParkourPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Parkour_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Parkour.0"
+      },
+      "ShopPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Shop_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Shop.0"
+      },
+      "ElitePortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Elite_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Elite.0"
+      },
+      "BossPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Boss_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Boss.0"
+      },
+      "BiomePortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Biome_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Biome.0"
+      },
+      "CrabIslandPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_CrabIsland_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_CrabIsland.0"
+      },
+      "LoopPortal": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Portal_Loop_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Portal/BP_Portal_Loop.0"
+      },
+      "DamageIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Damage'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Damage.2"
+      },
+      "CriticalIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Critical'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Critical.2"
+      },
+      "ElementalIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Elemental'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Elemental.2"
+      },
+      "SpeedIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Speed'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Speed.2"
+      },
+      "LuckIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Luck'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Luck.2"
+      },
+      "HealthIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Health'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Health.2"
+      },
+      "EconomyIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Economy'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Economy.2"
+      },
+      "SkillIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Skill'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Skill.2"
+      },
+      "GreedIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Greed'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Greed.2"
+      },
+      "UpgradeIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Upgrade'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Upgrade.2"
+      },
+      "RandomIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Random'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Random.2"
+      },
+      "AnvilIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Anvil_Temp'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Anvil_Temp.2"
+      },
+      "RelicIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Relic'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Relic.2"
+      },
+      "SpikedIcon": {
+        "ObjectName": "StaticMesh'S_Icon_Spiked'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Icon/S_Icon_Spiked.2"
+      },
+      "BronzeMedalIcon": {
+        "ObjectName": "Texture2D'T_Icon_Medal_Bronze'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Medal/T_Icon_Medal_Bronze.0"
+      },
+      "SilverMedalIcon": {
+        "ObjectName": "Texture2D'T_Icon_Medal_Silver'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Medal/T_Icon_Medal_Silver.0"
+      },
+      "GoldMedalIcon": {
+        "ObjectName": "Texture2D'T_Icon_Medal_Gold'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Medal/T_Icon_Medal_Gold.0"
+      },
+      "SapphireMedalIcon": {
+        "ObjectName": "Texture2D'T_Icon_Medal_Sapphire'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Medal/T_Icon_Medal_Sapphire.0"
+      },
+      "EmeraldMedalIcon": {
+        "ObjectName": "Texture2D'T_Icon_Medal_Emerald'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Medal/T_Icon_Medal_Emerald.0"
+      },
+      "RubyMedalIcon": {
+        "ObjectName": "Texture2D'T_Icon_Medal_Ruby'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Medal/T_Icon_Medal_Ruby.0"
+      },
+      "DiamondMedalIcon": {
+        "ObjectName": "Texture2D'T_Icon_Medal_Diamond'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Medal/T_Icon_Medal_Diamond.0"
+      },
+      "PrismaticMedalMat": {
+        "ObjectName": "Material'M_UI_Prismatic'",
+        "ObjectPath": "CrabChampions/Content/UI/Material/M_UI_Prismatic.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CrabBounds_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CrabBounds_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_CrabBounds.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabBounds'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CrabBounds_C'Default__BP_CrabBounds_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_CrabBounds.1"
+    }
+  },
+  {
+    "Type": "BP_CrabBounds_C",
+    "Name": "Default__BP_CrabBounds_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_CrabBounds.BP_CrabBounds_C'",
+    "Properties": {
+      "BoundsSC": {
+        "ObjectName": "SplineComponent'Default__BP_CrabBounds_C:BoundsSC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_CrabBounds.5"
+      },
+      "RootComponent": {
+        "ObjectName": "SplineComponent'Default__BP_CrabBounds_C:BoundsSC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_CrabBounds.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_CrabBounds_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CrabBounds_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_CrabBounds.2"
+      },
+      "VariableGuid": "C0B030CF-47EB0B0A-EDB9B1A5-3ECAC713",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_CrabBounds_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CrabBounds_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_CrabBounds.3"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "BoundsSC",
+    "Outer": "Default__BP_CrabBounds_C",
+    "Class": "UScriptClass'SplineComponent'"
+  }
+]

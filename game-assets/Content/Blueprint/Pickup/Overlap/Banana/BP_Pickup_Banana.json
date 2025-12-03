@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Pickup_Banana_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Pickup_Banana_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabBananaPickup'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Pickup_Banana_C'Default__BP_Pickup_Banana_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.1"
+    }
+  },
+  {
+    "Type": "BP_Pickup_Banana_C",
+    "Name": "Default__BP_Pickup_Banana_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.BP_Pickup_Banana_C'",
+    "Properties": {
+      "PickupNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Pickup_Banana_C:PickupNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.2"
+      },
+      "PickupCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Pickup_Banana_C:PickupCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.6"
+      },
+      "Lifetime": 10.0,
+      "PickupFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Banana'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Overlap/FX_Pickup_Banana.71"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_Pickup_Banana_C:PickupNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.2"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "PickupNC",
+    "Outer": "Default__BP_Pickup_Banana_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Pickup_Banana_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Pickup_Banana_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.3"
+      },
+      "VariableGuid": "815C1F9C-482651CE-927345B1-0F5E6F7B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Pickup_Banana_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Pickup_Banana_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.4"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "PickupCollision",
+    "Outer": "Default__BP_Pickup_Banana_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "NiagaraComponent'Default__BP_Pickup_Banana_C:PickupNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Banana/BP_Pickup_Banana.2"
+      }
+    }
+  }
+]

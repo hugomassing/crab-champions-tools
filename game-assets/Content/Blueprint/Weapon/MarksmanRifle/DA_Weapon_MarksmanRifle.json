@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "CrabWeaponDA",
+    "Name": "DA_Weapon_MarksmanRifle",
+    "Class": "UScriptClass'CrabWeaponDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_MarksmanRifle'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Weapon/Placeholder/MarksmanRifle/S_MarksmanRifle.2"
+      },
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_MarksmanRifle'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/MarksmanRifle/DA_Projectile_MarksmanRifle.0"
+      },
+      "CrosshairType": "ECrabCrosshairType::Dot",
+      "HitmarkerType": "ECrabHitmarkerType::Loud",
+      "FormationType": "ECrabFormationType::Triple",
+      "FormationExpansionDampening": 250.0,
+      "BaseFireRate": 2.75,
+      "WeaponModTriggerRollMultiplier": 5.0,
+      "BaseSpread": 2.0,
+      "FiringSpreadIncrement": 3.0,
+      "MaxSpread": 15.0,
+      "SpreadRecovery": 1.0,
+      "AimingSpreadMultiplier": 0.01,
+      "HorizontalRecoil": 0.0,
+      "RecoilInterpSpeed": 2.0,
+      "RecoilRecoveryInterpSpeed": 4.0,
+      "BaseClipSize": 16,
+      "ReloadDuration": 1.25,
+      "EquipMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Generic_Equip'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Generic_Equip.0"
+      },
+      "EquipSound": {
+        "ObjectName": "SoundCue'A_Foley_Equip_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Equip/A_Foley_Equip_Cue.0"
+      },
+      "FireMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Sniper_Fire'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Sniper_Fire.0"
+      },
+      "MuzzleFlashFX": {
+        "ObjectName": "NiagaraSystem'FX_MuzzleFlash_Large'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/MuzzleFlash/FX_MuzzleFlash_Large.22"
+      },
+      "GunshotSound": {
+        "ObjectName": "SoundCue'A_Gunshot_Pistol'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Pistol/A_Gunshot_Pistol.0"
+      },
+      "LowAmmoSound": {
+        "ObjectName": "SoundCue'A_UI_LowAmmo'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_LowAmmo.0"
+      },
+      "EmptyClipSound": {
+        "ObjectName": "SoundCue'A_BulletShell_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Shell/A_BulletShell_Cue.0"
+      },
+      "ReloadMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Generic_Reload'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Generic_Reload.0"
+      },
+      "MagOutSound": {
+        "ObjectName": "SoundCue'A_Foley_Mag_Out_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Reload/A_Foley_Mag_Out_Cue.0"
+      },
+      "MagInSound": {
+        "ObjectName": "SoundCue'A_Foley_Mag_In_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Reload/A_Foley_Mag_In_Cue.0"
+      },
+      "bRequiresUnlock": true,
+      "Name": "Marksman Rifle",
+      "Description": "Hybrid triple barreled rifle",
+      "Icon": {
+        "ObjectName": "Texture2D'T_UI_Icon_Rifle_Silhouette'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Weapon/T_UI_Icon_Rifle_Silhouette.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "Tint": {
+        "R": 1.0,
+        "G": 0.01,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF1900"
+      },
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_MarksmanRifle'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/Pickup/FX_Pickup_MarksmanRifle.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Portal_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Portal/Interact/A_Portal_Interact.0"
+      }
+    }
+  }
+]

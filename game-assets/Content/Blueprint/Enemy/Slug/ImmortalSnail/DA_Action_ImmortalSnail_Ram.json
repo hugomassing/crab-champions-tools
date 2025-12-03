@@ -1,0 +1,19 @@
+[
+  {
+    "Type": "CrabRamActionDA",
+    "Name": "DA_Action_ImmortalSnail_Ram",
+    "Class": "UScriptClass'CrabRamActionDA'",
+    "Properties": {
+      "RamSpeedMultiplier": 1.0,
+      "RamAOEDA": {
+        "ObjectName": "CrabAOEDA'DA_AOE_ImmortalSnail_Ram'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/ImmortalSnail/DA_AOE_ImmortalSnail_Ram.0"
+      },
+      "bRequiresLOS": false,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Slug_MushroomAttack'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Slug/Slither/AM_Slug_MushroomAttack.0"
+      }
+    }
+  }
+]

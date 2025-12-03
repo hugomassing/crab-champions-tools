@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "CrabAOEDA",
+    "Name": "DA_AOE_LightningSlug_ProximityExplosion",
+    "Class": "UScriptClass'CrabAOEDA'",
+    "Properties": {
+      "Radius": 750.0,
+      "Damage": 40.0,
+      "KnockbackStrength": 5000.0,
+      "DamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_LightningSlug_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/Lightning/BP_DamageArea_LightningSlug.0"
+      },
+      "CameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  }
+]

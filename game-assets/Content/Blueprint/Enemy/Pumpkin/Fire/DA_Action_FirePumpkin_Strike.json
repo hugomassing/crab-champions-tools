@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "CrabStrikeActionDA",
+    "Name": "DA_Action_FirePumpkin_Strike",
+    "Class": "UScriptClass'CrabStrikeActionDA'",
+    "Properties": {
+      "StrikeToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_FirePumpkin_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pumpkin/Fire/BP_Strike_FirePumpkin.0"
+      },
+      "NumLineStrikesToSpawn": 3,
+      "Spread": 2500.0,
+      "bStopMovementDuringAction": true,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Pumpkin_Attack_Heavy'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Pumpkin/Attack/AM_Pumpkin_Attack_Heavy.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Attack'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Attack/FX_Attack.42"
+      }
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "CrabAbilityDA",
+    "Name": "DA_Ability_Grenade",
+    "Class": "UScriptClass'CrabAbilityDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_Grenade'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_Grenade.0"
+      },
+      "HitmarkerType": "ECrabHitmarkerType::Loud",
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_Grenade_Throw'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Grenade_Throw.0"
+      },
+      "Name": "Grenade",
+      "Description": "Goes boom!",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Grenade'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Ability/T_Icon_Grenade.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Grenade'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Ability/FX_Pickup_Grenade.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      }
+    }
+  }
+]

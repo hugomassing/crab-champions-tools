@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CosmeticActor_Torch_Wood_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CosmeticActor_Torch_Wood_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabCosmeticActor'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CosmeticActor_Torch_Wood_C'Default__BP_CosmeticActor_Torch_Wood_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.1"
+    }
+  },
+  {
+    "Type": "BP_CosmeticActor_Torch_Wood_C",
+    "Name": "Default__BP_CosmeticActor_Torch_Wood_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.BP_CosmeticActor_Torch_Wood_C'",
+    "Properties": {
+      "CosmeticMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_CosmeticActor_Torch_Wood_C:CosmeticMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.7"
+      },
+      "CosmeticNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_CosmeticActor_Torch_Wood_C:CosmeticNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.3"
+      },
+      "CosmeticAC": {
+        "ObjectName": "AudioComponent'Default__BP_CosmeticActor_Torch_Wood_C:CosmeticAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.2"
+      },
+      "Tint": {
+        "R": 1.0,
+        "G": 0.2,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF7C00"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Torch_Wood'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Prop/Torch/Wood/S_Torch_Wood.2"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_FireTorchTest'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Cosmetic/FX_FireTorchTest.54"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Torch_Fire'",
+        "ObjectPath": "CrabChampions/Content/Audio/DamageArea/Fire/A_Torch_Fire.0"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_CosmeticActor_Torch_Wood_C:CosmeticMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.7"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "CosmeticAC",
+    "Outer": "Default__BP_CosmeticActor_Torch_Wood_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_CosmeticActor_Torch_Wood_C:CosmeticMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.7"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "CosmeticNC",
+    "Outer": "Default__BP_CosmeticActor_Torch_Wood_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_CosmeticActor_Torch_Wood_C:CosmeticMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.7"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_CosmeticActor_Torch_Wood_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CosmeticActor_Torch_Wood_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.4"
+      },
+      "VariableGuid": "9A4C421B-41AE75CF-F7C20C9C-C930516C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_CosmeticActor_Torch_Wood_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CosmeticActor_Torch_Wood_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/CosmeticActor/BP_CosmeticActor_Torch_Wood.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CosmeticMesh",
+    "Outer": "Default__BP_CosmeticActor_Torch_Wood_C",
+    "Class": "UScriptClass'StaticMeshComponent'"
+  }
+]

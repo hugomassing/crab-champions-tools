@@ -1,0 +1,10 @@
+{
+  "additionalDescription": "A magical scepter that channels lightning energy. The lightning attacks may chain between enemies, dealing damage to multiple targets. Electrical damage can be devastating against groups.",
+  "tags": ["magic", "lightning", "chain", "aoe"],
+  "tips": [
+    "Lightning can chain between nearby enemies",
+    "Excellent for dealing with groups",
+    "Works well in combination with other magical weapons"
+  ]
+}
+

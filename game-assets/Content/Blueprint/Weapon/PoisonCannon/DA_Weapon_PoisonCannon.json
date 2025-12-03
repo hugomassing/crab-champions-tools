@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "CrabWeaponDA",
+    "Name": "DA_Weapon_PoisonCannon",
+    "Class": "UScriptClass'CrabWeaponDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_PoisonCannon'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Pickup/Weapon/PoisonCannon/S_PoisonCannon.2"
+      },
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_PoisonCannon'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/PoisonCannon/DA_Projectile_PoisonCannon.0"
+      },
+      "StartingWeaponMod": {
+        "WeaponModDA": {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_PoisonShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_PoisonShot.0"
+        }
+      },
+      "CrosshairType": "ECrabCrosshairType::Circle",
+      "HitmarkerType": "ECrabHitmarkerType::Quiet",
+      "FireMode": "ECrabFireMode::Burst",
+      "FormationSpacing": 1.0,
+      "FormationExpansionDampening": 50.0,
+      "TimeBetweenBurstShots": 0.1,
+      "BaseFireRate": 0.5,
+      "WeaponModTriggerRollMultiplier": 5.0,
+      "BaseSpread": 15.0,
+      "MaxSpread": 25.0,
+      "BaseClipSize": 6,
+      "ReloadDuration": 2.5,
+      "EquipMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Generic_Equip'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Generic_Equip.0"
+      },
+      "EquipSound": {
+        "ObjectName": "SoundCue'A_Foley_Equip_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Equip/A_Foley_Equip_Cue.0"
+      },
+      "CosmeticFX": {
+        "ObjectName": "NiagaraSystem'FX_Cosmetic_PoisonCannon'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/Cosmetic/FX_Cosmetic_PoisonCannon.34"
+      },
+      "FireMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Shotgun_Fire'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Shotgun_Fire.0"
+      },
+      "MuzzleFlashFX": {
+        "ObjectName": "NiagaraSystem'FX_MuzzleFlash_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/MuzzleFlash/FX_MuzzleFlash_IceStaff.34"
+      },
+      "GunshotSound": {
+        "ObjectName": "SoundCue'A_Gunshot_PoisonCannon'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/PoisonCannon/A_Gunshot_PoisonCannon.0"
+      },
+      "LowAmmoSound": {
+        "ObjectName": "SoundCue'A_UI_LowAmmo'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_LowAmmo.0"
+      },
+      "EmptyClipSound": {
+        "ObjectName": "SoundCue'A_BulletShell_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Shell/A_BulletShell_Cue.0"
+      },
+      "ReloadMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_PoisonCannon_Reload'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_PoisonCannon_Reload.0"
+      },
+      "MagOutSound": {
+        "ObjectName": "SoundCue'A_Foley_Mag_Out_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Reload/A_Foley_Mag_Out_Cue.0"
+      },
+      "MagInSound": {
+        "ObjectName": "SoundCue'A_Foley_Mag_In_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Reload/A_Foley_Mag_In_Cue.0"
+      },
+      "bRequiresUnlock": true,
+      "Name": "Poison Cannon",
+      "Description": "Bursts into poison clouds that wear your enemies down over time. Increases to weapon damage also affect the poison cloud damage. Slow fire rate- choose your shots wisely!",
+      "Icon": {
+        "ObjectName": "Texture2D'T_UI_Icon_OrbLauncher_Silhouette'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Weapon/T_UI_Icon_OrbLauncher_Silhouette.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "Tint": {
+        "R": 0.640149,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "D2FF00"
+      },
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_PoisonCannon'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/Pickup/FX_Pickup_PoisonCannon.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Water/A_Impact_Water.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_BossSkull",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.5,
+      "CollisionRadius": 100.0,
+      "Speed": 4000.0,
+      "GravityScale": 1.2,
+      "MaxBounces": 99,
+      "BounceVelocityScale": 0.5,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 500.0,
+      "ExplosionDamage": 15.0,
+      "ExplosionKnockbackStrength": 2500.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_FireRock_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_FireRock.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Skull'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Skull/FX_Projectile_Skull.97"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Fire_Test_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Fire_Test_Cue.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Medium.73"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Small'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Small/A_Explosion_Small.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  }
+]

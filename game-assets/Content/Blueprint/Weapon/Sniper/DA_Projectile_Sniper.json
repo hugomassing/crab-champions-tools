@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_Sniper",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 0.75,
+      "Speed": 100000.0,
+      "MaxPiercings": 4,
+      "ExplosionRadius": 25.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Bullet_Sniper'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Bullet/FX_Projectile_Bullet_Sniper.67"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      }
+    }
+  }
+]

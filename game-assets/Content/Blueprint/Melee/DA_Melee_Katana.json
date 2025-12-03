@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "CrabMeleeDA",
+    "Name": "DA_Melee_Katana",
+    "Class": "UScriptClass'CrabMeleeDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Katana'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Pickup/Melee/Katana/S_Katana.2"
+      },
+      "Cooldown": 4.0,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_Melee_Katana'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Melee/AM_Crab_Melee_Katana.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Katana_Swing'",
+        "ObjectPath": "CrabChampions/Content/FX/Melee/Katana/FX_Katana_Swing.32"
+      },
+      "LaunchSpeed": 2500.0,
+      "LaunchHeight": 2000.0,
+      "Range": 1850.0,
+      "Damage": 33.0,
+      "KnockbackStrength": 1000.0,
+      "bRequiresUnlock": true,
+      "Name": "Katana",
+      "Description": "Swift forward slash",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Katana'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Melee/T_Icon_Katana.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "Tint": {
+        "R": 0.15,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "6C0000"
+      },
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Katana'",
+        "ObjectPath": "CrabChampions/Content/FX/Melee/Pickup/FX_Pickup_Katana.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      }
+    }
+  }
+]

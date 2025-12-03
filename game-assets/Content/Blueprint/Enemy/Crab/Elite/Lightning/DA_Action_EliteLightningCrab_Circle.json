@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_EliteLightningCrab_Circle",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "SocketNames": [
+        "claw_03_r"
+      ],
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_EliteLightningCrab'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Elite/Lightning/DA_Projectile_EliteLightningCrab.0"
+      },
+      "FormationType": "ECrabFormationType::Circle",
+      "FormationSpacing": 5.0,
+      "FormationSpacingIterationMultiplier": 1.0,
+      "FormationExpansionDampening": 250.0,
+      "bRequiresLOS": false,
+      "bStopMovementDuringAction": true,
+      "LoopingActionInterval": 0.2,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_EnemyWeaponFire_Slow'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/Action/AM_Crab_EnemyWeaponFire_Slow.0"
+      },
+      "FXSocketName": "claw_03_r",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp.32"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Crab_Bunnyhop_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Bunnyhop/A_Crab_Bunnyhop_Cue.0"
+      }
+    }
+  }
+]

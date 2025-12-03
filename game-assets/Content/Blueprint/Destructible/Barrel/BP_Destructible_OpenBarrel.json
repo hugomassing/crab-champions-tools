@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Destructible_OpenBarrel_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Destructible_OpenBarrel_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabDestructible'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Destructible_OpenBarrel_C'Default__BP_Destructible_OpenBarrel_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.1"
+    }
+  },
+  {
+    "Type": "BP_Destructible_OpenBarrel_C",
+    "Name": "Default__BP_Destructible_OpenBarrel_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.BP_Destructible_OpenBarrel_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Destructible_OpenBarrel_C:Mesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.7"
+      },
+      "LeakAC": {
+        "ObjectName": "AudioComponent'Default__BP_Destructible_OpenBarrel_C:LeakAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.2"
+      },
+      "HC": {
+        "ObjectName": "CrabHC'Default__BP_Destructible_OpenBarrel_C:HC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.3"
+      },
+      "BannedIslandTypes": [
+        "ECrabIslandType::Shop"
+      ],
+      "MeshToSpawn": {
+        "ObjectName": "StaticMesh'S_Barrel_Open'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Destructible/Barrel/Open/S_Barrel_Open.2"
+      },
+      "MeshMat": {
+        "ObjectName": "MaterialInstanceConstant'MI_Barrel_Open'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Destructible/Barrel/Open/MI_Barrel_Open.0"
+      },
+      "Tint": {
+        "R": 0.25,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "890000"
+      },
+      "ImmuneDamageTypes": [
+        "ECrabDamageType::Melee",
+        "ECrabDamageType::Lesser"
+      ],
+      "MinScale": 1.0,
+      "MaxScale": 1.0,
+      "bIsPhysicallySimulated": true,
+      "PhysicsMassScale": 1.5,
+      "PhysicsImpulseMultiplier": 0.75,
+      "bChaoticPhysicsMovement": true,
+      "PhysicsImpactSound": {
+        "ObjectName": "SoundCue'A_Barrel_Impact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Barrel/A_Barrel_Impact.0"
+      },
+      "LeakFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Leak'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Leak.39"
+      },
+      "LeakSound": {
+        "ObjectName": "SoundCue'A_Pickup_Ambience_Ammo_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Pickup/A_Pickup_Ambience_Ammo_Cue.0"
+      },
+      "ExplosionRadius": 1500.0,
+      "bScaleExplosionDamageByIsland": true,
+      "ExplosionDamage": 33.0,
+      "ExplosionKnockbackStrength": 1000.0,
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Medium.73"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Barrel_Explosion'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Barrel/A_Barrel_Explosion.0"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Destructible_OpenBarrel_C:Mesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.7"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "LeakAC",
+    "Outer": "Default__BP_Destructible_OpenBarrel_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Destructible_OpenBarrel_C:Mesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.7"
+      }
+    }
+  },
+  {
+    "Type": "CrabHC",
+    "Name": "HC",
+    "Outer": "Default__BP_Destructible_OpenBarrel_C",
+    "Class": "UScriptClass'CrabHC'",
+    "Properties": {
+      "BaseArmorPlates": 10,
+      "BaseMaxHealth": 1000.0,
+      "bShouldRegenerateHealth": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Destructible_OpenBarrel_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Destructible_OpenBarrel_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.4"
+      },
+      "VariableGuid": "1668B6AC-4BA9CADB-ED97A5A9-0480CA5B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Destructible_OpenBarrel_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Destructible_OpenBarrel_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Barrel/BP_Destructible_OpenBarrel.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": "Default__BP_Destructible_OpenBarrel_C",
+    "Class": "UScriptClass'StaticMeshComponent'"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "CrabFireWeaponActionDA",
+    "Name": "DA_Action_FireCrab_FireWeapon",
+    "Class": "UScriptClass'CrabFireWeaponActionDA'",
+    "Properties": {
+      "LoopingActionInterval": 0.25,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_EnemyWeaponFire_Fast'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/Action/AM_Crab_EnemyWeaponFire_Fast.0"
+      }
+    }
+  }
+]

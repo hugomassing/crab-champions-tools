@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PhysicsActor_Coconut_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PhysicsActor_Coconut_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Coconut.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabPhysicsActor'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PhysicsActor_Coconut_C'Default__BP_PhysicsActor_Coconut_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Coconut.1"
+    }
+  },
+  {
+    "Type": "BP_PhysicsActor_Coconut_C",
+    "Name": "Default__BP_PhysicsActor_Coconut_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Coconut.BP_PhysicsActor_Coconut_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_PhysicsActor_Coconut_C:Mesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Coconut.5"
+      },
+      "MeshToSpawn": {
+        "ObjectName": "StaticMesh'S_Fruit_Coconut'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Prop/Fruit/Coconut/S_Fruit_Coconut.2"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Coconut'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Coconut.22"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_PhysicsActor_Coconut_C:Mesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Coconut.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_PhysicsActor_Coconut_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PhysicsActor_Coconut_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Coconut.2"
+      },
+      "VariableGuid": "680FDFE9-4B36EE03-1B4C6D88-E1295BBE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_PhysicsActor_Coconut_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PhysicsActor_Coconut_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Coconut.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": "Default__BP_PhysicsActor_Coconut_C",
+    "Class": "UScriptClass'StaticMeshComponent'"
+  }
+]

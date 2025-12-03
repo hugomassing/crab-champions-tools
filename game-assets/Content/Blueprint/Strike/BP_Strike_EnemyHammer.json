@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Strike_EnemyHammer_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Strike_EnemyHammer_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_EnemyHammer.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabStrike'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Strike_EnemyHammer_C'Default__BP_Strike_EnemyHammer_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_EnemyHammer.1"
+    }
+  },
+  {
+    "Type": "BP_Strike_EnemyHammer_C",
+    "Name": "Default__BP_Strike_EnemyHammer_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Strike/BP_Strike_EnemyHammer.BP_Strike_EnemyHammer_C'",
+    "Properties": {
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Strike_Hammer'",
+        "ObjectPath": "CrabChampions/Content/FX/Strike/FX_Strike_Hammer.58"
+      },
+      "SpawnSound": {
+        "ObjectName": "SoundCue'A_Scorpion_Spawn'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Scorpion/Spawn/A_Scorpion_Spawn.0"
+      },
+      "ExplosionDelay": 0.3,
+      "Damage": 20.0,
+      "DamageType": "ECrabDamageType::Hazard",
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Small'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Small/A_Explosion_Small.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Strike_EnemyHammer_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Strike_EnemyHammer_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_EnemyHammer.2"
+      },
+      "VariableGuid": "85B2FB9F-43F91662-ED5FA18C-73A50F72",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Strike_EnemyHammer_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Strike_EnemyHammer_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_EnemyHammer.3"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Strike_EnemyHammer_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_EnemyHammer.3"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Strike_EnemyHammer_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_EnemyHammer.3"
+      }
+    }
+  }
+]

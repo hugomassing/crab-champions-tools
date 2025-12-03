@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_ElitePumpkin_Circle",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.0,
+      "CollisionRadius": 60.0,
+      "Speed": 6000.0,
+      "GravityScale": 1.0,
+      "ExplosionRadius": 300.0,
+      "ExplosionDamage": 15.0,
+      "ExplosionKnockbackStrength": 2500.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_EliteEnemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Enemy/FX_Projectile_EliteEnemy.28"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Enemy.42"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Crab_Fire_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Crab/A_Impact_Crab_Fire_Cue.0"
+      }
+    }
+  }
+]

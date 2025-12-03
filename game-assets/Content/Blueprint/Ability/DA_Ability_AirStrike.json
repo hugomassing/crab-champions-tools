@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "CrabAbilityDA",
+    "Name": "DA_Ability_AirStrike",
+    "Class": "UScriptClass'CrabAbilityDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_AirStrike'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_AirStrike.0"
+      },
+      "HitmarkerType": "ECrabHitmarkerType::Loud",
+      "AbilitySpawnType": "ECrabAbilitySpawnType::AboveCrosshair",
+      "AbilitySpawnDelay": 0.01,
+      "Cooldown": 10.0,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_Grenade_Throw'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Grenade_Throw.0"
+      },
+      "AbilityTelegraphFX": {
+        "ObjectName": "NiagaraSystem'FX_Telegraph_AirStrike'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Telegraph_AirStrike.58"
+      },
+      "AbilityTelegraphSound": {
+        "ObjectName": "SoundCue'A_AirStrike_Telegraph'",
+        "ObjectPath": "CrabChampions/Content/Audio/Ability/AirStrike/A_AirStrike_Telegraph.0"
+      },
+      "bRequiresUnlock": true,
+      "Name": "Air Strike",
+      "Description": "A delayed but devastating explosion that penetrates enemy armor",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_AirStrike'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Ability/T_Icon_AirStrike.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_AirStrike'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Ability/FX_Pickup_AirStrike.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      }
+    }
+  }
+]

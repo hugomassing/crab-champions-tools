@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_AutoRifle",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 0.75,
+      "Speed": 75000.0,
+      "ExplosionRadius": 20.0,
+      "ExplosionDamage": 10.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Bullet'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Bullet/FX_Projectile_Bullet.17"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      }
+    }
+  }
+]

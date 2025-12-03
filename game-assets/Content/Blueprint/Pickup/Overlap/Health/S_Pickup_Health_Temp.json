@@ -1,0 +1,362 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "S_Pickup_Health_Temp",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 7.6000004,
+                "Y": 48.399998,
+                "Z": -10.100008
+              },
+              {
+                "X": 7.6000004,
+                "Y": 10.100002,
+                "Z": -48.40001
+              },
+              {
+                "X": 7.6000004,
+                "Y": -10.099979,
+                "Z": -48.40001
+              },
+              {
+                "X": 7.6000004,
+                "Y": -48.400005,
+                "Z": -10.099983
+              },
+              {
+                "X": 7.6000004,
+                "Y": -48.4,
+                "Z": 10.1
+              },
+              {
+                "X": 7.6000004,
+                "Y": -10.100006,
+                "Z": 48.399998
+              },
+              {
+                "X": 7.6000004,
+                "Y": 10.099995,
+                "Z": 48.399998
+              },
+              {
+                "X": 7.6000004,
+                "Y": 48.399998,
+                "Z": 10.099998
+              },
+              {
+                "X": -7.6000004,
+                "Y": -48.399994,
+                "Z": -10.100012
+              },
+              {
+                "X": -7.6000004,
+                "Y": -10.099998,
+                "Z": -48.4
+              },
+              {
+                "X": -7.6000004,
+                "Y": 10.099999,
+                "Z": -48.400005
+              },
+              {
+                "X": -7.6000004,
+                "Y": 48.399998,
+                "Z": -10.10001
+              },
+              {
+                "X": -7.6000004,
+                "Y": 48.399998,
+                "Z": 10.099999
+              },
+              {
+                "X": -7.6000004,
+                "Y": 10.099998,
+                "Z": 48.4
+              },
+              {
+                "X": -7.6000004,
+                "Y": -10.099981,
+                "Z": 48.4
+              },
+              {
+                "X": -7.6000004,
+                "Y": -48.399994,
+                "Z": 10.099995
+              },
+              {
+                "X": -5.9000044,
+                "Y": 50.1,
+                "Z": -8.400007
+              },
+              {
+                "X": 5.899999,
+                "Y": 50.1,
+                "Z": -8.400009
+              },
+              {
+                "X": 5.8999977,
+                "Y": 50.1,
+                "Z": 8.399994
+              },
+              {
+                "X": -5.9000072,
+                "Y": 50.1,
+                "Z": 8.399994
+              },
+              {
+                "X": 5.900005,
+                "Y": -50.1,
+                "Z": -8.399992
+              },
+              {
+                "X": -5.899995,
+                "Y": -50.1,
+                "Z": -8.400007
+              },
+              {
+                "X": -5.8999968,
+                "Y": -50.1,
+                "Z": 8.399991
+              },
+              {
+                "X": 5.9000063,
+                "Y": -50.1,
+                "Z": 8.399997
+              },
+              {
+                "X": -5.9000025,
+                "Y": 8.399994,
+                "Z": 50.1
+              },
+              {
+                "X": 5.8999996,
+                "Y": 8.399994,
+                "Z": 50.1
+              },
+              {
+                "X": 5.8999968,
+                "Y": -8.399992,
+                "Z": 50.1
+              },
+              {
+                "X": -5.9000053,
+                "Y": -8.399977,
+                "Z": 50.1
+              },
+              {
+                "X": -5.9000034,
+                "Y": -8.4,
+                "Z": -50.1
+              },
+              {
+                "X": 5.9000063,
+                "Y": -8.399984,
+                "Z": -50.1
+              },
+              {
+                "X": 5.9000072,
+                "Y": 8.400008,
+                "Z": -50.1
+              },
+              {
+                "X": -5.9000015,
+                "Y": 8.400005,
+                "Z": -50.1
+              }
+            ],
+            "IndexData": [],
+            "ElemBox": {
+              "Min": {
+                "X": -7.6000004,
+                "Y": -50.1,
+                "Z": -50.1
+              },
+              "Max": {
+                "X": 7.6000004,
+                "Y": 50.1,
+                "Z": 50.1
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "6F0FB04F43DAD16C6C9621A6750C80E9",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 20647,
+        "SizeOnDisk": 20647,
+        "OffsetInFile": "0x1DDC6"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "S_Pickup_Health_Temp",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1897,
+        "SizeOnDisk": 1897,
+        "OffsetInFile": "0x22EB5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Pickup_Health_Temp",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'M_OverlapPickup'",
+            "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/M_OverlapPickup.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 176.23903,
+            "LocalUVDensities[1]": 182.54764,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 182.54764,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "bAllowCPUAccess": true,
+      "ExtendedBounds": {
+        "BoxExtent": {
+          "X": 7.5000005,
+          "Y": 50.0,
+          "Z": 50.0
+        },
+        "SphereRadius": 50.806004
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Pickup_Health_Temp:BodySetup_0'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Health/S_Pickup_Health_Temp.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Pickup_Health_Temp:NavCollision_0'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Health/S_Pickup_Health_Temp.1"
+    },
+    "LightingGuid": "64DFE1DF-4B7AD309-654D83BA-86A732CC",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 700,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 1871,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1872
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 1872,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 7.5000005,
+          "Y": 50.0,
+          "Z": 50.0
+        },
+        "SphereRadius": 50.806004
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

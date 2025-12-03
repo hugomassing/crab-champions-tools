@@ -1,0 +1,489 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_C_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_C_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.15"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabPlayerC'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_C_C'Default__BP_C_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.1"
+    }
+  },
+  {
+    "Type": "BP_C_C",
+    "Name": "Default__BP_C_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/BP_C.BP_C_C'",
+    "Properties": {
+      "CameraSpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_C_C:CameraSpringArm'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.17"
+      },
+      "Camera": {
+        "ObjectName": "CameraComponent'Default__BP_C_C:Camera'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.4"
+      },
+      "MeleeMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_C_C:MeleeMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.19"
+      },
+      "CosmeticMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_C_C:CosmeticMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.18"
+      },
+      "PlayerNameWC": {
+        "ObjectName": "WidgetComponent'Default__BP_C_C:PlayerNameWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.21"
+      },
+      "PingWC": {
+        "ObjectName": "WidgetComponent'Default__BP_C_C:PingWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.20"
+      },
+      "SlideNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_C_C:SlideNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.11"
+      },
+      "SlideAC": {
+        "ObjectName": "AudioComponent'Default__BP_C_C:SlideAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.3"
+      },
+      "AmbienceNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_C_C:AmbienceNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.8"
+      },
+      "UnderwaterNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_C_C:UnderwaterNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.12"
+      },
+      "PlayerNameUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_PlayerName_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Player/Name/UI_PlayerName_OLD.0"
+      },
+      "PingUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Ping_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Player/Ping/UI_Ping_OLD.0"
+      },
+      "FlipMontageF": {
+        "ObjectName": "AnimMontage'AM_Crab_Flip_F'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Flip/AM_Crab_Flip_F.0"
+      },
+      "FlipMontageB": {
+        "ObjectName": "AnimMontage'AM_Crab_Flip_B'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Flip/AM_Crab_Flip_B.0"
+      },
+      "FlipMontageR": {
+        "ObjectName": "AnimMontage'AM_Crab_Flip_R'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Flip/AM_Crab_Flip_R.0"
+      },
+      "FlipMontageL": {
+        "ObjectName": "AnimMontage'AM_Crab_Flip_L'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Flip/AM_Crab_Flip_L.0"
+      },
+      "FlipSpeed": 0.0,
+      "FlipHeight": 2500.0,
+      "DashMontageF": {
+        "ObjectName": "AnimMontage'AM_Crab_Dash_F'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Dash/AM_Crab_Dash_F.0"
+      },
+      "DashMontageB": {
+        "ObjectName": "AnimMontage'AM_Crab_Dash_B'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Dash/AM_Crab_Dash_B.0"
+      },
+      "DashMontageR": {
+        "ObjectName": "AnimMontage'AM_Crab_Dash_R'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Dash/AM_Crab_Dash_R.0"
+      },
+      "DashMontageL": {
+        "ObjectName": "AnimMontage'AM_Crab_Dash_L'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Dash/AM_Crab_Dash_L.0"
+      },
+      "DashHeight": 1000.0,
+      "SlideSpeedCurve": {
+        "ObjectName": "CurveFloat'FC_SlideSpeed'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Curve/FC_SlideSpeed.0"
+      },
+      "IceSlideSound": {
+        "ObjectName": "SoundCue'A_Crab_Slide'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Slide/A_Crab_Slide.0"
+      },
+      "RockSlideSound": {
+        "ObjectName": "SoundCue'A_Crab_Slide'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Slide/A_Crab_Slide.0"
+      },
+      "SandSlideSound": {
+        "ObjectName": "SoundCue'A_Crab_Slide'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Slide/A_Crab_Slide.0"
+      },
+      "AimingMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Aim'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Aim/AM_Crab_Aim.0"
+      },
+      "StartAimSound": {
+        "ObjectName": "SoundCue'A_Foley_Aim_Start_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Aim/A_Foley_Aim_Start_Cue.0"
+      },
+      "StopAimSound": {
+        "ObjectName": "SoundCue'A_Foley_Aim_Stop_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Aim/A_Foley_Aim_Stop_Cue.0"
+      },
+      "InteractMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Interact'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Melee/AM_Crab_Interact.0"
+      },
+      "InteractFailureSound": {
+        "ObjectName": "SoundCue'A_InteractFailure'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Spawner/A_InteractFailure.0"
+      },
+      "PingFX": {
+        "ObjectName": "NiagaraSystem'FX_Ping'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Ping.62"
+      },
+      "PingSound": {
+        "ObjectName": "SoundCue'A_UI_Ping'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Navigation/A_UI_Ping.0"
+      },
+      "PrePortalFX": {
+        "ObjectName": "NiagaraSystem'FX_PrePortal'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Portal/FX_PrePortal.79"
+      },
+      "PrePortalSound": {
+        "ObjectName": "SoundCue'A_Crab_PrePortal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Dash/A_Crab_PrePortal.0"
+      },
+      "PostPortalFX": {
+        "ObjectName": "NiagaraSystem'FX_PostPortal'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Portal/FX_PostPortal.70"
+      },
+      "PostPortalSound": {
+        "ObjectName": "SoundCue'A_Crab_PostPortal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Dash/A_Crab_PostPortal.0"
+      },
+      "BlockedDamageFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Block'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Block.42"
+      },
+      "BlockedDamageSound": {
+        "ObjectName": "SoundCue'A_Crab_Dash_BlockDamage_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Dash/A_Crab_Dash_BlockDamage_Cue.0"
+      },
+      "SonicBoomFX": {
+        "ObjectName": "NiagaraSystem'FX_Powerslide'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/Perk/FX_Powerslide.27"
+      },
+      "SonicBoomSound": {
+        "ObjectName": "SoundCue'A_ShotgunBlast_TEMP'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/DualShotguns/A_ShotgunBlast_TEMP.0"
+      },
+      "ShockwaveFX": {
+        "ObjectName": "NiagaraSystem'FX_Shockwave'",
+        "ObjectPath": "CrabChampions/Content/FX/Player/Perk/FX_Shockwave.12"
+      },
+      "ShockwaveSound": {
+        "ObjectName": "SoundCue'A_Impact_IceStaff'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/IceStaff/A_Impact_IceStaff.0"
+      },
+      "HC": {
+        "ObjectName": "CrabHC'Default__BP_C_C:HC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.7"
+      },
+      "DebuffNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_C_C:DebuffNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.10"
+      },
+      "DebuffAC": {
+        "ObjectName": "AudioComponent'Default__BP_C_C:DebuffAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.2"
+      },
+      "ChainLightningNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_C_C:ChainLightningNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.9"
+      },
+      "MeshToSpawn": {
+        "ObjectName": "SkeletalMesh'SK_Crab'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/SK_Crab.0"
+      },
+      "MeshMat": {
+        "ObjectName": "MaterialInstanceConstant'MI_Crab_Default'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/Default/MI_Crab_Default.0"
+      },
+      "AnimationBlueprintToUse": {
+        "ObjectName": "AnimBlueprintGeneratedClass'SK_Crab_AnimBP_C'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/SK_Crab_AnimBP.10"
+      },
+      "DebuffFX": {
+        "ObjectName": "NiagaraSystem'FX_Debuff_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Debuff/FX_Debuff_Enemy.136"
+      },
+      "BaseWalkSpeed": 1050.0,
+      "AirControl": 1.0,
+      "JumpSound": {
+        "ObjectName": "SoundCue'A_Crab_Jump'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Jump/A_Crab_Jump.0"
+      },
+      "LandSound": {
+        "ObjectName": "SoundCue'A_Crab_Land'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Land/A_Crab_Land.0"
+      },
+      "MinTimeBetweenDamageEvents": 0.1,
+      "bShouldRagdoll": true,
+      "LifeSpanCleanupTime": 5.0,
+      "FreezeDuration": 1.0,
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_C_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.16"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CrabCMC'Default__BP_C_C:CharMoveComp'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.6"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DebuffAC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_C_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.16"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "SlideAC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Camera",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_C_C:CameraSpringArm'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.17"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'CapsuleComponent'"
+  },
+  {
+    "Type": "CrabCMC",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'CrabCMC'"
+  },
+  {
+    "Type": "CrabHC",
+    "Name": "HC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'CrabHC'",
+    "Properties": {
+      "bHasOneShotProtection": true,
+      "bHasDeathProtection": true
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "AmbienceNC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChainLightningNC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_C_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.16"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "DebuffNC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_C_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.16"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "SlideNC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "UnderwaterNC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_C_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_C_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.13"
+      },
+      "VariableGuid": "9981FE0E-482278EE-B98DEBB0-EAB9CCB6",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_C_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_C_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.14"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "CameraSpringArm",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CosmeticMesh",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeleeMesh",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_C_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.5"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "PingWC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'WidgetComponent'"
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "PlayerNameWC",
+    "Outer": "Default__BP_C_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_C_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_C.16"
+      }
+    }
+  }
+]

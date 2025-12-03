@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "CrabMeleeDA",
+    "Name": "DA_Melee_Claw",
+    "Class": "UScriptClass'CrabMeleeDA'",
+    "Properties": {
+      "Cooldown": 3.0,
+      "MeleeModDebuffMultiplier": 4.0,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_Melee'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Melee/AM_Crab_Melee.0"
+      },
+      "Range": 2000.0,
+      "Damage": 100.0,
+      "KnockbackStrength": 7500.0,
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Claw_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Claw.0"
+      },
+      "Name": "Claw",
+      "Description": "360 degree claw swipe with heavy knockback",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dagger'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Melee/T_Icon_Dagger.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Dagger'",
+        "ObjectPath": "CrabChampions/Content/FX/Melee/Pickup/FX_Pickup_Dagger.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      }
+    }
+  }
+]

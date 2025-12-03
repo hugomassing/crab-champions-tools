@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrabProximityExplodeActionDA",
+    "Name": "DA_Action_IceSlug_ProximityExplode",
+    "Class": "UScriptClass'CrabProximityExplodeActionDA'",
+    "Properties": {
+      "ExplosionAOEDA": {
+        "ObjectName": "CrabAOEDA'DA_AOE_IceSlug_ProximityExplosion'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Slug/Ice/DA_AOE_IceSlug_ProximityExplosion.0"
+      },
+      "Range": 1500.0,
+      "bMustBeGrounded": true,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Slug_ProximityExplodeTrigger_Long'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Slug/Slither/AM_Slug_ProximityExplodeTrigger_Long.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp_AOE'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp_AOE.74"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Portal_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Portal/Interact/A_Portal_Interact.0"
+      }
+    }
+  }
+]

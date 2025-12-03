@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "CrabConsumableDA",
+    "Name": "DA_Consumable_CrystalBundle",
+    "Class": "UScriptClass'CrabConsumableDA'",
+    "Properties": {
+      "ConsumableType": "ECrabConsumableType::Crystal",
+      "Name": "Crystal Bundle",
+      "Description": "Gain a bunch crystals to spend at the shop",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_CrystalBundle'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Consumable/T_Icon_CrystalBundle.0"
+      },
+      "LootPool": "ECrabLootPool::Economy",
+      "Rarity": "ECrabRarity::Common",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_CrystalBundle'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Consumable/FX_Pickup_CrystalBundle.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_SpinningBlade",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 4.0,
+      "CollisionRadius": 16.0,
+      "Speed": 2500.0,
+      "HomingScale": 1.0,
+      "HomingLerpSpeed": 10.0,
+      "MaxPiercings": 99,
+      "ProximityDamageRadius": 400.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 0.0,
+      "ExplosionDamage": 5.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Blade_Huge'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Blade/FX_Projectile_Blade_Huge.50"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      }
+    }
+  }
+]

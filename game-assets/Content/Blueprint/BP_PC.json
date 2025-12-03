@@ -1,0 +1,185 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PC_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PC_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_PC.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabPC'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PC_C'Default__BP_PC_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/BP_PC.1"
+    }
+  },
+  {
+    "Type": "BP_PC_C",
+    "Name": "Default__BP_PC_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/BP_PC.BP_PC_C'",
+    "Properties": {
+      "ArmorHitmarkerSound": {
+        "ObjectName": "SoundCue'A_Hitmarker_Armor_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Shield/A_Hitmarker_Armor_Cue.0"
+      },
+      "ArmorBreakHitmarkerSound": {
+        "ObjectName": "SoundCue'A_Hitmarker_Armor_Break_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Shield/A_Hitmarker_Armor_Break_Cue.0"
+      },
+      "QuietHitmarkerSound": {
+        "ObjectName": "SoundCue'A_UI_Hitmarker_Quiet_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_Hitmarker_Quiet_Cue.0"
+      },
+      "NormalHitmarkerSound": {
+        "ObjectName": "SoundCue'A_UI_Hitmarker_Normal_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_Hitmarker_Normal_Cue.0"
+      },
+      "LoudHitmarkerSound": {
+        "ObjectName": "SoundCue'A_UI_Hitmarker_Loud_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_Hitmarker_Loud_Cue.0"
+      },
+      "QuietCritHitmarkerSound": {
+        "ObjectName": "SoundCue'A_UI_Hitmarker_Crit_Quiet_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_Hitmarker_Crit_Quiet_Cue.0"
+      },
+      "NormalCritHitmarkerSound": {
+        "ObjectName": "SoundCue'A_UI_Hitmarker_Crit_Normal_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_Hitmarker_Crit_Normal_Cue.0"
+      },
+      "LoudCritHitmarkerSound": {
+        "ObjectName": "SoundCue'A_UI_Hitmarker_Crit_Loud_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_Hitmarker_Crit_Loud_Cue.0"
+      },
+      "KnockbackDamageHitmarkerSound": {
+        "ObjectName": "SoundCue'A_Impact_Shield_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Shield/A_Impact_Shield_Cue.0"
+      },
+      "EliminationHitmarkerSound": {
+        "ObjectName": "SoundCue'A_UI_Hitmarker_Elimination_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_Hitmarker_Elimination_Cue.0"
+      },
+      "EliminationCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Elimination_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Elimination.0"
+      },
+      "SlomoRampCurve": {
+        "ObjectName": "CurveFloat'FC_SlomoRamp'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Curve/FC_SlomoRamp.0"
+      },
+      "LowPassSubmixEffect": {
+        "ObjectName": "SubmixEffectFilterPreset'SubmixEffectFilter_LowPass'",
+        "ObjectPath": "CrabChampions/Content/Audio/Blueprint/Submix/SubmixEffectFilter_LowPass.0"
+      },
+      "PortalTransitionLS": {
+        "ObjectName": "LevelSequence'LS_PortalTransition_OLD'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.2"
+      },
+      "DamageTextUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_DamageText_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/DamageText/UI_DamageText_OLD.0"
+      },
+      "SpecialDamageTextUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_DamageText_OLD_Special_C'",
+        "ObjectPath": "CrabChampions/Content/UI/DamageText/UI_DamageText_OLD_Special.0"
+      },
+      "GameStateUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_GameState_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Mode/Survival/UI_GameState_OLD.0"
+      },
+      "GameplayUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Gameplay_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Mode/Survival/UI_Gameplay_OLD.0"
+      },
+      "InventoryUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Inventory_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Mode/Survival/UI_Inventory_OLD.0"
+      },
+      "InGameMenuToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_InGameMenu_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Menu/UI_InGameMenu_OLD.0"
+      },
+      "CosmeticsMenuUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_CosmeticsMenu_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Menu/UI_CosmeticsMenu_OLD.0"
+      },
+      "DifficultyMenuUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_DifficultyMenu_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Menu/UI_DifficultyMenu_OLD.0"
+      },
+      "MultiplayerMenuUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_MultiplayerMenu_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Menu/UI_MultiplayerMenu_OLD.0"
+      },
+      "GameOverUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_GameOver_OLD_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Mode/Survival/UI_GameOver_OLD.0"
+      },
+      "MinigameGameOverUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_MinigameGameOver_C'",
+        "ObjectPath": "CrabChampions/Content/UI/UI_MinigameGameOver.0"
+      },
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'Default__BP_PC_C:TransformComponent0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_PC.3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_PC_C:TransformComponent0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_PC.3"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_PC_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent0",
+    "Outer": "Default__BP_PC_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PC_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_PC.2"
+      },
+      "VariableGuid": "510C93EF-49CD87C0-E7FFEC8E-96E1B995",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_PC_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PC_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/BP_PC.4"
+      }
+    }
+  }
+]

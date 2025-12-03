@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_EliteHornet",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.0,
+      "CollisionRadius": 150.0,
+      "Speed": 6000.0,
+      "GravityScale": 2.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 500.0,
+      "ExplosionDamage": 20.0,
+      "ExplosionKnockbackStrength": 2500.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_EliteHornetEnergyRing_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Hornet/Elite/BP_DamageArea_EliteHornetEnergyRing.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_HomingGrub'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Organic/FX_Projectile_HomingGrub.70"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_Projectile_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Projectile/A_Projectile_Cue.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Enemy'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Enemy.42"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Water'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Water/A_Impact_Water.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  }
+]

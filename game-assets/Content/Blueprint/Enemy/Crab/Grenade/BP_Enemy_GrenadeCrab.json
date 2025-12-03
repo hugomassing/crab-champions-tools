@@ -1,0 +1,270 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Crab_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Enemy_GrenadeCrab_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Enemy_Crab_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Enemy_GrenadeCrab_C'Default__BP_Enemy_GrenadeCrab_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.1"
+    }
+  },
+  {
+    "Type": "BP_Enemy_GrenadeCrab_C",
+    "Name": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.BP_Enemy_GrenadeCrab_C'",
+    "Template": {
+      "ObjectName": "BP_Enemy_Crab_C'Default__BP_Enemy_Crab_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.1"
+    },
+    "Properties": {
+      "HealthBarWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Enemy_GrenadeCrab_C:HealthBarWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.12"
+      },
+      "CapsuleScaleMultiplier": 3.0,
+      "ScaleMultiplier": 6.0,
+      "bCollideWithCharacters": true,
+      "EnemySpawnSettings": {
+        "IslandToStartSpawningAt": 3,
+        "SpawnCost": 850,
+        "SpawnWeight": 1.0
+      },
+      "EnemyCategory": "ECrabEnemyCategory::Hard",
+      "EnemyName": "Grenade Crab",
+      "BannedEnemyBuffs": [
+        "ECrabEnemyBuff::Frenzied",
+        "ECrabEnemyBuff::Healthy"
+      ],
+      "AISettings": {
+        "MovementType": "ECrabEnemyMovementType::MoveToPredictedEnemyLoc",
+        "JumpProbability": 10.0,
+        "DashProbability": 7.5,
+        "TimeBetweenActionsMin": 3.0,
+        "TimeBetweenActionsMax": 4.0
+      },
+      "ActionDAs": [
+        {
+          "ObjectName": "CrabProjectileActionDA'DA_Action_GrenadeCrab_ThrowGrenade'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/DA_Action_GrenadeCrab_ThrowGrenade.0"
+        }
+      ],
+      "HC": {
+        "ObjectName": "CrabHC'Default__BP_Enemy_GrenadeCrab_C:HC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.5"
+      },
+      "DebuffNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_GrenadeCrab_C:DebuffNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.7"
+      },
+      "DebuffAC": {
+        "ObjectName": "AudioComponent'Default__BP_Enemy_GrenadeCrab_C:DebuffAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.2"
+      },
+      "ChainLightningNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Enemy_GrenadeCrab_C:ChainLightningNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.6"
+      },
+      "MeshMat": {
+        "ObjectName": "MaterialInstanceConstant'MI_Amber'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Texture/SkinPrototype/MI_Amber.0"
+      },
+      "Tint": {
+        "R": 1.0,
+        "G": 0.15,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF6C00"
+      },
+      "BaseWalkSpeed": 750.0,
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_GrenadeCrab_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.11"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CrabCMC'Default__BP_Enemy_GrenadeCrab_C:CharMoveComp'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_GrenadeCrab_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_GrenadeCrab_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.3"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DebuffAC",
+    "Outer": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Template": {
+      "ObjectName": "AudioComponent'Default__BP_Enemy_Crab_C:DebuffAC'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_GrenadeCrab_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.11"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_Enemy_Crab_C:CollisionCylinder'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.3"
+    }
+  },
+  {
+    "Type": "CrabCMC",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'CrabCMC'",
+    "Template": {
+      "ObjectName": "CrabCMC'Default__BP_Enemy_Crab_C:CharMoveComp'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.4"
+    }
+  },
+  {
+    "Type": "CrabHC",
+    "Name": "HC",
+    "Outer": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'CrabHC'",
+    "Template": {
+      "ObjectName": "CrabHC'Default__BP_Enemy_Crab_C:HC'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.5"
+    },
+    "Properties": {
+      "BaseArmorPlates": 2,
+      "BaseMaxHealth": 175.0
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChainLightningNC",
+    "Outer": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_Enemy_Crab_C:ChainLightningNC'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.6"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_GrenadeCrab_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.11"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "DebuffNC",
+    "Outer": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_Enemy_Crab_C:DebuffNC'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.7"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_GrenadeCrab_C:CharacterMesh0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.11"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Enemy_GrenadeCrab_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.8"
+      },
+      "VariableGuid": "A03E4060-42E27ACC-2556C48F-5962302D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Enemy_GrenadeCrab_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_Enemy_Crab_C:CharacterMesh0'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.11"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_GrenadeCrab_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "HealthBarWC",
+    "Outer": "Default__BP_Enemy_GrenadeCrab_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Template": {
+      "ObjectName": "WidgetComponent'Default__BP_Enemy_Crab_C:HealthBarWC'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/BP_Enemy_Crab.12"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Enemy_GrenadeCrab_C:CollisionCylinder'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Grenade/BP_Enemy_GrenadeCrab.3"
+      }
+    }
+  }
+]

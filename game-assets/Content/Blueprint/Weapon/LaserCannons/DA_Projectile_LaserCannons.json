@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_LaserCannons",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 0.33,
+      "Speed": 100000.0,
+      "ExplosionRadius": 20.0,
+      "ExplosionDamage": 3.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Laser'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Bullet/FX_Projectile_Laser.17"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Tiny'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Tiny.68"
+      }
+    }
+  }
+]

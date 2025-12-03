@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_EliteFireSkull_IterationX",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_EliteFireSkull_Fan'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Fire/DA_Projectile_EliteFireSkull_Fan.0"
+      },
+      "FormationType": "ECrabFormationType::Line",
+      "FormationExpansionDampeningIterationMultiplier": 0.1,
+      "Weight": 0.5,
+      "bStopMovementDuringAction": true,
+      "LoopingActionInterval": 0.33,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Skull_Attack_Fan_Short'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Skull/Attack/AM_Skull_Attack_Fan_Short.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp.32"
+      }
+    }
+  }
+]

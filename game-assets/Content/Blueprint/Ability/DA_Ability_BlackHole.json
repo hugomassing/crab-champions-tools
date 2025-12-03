@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "CrabAbilityDA",
+    "Name": "DA_Ability_BlackHole",
+    "Class": "UScriptClass'CrabAbilityDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_BlackHole'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Projectile/DA_Projectile_BlackHole.0"
+      },
+      "HitmarkerType": "ECrabHitmarkerType::Quiet",
+      "Cooldown": 9.0,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_Grenade_Throw'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Grenade_Throw.0"
+      },
+      "bRequiresUnlock": true,
+      "Name": "Black Hole",
+      "Description": "Create a powerful black hole",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_BlackHole'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Ability/T_Icon_BlackHole.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "Tint": {
+        "R": 0.4,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "AA00FF"
+      },
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_BlackHole'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Ability/FX_Pickup_BlackHole.42"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Small_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Small_Cue.0"
+      }
+    }
+  }
+]

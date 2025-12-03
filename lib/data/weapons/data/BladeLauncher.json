@@ -1,0 +1,10 @@
+{
+  "additionalDescription": "Launches spinning blades that can ricochet off surfaces. The blades deal damage on impact and bounce, potentially hitting multiple enemies. Unique mechanics reward positioning and map awareness.",
+  "tags": ["launcher", "ricochet", "projectile", "tactical"],
+  "tips": [
+    "Use walls and corners to maximize ricochet potential",
+    "Position yourself to create blade paths through enemy groups",
+    "The bouncing blades can hit enemies multiple times"
+  ]
+}
+

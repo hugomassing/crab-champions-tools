@@ -1,0 +1,3147 @@
+[
+  {
+    "Type": "CineCameraActor",
+    "Name": "CineCameraActor_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'LS_PortalTransition_OLD:MovieScene_0.CineCameraActor_1.CameraComponent'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.1"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'LS_PortalTransition_OLD:MovieScene_0.CineCameraActor_1.SceneComponent'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.57"
+      },
+      "bReplayRewindable": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'LS_PortalTransition_OLD:MovieScene_0.CineCameraActor_1.SceneComponent'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.57"
+      },
+      "Tags": [
+        "SequencerActor"
+      ]
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "CineCameraActor_1",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 37.497356,
+      "AspectRatio": 1.7777778,
+      "bConstrainAspectRatio": false,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'LS_PortalTransition_OLD:MovieScene_0.CineCameraActor_1.SceneComponent'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.57"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequence",
+    "Name": "LS_PortalTransition_OLD",
+    "Class": "UScriptClass'LevelSequence'",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'LS_PortalTransition_OLD:MovieScene_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.3"
+      },
+      "BindingReferences": {
+        "BindingIdToReferences": [
+          {
+            "Key": "699C1A4A-4B6A77B6-2DCE179A-173B1CCE",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "None",
+                    "SubPathString": ""
+                  },
+                  "ObjectPath": "CameraComponent"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'LS_PortalTransition_OLD:CompiledData'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.43"
+      },
+      "Signature": "4FE06BE9-48ABA3C9-F64EE9B1-48886887"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "MovieScene_0",
+    "Outer": "LS_PortalTransition_OLD",
+    "Class": "UScriptClass'MovieScene'",
+    "Properties": {
+      "Spawnables": [
+        {
+          "SpawnTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Tags": [],
+          "bContinuouslyRespawn": false,
+          "bNetAddressableName": false,
+          "bEvaluateTracksWhenNotSpawned": false,
+          "Guid": "C283F260-44487C34-8943608C-4C086477",
+          "Name": "Cine Camera Actor",
+          "ObjectTemplate": {
+            "ObjectName": "CineCameraActor'LS_PortalTransition_OLD:MovieScene_0.CineCameraActor_1'",
+            "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.0"
+          },
+          "ChildPossessables": [
+            "699C1A4A-4B6A77B6-2DCE179A-173B1CCE"
+          ],
+          "Ownership": "ESpawnOwnership::InnerSequence",
+          "LevelName": "None"
+        },
+        {
+          "SpawnTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Tags": [],
+          "bContinuouslyRespawn": false,
+          "bNetAddressableName": true,
+          "bEvaluateTracksWhenNotSpawned": false,
+          "Guid": "8397286C-44C0E8D3-6A3E0098-204F0FEC",
+          "Name": "S_PortalTransition",
+          "ObjectTemplate": {
+            "ObjectName": "StaticMeshActor'LS_PortalTransition_OLD:MovieScene_0.S_PortalTransition_1'",
+            "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.58"
+          },
+          "ChildPossessables": [],
+          "Ownership": "ESpawnOwnership::InnerSequence",
+          "LevelName": "None"
+        }
+      ],
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "699C1A4A-4B6A77B6-2DCE179A-173B1CCE",
+          "Name": "CameraComponent",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraComponent'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "C283F260-44487C34-8943608C-4C086477"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "C283F260-44487C34-8943608C-4C086477",
+          "BindingName": "CineCameraActor",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.6"
+            },
+            {
+              "ObjectName": "MovieSceneSpawnTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.54"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "699C1A4A-4B6A77B6-2DCE179A-173B1CCE",
+          "BindingName": "CameraComponent",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.49"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_1'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.50"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_2'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.51"
+            },
+            {
+              "ObjectName": "MovieSceneCameraShakeTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraShakeTrack_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.42"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "8397286C-44C0E8D3-6A3E0098-204F0FEC",
+          "BindingName": "S_PortalTransition",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_1'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.7"
+            },
+            {
+              "ObjectName": "MovieSceneVisibilityTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneVisibilityTrack_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.56"
+            },
+            {
+              "ObjectName": "MovieSceneSpawnTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_2'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.55"
+            }
+          ]
+        }
+      ],
+      "MasterTracks": [
+        {
+          "ObjectName": "MovieSceneAudioTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.10"
+        },
+        {
+          "ObjectName": "MovieSceneFadeTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFadeTrack_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.45"
+        },
+        {
+          "ObjectName": "MovieSceneAudioTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_1'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.11"
+        }
+      ],
+      "CameraCutTrack": {
+        "ObjectName": "MovieSceneCameraCutTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraCutTrack_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.40"
+      },
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 336000
+            }
+          }
+        }
+      },
+      "TickResolution": {
+        "Numerator": 24000
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "Signature": "0184C1B1-4B21F417-4EED0D91-16884FD1"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": "MovieScene3DTransformTrack_0",
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 800
+          },
+          {
+            "Value": 336000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 68525.75,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": -39705.8,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": -39705.8,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 11408.791,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 17929.914,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[2]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1541309.4,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 1531532.2,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.642888E-07,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": -2000.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": -1.0232638,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 61.85996,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation[2]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.6825998,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 176.32153,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[2]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.13"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.14"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "6B214523-447DBE6D-51674DA3-15C8CE42"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": "MovieScene3DTransformTrack_1",
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 11453.351,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 33192.902,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[2]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 1508328.6,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation[2]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 250.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 250.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[2]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 250.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.15"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.16"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "540B6D05-461176DC-DE7D2383-CDC3B234"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.4"
+        }
+      ],
+      "EvaluationFieldGuid": "91EABE68-438C51EC-4F7B5993-0758BA0D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.4"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "91EABE68-438C51EC-4F7B5993-0758BA0D"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.5"
+        }
+      ],
+      "EvaluationFieldGuid": "1545D378-4F23843D-88AAF7B8-1BDFACF5",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.5"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "1545D378-4F23843D-88AAF7B8-1BDFACF5"
+    }
+  },
+  {
+    "Type": "MovieSceneAudioSection",
+    "Name": "MovieSceneAudioSection_1",
+    "Outer": "MovieSceneAudioTrack_0",
+    "Class": "UScriptClass'MovieSceneAudioSection'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundWave'Pickup_Ambience_Ammo'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Pickup/Pickup_Ambience_Ammo.0"
+      },
+      "SoundVolume": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.025,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "PitchMultiplier": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 72800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.33,
+            "Tangent": {
+              "ArriveTangent": 0.00013538764,
+              "LeaveTangent": 0.00013538764,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1
+          },
+          {
+            "Value": 2.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 2.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_0.MovieSceneAudioSection_1.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.17"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_0.MovieSceneAudioSection_1.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.18"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 336000
+            }
+          }
+        }
+      },
+      "Signature": "E1A5B530-4A5B81B0-92A57CA1-DD37047D"
+    }
+  },
+  {
+    "Type": "MovieSceneAudioSection",
+    "Name": "MovieSceneAudioSection_0",
+    "Outer": "MovieSceneAudioTrack_1",
+    "Class": "UScriptClass'MovieSceneAudioSection'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundWave'A_Ambience_Lava_01'",
+        "ObjectPath": "CrabChampions/Content/Audio/Ambience/Old/Lava/A_Ambience_Lava_01.0"
+      },
+      "StartFrameOffset": {
+        "Value": 12000
+      },
+      "SoundVolume": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 24800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.25,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.25,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "PitchMultiplier": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_1.MovieSceneAudioSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.19"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_1.MovieSceneAudioSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.20"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 336000
+            }
+          }
+        }
+      },
+      "Signature": "AE1336A8-4A2A780C-81D067B4-DE3D28C7"
+    }
+  },
+  {
+    "Type": "MovieSceneAudioTrack",
+    "Name": "MovieSceneAudioTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneAudioTrack'",
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "MovieSceneAudioSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_0.MovieSceneAudioSection_1'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.8"
+        }
+      ],
+      "EvaluationFieldGuid": "5B112DB4-4D471C28-D36BA4AC-920C39F7",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneAudioSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_0.MovieSceneAudioSection_1'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.8"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 336000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "5B112DB4-4D471C28-D36BA4AC-920C39F7"
+    }
+  },
+  {
+    "Type": "MovieSceneAudioTrack",
+    "Name": "MovieSceneAudioTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneAudioTrack'",
+    "Properties": {
+      "AudioSections": [
+        {
+          "ObjectName": "MovieSceneAudioSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_1.MovieSceneAudioSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.9"
+        }
+      ],
+      "EvaluationFieldGuid": "230B60CA-4712D021-83B97B8D-3FFF5C6F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneAudioSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_1.MovieSceneAudioSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.9"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 336000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "230B60CA-4712D021-83B97B8D-3FFF5C6F"
+    }
+  },
+  {
+    "Type": "MovieSceneBoolSection",
+    "Name": "MovieSceneBoolSection_0",
+    "Outer": "MovieSceneVisibilityTrack_0",
+    "Class": "UScriptClass'MovieSceneBoolSection'",
+    "Properties": {
+      "BoolCurve": {
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 336000
+          }
+        ],
+        "DefaultValue": true,
+        "bHasDefaultValue": true,
+        "Values": [
+          true,
+          false
+        ]
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneVisibilityTrack_0.MovieSceneBoolSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.37"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneVisibilityTrack_0.MovieSceneBoolSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.38"
+        }
+      },
+      "Signature": "97985ACD-4D7D2985-1EADA781-8BB9E8E4"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneAudioSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneAudioSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneAudioSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneAudioSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraCutSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraCutSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_2",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_2",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFadeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFadeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneSpawnSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneSpawnSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneSpawnSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneSpawnSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneBoolSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneBoolSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneCameraCutSection",
+    "Name": "MovieSceneCameraCutSection_0",
+    "Outer": "MovieSceneCameraCutTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraCutSection'",
+    "Properties": {
+      "CameraBindingID": {
+        "Guid": "C283F260-44487C34-8943608C-4C086477",
+        "ResolveParentIndex": 0
+      },
+      "InitialCameraCutTransform": {
+        "Rotation": {
+          "X": -5.3192685E-05,
+          "Y": 0.008929385,
+          "Z": 0.0059565343,
+          "W": 0.99994236,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Translation": {
+          "X": 68525.75,
+          "Y": 11408.791,
+          "Z": 1541309.4
+        }
+      },
+      "bHasInitialCameraCutTransform": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.21"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.22"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 336000
+            }
+          }
+        }
+      },
+      "BlendType": {
+        "bIsValid": true
+      },
+      "Signature": "EBF7E9BB-4341FD18-D169CC9E-65B3C04C"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraCutTrack",
+    "Name": "MovieSceneCameraCutTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraCutTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneCameraCutSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.39"
+        }
+      ],
+      "EvaluationFieldGuid": "6E3E6926-4A7D383D-72DF5585-20B18545",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraCutSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.39"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 336000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "6E3E6926-4A7D383D-72DF5585-20B18545"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_2",
+    "Outer": "MovieSceneCameraShakeTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_PortalTransition_OLD_C'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/BP_CameraShake_PortalTransition_OLD.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_2.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.23"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_2.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.24"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 336000
+            }
+          }
+        }
+      },
+      "Signature": "4C288027-4E9C282C-44EED78E-C1DDE107"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeTrack",
+    "Name": "MovieSceneCameraShakeTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeTrack'",
+    "Properties": {
+      "CameraShakeSections": [
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_2'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.41"
+        }
+      ],
+      "EvaluationFieldGuid": "C535D823-4B7EED12-66957191-0A9668FA",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_2'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.41"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 336000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "C535D823-4B7EED12-66957191-0A9668FA"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "LS_PortalTransition_OLD",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "00000000-00000000-00000000-00000000",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneAudioTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.10"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneAudioSectionTemplate",
+                  "Data": {
+                    "AudioSection": {
+                      "ObjectName": "MovieSceneAudioSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_0.MovieSceneAudioSection_1'",
+                      "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.8"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneAudioSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_0.MovieSceneAudioSection_1'",
+                      "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.8"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 1
+            },
+            "Value": {
+              "ObjectBindingID": "00000000-00000000-00000000-00000000",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneFadeTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFadeTrack_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.45"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneFadeSectionTemplate",
+                  "Data": {
+                    "FadeCurve": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "Times": [
+                        {
+                          "Value": 0
+                        },
+                        {
+                          "Value": 11200
+                        }
+                      ],
+                      "Values": [
+                        {
+                          "Value": 1.0,
+                          "Tangent": {
+                            "ArriveTangent": 0.0,
+                            "LeaveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangentWeight": 0.0,
+                            "TangentWeightMode": 0
+                          },
+                          "InterpMode": 2,
+                          "TangentMode": 0
+                        },
+                        {
+                          "Value": 0.0,
+                          "Tangent": {
+                            "ArriveTangent": 0.0,
+                            "LeaveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangentWeight": 0.0,
+                            "TangentWeightMode": 0
+                          },
+                          "InterpMode": 2,
+                          "TangentMode": 0
+                        }
+                      ],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": true,
+                      "TickResolution": {
+                        "Numerator": 24000,
+                        "Denominator": 1
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": null
+                    },
+                    "FadeColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "bFadeAudio": false,
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneFadeSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFadeTrack_0.MovieSceneFadeSection_0'",
+                      "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.44"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 2
+            },
+            "Value": {
+              "ObjectBindingID": "00000000-00000000-00000000-00000000",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneAudioTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_1'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.11"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneAudioSectionTemplate",
+                  "Data": {
+                    "AudioSection": {
+                      "ObjectName": "MovieSceneAudioSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_1.MovieSceneAudioSection_0'",
+                      "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.9"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneAudioSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneAudioTrack_1.MovieSceneAudioSection_0'",
+                      "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.9"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 3
+            },
+            "Value": {
+              "ObjectBindingID": "699C1A4A-4B6A77B6-2DCE179A-173B1CCE",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneCameraShakeTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraShakeTrack_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.42"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_PortalTransition_OLD_C'",
+                        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/BP_CameraShake_PortalTransition_OLD.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": 0
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_2'",
+                      "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.41"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 4
+            },
+            "Value": {
+              "ObjectBindingID": "8397286C-44C0E8D3-6A3E0098-204F0FEC",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneVisibilityTrack'LS_PortalTransition_OLD:MovieScene_0.MovieSceneVisibilityTrack_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.56"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneVisibilitySectionTemplate",
+                  "Data": {
+                    "BoolCurve": {
+                      "Times": [
+                        {
+                          "Value": 0
+                        },
+                        {
+                          "Value": 336000
+                        }
+                      ],
+                      "DefaultValue": true,
+                      "bHasDefaultValue": true,
+                      "Values": [
+                        true,
+                        false
+                      ]
+                    },
+                    "PropertyData": {
+                      "PropertyName": "Hidden",
+                      "PropertyPath": "bHidden"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneBoolSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneVisibilityTrack_0.MovieSceneBoolSection_0'",
+                      "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.12"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 4
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "5B112DB4-4D471C28-D36BA4AC-920C39F7",
+              "Value": {
+                "Value": 0
+              }
+            },
+            {
+              "Key": "A9AF49E7-4403E273-71B0A6B5-692F17B6",
+              "Value": {
+                "Value": 1
+              }
+            },
+            {
+              "Key": "230B60CA-4712D021-83B97B8D-3FFF5C6F",
+              "Value": {
+                "Value": 2
+              }
+            },
+            {
+              "Key": "C535D823-4B7EED12-66957191-0A9668FA",
+              "Value": {
+                "Value": 3
+              }
+            },
+            {
+              "Key": "BF5278A1-41AC4A36-537384BE-CC788A78",
+              "Value": {
+                "Value": 4
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 7,
+                  "Capacity": 7
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 5,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 6,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 7,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 336000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneCameraCutSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.39"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.4"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneSpawnSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_0.MovieSceneSpawnSection_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.52"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.46"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.47"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.48"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 5
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'LS_PortalTransition_OLD:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.5"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 6
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneSpawnSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_2.MovieSceneSpawnSection_0'",
+                "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.53"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 7
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "C283F260-44487C34-8943608C-4C086477"
+          },
+          {
+            "ObjectBindingID": "C283F260-44487C34-8943608C-4C086477"
+          },
+          {
+            "ObjectBindingID": "699C1A4A-4B6A77B6-2DCE179A-173B1CCE"
+          },
+          {
+            "ObjectBindingID": "699C1A4A-4B6A77B6-2DCE179A-173B1CCE"
+          },
+          {
+            "ObjectBindingID": "699C1A4A-4B6A77B6-2DCE179A-173B1CCE"
+          },
+          {
+            "ObjectBindingID": "8397286C-44C0E8D3-6A3E0098-204F0FEC"
+          },
+          {
+            "ObjectBindingID": "8397286C-44C0E8D3-6A3E0098-204F0FEC"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 336000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 336000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 4
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 5
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 2
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 3
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 4
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 4
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 4
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 4,
+                "TearDownIndex": 65531
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 2,
+                "TearDownIndex": 65533
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 2
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 3
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 4
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 3,
+                "TearDownIndex": 65532
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 4
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          }
+        ]
+      },
+      "CompiledSignature": "4FE06BE9-48ABA3C9-F64EE9B1-48886887",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFadeSection",
+    "Name": "MovieSceneFadeSection_0",
+    "Outer": "MovieSceneFadeTrack_0",
+    "Class": "UScriptClass'MovieSceneFadeSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 11200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "FadeColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFadeTrack_0.MovieSceneFadeSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.25"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFadeTrack_0.MovieSceneFadeSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.26"
+        }
+      },
+      "Signature": "F4BAC1E6-40B83B5B-1CCAD0AC-8E3DDC01"
+    }
+  },
+  {
+    "Type": "MovieSceneFadeTrack",
+    "Name": "MovieSceneFadeTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFadeTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFadeSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFadeTrack_0.MovieSceneFadeSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.44"
+        }
+      ],
+      "EvaluationFieldGuid": "A9AF49E7-4403E273-71B0A6B5-692F17B6",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFadeSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFadeTrack_0.MovieSceneFadeSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.44"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "A9AF49E7-4403E273-71B0A6B5-692F17B6"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": -0.0005070787,
+              "LeaveTangent": -0.0005070787,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1
+          }
+        ],
+        "DefaultValue": 40.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.27"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.28"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "CD811DE6-493E160A-04412E9E-01A461AB"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 100000.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.29"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.30"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "A2D3A4FD-4009A2A2-8DCBFFBC-3EEA0C76"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_2",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 2.8,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.31"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.32"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "202B2899-4E1ED0D0-92FB0184-B79ED59E"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentFocalLength",
+        "PropertyPath": "CurrentFocalLength",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.46"
+        }
+      ],
+      "EvaluationFieldGuid": "EEA21A16-42442F88-BD0702BF-966A84FD",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.46"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "EEA21A16-42442F88-BD0702BF-966A84FD"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ManualFocusDistance",
+        "PropertyPath": "FocusSettings.ManualFocusDistance"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.47"
+        }
+      ],
+      "EvaluationFieldGuid": "CC8D786E-4B09A8C4-B1E3788B-2C130241",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.47"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "CC8D786E-4B09A8C4-B1E3788B-2C130241"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentAperture",
+        "PropertyPath": "CurrentAperture",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.48"
+        }
+      ],
+      "EvaluationFieldGuid": "EB666EB9-4BC760E9-E07CFCB0-3463D2ED",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.48"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "EB666EB9-4BC760E9-E07CFCB0-3463D2ED"
+    }
+  },
+  {
+    "Type": "MovieSceneSpawnSection",
+    "Name": "MovieSceneSpawnSection_0",
+    "Outer": "MovieSceneSpawnTrack_0",
+    "Class": "UScriptClass'MovieSceneSpawnSection'",
+    "Properties": {
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_0.MovieSceneSpawnSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.33"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_0.MovieSceneSpawnSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.34"
+        }
+      },
+      "Signature": "A606DD70-422011D6-B64D86B5-CC87FF6A"
+    }
+  },
+  {
+    "Type": "MovieSceneSpawnSection",
+    "Name": "MovieSceneSpawnSection_0",
+    "Outer": "MovieSceneSpawnTrack_2",
+    "Class": "UScriptClass'MovieSceneSpawnSection'",
+    "Properties": {
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_2.MovieSceneSpawnSection_0.EaseInFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.35"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_2.MovieSceneSpawnSection_0.EaseOutFunction'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.36"
+        }
+      },
+      "Signature": "80EDC343-41D023DF-59A525B2-61B8A550"
+    }
+  },
+  {
+    "Type": "MovieSceneSpawnTrack",
+    "Name": "MovieSceneSpawnTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneSpawnTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneSpawnSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_0.MovieSceneSpawnSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.52"
+        }
+      ],
+      "ObjectGuid": "C283F260-44487C34-8943608C-4C086477",
+      "EvaluationFieldGuid": "B67B9BA1-48557A4A-FA59B2BF-EE39EE6F",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneSpawnSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_0.MovieSceneSpawnSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.52"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B67B9BA1-48557A4A-FA59B2BF-EE39EE6F"
+    }
+  },
+  {
+    "Type": "MovieSceneSpawnTrack",
+    "Name": "MovieSceneSpawnTrack_2",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneSpawnTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneSpawnSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_2.MovieSceneSpawnSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.53"
+        }
+      ],
+      "ObjectGuid": "8397286C-44C0E8D3-6A3E0098-204F0FEC",
+      "EvaluationFieldGuid": "3C06628B-42667E9C-E21A95AE-E5CA6819",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneSpawnSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneSpawnTrack_2.MovieSceneSpawnSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.53"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "3C06628B-42667E9C-E21A95AE-E5CA6819"
+    }
+  },
+  {
+    "Type": "MovieSceneVisibilityTrack",
+    "Name": "MovieSceneVisibilityTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneVisibilityTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "bHidden",
+        "PropertyPath": "bHidden",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneBoolSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneVisibilityTrack_0.MovieSceneBoolSection_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.12"
+        }
+      ],
+      "EvaluationFieldGuid": "BF5278A1-41AC4A36-537384BE-CC788A78",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneBoolSection'LS_PortalTransition_OLD:MovieScene_0.MovieSceneVisibilityTrack_0.MovieSceneBoolSection_0'",
+              "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.12"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "BF5278A1-41AC4A36-537384BE-CC788A78"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "CineCameraActor_1",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "S_PortalTransition_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'LS_PortalTransition_OLD:MovieScene_0.S_PortalTransition_1.StaticMeshComponent0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.59"
+      },
+      "bHidden": true,
+      "bReplayRewindable": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'LS_PortalTransition_OLD:MovieScene_0.S_PortalTransition_1.StaticMeshComponent0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Cinematic/LS_PortalTransition_OLD.59"
+      },
+      "Tags": [
+        "SequencerActor"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "S_PortalTransition_1",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_PortalTransition'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/PortalTransition/S_PortalTransition.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 11453.351,
+        "Y": 33192.9,
+        "Z": 1508328.6
+      },
+      "RelativeScale3D": {
+        "X": 249.99998,
+        "Y": 249.99998,
+        "Z": 249.99998
+      },
+      "ComponentVelocity": {
+        "X": 0.0,
+        "Y": -0.27913746,
+        "Z": 0.0
+      }
+    }
+  }
+]

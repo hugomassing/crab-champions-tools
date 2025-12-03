@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabWeaponModDA",
+    "Name": "DA_WeaponMod_IceStrike",
+    "Class": "UScriptClass'CrabWeaponModDA'",
+    "Properties": {
+      "WeaponModType": "ECrabWeaponModType::IceStrike",
+      "LevelDescription": "Ice strikes deal PrimaryBuff damage and apply SecondaryBuff ice stacks",
+      "BaseBuff": 100.0,
+      "bGetBuffAsMultiplier": true,
+      "Cooldown": 5,
+      "Name": "Ice Strike",
+      "Description": "Shots bring down ice strikes that damage and freeze nearby enemies",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_WeaponMod_Legendary'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/T_Icon_WeaponMod_Legendary.0"
+      },
+      "LootPool": "ECrabLootPool::Elemental",
+      "Rarity": "ECrabRarity::Legendary",
+      "PickupTag": "ECrabPickupTag::Ice",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_DefaultWeaponMod'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/WeaponMod/FX_Pickup_DefaultWeaponMod.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Crab_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Interact/A_Crab_Interact.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrabLaunchActionDA",
+    "Name": "DA_Action_EliteFireCrab_Launch",
+    "Class": "UScriptClass'CrabLaunchActionDA'",
+    "Properties": {
+      "PreLaunchHeight": 6000.0,
+      "LaunchSpeed": 15000.0,
+      "LandAOEDA": {
+        "ObjectName": "CrabAOEDA'DA_AOE_EliteFireCrab_LaunchLand'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Elite/Fire/DA_AOE_EliteFireCrab_LaunchLand.0"
+      },
+      "bRequiresLOS": false,
+      "Weight": 0.15,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_EnemyGroundSlam'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/Melee/AM_Crab_EnemyGroundSlam.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp.32"
+      }
+    }
+  }
+]

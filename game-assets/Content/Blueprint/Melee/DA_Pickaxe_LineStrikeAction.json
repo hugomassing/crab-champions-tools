@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "CrabStrikeActionDA",
+    "Name": "DA_Pickaxe_LineStrikeAction",
+    "Class": "UScriptClass'CrabStrikeActionDA'",
+    "Properties": {
+      "StrikeToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Strike_Pickaxe_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_Pickaxe.0"
+      },
+      "NumLineStrikesToSpawn": 8,
+      "LineStrikeSpawnFrequency": 0.1
+    }
+  }
+]

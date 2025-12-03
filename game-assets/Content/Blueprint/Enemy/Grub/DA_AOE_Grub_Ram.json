@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "CrabAOEDA",
+    "Name": "DA_AOE_Grub_Ram",
+    "Class": "UScriptClass'CrabAOEDA'",
+    "Properties": {
+      "SocketName": "RangedAttackSocket",
+      "Radius": 400.0,
+      "Damage": 10.0,
+      "DamageType": "ECrabDamageType::Melee",
+      "KnockbackStrength": 5000.0,
+      "AOESound": {
+        "ObjectName": "SoundCue'A_PhysicsCrown_Impact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/PhysicsCrown/A_PhysicsCrown_Impact.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "CrabPerkDA",
+    "Name": "DA_Perk_UpTheAnte",
+    "Class": "UScriptClass'CrabPerkDA'",
+    "Properties": {
+      "PerkType": "ECrabPerkType::UpTheAnte",
+      "LevelDescription": "Global damage multiplier increased by PrimaryBuff% but Debuff% more enemies spawn",
+      "BaseBuff": 25.0,
+      "bGetBuffAsMultiplier": true,
+      "BaseDebuff": 20.0,
+      "Name": "Up The Ante",
+      "Description": "Global damage multiplier increased but more enemies spawn",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Perk_Greed'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Greed.0"
+      },
+      "LootPool": "ECrabLootPool::Greed",
+      "Rarity": "ECrabRarity::Greed",
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_DefaultPerk_Greed_TEST'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Perk/FX_Pickup_DefaultPerk_Greed_TEST.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

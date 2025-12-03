@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PhysicsActor_Crown_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PhysicsActor_Crown_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Crown.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabPhysicsActor'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PhysicsActor_Crown_C'Default__BP_PhysicsActor_Crown_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Crown.1"
+    }
+  },
+  {
+    "Type": "BP_PhysicsActor_Crown_C",
+    "Name": "Default__BP_PhysicsActor_Crown_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Crown.BP_PhysicsActor_Crown_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_PhysicsActor_Crown_C:Mesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Crown.5"
+      },
+      "MeshToSpawn": {
+        "ObjectName": "StaticMesh'S_Crown'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Prop/Crown/S_Crown.2"
+      },
+      "MinScale": 1.0,
+      "MaxScale": 1.0,
+      "ImpactSound": {
+        "ObjectName": "SoundCue'A_PhysicsCrown_Impact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/PhysicsCrown/A_PhysicsCrown_Impact.0"
+      },
+      "bExplodeWhenTakingDamage": false,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_PhysicsActor_Crown_C:Mesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Crown.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_PhysicsActor_Crown_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PhysicsActor_Crown_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Crown.2"
+      },
+      "VariableGuid": "680FDFE9-4B36EE03-1B4C6D88-E1295BBE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_PhysicsActor_Crown_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PhysicsActor_Crown_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_PhysicsActor_Crown.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": "Default__BP_PhysicsActor_Crown_C",
+    "Class": "UScriptClass'StaticMeshComponent'"
+  }
+]

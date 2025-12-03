@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "CrabMeleeModDA",
+    "Name": "DA_MeleeMod_LightningClaws",
+    "Class": "UScriptClass'CrabMeleeModDA'",
+    "Properties": {
+      "MeleeModType": "ECrabMeleeModType::LightningClaws",
+      "LevelDescription": "Melee shocks enemies with PrimaryBuff lightning stacks",
+      "BaseBuff": 50.0,
+      "Name": "Lightning Claws",
+      "Description": "Melee shocks enemies",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Perk_Epic'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Epic.0"
+      },
+      "LootPool": "ECrabLootPool::Elemental",
+      "Rarity": "ECrabRarity::Epic",
+      "PickupTag": "ECrabPickupTag::Lightning",
+      "SpawnWeight": 0.75,
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_MeleeMod_TEST'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Perk/FX_Pickup_MeleeMod_TEST.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

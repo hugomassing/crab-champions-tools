@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_Flamethrower",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 0.66,
+      "CollisionRadius": 15.0,
+      "Speed": 15000.0,
+      "GravityScale": 0.5,
+      "MaxPiercings": 3,
+      "ProximityDamageRadius": 250.0,
+      "ExplosionRadius": 250.0,
+      "ExplosionDamage": 2.0,
+      "ExplosionDamageAreaSpawnChance": 15.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_Flamethrower_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_Flamethrower.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Flamethrower'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Fireball/FX_Projectile_Flamethrower.27"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      }
+    }
+  }
+]

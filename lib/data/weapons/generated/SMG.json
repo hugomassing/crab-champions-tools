@@ -1,0 +1,22 @@
+{
+  "id": "SMG",
+  "gameId": "DA_Weapon_SMG",
+  "name": "SMG",
+  "description": "Fast firing, high spread SMG",
+  "rarity": "Greed",
+  "stats": {
+    "fireRate": 16,
+    "clipSize": 40,
+    "reloadDuration": 0.75,
+    "baseSpread": 3,
+    "maxSpread": 25,
+    "spreadRecovery": 0.25,
+    "verticalRecoil": 2.5,
+    "horizontalRecoil": 1,
+    "recoilInterpSpeed": 4
+  },
+  "projectileId": "DA_Projectile_SMG",
+  "requiresUnlock": false,
+  "iconPath": "T_UI_Icon_Rifle_Silhouette",
+  "tintColor": "rgb(255, 63, 0)"
+}

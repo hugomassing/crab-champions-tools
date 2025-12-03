@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_BossAnt_Skull",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_BossAnt_Skull'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Ant/Boss/DA_Projectile_BossAnt_Skull.0"
+      },
+      "FormationType": "ECrabFormationType::Double",
+      "FormationSpacing": 20.0,
+      "bRequiresLOS": false,
+      "LoopingActionInterval": 0.5,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Ant_Attack_Ranged_BossTest'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Ant/Attack/AM_Ant_Attack_Ranged_BossTest.0"
+      },
+      "FXSocketName": "RangedAttackSocket",
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Attack_Looping'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Attack/FX_Attack_Looping.47"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Ant_Attack_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Ant/Attack/A_Ant_Attack_Cue.0"
+      }
+    }
+  }
+]

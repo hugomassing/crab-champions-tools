@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Checkpoint_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Checkpoint_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Checkpoint.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabCheckpoint'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Checkpoint_C'Default__BP_Checkpoint_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Checkpoint.1"
+    }
+  },
+  {
+    "Type": "BP_Checkpoint_C",
+    "Name": "Default__BP_Checkpoint_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_Checkpoint.BP_Checkpoint_C'",
+    "Properties": {
+      "CheckpointCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Checkpoint_C:CheckpointCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Checkpoint.6"
+      },
+      "CheckpointNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Checkpoint_C:CheckpointNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Checkpoint.2"
+      },
+      "CheckpointFX": {
+        "ObjectName": "NiagaraSystem'FX_Checkpoint'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Checkpoint/FX_Checkpoint.29"
+      },
+      "CheckpointActiveSound": {
+        "ObjectName": "SoundCue'A_UI_Buff'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/A_UI_Buff.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Checkpoint_C:CheckpointCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Checkpoint.6"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "CheckpointNC",
+    "Outer": "Default__BP_Checkpoint_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Checkpoint_C:CheckpointCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Checkpoint.6"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Checkpoint_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Checkpoint_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Checkpoint.3"
+      },
+      "VariableGuid": "DB498346-448E1374-80ED328D-6E9FC6AF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Checkpoint_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Checkpoint_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Checkpoint.4"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CheckpointCollision",
+    "Outer": "Default__BP_Checkpoint_C",
+    "Class": "UScriptClass'SphereComponent'"
+  }
+]

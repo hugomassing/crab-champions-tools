@@ -1,0 +1,19 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_BeamTurret",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 5.0,
+      "CollisionRadius": 50.0,
+      "Speed": 1000.0,
+      "MaxPiercings": 99,
+      "AttachedBeamToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Beam_BeamTurret_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Beam/BP_Beam_BeamTurret.0"
+      },
+      "ExplosionRadius": 0.0,
+      "ExplosionDamage": 0.0
+    }
+  }
+]

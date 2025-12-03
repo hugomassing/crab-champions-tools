@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_EliteBeamSkull_SpinningBeam_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_EliteBeamSkull_SpinningBeam_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabBeam'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_EliteBeamSkull_SpinningBeam_C'Default__BP_EliteBeamSkull_SpinningBeam_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.1"
+    }
+  },
+  {
+    "Type": "BP_EliteBeamSkull_SpinningBeam_C",
+    "Name": "Default__BP_EliteBeamSkull_SpinningBeam_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.BP_EliteBeamSkull_SpinningBeam_C'",
+    "Properties": {
+      "BeamRoot": {
+        "ObjectName": "SceneComponent'Default__BP_EliteBeamSkull_SpinningBeam_C:BeamRoot'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.5"
+      },
+      "BeamNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_EliteBeamSkull_SpinningBeam_C:BeamNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.3"
+      },
+      "BeamAC": {
+        "ObjectName": "AudioComponent'Default__BP_EliteBeamSkull_SpinningBeam_C:BeamAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.2"
+      },
+      "BeamRadius": 150.0,
+      "BeamLength": 100000.0,
+      "BeamLengthInterpTime": 1.5,
+      "ArcAngle": 40.0,
+      "EasingExponent": 4.0,
+      "VerticalStrength": 1.0,
+      "HorizontalStrength": 0.0,
+      "Lifetime": 2.0,
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Beam_EliteBeamSkull_ProjectileBeam'",
+        "ObjectPath": "CrabChampions/Content/FX/Beam/FX_Beam_EliteBeamSkull_ProjectileBeam.88"
+      },
+      "bAttachToOwningC": true,
+      "Damage": 12.0,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_EliteBeamSkull_SpinningBeam_C:BeamRoot'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.5"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "BeamAC",
+    "Outer": "Default__BP_EliteBeamSkull_SpinningBeam_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_EliteBeamSkull_SpinningBeam_C:BeamRoot'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.5"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "BeamNC",
+    "Outer": "Default__BP_EliteBeamSkull_SpinningBeam_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_EliteBeamSkull_SpinningBeam_C:BeamRoot'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_EliteBeamSkull_SpinningBeam_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "BeamRoot",
+    "Outer": "Default__BP_EliteBeamSkull_SpinningBeam_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_EliteBeamSkull_SpinningBeam_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.4"
+      },
+      "VariableGuid": "AAB66AD6-4CA4D378-F9F624B2-4B7D0FE5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_EliteBeamSkull_SpinningBeam_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_EliteBeamSkull_SpinningBeam_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Skull/Elite/Beam/SpinningBeam/BP_EliteBeamSkull_SpinningBeam.6"
+      }
+    }
+  }
+]

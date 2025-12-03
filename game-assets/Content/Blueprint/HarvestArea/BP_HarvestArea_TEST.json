@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_HarvestArea_TEST_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_HarvestArea_TEST_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabHarvestArea'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HarvestArea_TEST_C'Default__BP_HarvestArea_TEST_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.1"
+    }
+  },
+  {
+    "Type": "BP_HarvestArea_TEST_C",
+    "Name": "Default__BP_HarvestArea_TEST_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.BP_HarvestArea_TEST_C'",
+    "Properties": {
+      "HarvestAreaNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_HarvestArea_TEST_C:HarvestAreaNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.2"
+      },
+      "HarvestAreaWC": {
+        "ObjectName": "WidgetComponent'Default__BP_HarvestArea_TEST_C:HarvestAreaWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.6"
+      },
+      "HarvestAreaFX": {
+        "ObjectName": "NiagaraSystem'FX_HarvestArea_Crystal'",
+        "ObjectPath": "CrabChampions/Content/FX/HarvestArea/FX_HarvestArea_Crystal.73"
+      },
+      "Tint": {
+        "R": 0.46,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "B500FF"
+      },
+      "InitialCountdown": 30,
+      "HarvestCountdownFX": {
+        "ObjectName": "NiagaraSystem'FX_HarvestAreaCrystals'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Crystal/FX_HarvestAreaCrystals.47"
+      },
+      "HarvestCountdownSound": {
+        "ObjectName": "SoundCue'A_Pickup_Crystal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Pickup/Crystal/A_Pickup_Crystal.0"
+      },
+      "HarvestClearFX": {
+        "ObjectName": "NiagaraSystem'FX_RareTreasure'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Spawn/FX_RareTreasure.38"
+      },
+      "HarvestClearSound": {
+        "ObjectName": "SoundCue'A_Explosion_Crystal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Crystal/A_Explosion_Crystal.0"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_HarvestArea_TEST_C:HarvestAreaNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.2"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "HarvestAreaNC",
+    "Outer": "Default__BP_HarvestArea_TEST_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_HarvestArea_TEST_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_HarvestArea_TEST_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.3"
+      },
+      "VariableGuid": "4D841519-46305F80-E7A7C49F-2BDB320D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_HarvestArea_TEST_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_HarvestArea_TEST_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.4"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "HarvestAreaWC",
+    "Outer": "Default__BP_HarvestArea_TEST_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "NiagaraComponent'Default__BP_HarvestArea_TEST_C:HarvestAreaNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/HarvestArea/BP_HarvestArea_TEST.2"
+      }
+    }
+  }
+]

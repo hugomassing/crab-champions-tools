@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrabProximityExplodeActionDA",
+    "Name": "DA_Action_Pufferfish_ProximityExplode",
+    "Class": "UScriptClass'CrabProximityExplodeActionDA'",
+    "Properties": {
+      "ExplosionAOEDA": {
+        "ObjectName": "CrabAOEDA'DA_AOE_Pufferfish_ProximityExplosion'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Pufferfish/DA_AOE_Pufferfish_ProximityExplosion.0"
+      },
+      "Range": 2500.0,
+      "bMustBeGrounded": true,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Pufferfish_ProximityExplodeTrigger'",
+        "ObjectPath": "CrabChampions/Content/Character_OLD/Pufferfish/Roll/AM_Pufferfish_ProximityExplodeTrigger.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp_AOE'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp_AOE.74"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Spawner_Spawn_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Spawner/A_Spawner_Spawn_Cue.0"
+      }
+    }
+  }
+]

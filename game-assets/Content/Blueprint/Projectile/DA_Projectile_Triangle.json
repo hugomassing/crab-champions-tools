@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_Triangle",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "CollisionRadius": 33.0,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 750.0,
+      "ExplosionDamage": 200.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Triangle'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Triangle/FX_Projectile_Triangle.86"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Triangle'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Triangle.49"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Water_Medium_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Water/A_Impact_Water_Medium_Cue.0"
+      }
+    }
+  }
+]

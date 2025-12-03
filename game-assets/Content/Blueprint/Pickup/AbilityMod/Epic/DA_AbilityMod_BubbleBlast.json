@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabAbilityModDA",
+    "Name": "DA_AbilityMod_BubbleBlast",
+    "Class": "UScriptClass'CrabAbilityModDA'",
+    "Properties": {
+      "AbilityModType": "ECrabAbilityModType::BubbleBlast",
+      "EnhanceableType": "ECrabEnhanceableType::Enhanceable",
+      "LevelDescription": "Each bubble deals PrimaryBuff damage per second",
+      "BaseBuff": 100.0,
+      "bGetBuffAsMultiplier": true,
+      "Name": "Bubble Blast",
+      "Description": "Abilities explode into damaging bubbles",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_WeaponMod_BubbleShot'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/T_Icon_WeaponMod_BubbleShot.0"
+      },
+      "LootPool": "ECrabLootPool::Damage",
+      "Rarity": "ECrabRarity::Epic",
+      "SpawnWeight": 0.75,
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_BubbleShot'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/WeaponMod/BubbleShot/FX_Pickup_BubbleShot.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Portal_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Portal/Interact/A_Portal_Interact.0"
+      }
+    }
+  }
+]

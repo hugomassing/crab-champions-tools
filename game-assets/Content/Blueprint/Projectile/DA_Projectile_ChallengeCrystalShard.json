@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_ChallengeCrystalShard",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "CollisionRadius": 25.0,
+      "Speed": 5500.0,
+      "GravityScale": 4.0,
+      "ExplosionDamage": 0.0,
+      "ExplosionDestructibleToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_ChallengeCrystal_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Destructible/Crystal/BP_Destructible_ChallengeCrystal.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_DestructibleShard'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Shard/FX_Projectile_DestructibleShard.29"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Crystal'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Crystal.101"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Crystal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Crystal/A_Explosion_Crystal.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_LaunchPad_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_LaunchPad_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_LaunchPad.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabLaunchPad'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_LaunchPad_C'Default__BP_LaunchPad_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_LaunchPad.1"
+    }
+  },
+  {
+    "Type": "BP_LaunchPad_C",
+    "Name": "Default__BP_LaunchPad_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_LaunchPad.BP_LaunchPad_C'",
+    "Properties": {
+      "LaunchPadNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_LaunchPad_C:LaunchPadNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_LaunchPad.3"
+      },
+      "LaunchPadAC": {
+        "ObjectName": "AudioComponent'Default__BP_LaunchPad_C:LaunchPadAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_LaunchPad.2"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_LaunchPad'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/LaunchPad/FX_LaunchPad.53"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Launchpad_Ambience'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Pickup/A_Launchpad_Ambience.0"
+      },
+      "LaunchFX": {
+        "ObjectName": "NiagaraSystem'FX_LaunchPad_Launch'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/LaunchPad/FX_LaunchPad_Launch.65"
+      },
+      "LaunchSound": {
+        "ObjectName": "SoundCue'A_Crab_Bunnyhop_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Bunnyhop/A_Crab_Bunnyhop_Cue.0"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_LaunchPad_C:LaunchPadNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_LaunchPad.3"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "LaunchPadAC",
+    "Outer": "Default__BP_LaunchPad_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "NiagaraComponent'Default__BP_LaunchPad_C:LaunchPadNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_LaunchPad.3"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "LaunchPadNC",
+    "Outer": "Default__BP_LaunchPad_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_LaunchPad_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_LaunchPad_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_LaunchPad.4"
+      },
+      "VariableGuid": "FA034A43-45ABD2E9-BC8917AD-A63E554A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_LaunchPad_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_LaunchPad_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_LaunchPad.5"
+      }
+    }
+  }
+]

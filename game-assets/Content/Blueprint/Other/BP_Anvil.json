@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Anvil_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Anvil_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabAnvil'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Anvil_C'Default__BP_Anvil_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.1"
+    }
+  },
+  {
+    "Type": "BP_Anvil_C",
+    "Name": "Default__BP_Anvil_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Other/BP_Anvil.BP_Anvil_C'",
+    "Properties": {
+      "AnvilMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Anvil_C:AnvilMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.8"
+      },
+      "AnvilNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Anvil_C:AnvilNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.2"
+      },
+      "AnvilLocationWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Anvil_C:AnvilLocationWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.9"
+      },
+      "HammerSlamNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Anvil_C:HammerSlamNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.3"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Anvil'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Totem/Anvil/S_Anvil.2"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Anvil'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Anvil/FX_Anvil.39"
+      },
+      "AnvilLocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "HammerSlamFX": {
+        "ObjectName": "NiagaraSystem'FX_Anvil_HammerSlam'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Anvil/FX_Anvil_HammerSlam.155"
+      },
+      "HammerSlamSound": {
+        "ObjectName": "SoundCue'A_Anvil_HammerSlam'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Anvil/A_Anvil_HammerSlam.0"
+      },
+      "InteractableCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Anvil_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.7"
+      },
+      "InteractWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Anvil_C:InteractWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.10"
+      },
+      "InteractUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_Minimal_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact_Minimal.0"
+      },
+      "InteractUIHeightOffset": 50.0,
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Anvil_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.7"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "AnvilNC",
+    "Outer": "Default__BP_Anvil_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Anvil_C:AnvilMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.8"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "HammerSlamNC",
+    "Outer": "Default__BP_Anvil_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Anvil_C:AnvilMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.8"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Anvil_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Anvil_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.4"
+      },
+      "VariableGuid": "8E3A5E59-49DB1AF5-DB28D9BD-545E9090",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Anvil_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Anvil_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.5"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "InteractableCollision",
+    "Outer": "Default__BP_Anvil_C",
+    "Class": "UScriptClass'SphereComponent'"
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "AnvilMesh",
+    "Outer": "Default__BP_Anvil_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Anvil_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.7"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "AnvilLocationWC",
+    "Outer": "Default__BP_Anvil_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Anvil_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.7"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "InteractWC",
+    "Outer": "Default__BP_Anvil_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Anvil_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Other/BP_Anvil.7"
+      }
+    }
+  }
+]

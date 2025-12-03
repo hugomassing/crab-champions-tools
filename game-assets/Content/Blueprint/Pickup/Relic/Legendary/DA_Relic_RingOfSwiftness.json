@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "CrabRelicDA",
+    "Name": "DA_Relic_RingOfSwiftness",
+    "Class": "UScriptClass'CrabRelicDA'",
+    "Properties": {
+      "RelicType": "ECrabRelicType::RingOfSwiftness",
+      "LevelDescription": "Gain hugely increased movement speed",
+      "BaseBuff": 300.0,
+      "bGetBuffAsMultiplier": true,
+      "Name": "Ring Of Swiftness",
+      "Description": "Gain hugely increased movement speed",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Relic_Legendary'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Relic/T_Icon_Relic_Legendary.0"
+      },
+      "LootPool": "ECrabLootPool::Speed",
+      "Rarity": "ECrabRarity::Legendary",
+      "PickupTag": "ECrabPickupTag::Speed",
+      "SpawnWeight": 0.3,
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Relic'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Relic/FX_Pickup_Relic.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "LocationUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Location_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Generic/UI_Location.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'Interact_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/OLD/Loot/Chest/Interact_Cue.0"
+      }
+    }
+  }
+]

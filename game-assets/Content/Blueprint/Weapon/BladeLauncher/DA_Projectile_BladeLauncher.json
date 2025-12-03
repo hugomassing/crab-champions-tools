@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_BladeLauncher",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 1.0,
+      "CollisionRadius": 15.0,
+      "Speed": 9000.0,
+      "MaxPiercings": 3,
+      "ProximityDamageRadius": 250.0,
+      "ExplosionRadius": 250.0,
+      "ExplosionDamage": 9.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Blade'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Blade/FX_Projectile_Blade.81"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Sand_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Sand/A_Impact_Sand_Cue.0"
+      }
+    }
+  }
+]

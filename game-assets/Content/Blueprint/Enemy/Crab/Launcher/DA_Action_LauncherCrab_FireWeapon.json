@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "CrabFireWeaponActionDA",
+    "Name": "DA_Action_LauncherCrab_FireWeapon",
+    "Class": "UScriptClass'CrabFireWeaponActionDA'",
+    "Properties": {
+      "TargetType": "ECrabTargetType::CurrentLoc",
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_EnemyWeaponFire_Slow'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/Action/AM_Crab_EnemyWeaponFire_Slow.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Attack'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/Attack/FX_Attack.42"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Crab_Bunnyhop_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Bunnyhop/A_Crab_Bunnyhop_Cue.0"
+      }
+    }
+  }
+]

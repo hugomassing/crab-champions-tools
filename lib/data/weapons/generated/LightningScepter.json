@@ -1,0 +1,23 @@
+{
+  "id": "LightningScepter",
+  "gameId": "DA_Weapon_LightningScepter",
+  "name": "Lightning Scepter",
+  "description": "Shoots close range shocking beams",
+  "rarity": "Greed",
+  "stats": {
+    "fireRate": 7,
+    "clipSize": 25,
+    "reloadDuration": 2,
+    "baseSpread": 5,
+    "maxSpread": 25,
+    "verticalRecoil": 0,
+    "horizontalRecoil": 0
+  },
+  "crosshairType": "Dot",
+  "formationType": "SmallArc",
+  "formationSpacing": 0,
+  "projectileId": "DA_Projectile_LightningScepter",
+  "requiresUnlock": true,
+  "iconPath": "T_UI_Icon_OrbLauncher_Silhouette",
+  "tintColor": "rgb(137, 0, 255)"
+}

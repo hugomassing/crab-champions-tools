@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_ElectroGlobe",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 4.0,
+      "CollisionRadius": 16.0,
+      "Speed": 2000.0,
+      "ProximityDamageRadius": 800.0,
+      "ProximityDamageMultiplier": 0.1,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 1200.0,
+      "ExplosionDamage": 50.0,
+      "ExplosionDebuff": {
+        "DebuffType": "ECrabDebuffType::Lightning",
+        "DebuffStack": 50
+      },
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_ElectroGlobe_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_ElectroGlobe.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_ElectroGlobe'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Arcane/FX_Projectile_ElectroGlobe.58"
+      },
+      "ProjectileSound": {
+        "ObjectName": "SoundCue'A_DamageArea_Lightning'",
+        "ObjectPath": "CrabChampions/Content/Audio/DamageArea/Lightning/A_DamageArea_Lightning.0"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Bomb'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Bomb.70"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Arcane_Large'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Arcane/A_Explosion_Arcane_Large.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "CrabProjectileActionDA",
+    "Name": "DA_Action_FireCrab_Arc",
+    "Class": "UScriptClass'CrabProjectileActionDA'",
+    "Properties": {
+      "SocketNames": [
+        "claw_03_l"
+      ],
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_FireCrab'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Fire/DA_Projectile_FireCrab.0"
+      },
+      "FormationType": "ECrabFormationType::LargeArc",
+      "FormationSpacing": 1.0,
+      "bStopMovementDuringAction": true,
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Crab_EnemyMelee_02'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Enemy/Melee/AM_Crab_EnemyMelee_02.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp.32"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Crab_Bunnyhop_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Crab/Old/Bunnyhop/A_Crab_Bunnyhop_Cue.0"
+      }
+    }
+  }
+]

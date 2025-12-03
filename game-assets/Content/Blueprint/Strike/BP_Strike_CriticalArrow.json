@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Strike_CriticalArrow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Strike_CriticalArrow_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalArrow.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabStrike'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Strike_CriticalArrow_C'Default__BP_Strike_CriticalArrow_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalArrow.1"
+    }
+  },
+  {
+    "Type": "BP_Strike_CriticalArrow_C",
+    "Name": "Default__BP_Strike_CriticalArrow_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalArrow.BP_Strike_CriticalArrow_C'",
+    "Properties": {
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Strike_CriticalArrow'",
+        "ObjectPath": "CrabChampions/Content/FX/Strike/FX_Strike_CriticalArrow.103"
+      },
+      "SpawnSound": {
+        "ObjectName": "SoundCue'A_Projectile_Dagger'",
+        "ObjectPath": "CrabChampions/Content/Audio/Projectile/Dagger/A_Projectile_Dagger.0"
+      },
+      "Radius": 500.0,
+      "ExplosionDelay": 0.33,
+      "Damage": 40.0,
+      "DamageType": "ECrabDamageType::Lesser",
+      "KnockbackStrength": 0.0,
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Sand_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Sand/A_Impact_Sand_Cue.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Strike_CriticalArrow_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Strike_CriticalArrow_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalArrow.2"
+      },
+      "VariableGuid": "85B2FB9F-43F91662-ED5FA18C-73A50F72",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Strike_CriticalArrow_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Strike_CriticalArrow_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalArrow.3"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Strike_CriticalArrow_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalArrow.3"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Strike_CriticalArrow_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Strike/BP_Strike_CriticalArrow.3"
+      }
+    }
+  }
+]

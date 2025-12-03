@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Pickup_Crystal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Pickup_Crystal_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabCrystalPickup'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Pickup_Crystal_C'Default__BP_Pickup_Crystal_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.1"
+    }
+  },
+  {
+    "Type": "BP_Pickup_Crystal_C",
+    "Name": "Default__BP_Pickup_Crystal_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.BP_Pickup_Crystal_C'",
+    "Properties": {
+      "PickupNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Pickup_Crystal_C:PickupNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.2"
+      },
+      "PickupCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Pickup_Crystal_C:PickupCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.6"
+      },
+      "OverlapRadius": 2000.0,
+      "Lifetime": 8.0,
+      "PickupFX": {
+        "ObjectName": "NiagaraSystem'FX_Crystals'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/Crystal/FX_Crystals.92"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Pickup_Crystal'",
+        "ObjectPath": "CrabChampions/Content/Audio/Pickup/Crystal/A_Pickup_Crystal.0"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_Pickup_Crystal_C:PickupNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.2"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "PickupNC",
+    "Outer": "Default__BP_Pickup_Crystal_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Pickup_Crystal_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Pickup_Crystal_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.3"
+      },
+      "VariableGuid": "873035C6-43471194-1DC8FBA9-33ADBA06",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Pickup_Crystal_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Pickup_Crystal_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.4"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "PickupCollision",
+    "Outer": "Default__BP_Pickup_Crystal_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "NiagaraComponent'Default__BP_Pickup_Crystal_C:PickupNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/Overlap/Crystal/BP_Pickup_Crystal.2"
+      }
+    }
+  }
+]

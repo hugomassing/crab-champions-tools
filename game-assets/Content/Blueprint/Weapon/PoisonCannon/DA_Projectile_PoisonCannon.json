@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_PoisonCannon",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 2.0,
+      "CollisionRadius": 25.0,
+      "Speed": 10000.0,
+      "GravityScale": 0.66,
+      "bExplodeAfterLifetime": true,
+      "ExplosionRadius": 1250.0,
+      "ExplosionDamage": 2.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_PoisonCannon_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/DamageArea/BP_DamageArea_PoisonCannon.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_PoisonCannon'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Organic/FX_Projectile_PoisonCannon.88"
+      },
+      "ProjectileTrailFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Trail'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/FX_Projectile_Trail.90"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Poison'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Poison.86"
+      }
+    }
+  }
+]

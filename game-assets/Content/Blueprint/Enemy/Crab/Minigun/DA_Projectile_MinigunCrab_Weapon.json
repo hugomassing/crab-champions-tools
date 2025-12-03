@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_MinigunCrab_Weapon",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 0.5,
+      "CollisionRadius": 15.0,
+      "Speed": 25000.0,
+      "ExplosionRadius": 15.0,
+      "ExplosionDamage": 6.0,
+      "ExplosionDamageAreaSpawnChance": 20.0,
+      "ExplosionDamageAreaToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DamageArea_MinigunCrab_C'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Crab/Minigun/BP_DamageArea_MinigunCrab.0"
+      },
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_Bullet_Large'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Bullet/FX_Projectile_Bullet_Large.42"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Impact_Small'",
+        "ObjectPath": "CrabChampions/Content/FX/Impact/FX_Impact_Small.124"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Impact_Sand_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Impact/Old/Sand/A_Impact_Sand_Cue.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "Type": "CrabWeaponDA",
+    "Name": "DA_CosmeticWeapon_HammerCrab",
+    "Class": "UScriptClass'CrabWeaponDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Hammer'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Placeholder/Weapon/Placeholder/Hammer/S_Hammer.2"
+      }
+    }
+  }
+]

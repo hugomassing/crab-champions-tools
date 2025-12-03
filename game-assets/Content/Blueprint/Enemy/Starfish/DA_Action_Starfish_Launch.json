@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "CrabLaunchActionDA",
+    "Name": "DA_Action_Starfish_Launch",
+    "Class": "UScriptClass'CrabLaunchActionDA'",
+    "Properties": {
+      "PreLaunchHeight": 3500.0,
+      "LaunchSpeed": 17500.0,
+      "LandAOEDA": {
+        "ObjectName": "CrabAOEDA'DA_AOE_Starfish_LaunchLand'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Enemy/Starfish/DA_AOE_Starfish_LaunchLand.0"
+      },
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_Starfish_Launch'",
+        "ObjectPath": "CrabChampions/Content/Character/Starfish/Animation/Launch/AM_Starfish_Launch.0"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_ChargeUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Enemy/ChargeUp/FX_ChargeUp.32"
+      },
+      "Sound": {
+        "ObjectName": "SoundCue'A_Starfish'",
+        "ObjectPath": "CrabChampions/Content/Audio/Character/Starfish/A_Starfish.0"
+      }
+    }
+  }
+]

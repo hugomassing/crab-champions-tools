@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "CrabProjectileDA",
+    "Name": "DA_Projectile_WaveTurret",
+    "Class": "UScriptClass'CrabProjectileDA'",
+    "Properties": {
+      "Lifetime": 3.0,
+      "CollisionRadius": 16.0,
+      "Speed": 3000.0,
+      "MaxPiercings": 99,
+      "ProximityDamageRadius": 400.0,
+      "ExplosionRadius": 0.0,
+      "ExplosionDamage": 10.0,
+      "ProjectileFX": {
+        "ObjectName": "NiagaraSystem'FX_Projectile_WaveTurret'",
+        "ObjectPath": "CrabChampions/Content/FX/Projectile/Wave/FX_Projectile_WaveTurret.42"
+      }
+    }
+  }
+]

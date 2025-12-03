@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "CrabWeaponDA",
+    "Name": "DA_Weapon_LightningScepter",
+    "Class": "UScriptClass'CrabWeaponDA'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_LightningScepter'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Pickup/Weapon/LightningScepter/S_LightningScepter.2"
+      },
+      "ProjectileDA": {
+        "ObjectName": "CrabProjectileDA'DA_Projectile_LightningScepter'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Weapon/LightningScepter/DA_Projectile_LightningScepter.0"
+      },
+      "StartingWeaponMod": {
+        "WeaponModDA": {
+          "ObjectName": "CrabWeaponModDA'DA_WeaponMod_LightningShot'",
+          "ObjectPath": "CrabChampions/Content/Blueprint/Pickup/WeaponMod/Common/DA_WeaponMod_LightningShot.0"
+        }
+      },
+      "CrosshairType": "ECrabCrosshairType::Dot",
+      "ShotDirType": "ECrabShotDirType::LobDir",
+      "bFireFromRoot": false,
+      "FormationType": "ECrabFormationType::SmallArc",
+      "FormationSpacing": 0.0,
+      "BaseFireRate": 7.0,
+      "WeaponModTriggerRollMultiplier": 3.0,
+      "BaseSpread": 5.0,
+      "FiringSpreadIncrement": 0.5,
+      "MaxSpread": 25.0,
+      "VerticalRecoil": 0.0,
+      "HorizontalRecoil": 0.0,
+      "BaseClipSize": 25,
+      "ReloadDuration": 2.0,
+      "EquipMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Generic_Equip'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Generic_Equip.0"
+      },
+      "EquipSound": {
+        "ObjectName": "SoundCue'A_Foley_Equip_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Equip/A_Foley_Equip_Cue.0"
+      },
+      "CosmeticFX": {
+        "ObjectName": "NiagaraSystem'FX_Cosmetic_LightningScepter'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Pickup/Weapon/LightningScepter/OLD/FX_Cosmetic_LightningScepter.9"
+      },
+      "FireMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_Rifle_Fire'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_Rifle_Fire.0"
+      },
+      "FloatFireMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_LightningScepter_Fire'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_LightningScepter_Fire.0"
+      },
+      "MuzzleFlashFX": {
+        "ObjectName": "NiagaraSystem'FX_MuzzleFlash_LightningScepter'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Pickup/Weapon/LightningScepter/OLD/FX_MuzzleFlash_LightningScepter.65"
+      },
+      "GunshotSound": {
+        "ObjectName": "SoundCue'A_Gunshot_LightningScepter'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/LightningScepter/A_Gunshot_LightningScepter.0"
+      },
+      "LowAmmoSound": {
+        "ObjectName": "SoundCue'A_UI_LowAmmo'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/Hitmarker/A_UI_LowAmmo.0"
+      },
+      "EmptyClipSound": {
+        "ObjectName": "SoundCue'A_BulletShell_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Weapon/Old/Foley/Shell/A_BulletShell_Cue.0"
+      },
+      "ReloadMontage": {
+        "ObjectName": "AnimMontage'AM_Crab_LightningScepter_Reload'",
+        "ObjectPath": "CrabChampions/Content/Character/Crab/Animation/Weapon/AM_Crab_LightningScepter_Reload.0"
+      },
+      "bRequiresUnlock": true,
+      "Name": "Lightning Scepter",
+      "Description": "Shoots close range shocking beams",
+      "Icon": {
+        "ObjectName": "Texture2D'T_UI_Icon_OrbLauncher_Silhouette'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Weapon/T_UI_Icon_OrbLauncher_Silhouette.0"
+      },
+      "Rarity": "ECrabRarity::Greed",
+      "Tint": {
+        "R": 0.25,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "8900FF"
+      },
+      "PrimaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_LightningScepter'",
+        "ObjectPath": "CrabChampions/Content/FX/Weapon/Pickup/FX_Pickup_LightningScepter.15"
+      },
+      "SecondaryFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_Secondary'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_Secondary.157"
+      },
+      "InteractUI": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact.0"
+      },
+      "OnPickedUpFX": {
+        "ObjectName": "NiagaraSystem'FX_Pickup_OnPickedUp'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/FX_Pickup_OnPickedUp.27"
+      },
+      "OnPickedUpSound": {
+        "ObjectName": "SoundCue'A_Portal_Interact'",
+        "ObjectPath": "CrabChampions/Content/Audio/Prop/Portal/Interact/A_Portal_Interact.0"
+      }
+    }
+  }
+]

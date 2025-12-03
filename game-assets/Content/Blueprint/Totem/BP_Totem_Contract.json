@@ -1,0 +1,195 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Totem_Contract_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Totem_Contract_C:SimpleConstructionScript_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CrabTotem'",
+      "ObjectPath": "/Script/CrabChampions"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Totem_Contract_C'Default__BP_Totem_Contract_C'",
+      "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.1"
+    }
+  },
+  {
+    "Type": "BP_Totem_Contract_C",
+    "Name": "Default__BP_Totem_Contract_C",
+    "Class": "BlueprintGeneratedClass'CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.BP_Totem_Contract_C'",
+    "Properties": {
+      "TotemMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Totem_Contract_C:TotemMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.8"
+      },
+      "TotemNC": {
+        "ObjectName": "NiagaraComponent'Default__BP_Totem_Contract_C:TotemNC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.3"
+      },
+      "TotemAC": {
+        "ObjectName": "AudioComponent'Default__BP_Totem_Contract_C:TotemAC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.2"
+      },
+      "TotemType": "ECrabTotemType::Contract",
+      "Tint": {
+        "R": 0.928912,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "F7FF00"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMesh'S_Totem_Generic'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Interactable/Totem/Generic/S_Totem_Generic.2"
+      },
+      "FX": {
+        "ObjectName": "NiagaraSystem'FX_Totem'",
+        "ObjectPath": "CrabChampions/Content/FX/Prop/Totem/FX_Totem.37"
+      },
+      "BuffSound": {
+        "ObjectName": "SoundCue'A_UI_Buff'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/Gameplay/Old/A_UI_Buff.0"
+      },
+      "DebuffSound": {
+        "ObjectName": "SoundCue'A_UI_Debuff'",
+        "ObjectPath": "CrabChampions/Content/Audio/UI/GameState/Old/A_UI_Debuff.0"
+      },
+      "DestroyedMesh": {
+        "ObjectName": "StaticMesh'S_Totem_Generic_Destroyed'",
+        "ObjectPath": "CrabChampions/Content/Geometry/Interactable/Totem/Generic/S_Totem_Generic_Destroyed.2"
+      },
+      "ExplosionFX": {
+        "ObjectName": "NiagaraSystem'FX_Explosion_Medium'",
+        "ObjectPath": "CrabChampions/Content/FX/Explosion/FX_Explosion_Medium.73"
+      },
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'A_Explosion_Generic_Large_Cue'",
+        "ObjectPath": "CrabChampions/Content/Audio/Explosion/Generic/Large/A_Explosion_Generic_Large_Cue.0"
+      },
+      "ExplosionCameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CameraShake_Explosion_C'",
+        "ObjectPath": "CrabChampions/Content/FX/CameraShake/BP_CameraShake_Explosion.0"
+      },
+      "InteractableCollision": {
+        "ObjectName": "SphereComponent'Default__BP_Totem_Contract_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.7"
+      },
+      "InteractWC": {
+        "ObjectName": "WidgetComponent'Default__BP_Totem_Contract_C:InteractWC'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.9"
+      },
+      "InteractUIToSpawn": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_Interact_Minimal_C'",
+        "ObjectPath": "CrabChampions/Content/UI/Interact/UI_Interact_Minimal.0"
+      },
+      "InteractCooldown": 1.0,
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Totem_Contract_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.7"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "TotemAC",
+    "Outer": "Default__BP_Totem_Contract_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Totem_Contract_C:TotemMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.8"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "TotemNC",
+    "Outer": "Default__BP_Totem_Contract_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Totem_Contract_C:TotemMesh'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.8"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Totem_Contract_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Totem_Contract_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.4"
+      },
+      "VariableGuid": "8F96A9D2-4E87945E-BA27BD84-395CF8E7",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Totem_Contract_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Totem_Contract_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.5"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "InteractableCollision",
+    "Outer": "Default__BP_Totem_Contract_C",
+    "Class": "UScriptClass'SphereComponent'"
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TotemMesh",
+    "Outer": "Default__BP_Totem_Contract_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Totem_Contract_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.7"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "InteractWC",
+    "Outer": "Default__BP_Totem_Contract_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_Totem_Contract_C:InteractableCollision'",
+        "ObjectPath": "CrabChampions/Content/Blueprint/Totem/BP_Totem_Contract.7"
+      }
+    }
+  }
+]
