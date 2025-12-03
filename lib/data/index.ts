@@ -2,6 +2,9 @@
  * Public API for game data access
  */
 
+import type { Ability, AbilityRarity } from "../types/abilities";
+import type { Weapon, WeaponRarity } from "../types/weapons";
+
 export {
   loadAbilities,
   loadWeapons,
@@ -35,7 +38,9 @@ export async function getAbilitiesByRarity(
 /**
  * Filter weapons by rarity
  */
-export async function getWeaponsByRarity(rarity: WeaponRarity): Promise<Weapon[]> {
+export async function getWeaponsByRarity(
+  rarity: WeaponRarity
+): Promise<Weapon[]> {
   const { loadWeapons } = await import("./loaders");
   const weapons = await loadWeapons();
   return weapons.filter((weapon) => weapon.rarity === rarity);
@@ -84,4 +89,3 @@ export async function searchWeapons(query: string): Promise<Weapon[]> {
       weapon.description.toLowerCase().includes(lowerQuery)
   );
 }
-
