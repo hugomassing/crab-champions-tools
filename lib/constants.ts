@@ -8,10 +8,9 @@ export interface NavItem {
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "Map Explorer", href: "/map-explorer" },
-  { label: "Damage Calculator", href: "/damage-calculator" },
-  { label: "Abilities", href: "/abilities" },
+  { label: "Pickups", href: "/pickups" },
   { label: "Weapons", href: "/weapons" },
+  { label: "Abilities", href: "/abilities" },
 ];
 
 export interface ToolCard {
@@ -23,16 +22,6 @@ export interface ToolCard {
 
 export const TOOL_CARDS: ToolCard[] = [
   {
-    title: "Map Explorer",
-    description: "Explore all maps, locations, and secrets in Crab Champions",
-    href: "/map-explorer",
-  },
-  {
-    title: "Damage Calculator",
-    description: "Calculate damage output for different weapon and ability combinations",
-    href: "/damage-calculator",
-  },
-  {
     title: "Abilities",
     description: "Browse all abilities, their effects, and upgrade paths",
     href: "/abilities",
@@ -41,6 +30,11 @@ export const TOOL_CARDS: ToolCard[] = [
     title: "Weapons",
     description: "Comprehensive weapon stats, upgrades, and synergies",
     href: "/weapons",
+  },
+  {
+    title: "Pickups",
+    description: "Browse all pickups including perks, mods, relics, and consumables",
+    href: "/pickups",
   },
 ];
 

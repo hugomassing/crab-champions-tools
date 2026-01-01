@@ -1,0 +1,16 @@
+{
+  "id": "WindUp",
+  "gameId": "DA_WeaponMod_WindUp",
+  "type": "WeaponMod",
+  "name": "Wind Up",
+  "description": "Shots deal more damage for each shot fired until stopping fire",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by 5% for each shot fired until stopping fire (up to a max of PrimaryBuff shots)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 40,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

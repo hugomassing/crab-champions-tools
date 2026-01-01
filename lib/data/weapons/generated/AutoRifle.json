@@ -5,17 +5,11 @@
   "description": "Balanced full auto rifle",
   "rarity": "Greed",
   "stats": {
-    "clipSize": 35,
     "reloadDuration": 1.25,
     "baseSpread": 1.5,
     "maxSpread": 5,
-    "spreadRecovery": 0.18,
-    "verticalRecoil": 4,
-    "horizontalRecoil": 0,
-    "recoilInterpSpeed": 4
+    "horizontalRecoil": 0
   },
-  "projectileId": "DA_Projectile_AutoRifle",
   "requiresUnlock": false,
-  "iconPath": "T_UI_Icon_Rifle_Silhouette",
   "tintColor": "rgb(188, 0, 0)"
 }

@@ -1,0 +1,19 @@
+{
+  "id": "CriticalThinking",
+  "gameId": "DA_Perk_CriticalThinking",
+  "type": "Perk",
+  "name": "Critical Thinking",
+  "description": "Critical hits deal more damage but non critical hits deal less damage",
+  "rarity": "Common",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "spawnWeight": 1.5,
+  "levelDescription": "Critical hit damage multiplier increased by PrimaryBuff% but non critical hits deal Debuff% less damage",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 10,
+  "getDebuffAsMultiplier": false
+}

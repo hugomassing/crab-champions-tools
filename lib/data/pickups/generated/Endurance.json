@@ -1,0 +1,16 @@
+{
+  "id": "Endurance",
+  "gameId": "DA_Perk_Endurance",
+  "type": "Perk",
+  "name": "Endurance",
+  "description": "Heal at the start of each island",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Heal PrimaryBuff health at the start of each island",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 125,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

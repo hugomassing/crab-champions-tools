@@ -1,0 +1,16 @@
+{
+  "id": "PumpkinShot",
+  "gameId": "DA_WeaponMod_PumpkinShot",
+  "type": "WeaponMod",
+  "name": "Pumpkin Shot",
+  "description": "Chance to lob explosive pumpkins along with your shots",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to lob pumpkins dealing SecondaryBuff damage along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

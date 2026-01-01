@@ -1,0 +1,16 @@
+{
+  "id": "RingOfFavoritism",
+  "gameId": "DA_Relic_RingOfFavoritism",
+  "type": "Relic",
+  "name": "Ring Of Favoritism",
+  "description": "If you have exactly 1 chance based enhanceable weapon mod in your inventory, it is 1000% more likely to trigger",
+  "rarity": "Greed",
+  "spawnWeight": 0.3,
+  "levelDescription": "If you have exactly 1 chance based enhanceable weapon mod in your inventory, it is PrimaryBuff% more likely to trigger",
+  "iconPath": "T_Icon_Relic_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 1000,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

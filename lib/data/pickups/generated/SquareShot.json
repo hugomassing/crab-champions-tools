@@ -1,0 +1,16 @@
+{
+  "id": "SquareShot",
+  "gameId": "DA_WeaponMod_SquareShot",
+  "type": "WeaponMod",
+  "name": "Square Shot",
+  "description": "Chance to fire in a square shot formation",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance to fire in a square shot formation",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

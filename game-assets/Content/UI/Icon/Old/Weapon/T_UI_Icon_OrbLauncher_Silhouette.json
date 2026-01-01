@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "T_UI_Icon_OrbLauncher_Silhouette",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 512,
+        "Y": 256
+      },
+      "LightingGuid": "EE431462-408C278C-908DD19B-6BFE8E87",
+      "CompressionSettings": "TC_EditorIcon",
+      "LODGroup": "TEXTUREGROUP_UI"
+    },
+    "SizeX": 512,
+    "SizeY": 256,
+    "PackedData": 1,
+    "PixelFormat": "PF_B8G8R8A8",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 524288,
+          "SizeOnDisk": 524288,
+          "OffsetInFile": "0x809AC"
+        },
+        "SizeX": 512,
+        "SizeY": 256,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

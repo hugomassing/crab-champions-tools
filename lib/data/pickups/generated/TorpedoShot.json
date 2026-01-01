@@ -1,0 +1,16 @@
+{
+  "id": "TorpedoShot",
+  "gameId": "DA_WeaponMod_TorpedoShot",
+  "type": "WeaponMod",
+  "name": "Torpedo Shot",
+  "description": "Chance to fire homing torpedoes along with your shots",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire homing torpedoes that deal SecondaryBuff damage along with your shots",
+  "iconPath": "T_Icon_WeaponMod_TorpedoShot",
+  "requiresUnlock": true,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

@@ -5,12 +5,14 @@
 import {
   RawAbilityData,
   RawWeaponData,
+  RawPickupData,
   CrabRarity,
   CrabHitmarkerType,
   CrabAbilitySpawnType,
   CrabCrosshairType,
   CrabFormationType,
 } from "../lib/types/game-data";
+import { LootPool, PickupTag } from "../lib/types/pickups";
 
 const VALID_RARITIES: CrabRarity[] = [
   "Common",
@@ -149,6 +151,28 @@ export function extractProjectileId(
 }
 
 /**
+ * Validate and normalize fire mode
+ */
+export function validateFireMode(fireMode: string | undefined): string | undefined {
+  if (!fireMode) return undefined;
+  const normalized = extractEnumValue(fireMode);
+  return normalized;
+}
+
+/**
+ * Extract weapon mod ID from StartingWeaponMod
+ */
+export function extractWeaponModId(
+  startingWeaponMod: {
+    WeaponModDA?: { ObjectName?: string; ObjectPath?: string };
+  } | undefined
+): string | undefined {
+  if (!startingWeaponMod?.WeaponModDA?.ObjectName) return undefined;
+  const match = startingWeaponMod.WeaponModDA.ObjectName.match(/'([^']+)'/);
+  return match ? match[1] : undefined;
+}
+
+/**
  * Validate required fields in ability data
  */
 export function validateAbilityData(
@@ -195,5 +219,66 @@ export function hexToRgb(hex: string | undefined): string | undefined {
   const g = parseInt(hex.substring(2, 4), 16);
   const b = parseInt(hex.substring(4, 6), 16);
   return `rgb(${r}, ${g}, ${b})`;
+}
+
+const VALID_LOOT_POOLS: LootPool[] = [
+  "Damage",
+  "Critical",
+  "Elemental",
+  "Health",
+  "Regeneration",
+  "Speed",
+  "Skill",
+  "Economy",
+  "Luck",
+];
+
+const VALID_PICKUP_TAGS: PickupTag[] = [
+  "Fire",
+  "Ice",
+  "Lightning",
+  "Poison",
+  "Critical",
+  "None",
+];
+
+/**
+ * Validate and normalize loot pool
+ */
+export function validateLootPool(lootPool: string | undefined): LootPool | undefined {
+  if (!lootPool) return undefined;
+  const normalized = extractEnumValue(lootPool);
+  if (normalized && VALID_LOOT_POOLS.includes(normalized as LootPool)) {
+    return normalized as LootPool;
+  }
+  return undefined;
+}
+
+/**
+ * Validate and normalize pickup tag
+ */
+export function validatePickupTag(pickupTag: string | undefined): PickupTag | undefined {
+  if (!pickupTag) return undefined;
+  const normalized = extractEnumValue(pickupTag);
+  if (normalized && VALID_PICKUP_TAGS.includes(normalized as PickupTag)) {
+    return normalized as PickupTag;
+  }
+  return undefined;
+}
+
+/**
+ * Validate required fields in pickup data
+ */
+export function validatePickupData(data: RawPickupData, fileName: string): void {
+  if (!data.Properties.Name) {
+    throw new Error(`Missing Name in ${fileName}`);
+  }
+  if (!data.Properties.Description) {
+    throw new Error(`Missing Description in ${fileName}`);
+  }
+  if (!data.Properties.Icon) {
+    throw new Error(`Missing Icon in ${fileName}`);
+  }
+  validateRarity(data.Properties.Rarity, fileName);
 }
 

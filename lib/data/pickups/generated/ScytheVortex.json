@@ -1,0 +1,17 @@
+{
+  "id": "ScytheVortex",
+  "gameId": "DA_AbilityMod_ScytheVortex",
+  "type": "AbilityMod",
+  "name": "Scythe Vortex",
+  "description": "Abilities explode into scythe vortexes",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Scythe vortexes deal PrimaryBuff damage over a Duration second period",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "FireAura",
+  "gameId": "DA_Perk_FireAura",
+  "type": "Perk",
+  "name": "Fire Aura",
+  "description": "Ignite and damage nearby enemies every few seconds",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "levelDescription": "Deal PrimaryBuff damage and apply SecondaryBuff fire stacks to nearby enemies",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": true,
+  "cooldown": 6,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

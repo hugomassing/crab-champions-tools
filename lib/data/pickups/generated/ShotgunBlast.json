@@ -1,0 +1,16 @@
+{
+  "id": "ShotgunBlast",
+  "gameId": "DA_WeaponMod_ShotgunBlast",
+  "type": "WeaponMod",
+  "name": "Shotgun Blast",
+  "description": "Chance to fire deadly shotgun blasts along with your shots",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire shotgun blasts along with your shots. Each pellet deals SecondaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

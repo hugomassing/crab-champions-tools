@@ -1,0 +1,16 @@
+{
+  "id": "PowerArmor",
+  "gameId": "DA_Perk_PowerArmor",
+  "type": "Perk",
+  "name": "Power Armor",
+  "description": "Damage increased for each equipped armor plate",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% for each equipped armor plate",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 15,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

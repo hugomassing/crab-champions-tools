@@ -1,0 +1,17 @@
+{
+  "id": "CrystalStrike",
+  "gameId": "DA_AbilityMod_CrystalStrike",
+  "type": "AbilityMod",
+  "name": "Crystal Strike",
+  "description": "Abilities explode into crystal strikes",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Crystal strikes deal PrimaryBuff damage",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

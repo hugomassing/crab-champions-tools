@@ -1,0 +1,16 @@
+{
+  "id": "SkillRing",
+  "gameId": "DA_Relic_SkillRing",
+  "type": "Relic",
+  "name": "Skill Ring",
+  "description": "Upgrade Epic chests to Legendary chests when flawlessly clearing an island",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Upgrade Epic chests to Legendary chests when flawlessly clearing an island",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

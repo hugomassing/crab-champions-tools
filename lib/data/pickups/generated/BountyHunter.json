@@ -1,0 +1,16 @@
+{
+  "id": "BountyHunter",
+  "gameId": "DA_Perk_BountyHunter",
+  "type": "Perk",
+  "name": "Bounty Hunter",
+  "description": "Large enemies have a small chance to drop loot when eliminated",
+  "rarity": "Common",
+  "lootPool": "Luck",
+  "levelDescription": "Large enemies have a PrimaryBuff% chance to drop loot when eliminated",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 5,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

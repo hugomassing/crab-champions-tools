@@ -1,0 +1,16 @@
+{
+  "id": "MoneyShot",
+  "gameId": "DA_WeaponMod_MoneyShot",
+  "type": "WeaponMod",
+  "name": "Money Shot",
+  "description": "Gain crystals when damaging enemies",
+  "rarity": "Epic",
+  "lootPool": "Economy",
+  "levelDescription": "Gain PrimaryBuff crystals when damaging enemies",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MegaCrit",
+  "gameId": "DA_Perk_MegaCrit",
+  "type": "Perk",
+  "name": "Mega Crit",
+  "description": "Chance for shots to Mega Crit (deal 3x critical hit damage) when landing critical hits",
+  "rarity": "Epic",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "spawnWeight": 1.5,
+  "levelDescription": "PrimaryBuff% chance to Mega Crit when landing critical hits",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 10,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

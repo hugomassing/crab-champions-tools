@@ -1,0 +1,18 @@
+{
+  "id": "CriticalLightning",
+  "gameId": "DA_Perk_CriticalLightning",
+  "type": "Perk",
+  "name": "Critical Lightning",
+  "description": "Chance for critical hits to shock random enemies",
+  "rarity": "Legendary",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "spawnWeight": 1.5,
+  "levelDescription": "PrimaryBuff% chance for critical hits to shock random enemies with SecondaryBuff lightning stacks",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 15,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

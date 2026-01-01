@@ -1,0 +1,17 @@
+{
+  "id": "SplitAbility",
+  "gameId": "DA_AbilityMod_SplitAbility",
+  "type": "AbilityMod",
+  "name": "Split Ability",
+  "description": "Chance for abilities to split into 4 copies while in the air",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "spawnWeight": 0.75,
+  "levelDescription": "PrimaryBuff% chance for abilities to split into 4 copies while in the air",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 30,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

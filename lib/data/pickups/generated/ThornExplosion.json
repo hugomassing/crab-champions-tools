@@ -1,0 +1,17 @@
+{
+  "id": "ThornExplosion",
+  "gameId": "DA_AbilityMod_ThornExplosion",
+  "type": "AbilityMod",
+  "name": "Thorn Explosion",
+  "description": "Abilities explode into homing thorns that stick to enemies and deal damage over time",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each thorn deals PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

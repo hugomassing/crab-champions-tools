@@ -1,0 +1,16 @@
+{
+  "id": "BonusCrystals",
+  "gameId": "DA_Perk_BonusCrystals",
+  "type": "Perk",
+  "name": "Bonus Crystals",
+  "description": "More crystals drop when eliminating enemies",
+  "rarity": "Epic",
+  "lootPool": "Economy",
+  "levelDescription": "PrimaryBuff% more crystals drop when eliminating enemies",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

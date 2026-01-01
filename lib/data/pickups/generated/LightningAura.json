@@ -1,0 +1,18 @@
+{
+  "id": "LightningAura",
+  "gameId": "DA_Perk_LightningAura",
+  "type": "Perk",
+  "name": "Lightning Aura",
+  "description": "Shock and damage nearby enemies every few seconds",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "levelDescription": "Deal PrimaryBuff damage and apply SecondaryBuff lightning stacks to nearby enemies",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": true,
+  "cooldown": 6,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

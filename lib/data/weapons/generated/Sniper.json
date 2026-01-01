@@ -5,17 +5,11 @@
   "description": "High piercing damage but slow fire rate sniper",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 1,
-    "clipSize": 6,
     "reloadDuration": 2,
     "baseSpread": 1,
     "maxSpread": 15,
-    "spreadRecovery": 1,
-    "aimingSpreadMultiplier": 0.01,
-    "verticalRecoil": 10
+    "fireRate": 1
   },
-  "projectileId": "DA_Projectile_Sniper",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_Rifle_Silhouette",
   "tintColor": "rgb(255, 25, 0)"
 }

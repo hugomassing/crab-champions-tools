@@ -1,0 +1,16 @@
+{
+  "id": "RapidFire",
+  "gameId": "DA_WeaponMod_RapidFire",
+  "type": "WeaponMod",
+  "name": "Rapid Fire",
+  "description": "Fire rate increased",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "levelDescription": "Fire rate increased by PrimaryBuff%",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 12,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

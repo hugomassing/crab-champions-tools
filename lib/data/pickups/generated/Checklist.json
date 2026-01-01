@@ -1,0 +1,16 @@
+{
+  "id": "Checklist",
+  "gameId": "DA_Perk_Checklist",
+  "type": "Perk",
+  "name": "Checklist",
+  "description": "Damage increased after every 25 eliminations",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% after every 25 eliminations",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

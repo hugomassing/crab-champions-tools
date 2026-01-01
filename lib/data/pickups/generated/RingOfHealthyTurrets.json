@@ -1,0 +1,16 @@
+{
+  "id": "RingOfHealthyTurrets",
+  "gameId": "DA_Relic_RingOfHealthyTurrets",
+  "type": "Relic",
+  "name": "Ring Of Healthy Turrets",
+  "description": "Turret health increased by 200%",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Turret health increased by 200%",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

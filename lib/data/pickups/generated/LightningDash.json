@@ -1,0 +1,17 @@
+{
+  "id": "LightningDash",
+  "gameId": "DA_Perk_LightningDash",
+  "type": "Perk",
+  "name": "Lightning Dash",
+  "description": "Dashing shocks and knocks back nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "levelDescription": "Apply PrimaryBuff lightning stacks to nearby enemies when dashing",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 200,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

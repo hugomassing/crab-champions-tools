@@ -1,0 +1,16 @@
+{
+  "id": "BigChests",
+  "gameId": "DA_Perk_BigChests",
+  "type": "Perk",
+  "name": "Big Chests",
+  "description": "Chests contain more loot choices",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "levelDescription": "Chests contain PrimaryBuff more loot choices",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

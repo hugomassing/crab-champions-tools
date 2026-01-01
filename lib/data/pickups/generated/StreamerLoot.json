@@ -1,0 +1,16 @@
+{
+  "id": "StreamerLoot",
+  "gameId": "DA_Perk_StreamerLoot",
+  "type": "Perk",
+  "name": "Streamer Loot",
+  "description": "Loot drops have a chance to be upgraded to a higher rarity",
+  "rarity": "Common",
+  "lootPool": "Luck",
+  "levelDescription": "Loot drops have a PrimaryBuff% chance to be upgraded to a higher rarity",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 4,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

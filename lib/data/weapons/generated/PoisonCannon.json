@@ -5,17 +5,16 @@
   "description": "Bursts into poison clouds that wear your enemies down over time. Increases to weapon damage also affect the poison cloud damage. Slow fire rate- choose your shots wisely!",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 0.5,
-    "clipSize": 6,
     "reloadDuration": 2.5,
     "baseSpread": 15,
-    "maxSpread": 25
+    "maxSpread": 25,
+    "fireRate": 0.5
   },
   "crosshairType": "Circle",
-  "formationSpacing": 1,
-  "formationExpansionDampening": 50,
-  "projectileId": "DA_Projectile_PoisonCannon",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_OrbLauncher_Silhouette",
-  "tintColor": "rgb(210, 255, 0)"
+  "tintColor": "rgb(210, 255, 0)",
+  "startingWeaponMod": {
+    "weaponModId": "DA_WeaponMod_PoisonShot"
+  },
+  "fireMode": "Burst"
 }

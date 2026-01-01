@@ -1,0 +1,17 @@
+{
+  "id": "SharpClaws",
+  "gameId": "DA_MeleeMod_SharpClaws",
+  "type": "MeleeMod",
+  "name": "Sharp Claws",
+  "description": "Melee damage increased",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "EnhancedTurrets",
+  "gameId": "DA_Perk_EnhancedTurrets",
+  "type": "Perk",
+  "name": "Enhanced Turrets",
+  "description": "Turret damage increased",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 1.5,
+  "levelDescription": "Turret damage increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "Bullseye",
+  "gameId": "DA_Perk_Bullseye",
+  "type": "Perk",
+  "name": "Bullseye",
+  "description": "Max health increased after every one shot (losing all health within 0.25 seconds) elimination",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Max health increased by PrimaryBuff after every one shot (losing all health within 0.25 seconds) elimination",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

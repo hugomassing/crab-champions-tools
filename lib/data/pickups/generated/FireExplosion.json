@@ -1,0 +1,18 @@
+{
+  "id": "FireExplosion",
+  "gameId": "DA_AbilityMod_FireExplosion",
+  "type": "AbilityMod",
+  "name": "Fire Explosion",
+  "description": "Abilities explode into fire damage areas",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "spawnWeight": 0.75,
+  "levelDescription": "Fire damage areas apply SecondaryBuff fire stacks over a Duration second period",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

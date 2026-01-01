@@ -1,0 +1,16 @@
+{
+  "id": "AerialShot",
+  "gameId": "DA_WeaponMod_AerialShot",
+  "type": "WeaponMod",
+  "name": "Aerial Shot",
+  "description": "Shots deal more damage when airborne",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) when airborne",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

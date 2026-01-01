@@ -1,5 +1,5 @@
 {
-  "additionalDescription": "Dual laser cannons that fire precise energy beams. The lasers travel instantly and deal consistent damage. High accuracy and no projectile travel time make it excellent for hitting fast-moving targets.",
+  "additionalDescription": "Dual laser cannons firing instant energy beams. High accuracy, perfect for fast-moving targets.",
   "tags": ["laser", "instant", "precision", "energy"],
   "tips": [
     "Instant hit registration makes it great for fast targets",

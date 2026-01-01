@@ -1,0 +1,17 @@
+{
+  "id": "AdrenalineAmulet",
+  "gameId": "DA_Relic_AdrenalineAmulet",
+  "type": "Relic",
+  "name": "Adrenaline Amulet",
+  "description": "Fire rate increased by 33% for 5 seconds after eliminating an enemy",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "spawnWeight": 0.3,
+  "levelDescription": "Fire rate increased by PrimaryBuff% for 5 seconds after eliminating an enemy",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 33,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

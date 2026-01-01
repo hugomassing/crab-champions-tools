@@ -1,0 +1,16 @@
+{
+  "id": "OverspillGoblet",
+  "gameId": "DA_Relic_OverspillGoblet",
+  "type": "Relic",
+  "name": "Overspill Goblet",
+  "description": "Critical hit chance is halved but also used as a bonus critical hit damage multiplier",
+  "rarity": "Greed",
+  "pickupTag": "Critical",
+  "spawnWeight": 0.3,
+  "levelDescription": "Critical hit chance is halved but also used as a bonus critical hit damage multiplier of PrimaryBuff%",
+  "iconPath": "T_Icon_Relic_Greed",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

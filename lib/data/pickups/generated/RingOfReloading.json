@@ -1,0 +1,17 @@
+{
+  "id": "RingOfReloading",
+  "gameId": "DA_Relic_RingOfReloading",
+  "type": "Relic",
+  "name": "Ring Of Reloading",
+  "description": "Reload speed increased by 75%",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "spawnWeight": 0.3,
+  "levelDescription": "Reload speed increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

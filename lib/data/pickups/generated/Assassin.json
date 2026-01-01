@@ -1,0 +1,16 @@
+{
+  "id": "Assassin",
+  "gameId": "DA_Perk_Assassin",
+  "type": "Perk",
+  "name": "Assassin",
+  "description": "Damage increased after every 10 one shot (losing all health within 0.25 seconds) eliminations",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% after every 10 one shot (losing all health within 0.25 seconds) eliminations",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "PotentMagic",
+  "gameId": "DA_Perk_PotentMagic",
+  "type": "Perk",
+  "name": "Potent Magic",
+  "description": "Arcane strength increased",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "spawnWeight": 1.5,
+  "levelDescription": "Arcane strength increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "FireStrike",
+  "gameId": "DA_WeaponMod_FireStrike",
+  "type": "WeaponMod",
+  "name": "Fire Strike",
+  "description": "Shots bring down powerful fire strikes that damage and burn nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "levelDescription": "Fire strikes deal PrimaryBuff damage and apply SecondaryBuff fire stacks",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": true,
+  "cooldown": 5,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

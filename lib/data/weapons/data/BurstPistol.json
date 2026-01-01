@@ -1,5 +1,5 @@
 {
-  "additionalDescription": "A pistol that fires in controlled bursts. Each trigger pull releases multiple shots in quick succession. Offers a balance between single-shot precision and automatic fire rate.",
+  "additionalDescription": "Pistol that fires controlled bursts. Balances precision with automatic fire rate.",
   "tags": ["pistol", "burst", "semi-automatic", "balanced"],
   "tips": [
     "Burst fire pattern helps with ammo conservation",

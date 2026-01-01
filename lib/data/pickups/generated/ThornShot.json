@@ -1,0 +1,16 @@
+{
+  "id": "ThornShot",
+  "gameId": "DA_WeaponMod_ThornShot",
+  "type": "WeaponMod",
+  "name": "Thorn Shot",
+  "description": "Chance to fire homing thorns along with your shots that stick to enemies and deal damage over time",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire homing thorns that deal SecondaryBuff damage per second along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

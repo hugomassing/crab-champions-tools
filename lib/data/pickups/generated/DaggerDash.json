@@ -1,0 +1,16 @@
+{
+  "id": "DaggerDash",
+  "gameId": "DA_Perk_DaggerDash",
+  "type": "Perk",
+  "name": "Dagger Dash",
+  "description": "Dashing sends an arc of daggers in the direction that you are looking",
+  "rarity": "Legendary",
+  "lootPool": "Speed",
+  "levelDescription": "Each dagger deals PrimaryBuff damage per second",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

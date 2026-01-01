@@ -1,0 +1,17 @@
+{
+  "id": "LayeredExplosion",
+  "gameId": "DA_AbilityMod_LayeredExplosion",
+  "type": "AbilityMod",
+  "name": "Layered Explosion",
+  "description": "Chance for abilities to explode twice",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "spawnWeight": 0.75,
+  "levelDescription": "PrimaryBuff% chance for abilities to explode twice",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

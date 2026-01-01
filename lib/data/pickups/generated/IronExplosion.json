@@ -1,0 +1,18 @@
+{
+  "id": "IronExplosion",
+  "gameId": "DA_AbilityMod_IronExplosion",
+  "type": "AbilityMod",
+  "name": "Iron Explosion",
+  "description": "Abilities deal much more damage but have a longer cooldown",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Abilities deal PrimaryBuff% more damage (+SecondaryBuff damage) but have a Debuff% longer cooldown",
+  "iconPath": "T_Icon_GrenadeMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 200,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 40,
+  "getDebuffAsMultiplier": false
+}

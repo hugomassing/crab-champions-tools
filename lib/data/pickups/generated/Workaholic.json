@@ -1,0 +1,16 @@
+{
+  "id": "Workaholic",
+  "gameId": "DA_Perk_Workaholic",
+  "type": "Perk",
+  "name": "Workaholic",
+  "description": "More crystals drop when eliminating enemies but you lose some of your max health multiplier",
+  "rarity": "Greed",
+  "levelDescription": "PrimaryBuff% more crystals drop when eliminating enemies but max health multiplier decreased by Debuff%",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 125,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "FaultyChests",
+  "gameId": "DA_Perk_FaultyChests",
+  "type": "Perk",
+  "name": "Faulty Chests",
+  "description": "Chance for unchosen chest loot to not disappear",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance for unchosen chest loot to not disappear",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 15,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

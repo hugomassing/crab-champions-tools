@@ -1,0 +1,18 @@
+{
+  "id": "FireStorm",
+  "gameId": "DA_WeaponMod_FireStorm",
+  "type": "WeaponMod",
+  "name": "Fire Storm",
+  "description": "Shots create fiery storms that deal damage over time",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "levelDescription": "Fire storms deal PrimaryBuff damage and apply SecondaryBuff fire stacks over a Duration second period",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "cooldown": 3,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

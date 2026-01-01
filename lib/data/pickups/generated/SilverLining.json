@@ -1,0 +1,16 @@
+{
+  "id": "SilverLining",
+  "gameId": "DA_Perk_SilverLining",
+  "type": "Perk",
+  "name": "Silver Lining",
+  "description": "Damage increased each time you take damage greater than 5% of your max health",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% each time you take damage greater than 5% of your max health",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

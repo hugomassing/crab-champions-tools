@@ -1,0 +1,16 @@
+{
+  "id": "LeapOfFaith",
+  "gameId": "DA_Perk_LeapOfFaith",
+  "type": "Perk",
+  "name": "Leap Of Faith",
+  "description": "Max health multiplier increased but fall damage is enabled",
+  "rarity": "Greed",
+  "levelDescription": "Max health multiplier increased by PrimaryBuff% but Debuff% of max health is dealt as fall damage",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 60,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 10,
+  "getDebuffAsMultiplier": false
+}

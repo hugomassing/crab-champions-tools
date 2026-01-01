@@ -1,0 +1,16 @@
+{
+  "id": "TriangleShot",
+  "gameId": "DA_WeaponMod_TriangleShot",
+  "type": "WeaponMod",
+  "name": "Triangle Shot",
+  "description": "Chance to fire powerful triangle projectiles along with your shots",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire triangle projectiles that deal SecondaryBuff damage along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

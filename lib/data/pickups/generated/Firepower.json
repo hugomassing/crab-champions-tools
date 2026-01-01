@@ -1,0 +1,16 @@
+{
+  "id": "Firepower",
+  "gameId": "DA_WeaponMod_Firepower",
+  "type": "WeaponMod",
+  "name": "Firepower",
+  "description": "Fire extra shots with increased spread",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "levelDescription": "Fire PrimaryBuff extra shots with increased spread",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

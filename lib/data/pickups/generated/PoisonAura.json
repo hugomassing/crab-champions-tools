@@ -1,0 +1,18 @@
+{
+  "id": "PoisonAura",
+  "gameId": "DA_Perk_PoisonAura",
+  "type": "Perk",
+  "name": "Poison Aura",
+  "description": "Poison and damage nearby enemies every few seconds",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "levelDescription": "Deal PrimaryBuff damage and apply SecondaryBuff poison stacks to nearby enemies",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "cooldown": 5,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "MaceShot",
+  "gameId": "DA_WeaponMod_MaceShot",
+  "type": "WeaponMod",
+  "name": "Mace Shot",
+  "description": "Chance to fire mace balls along with your shots",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire mace balls that deal SecondaryBuff damage per second along with your shots",
+  "iconPath": "T_Icon_WeaponMod_MaceShot",
+  "requiresUnlock": false,
+  "baseBuff": 2.5,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

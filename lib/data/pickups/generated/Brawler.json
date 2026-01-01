@@ -1,0 +1,17 @@
+{
+  "id": "Brawler",
+  "gameId": "DA_MeleeMod_Brawler",
+  "type": "MeleeMod",
+  "name": "Brawler",
+  "description": "Melee damage multiplier increased but weapon damage multiplier reduced",
+  "rarity": "Greed",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee damage multiplier increased by PrimaryBuff% but weapon damage multiplier reduced by Debuff%",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

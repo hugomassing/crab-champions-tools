@@ -1,0 +1,16 @@
+{
+  "id": "SniperTurret",
+  "gameId": "DA_AbilityMod_SniperTurret",
+  "type": "AbilityMod",
+  "name": "Sniper Turret",
+  "description": "Abilities spawn sniper turrets when exploding",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Sniper turrets deal PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

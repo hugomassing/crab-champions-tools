@@ -1,0 +1,17 @@
+{
+  "id": "RingOfDividends",
+  "gameId": "DA_Relic_RingOfDividends",
+  "type": "Relic",
+  "name": "Ring Of Dividends",
+  "description": "Gain 10% of your total crystals as a bonus after clearing each island",
+  "rarity": "Epic",
+  "lootPool": "Economy",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain PrimaryBuff% of your total crystals as a bonus after clearing each island",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 10,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

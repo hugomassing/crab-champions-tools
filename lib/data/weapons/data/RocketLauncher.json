@@ -1,5 +1,5 @@
 {
-  "additionalDescription": "Fires explosive rockets that deal massive area damage on impact. The rockets have travel time but create large explosions. Devastating against groups and excellent for area denial. High damage but requires careful aim due to projectile travel.",
+  "additionalDescription": "Fires explosive rockets with massive area damage. Devastating against groups, requires careful aim.",
   "tags": ["launcher", "explosive", "high-damage", "aoe"],
   "tips": [
     "Lead your targets to account for rocket travel time",

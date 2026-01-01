@@ -1,0 +1,15 @@
+{
+  "id": "Armor",
+  "gameId": "DA_Consumable_Armor",
+  "type": "Consumable",
+  "name": "Armor",
+  "description": "Gain 2 armor plates that reduce elemental damage, protect combo and will block one hit each (regardless of the damage amount) and clear existing debuff stacks on you when broken",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 1.5,
+  "iconPath": "T_Icon_Armor",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

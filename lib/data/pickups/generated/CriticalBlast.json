@@ -1,0 +1,18 @@
+{
+  "id": "CriticalBlast",
+  "gameId": "DA_Perk_CriticalBlast",
+  "type": "Perk",
+  "name": "Critical Blast",
+  "description": "Chance for critical hits to create powerful explosions",
+  "rarity": "Epic",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "spawnWeight": 1.5,
+  "levelDescription": "PrimaryBuff% chance for critical hits to create powerful explosions that deal SecondaryBuff damage",
+  "iconPath": "T_Icon_Perk_CriticalBlast",
+  "requiresUnlock": false,
+  "baseBuff": 15,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

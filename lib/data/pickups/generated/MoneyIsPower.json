@@ -1,0 +1,16 @@
+{
+  "id": "MoneyIsPower",
+  "gameId": "DA_Perk_MoneyIsPower",
+  "type": "Perk",
+  "name": "Money Is Power",
+  "description": "Damage increased by 1% for every 250 crystals you have",
+  "rarity": "Epic",
+  "lootPool": "Economy",
+  "levelDescription": "Damage increased by 1% for every 250 crystals you have (up to a cap of PrimaryBuff crystals)",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 25000,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

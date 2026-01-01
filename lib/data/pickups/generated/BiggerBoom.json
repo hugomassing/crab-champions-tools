@@ -1,0 +1,17 @@
+{
+  "id": "BiggerBoom",
+  "gameId": "DA_AbilityMod_BiggerBoom",
+  "type": "AbilityMod",
+  "name": "Bigger Boom",
+  "description": "Abilities have a larger explosion radius",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Abilities have a PrimaryBuff% larger explosion radius",
+  "iconPath": "T_Icon_GrenadeMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 33,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

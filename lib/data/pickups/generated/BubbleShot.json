@@ -1,0 +1,16 @@
+{
+  "id": "BubbleShot",
+  "gameId": "DA_WeaponMod_BubbleShot",
+  "type": "WeaponMod",
+  "name": "Bubble Shot",
+  "description": "Shots that hit enemies have a chance to spawn damaging bubbles nearby",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance for shots that hit enemies to spawn bubbles that deal SecondaryBuff damage per second",
+  "iconPath": "T_Icon_WeaponMod_BubbleShot",
+  "requiresUnlock": true,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

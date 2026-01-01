@@ -1,0 +1,16 @@
+{
+  "id": "DangerClose",
+  "gameId": "DA_Perk_DangerClose",
+  "type": "Perk",
+  "name": "Danger Close",
+  "description": "Damage increased to nearby enemies",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% to nearby enemies",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 30,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

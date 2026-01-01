@@ -1,0 +1,16 @@
+{
+  "id": "ExplodingEnemies",
+  "gameId": "DA_Perk_ExplodingEnemies",
+  "type": "Perk",
+  "name": "Exploding Enemies",
+  "description": "Enemies explode when eliminated",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Enemy explosions deal PrimaryBuff damage",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

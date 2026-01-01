@@ -5,7 +5,6 @@
   "description": "Fire a powerful piercing laser",
   "rarity": "Greed",
   "cooldown": 6,
-  "hitmarkerType": "Quiet",
   "projectileId": "DA_Projectile_LaserBeam",
   "requiresUnlock": true,
   "iconPath": "T_Icon_LaserBeam"

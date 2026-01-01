@@ -4,13 +4,12 @@
 
 import * as path from "path";
 import * as fs from "fs";
-import { PATHS, getFiles, readJSON, writeJSON, ensureDirectory } from "./utils";
+import { PATHS, getFiles, readJSON, writeJSON, ensureDirectory, copyFile } from "./utils";
 import { RawAbilityData } from "../lib/types/game-data";
 import { Ability } from "../lib/types/abilities";
 import {
   validateAbilityData,
   validateRarity,
-  validateHitmarkerType,
   validateAbilitySpawnType,
   extractAssetName,
   extractProjectileId,
@@ -19,6 +18,37 @@ import { getAbilityMappingByGameId } from "../lib/data/abilities/index";
 
 const ABILITIES_DIR = path.join(PATHS.gameAssets, "Content", "Blueprint", "Ability");
 const OUTPUT_DIR = path.join(PATHS.output, "abilities", "generated");
+const ICONS_SOURCE_DIR = path.join(PATHS.gameAssets, "Content", "UI", "Icon", "Ability");
+const ICONS_OUTPUT_DIR = path.join(PATHS.output, "abilities", "images");
+const PUBLIC_ICONS_DIR = path.join(process.cwd(), "public", "abilities");
+
+/**
+ * Copy ability icon from game assets to output directory and public folder
+ */
+function copyAbilityIcon(iconName: string | undefined, customId: string): boolean {
+  if (!iconName) {
+    return false;
+  }
+
+  const sourcePath = path.join(ICONS_SOURCE_DIR, `${iconName}.png`);
+
+  if (!fs.existsSync(sourcePath)) {
+    return false;
+  }
+
+  try {
+    const destPath = path.join(ICONS_OUTPUT_DIR, `${customId}.png`);
+    copyFile(sourcePath, destPath);
+
+    const publicDestPath = path.join(PUBLIC_ICONS_DIR, `${customId}.png`);
+    copyFile(sourcePath, publicDestPath);
+
+    return true;
+  } catch (error) {
+    console.warn(`Failed to copy icon for ${customId}: ${error instanceof Error ? error.message : String(error)}`);
+    return false;
+  }
+}
 
 /**
  * Normalize a raw ability data object to web-friendly format
@@ -35,7 +65,6 @@ function normalizeAbility(raw: RawAbilityData, fileName: string): Ability {
 
   const id = mapping.customId;
   const rarity = validateRarity(raw.Properties.Rarity, fileName);
-  const hitmarkerType = validateHitmarkerType(raw.Properties.HitmarkerType);
   const spawnType = validateAbilitySpawnType(raw.Properties.AbilitySpawnType);
   const projectileId = extractProjectileId(raw.Properties.ProjectileDA);
   const iconPath = extractAssetName(raw.Properties.Icon?.ObjectPath);
@@ -49,7 +78,6 @@ function normalizeAbility(raw: RawAbilityData, fileName: string): Ability {
     cooldown: raw.Properties.Cooldown ?? 0,
     spawnType,
     spawnDelay: raw.Properties.AbilitySpawnDelay,
-    hitmarkerType,
     projectileId,
     requiresUnlock: raw.Properties.bRequiresUnlock ?? false,
     iconPath,
@@ -81,9 +109,13 @@ async function processAbilities() {
     console.log(`Found ${abilityFiles.length} ability files`);
 
     ensureDirectory(OUTPUT_DIR);
+    ensureDirectory(ICONS_OUTPUT_DIR);
+    ensureDirectory(PUBLIC_ICONS_DIR);
 
     const processed: string[] = [];
     const errors: string[] = [];
+    const copiedIcons: string[] = [];
+    const missingIcons: string[] = [];
 
     for (const file of abilityFiles) {
       try {
@@ -100,6 +132,15 @@ async function processAbilities() {
         const outputFile = path.join(OUTPUT_DIR, `${normalized.id}.json`);
         writeJSON(outputFile, normalized);
         processed.push(normalized.id);
+
+        if (normalized.iconPath) {
+          const iconCopied = copyAbilityIcon(normalized.iconPath, normalized.id);
+          if (iconCopied) {
+            copiedIcons.push(normalized.id);
+          } else {
+            missingIcons.push(normalized.id);
+          }
+        }
       } catch (error) {
         const errorMsg = `Error processing ${file}: ${error instanceof Error ? error.message : String(error)}`;
         console.error(errorMsg);
@@ -116,6 +157,14 @@ async function processAbilities() {
     console.log(`\n✓ Successfully processed ${processed.length} abilities`);
     console.log(`✓ Output written to: ${OUTPUT_DIR}`);
     console.log(`✓ Files created: ${processed.join(", ")}`);
+
+    if (copiedIcons.length > 0) {
+      console.log(`\n✓ Successfully copied ${copiedIcons.length} icon(s): ${copiedIcons.join(", ")}`);
+    }
+
+    if (missingIcons.length > 0) {
+      console.warn(`\n⚠ ${missingIcons.length} icon(s) not found: ${missingIcons.join(", ")}`);
+    }
 
     if (errors.length > 0) {
       console.warn(`\n⚠ ${errors.length} file(s) had errors:`);

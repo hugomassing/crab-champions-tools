@@ -1,0 +1,16 @@
+{
+  "id": "RingOfGravity",
+  "gameId": "DA_Relic_RingOfGravity",
+  "type": "Relic",
+  "name": "Ring Of Gravity",
+  "description": "Gain low gravity movement",
+  "rarity": "Legendary",
+  "lootPool": "Speed",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain low gravity movement",
+  "iconPath": "T_Icon_Relic_Legendary",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "LingeringFumes",
+  "gameId": "DA_Relic_LingeringFumes",
+  "type": "Relic",
+  "name": "Lingering Fumes",
+  "description": "25% of existing poison stacks are applied to nearby enemies when eliminated",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "spawnWeight": 0.5,
+  "levelDescription": "25% of existing poison stacks are applied to nearby enemies when eliminated",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

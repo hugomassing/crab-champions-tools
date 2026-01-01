@@ -5,20 +5,13 @@
   "description": "Hybrid triple barreled rifle",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 2.75,
-    "clipSize": 16,
     "reloadDuration": 1.25,
     "baseSpread": 2,
     "maxSpread": 15,
-    "spreadRecovery": 1,
-    "aimingSpreadMultiplier": 0.01,
-    "horizontalRecoil": 0,
-    "recoilInterpSpeed": 2
+    "fireRate": 2.75,
+    "horizontalRecoil": 0
   },
   "crosshairType": "Dot",
-  "formationExpansionDampening": 250,
-  "projectileId": "DA_Projectile_MarksmanRifle",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_Rifle_Silhouette",
   "tintColor": "rgb(255, 25, 0)"
 }

@@ -1,0 +1,16 @@
+{
+  "id": "Uppercut",
+  "gameId": "DA_WeaponMod_Uppercut",
+  "type": "WeaponMod",
+  "name": "Uppercut",
+  "description": "Every fifth shot deals more damage",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) on every fifth shot",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

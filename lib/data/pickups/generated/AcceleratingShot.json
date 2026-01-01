@@ -1,0 +1,16 @@
+{
+  "id": "AcceleratingShot",
+  "gameId": "DA_WeaponMod_AcceleratingShot",
+  "type": "WeaponMod",
+  "name": "Accelerating Shot",
+  "description": "Shots deal more damage but start slow and accelerate over time",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

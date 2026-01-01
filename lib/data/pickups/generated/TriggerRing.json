@@ -1,0 +1,17 @@
+{
+  "id": "TriggerRing",
+  "gameId": "DA_Relic_TriggerRing",
+  "type": "Relic",
+  "name": "Trigger Ring",
+  "description": "Fire rate increased by 250% but weapon damage reduced by 90%",
+  "rarity": "Greed",
+  "spawnWeight": 0.3,
+  "levelDescription": "Fire rate increased by PrimaryBuff% but weapon damage decreased by Debuff%",
+  "iconPath": "T_Icon_Relic_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 90,
+  "getDebuffAsMultiplier": false
+}

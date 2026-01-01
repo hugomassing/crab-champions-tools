@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "T_Icon_Perk_Epic",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 512,
+        "Y": 512
+      },
+      "LightingGuid": "3C9F8D8A-42961791-3EB18F96-3BC227D5",
+      "CompressionSettings": "TC_EditorIcon",
+      "LODGroup": "TEXTUREGROUP_UI"
+    },
+    "SizeX": 512,
+    "SizeY": 512,
+    "PackedData": 1,
+    "PixelFormat": "PF_B8G8R8A8",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 1048576,
+          "SizeOnDisk": 1048576,
+          "OffsetInFile": "0x100960"
+        },
+        "SizeX": 512,
+        "SizeY": 512,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

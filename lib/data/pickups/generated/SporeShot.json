@@ -1,0 +1,16 @@
+{
+  "id": "SporeShot",
+  "gameId": "DA_WeaponMod_SporeShot",
+  "type": "WeaponMod",
+  "name": "Spore Shot",
+  "description": "Shots have a chance to grow explosive mushrooms from enemies",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance for shots to grow mushrooms from enemies that deal SecondaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_SporeShot",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

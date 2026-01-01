@@ -1,0 +1,16 @@
+{
+  "id": "RingOfHealing",
+  "gameId": "DA_Relic_RingOfHealing",
+  "type": "Relic",
+  "name": "Ring Of Healing",
+  "description": "Health rocks are guaranteed to spawn on each island",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Health rocks are guaranteed to spawn on each island",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

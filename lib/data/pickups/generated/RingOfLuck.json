@@ -1,0 +1,17 @@
+{
+  "id": "RingOfLuck",
+  "gameId": "DA_Relic_RingOfLuck",
+  "type": "Relic",
+  "name": "Ring Of Luck",
+  "description": "All chance based perks and totems are 75% more likely to trigger",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "spawnWeight": 0.3,
+  "levelDescription": "All chance based perks and totems are PrimaryBuff% more likely to trigger",
+  "iconPath": "T_Icon_Relic_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

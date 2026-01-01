@@ -1,0 +1,17 @@
+{
+  "id": "HeatSink",
+  "gameId": "DA_AbilityMod_HeatSink",
+  "type": "AbilityMod",
+  "name": "Heat Sink",
+  "description": "Ability cooldowns reduced",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "spawnWeight": 0.75,
+  "levelDescription": "Ability cooldowns reduced by PrimaryBuff%",
+  "iconPath": "T_Icon_AbilityMod_HeatSink",
+  "requiresUnlock": false,
+  "baseBuff": 10,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

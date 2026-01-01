@@ -1,0 +1,16 @@
+{
+  "id": "PortalRing",
+  "gameId": "DA_Relic_PortalRing",
+  "type": "Relic",
+  "name": "Portal Ring",
+  "description": "Gain an extra portal choice after each island",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain an extra portal choice after each island",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

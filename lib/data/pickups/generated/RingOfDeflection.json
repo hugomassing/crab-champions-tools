@@ -1,0 +1,17 @@
+{
+  "id": "RingOfDeflection",
+  "gameId": "DA_Relic_RingOfDeflection",
+  "type": "Relic",
+  "name": "Ring Of Deflection",
+  "description": "Block chance increased by 25%",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "spawnWeight": 0.3,
+  "levelDescription": "Block chance increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

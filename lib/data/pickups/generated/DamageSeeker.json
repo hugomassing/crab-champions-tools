@@ -1,0 +1,16 @@
+{
+  "id": "DamageSeeker",
+  "gameId": "DA_Perk_DamageSeeker",
+  "type": "Perk",
+  "name": "Damage Seeker",
+  "description": "Global damage multiplier increased but lose max health when taking damage",
+  "rarity": "Greed",
+  "levelDescription": "Global damage multiplier increased by PrimaryBuff% but lose Debuff% max health when taking damage",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 1,
+  "getDebuffAsMultiplier": false
+}

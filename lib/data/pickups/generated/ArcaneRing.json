@@ -1,0 +1,17 @@
+{
+  "id": "ArcaneRing",
+  "gameId": "DA_Relic_ArcaneRing",
+  "type": "Relic",
+  "name": "Arcane Ring",
+  "description": "Arcane strength increased by 250%",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "spawnWeight": 0.5,
+  "levelDescription": "Arcane strength increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

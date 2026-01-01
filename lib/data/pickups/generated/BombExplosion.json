@@ -1,0 +1,17 @@
+{
+  "id": "BombExplosion",
+  "gameId": "DA_AbilityMod_BombExplosion",
+  "type": "AbilityMod",
+  "name": "Bomb Explosion",
+  "description": "Abilities explode into clusters of bombs",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each bomb deals PrimaryBuff damage",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

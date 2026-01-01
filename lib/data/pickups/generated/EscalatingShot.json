@@ -1,0 +1,17 @@
+{
+  "id": "EscalatingShot",
+  "gameId": "DA_WeaponMod_EscalatingShot",
+  "type": "WeaponMod",
+  "name": "Escalating Shot",
+  "description": "Fire rate reduced by 33% but increases with each shot fired until stopping fire",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "spawnWeight": 0.25,
+  "levelDescription": "Fire rate reduced by 33% but increases by PrimaryBuff% with each shot fired until stopping fire",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

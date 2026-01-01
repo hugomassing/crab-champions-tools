@@ -1,0 +1,16 @@
+{
+  "id": "HardTarget",
+  "gameId": "DA_Perk_HardTarget",
+  "type": "Perk",
+  "name": "Hard Target",
+  "description": "Incoming damage reduced (can be reduced down to a global minimum of 25%)",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Incoming damage reduced by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 8,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

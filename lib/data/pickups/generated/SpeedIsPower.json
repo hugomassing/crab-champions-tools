@@ -1,0 +1,16 @@
+{
+  "id": "SpeedIsPower",
+  "gameId": "DA_Perk_SpeedIsPower",
+  "type": "Perk",
+  "name": "Speed Is Power",
+  "description": "Damage increased for every bonus movement speed % you have",
+  "rarity": "Epic",
+  "lootPool": "Speed",
+  "levelDescription": "Damage increased by PrimaryBuff% for every bonus movement speed % you have",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

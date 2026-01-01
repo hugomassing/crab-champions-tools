@@ -1,0 +1,17 @@
+{
+  "id": "GiantDrill",
+  "gameId": "DA_AbilityMod_GiantDrill",
+  "type": "AbilityMod",
+  "name": "Giant Drill",
+  "description": "Abilities explode into giant drills",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Giant drills deal PrimaryBuff damage over a Duration second period",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

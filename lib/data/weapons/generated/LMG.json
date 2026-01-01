@@ -5,17 +5,11 @@
   "description": "High damage, low fire rate LMG",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 6.5,
-    "clipSize": 64,
     "reloadDuration": 1.75,
     "baseSpread": 5,
     "maxSpread": 25,
-    "aimingSpreadMultiplier": 0.1,
-    "verticalRecoil": 6,
-    "recoilInterpSpeed": 4
+    "fireRate": 6.5
   },
-  "projectileId": "DA_Projectile_LMG",
   "requiresUnlock": false,
-  "iconPath": "T_UI_Icon_Rifle_Silhouette",
   "tintColor": "rgb(255, 25, 0)"
 }

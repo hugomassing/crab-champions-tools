@@ -1,0 +1,293 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "S_PerkMeshTest",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      }
+    },
+    "BodySetupGuid": "2E0500F64EE41BAF88BD539C2478207C",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 67121,
+        "SizeOnDisk": 67121,
+        "OffsetInFile": "0x63A29"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "S_PerkMeshTest",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x740A2"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_PerkMeshTest",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'M_IconGraphicTest'",
+            "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/M_IconGraphicTest.0"
+          },
+          "MaterialSlotName": "Graphic",
+          "ImportedMaterialSlotName": "Graphic",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 90.02826,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_IconBorderTest'",
+            "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/MI_IconBorderTest.0"
+          },
+          "MaterialSlotName": "Bullet",
+          "ImportedMaterialSlotName": "Bullet",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 254.93799,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 245.54395,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "BoxExtent": {
+          "X": 50.25042,
+          "Y": 11.925995,
+          "Z": 50.249844
+        },
+        "SphereRadius": 51.553654
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_PerkMeshTest:BodySetup_0'",
+      "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/S_PerkMeshTest.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_PerkMeshTest:NavCollision_2'",
+      "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/S_PerkMeshTest.1"
+    },
+    "LightingGuid": "DB27248E-4DF98755-5BE452B0-931B4919",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 10,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 11,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 30,
+              "NumTriangles": 2506,
+              "MinVertexIndex": 12,
+              "MaxVertexIndex": 1800,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1801
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 1801,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 1801
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 10,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 11,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 30,
+              "NumTriangles": 1248,
+              "MinVertexIndex": 12,
+              "MaxVertexIndex": 1012,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 2.6323953,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1013
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 1013,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 1013
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 10,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 11,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 30,
+              "NumTriangles": 618,
+              "MinVertexIndex": 12,
+              "MaxVertexIndex": 567,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 7.183712,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 568
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 568,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 568
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 10,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 11,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 30,
+              "NumTriangles": 304,
+              "MinVertexIndex": 12,
+              "MaxVertexIndex": 317,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 20.372177,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 318
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 318,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 318
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 50.25042,
+          "Y": 11.925995,
+          "Z": 50.249844
+        },
+        "SphereRadius": 51.553654
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.30122218,
+        0.12365377,
+        0.04565921,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

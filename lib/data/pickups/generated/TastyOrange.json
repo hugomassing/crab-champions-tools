@@ -1,0 +1,16 @@
+{
+  "id": "TastyOrange",
+  "gameId": "DA_Perk_TastyOrange",
+  "type": "Perk",
+  "name": "Tasty Orange",
+  "description": "Damage increased for each enemy eliminated on an island (resets after each island)",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% for each enemy eliminated on an island",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

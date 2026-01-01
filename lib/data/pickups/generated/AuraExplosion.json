@@ -1,0 +1,17 @@
+{
+  "id": "AuraExplosion",
+  "gameId": "DA_AbilityMod_AuraExplosion",
+  "type": "AbilityMod",
+  "name": "Aura Explosion",
+  "description": "Abilities are surrounded by auras that deal constant damage",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Auras deal PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

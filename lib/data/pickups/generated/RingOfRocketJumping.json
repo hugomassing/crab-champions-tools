@@ -1,0 +1,16 @@
+{
+  "id": "RingOfRocketJumping",
+  "gameId": "DA_Relic_RingOfRocketJumping",
+  "type": "Relic",
+  "name": "Ring Of Rocket Jumping",
+  "description": "Friendly explosions cause you to rocket jump into the air",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Friendly explosions cause you to rocket jump into the air",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": true,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

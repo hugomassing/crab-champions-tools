@@ -1,0 +1,17 @@
+{
+  "id": "HeavyHitter",
+  "gameId": "DA_WeaponMod_HeavyHitter",
+  "type": "WeaponMod",
+  "name": "Heavy Hitter",
+  "description": "Shots deal more damage but fire rate is reduced",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) but fire rate reduced by Debuff%",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 150,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

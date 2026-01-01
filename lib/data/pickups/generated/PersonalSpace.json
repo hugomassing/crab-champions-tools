@@ -1,0 +1,16 @@
+{
+  "id": "PersonalSpace",
+  "gameId": "DA_Perk_PersonalSpace",
+  "type": "Perk",
+  "name": "Personal Space",
+  "description": "Max health increased after every close range elimination",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Max health increased by PrimaryBuff after every close range elimination",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

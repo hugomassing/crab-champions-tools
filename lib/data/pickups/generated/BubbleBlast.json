@@ -1,0 +1,17 @@
+{
+  "id": "BubbleBlast",
+  "gameId": "DA_AbilityMod_BubbleBlast",
+  "type": "AbilityMod",
+  "name": "Bubble Blast",
+  "description": "Abilities explode into damaging bubbles",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each bubble deals PrimaryBuff damage per second",
+  "iconPath": "T_Icon_WeaponMod_BubbleShot",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

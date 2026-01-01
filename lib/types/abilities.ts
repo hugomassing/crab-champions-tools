@@ -15,7 +15,6 @@ export interface Ability {
   cooldown: number;
   spawnType?: AbilitySpawnType;
   spawnDelay?: number;
-  hitmarkerType?: HitmarkerType;
   projectileId?: string;
   requiresUnlock: boolean;
   iconPath?: string;

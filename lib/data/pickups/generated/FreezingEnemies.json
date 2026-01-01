@@ -1,0 +1,17 @@
+{
+  "id": "FreezingEnemies",
+  "gameId": "DA_Perk_FreezingEnemies",
+  "type": "Perk",
+  "name": "Freezing Enemies",
+  "description": "Enemies freeze all nearby enemies when eliminated",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "levelDescription": "Enemies apply PrimaryBuff ice stacks when eliminated",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

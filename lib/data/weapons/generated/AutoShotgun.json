@@ -5,17 +5,11 @@
   "description": "Fast firing shotgun for maximum chaos!",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 4,
-    "clipSize": 12,
     "reloadDuration": 1.25,
     "baseSpread": 3,
     "maxSpread": 20,
-    "spreadRecovery": 0.25,
-    "aimingSpreadMultiplier": 0.33,
-    "verticalRecoil": 8
+    "fireRate": 4
   },
-  "projectileId": "DA_Projectile_AutoShotgun",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_Rifle_Silhouette",
   "tintColor": "rgb(255, 89, 0)"
 }

@@ -1,0 +1,16 @@
+{
+  "id": "Paycheck",
+  "gameId": "DA_Perk_Paycheck",
+  "type": "Perk",
+  "name": "Paycheck",
+  "description": "Gain crystals after clearing each island",
+  "rarity": "Common",
+  "lootPool": "Economy",
+  "levelDescription": "Gain PrimaryBuff% of the price of a common pickup (currently SecondaryBuff crystals) after clearing each island",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

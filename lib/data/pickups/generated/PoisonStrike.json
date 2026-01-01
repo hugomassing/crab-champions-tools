@@ -1,0 +1,18 @@
+{
+  "id": "PoisonStrike",
+  "gameId": "DA_WeaponMod_PoisonStrike",
+  "type": "WeaponMod",
+  "name": "Poison Strike",
+  "description": "Shots bring down poison strikes that damage and poison nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "levelDescription": "Poison strikes deal PrimaryBuff damage and apply SecondaryBuff poison stacks",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": true,
+  "cooldown": 6,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

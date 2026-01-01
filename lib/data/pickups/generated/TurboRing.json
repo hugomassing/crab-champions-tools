@@ -1,0 +1,17 @@
+{
+  "id": "TurboRing",
+  "gameId": "DA_Relic_TurboRing",
+  "type": "Relic",
+  "name": "Turbo Ring",
+  "description": "Fire rate increased by 3% after clearing each island",
+  "rarity": "Epic",
+  "lootPool": "Speed",
+  "spawnWeight": 0.3,
+  "levelDescription": "Fire rate increased by PrimaryBuff% after clearing each island",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

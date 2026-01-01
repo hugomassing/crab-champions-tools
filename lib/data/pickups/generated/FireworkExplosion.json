@@ -1,0 +1,17 @@
+{
+  "id": "FireworkExplosion",
+  "gameId": "DA_AbilityMod_FireworkExplosion",
+  "type": "AbilityMod",
+  "name": "Firework Explosion",
+  "description": "Abilities explode into fireworks",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each firework deals PrimaryBuff damage",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "StreakShot",
+  "gameId": "DA_WeaponMod_StreakShot",
+  "type": "WeaponMod",
+  "name": "Streak Shot",
+  "description": "Shots deal more damage for each shot you hit in a row without missing",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% for each shot you hit in a row without missing (up to a max of 100 shots in a row)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 5,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

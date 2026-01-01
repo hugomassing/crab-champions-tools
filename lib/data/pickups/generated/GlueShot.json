@@ -1,0 +1,16 @@
+{
+  "id": "GlueShot",
+  "gameId": "DA_WeaponMod_GlueShot",
+  "type": "WeaponMod",
+  "name": "Glue Shot",
+  "description": "Shots stick to enemies and deal more damage but there is a short delay before damage is dealt",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

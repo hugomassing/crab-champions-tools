@@ -1,0 +1,16 @@
+{
+  "id": "DoubleEdgedSword",
+  "gameId": "DA_Perk_DoubleEdgedSword",
+  "type": "Perk",
+  "name": "Double Edged Sword",
+  "description": "Gain crystals when dealing damage but lose crystals when taking damage",
+  "rarity": "Greed",
+  "levelDescription": "Gain crystals worth PrimaryBuff% of damage dealt but lose Debuff% of your total crystals when taking damage",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

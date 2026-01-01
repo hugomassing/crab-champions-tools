@@ -1,0 +1,16 @@
+{
+  "id": "AmberResin",
+  "gameId": "DA_Perk_AmberResin",
+  "type": "Perk",
+  "name": "Amber Resin",
+  "description": "Healing is more effective",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "levelDescription": "Healing is increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_AmberResin",
+  "requiresUnlock": false,
+  "baseBuff": 40,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

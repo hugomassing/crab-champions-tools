@@ -1,0 +1,17 @@
+{
+  "id": "ChaoticExplosion",
+  "gameId": "DA_AbilityMod_ChaoticExplosion",
+  "type": "AbilityMod",
+  "name": "Chaotic Explosion",
+  "description": "Abilities deal more damage but move in random patterns",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_GrenadeMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

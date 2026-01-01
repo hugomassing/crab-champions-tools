@@ -5,16 +5,14 @@
   "description": "Rains down icy shards from above",
   "rarity": "Greed",
   "stats": {
-    "clipSize": 25,
     "reloadDuration": 1.25,
     "baseSpread": 1,
-    "aimingSpreadMultiplier": 0.33,
-    "verticalRecoil": 0,
     "horizontalRecoil": 0
   },
   "crosshairType": "Circle",
-  "projectileId": "DA_Projectile_IceStaff",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_OrbLauncher_Silhouette",
-  "tintColor": "rgb(0, 137, 218)"
+  "tintColor": "rgb(0, 137, 218)",
+  "startingWeaponMod": {
+    "weaponModId": "DA_WeaponMod_IceShot"
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "id": "RingOfTankiness",
+  "gameId": "DA_Relic_RingOfTankiness",
+  "type": "Relic",
+  "name": "Ring Of Tankiness",
+  "description": "Max health hugely increased but movement speed heavily reduced",
+  "rarity": "Greed",
+  "spawnWeight": 0.3,
+  "levelDescription": "Max health increased by PrimaryBuff but movement speed reduced by Debuff%",
+  "iconPath": "T_Icon_Relic_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 2500,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "baseDebuff": 60,
+  "getDebuffAsMultiplier": false
+}

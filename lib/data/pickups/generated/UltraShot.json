@@ -1,0 +1,16 @@
+{
+  "id": "UltraShot",
+  "gameId": "DA_WeaponMod_UltraShot",
+  "type": "WeaponMod",
+  "name": "Ultra Shot",
+  "description": "Chance to fire high damage bullets along with your shots",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire bullets dealing SecondaryBuff damage along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 4,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "IronClaws",
+  "gameId": "DA_MeleeMod_IronClaws",
+  "type": "MeleeMod",
+  "name": "Iron Claws",
+  "description": "Melee damage heavily increased but melee cooldowns are also increased",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee damage increased by PrimaryBuff% (+SecondaryBuff damage) but melee cooldowns are increased by Debuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 300,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 40,
+  "getDebuffAsMultiplier": false
+}

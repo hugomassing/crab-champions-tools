@@ -1,0 +1,16 @@
+{
+  "id": "Magnify",
+  "gameId": "DA_Perk_Magnify",
+  "type": "Perk",
+  "name": "Magnify",
+  "description": "Area of effect increased (affects all damage sources and is multiplicative with other increases to damage radius)",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "levelDescription": "Area of effect increased by PrimaryBuff% (affects all damage sources and is multiplicative with other increases to damage radius)",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

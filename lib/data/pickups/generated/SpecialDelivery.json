@@ -1,0 +1,16 @@
+{
+  "id": "SpecialDelivery",
+  "gameId": "DA_Perk_SpecialDelivery",
+  "type": "Perk",
+  "name": "Special Delivery",
+  "description": "Shops contain more goods for sale",
+  "rarity": "Common",
+  "lootPool": "Economy",
+  "levelDescription": "Shops contain PrimaryBuff more goods for sale",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

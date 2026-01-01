@@ -1,0 +1,16 @@
+{
+  "id": "ArcShot",
+  "gameId": "DA_WeaponMod_ArcShot",
+  "type": "WeaponMod",
+  "name": "Arc Shot",
+  "description": "Chance to fire in an arc shot formation",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance to fire in an arc shot formation",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 5,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

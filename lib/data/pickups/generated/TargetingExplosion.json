@@ -1,0 +1,17 @@
+{
+  "id": "TargetingExplosion",
+  "gameId": "DA_AbilityMod_TargetingExplosion",
+  "type": "AbilityMod",
+  "name": "Targeting Explosion",
+  "description": "Abilities that directly hit enemies spawn copies that target nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Abilities that directly hit enemies spawn PrimaryBuff copies that target nearby enemies",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

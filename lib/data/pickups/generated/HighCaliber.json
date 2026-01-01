@@ -1,0 +1,17 @@
+{
+  "id": "HighCaliber",
+  "gameId": "DA_WeaponMod_HighCaliber",
+  "type": "WeaponMod",
+  "name": "High Caliber",
+  "description": "Shots deal more damage but clip size is reduced",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) but clip size reduced by Debuff%",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 25,
+  "getDebuffAsMultiplier": false
+}

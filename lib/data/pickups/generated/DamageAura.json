@@ -1,0 +1,16 @@
+{
+  "id": "DamageAura",
+  "gameId": "DA_Perk_DamageAura",
+  "type": "Perk",
+  "name": "Damage Aura",
+  "description": "Deal constant damage to nearby enemies",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Deal PrimaryBuff damage per second to nearby enemies",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "PerformanceBonus",
+  "gameId": "DA_Perk_PerformanceBonus",
+  "type": "Perk",
+  "name": "Performance Bonus",
+  "description": "Chance to get an extra chest when flawlessly clearing an island",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance to get an extra chest when flawlessly clearing an island",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 30,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

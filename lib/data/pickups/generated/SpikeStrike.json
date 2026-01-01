@@ -1,0 +1,17 @@
+{
+  "id": "SpikeStrike",
+  "gameId": "DA_WeaponMod_SpikeStrike",
+  "type": "WeaponMod",
+  "name": "Spike Strike",
+  "description": "Shots cause spikes to erupt from the ground, damaging nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "Spike strikes deal PrimaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": true,
+  "cooldown": 3,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

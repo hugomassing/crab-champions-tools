@@ -1,0 +1,16 @@
+{
+  "id": "TargetingShot",
+  "gameId": "DA_WeaponMod_TargetingShot",
+  "type": "WeaponMod",
+  "name": "Targeting Shot",
+  "description": "Chance for shots to target nearby enemies on impact",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "levelDescription": "PrimaryBuff% chance for shots to target nearby enemies on impact",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 8,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

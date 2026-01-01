@@ -1,0 +1,16 @@
+{
+  "id": "DoubleVision",
+  "gameId": "DA_Perk_DoubleVision",
+  "type": "Perk",
+  "name": "Double Vision",
+  "description": "Chance to get an extra chest after clearing each island",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance to get an extra chest after clearing each island",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 15,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

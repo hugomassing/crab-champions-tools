@@ -1,0 +1,17 @@
+{
+  "id": "Sharpshooter",
+  "gameId": "DA_Perk_Sharpshooter",
+  "type": "Perk",
+  "name": "Sharpshooter",
+  "description": "Increased critical hit chance",
+  "rarity": "Common",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "levelDescription": "Critical hit chance increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 6,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

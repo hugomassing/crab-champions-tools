@@ -1,0 +1,17 @@
+{
+  "id": "FlammableEnemies",
+  "gameId": "DA_Perk_FlammableEnemies",
+  "type": "Perk",
+  "name": "Flammable Enemies",
+  "description": "Enemies ignite all nearby enemies when eliminated",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "levelDescription": "Enemies apply PrimaryBuff fire stacks when eliminated",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

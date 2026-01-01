@@ -1,0 +1,16 @@
+{
+  "id": "FireworkShot",
+  "gameId": "DA_WeaponMod_FireworkShot",
+  "type": "WeaponMod",
+  "name": "Firework Shot",
+  "description": "Chance to fire fireworks along with your shots",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire fireworks dealing SecondaryBuff damage along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

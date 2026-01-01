@@ -1,0 +1,18 @@
+{
+  "id": "LightningStrike",
+  "gameId": "DA_WeaponMod_LightningStrike",
+  "type": "WeaponMod",
+  "name": "Lightning Strike",
+  "description": "Shots bring down lightning strikes that damage and shock nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "levelDescription": "Lightning strikes deal PrimaryBuff damage and apply SecondaryBuff lightning stacks",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": true,
+  "cooldown": 8,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

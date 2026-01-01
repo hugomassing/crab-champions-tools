@@ -1,0 +1,16 @@
+{
+  "id": "DoubleShot",
+  "gameId": "DA_WeaponMod_DoubleShot",
+  "type": "WeaponMod",
+  "name": "Double Shot",
+  "description": "Chance to fire in a double shot formation",
+  "rarity": "Common",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance to fire in a double shot formation",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": true,
+  "baseBuff": 8,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

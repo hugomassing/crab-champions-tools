@@ -1,0 +1,17 @@
+{
+  "id": "EtherealArmor",
+  "gameId": "DA_Relic_EtherealArmor",
+  "type": "Relic",
+  "name": "Ethereal Armor",
+  "description": "Gain 1 armor plate at the start of every 3 islands",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain PrimaryBuff armor plate at the start of every 3 islands",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

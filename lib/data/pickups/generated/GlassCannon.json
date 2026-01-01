@@ -1,0 +1,16 @@
+{
+  "id": "GlassCannon",
+  "gameId": "DA_Perk_GlassCannon",
+  "type": "Perk",
+  "name": "Glass Cannon",
+  "description": "Global damage multiplier increased but lose most of your max health multiplier",
+  "rarity": "Greed",
+  "levelDescription": "Global damage multiplier increased by PrimaryBuff% but max health multiplier decreased by Debuff%",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 50,
+  "getDebuffAsMultiplier": false
+}

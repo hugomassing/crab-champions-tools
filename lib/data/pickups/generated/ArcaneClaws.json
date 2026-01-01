@@ -1,0 +1,17 @@
+{
+  "id": "ArcaneClaws",
+  "gameId": "DA_MeleeMod_ArcaneClaws",
+  "type": "MeleeMod",
+  "name": "Arcane Claws",
+  "description": "Melee arcanifies enemies",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee arcanifies enemies with PrimaryBuff arcane stacks",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

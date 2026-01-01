@@ -1,0 +1,14 @@
+{
+  "id": "CrystalBundle",
+  "gameId": "DA_Consumable_CrystalBundle",
+  "type": "Consumable",
+  "name": "Crystal Bundle",
+  "description": "Gain a bunch crystals to spend at the shop",
+  "rarity": "Common",
+  "lootPool": "Economy",
+  "iconPath": "T_Icon_CrystalBundle",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

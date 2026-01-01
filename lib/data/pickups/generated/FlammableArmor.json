@@ -1,0 +1,17 @@
+{
+  "id": "FlammableArmor",
+  "gameId": "DA_Perk_FlammableArmor",
+  "type": "Perk",
+  "name": "Flammable Armor",
+  "description": "Ignite nearby enemies when breaking enemy armor",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "levelDescription": "Armor explosions apply PrimaryBuff fire stacks",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 30,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

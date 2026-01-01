@@ -1,0 +1,16 @@
+{
+  "id": "ScatterShot",
+  "gameId": "DA_WeaponMod_ScatterShot",
+  "type": "WeaponMod",
+  "name": "Scatter Shot",
+  "description": "Chance for shots to scatter into 3 copies on impact",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance for shots to scatter into 3 copies on impact",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 6,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

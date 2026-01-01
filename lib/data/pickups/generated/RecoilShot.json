@@ -1,0 +1,17 @@
+{
+  "id": "RecoilShot",
+  "gameId": "DA_WeaponMod_RecoilShot",
+  "type": "WeaponMod",
+  "name": "Recoil Shot",
+  "description": "Shots deal more damage but recoil is increased",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) but recoil is increased by Debuff%",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 25,
+  "getDebuffAsMultiplier": false
+}

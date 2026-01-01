@@ -1,0 +1,17 @@
+{
+  "id": "Banana",
+  "gameId": "DA_Perk_Banana",
+  "type": "Perk",
+  "name": "Banana",
+  "description": "Max health multiplier increased",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 1.5,
+  "levelDescription": "Max health multiplier increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Banana",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

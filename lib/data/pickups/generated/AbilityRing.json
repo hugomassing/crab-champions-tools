@@ -1,0 +1,17 @@
+{
+  "id": "AbilityRing",
+  "gameId": "DA_Relic_AbilityRing",
+  "type": "Relic",
+  "name": "Ability Ring",
+  "description": "Ability cooldowns reduced by 50%",
+  "rarity": "Legendary",
+  "lootPool": "Speed",
+  "spawnWeight": 0.3,
+  "levelDescription": "Ability cooldowns reduced by PrimaryBuff%",
+  "iconPath": "T_Icon_Relic_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "HoarderBackpack",
+  "gameId": "DA_Relic_HoarderBackpack",
+  "type": "Relic",
+  "name": "Hoarder Backpack",
+  "description": "You can pick up all loot in chests but can no longer drop pickups from your inventory, salvage loot or share loot with teammates by pinging",
+  "rarity": "Greed",
+  "spawnWeight": 0.3,
+  "levelDescription": "You can pick up all loot in chests but can no longer drop pickups from your inventory, salvage loot or share loot with teammates by pinging",
+  "iconPath": "T_Icon_Relic_Greed",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

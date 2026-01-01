@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_IconGraphic_Greed",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_IconGraphicTest'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/WeaponMod/M_IconGraphicTest.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Graphic",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Icon_Perk_Greed'",
+            "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Greed.0"
+          },
+          "ExpressionGUID": "14663D22-4B588465-107DB894-B618AB0E"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_Icon_Perk_Epic'",
+          "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Epic.0"
+        },
+        null,
+        {
+          "ObjectName": "Texture2D'T_Noise_16'",
+          "ObjectPath": "CrabChampions/Content/Texture/Noise/T_Noise_16.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Spark_02'",
+          "ObjectPath": "CrabChampions/Content/FX/Texture/Spark/T_Spark_02.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Noise_16"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Spark_02"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

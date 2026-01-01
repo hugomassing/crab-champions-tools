@@ -6,6 +6,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { AbilitiesData, Ability } from "../types/abilities";
 import { WeaponsData, Weapon } from "../types/weapons";
+import { PickupsData, Pickup } from "../types/pickups";
 
 const DATA_DIR = path.join(process.cwd(), "lib", "data");
 
@@ -210,4 +211,101 @@ export async function loadWeapon(id: string): Promise<Weapon | undefined> {
 
 export async function loadAbility(id: string): Promise<Ability | undefined> {
   return Promise.resolve(loadAbilitySync(id));
+}
+
+/**
+ * Load all pickups from generated files and merge with custom data
+ */
+export function loadPickupsSync(): PickupsData {
+  try {
+    const generatedDir = path.join(DATA_DIR, "pickups", "generated");
+    const dataDir = path.join(DATA_DIR, "pickups", "data");
+
+    if (!fs.existsSync(generatedDir)) {
+      throw new Error(`Pickups generated directory not found: ${generatedDir}`);
+    }
+
+    const files = fs.readdirSync(generatedDir).filter((file) =>
+      file.endsWith(".json")
+    );
+
+    const pickups: Pickup[] = [];
+
+    for (const file of files) {
+      const generatedPath = path.join(generatedDir, file);
+      const customDataPath = path.join(dataDir, file);
+
+      const generated = JSON.parse(
+        fs.readFileSync(generatedPath, "utf-8")
+      ) as Pickup;
+
+      const merged = mergeCustomData(generated, customDataPath);
+      pickups.push(merged);
+    }
+
+    pickups.sort((a, b) => {
+      const typeOrder: Record<string, number> = {
+        AbilityMod: 0,
+        WeaponMod: 1,
+        MeleeMod: 2,
+        Perk: 3,
+        Relic: 4,
+        Consumable: 5,
+      };
+      const typeDiff = typeOrder[a.type] - typeOrder[b.type];
+      if (typeDiff !== 0) return typeDiff;
+
+      const rarityOrder: Record<string, number> = {
+        Common: 0,
+        Greed: 1,
+        Epic: 2,
+        Legendary: 3,
+        Relic: 4,
+      };
+      const rarityDiff = rarityOrder[a.rarity] - rarityOrder[b.rarity];
+      if (rarityDiff !== 0) return rarityDiff;
+      return a.name.localeCompare(b.name);
+    });
+
+    return pickups;
+  } catch (error) {
+    console.error("Failed to load pickups data:", error);
+    throw new Error("Unable to load pickups data");
+  }
+}
+
+/**
+ * Load a single pickup by ID
+ */
+export function loadPickupSync(id: string): Pickup | undefined {
+  try {
+    const generatedPath = path.join(
+      DATA_DIR,
+      "pickups",
+      "generated",
+      `${id}.json`
+    );
+    const customDataPath = path.join(DATA_DIR, "pickups", "data", `${id}.json`);
+
+    if (!fs.existsSync(generatedPath)) {
+      return undefined;
+    }
+
+    const generated = JSON.parse(
+      fs.readFileSync(generatedPath, "utf-8")
+    ) as Pickup;
+
+    return mergeCustomData(generated, customDataPath);
+  } catch (error) {
+    console.error(`Failed to load pickup ${id}:`, error);
+    return undefined;
+  }
+}
+
+export async function loadPickups(): Promise<PickupsData> {
+  return Promise.resolve(loadPickupsSync());
+}
+
+export async function loadPickup(id: string): Promise<Pickup | undefined> {
+  return Promise.resolve(loadPickupSync(id));
 }

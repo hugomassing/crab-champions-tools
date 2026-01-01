@@ -1,0 +1,16 @@
+{
+  "id": "GrimReaper",
+  "gameId": "DA_Perk_GrimReaper",
+  "type": "Perk",
+  "name": "Grim Reaper",
+  "description": "Heal after eliminating enemies (larger enemies heal more)",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "levelDescription": "Heal PrimaryBuff health after eliminating enemies. Medium enemies heal 2x more, large enemies heal 5x more and Elite + Boss enemies heal 10x more",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

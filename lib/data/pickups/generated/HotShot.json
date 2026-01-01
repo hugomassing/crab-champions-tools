@@ -1,0 +1,18 @@
+{
+  "id": "HotShot",
+  "gameId": "DA_Perk_HotShot",
+  "type": "Perk",
+  "name": "Hot Shot",
+  "description": "Increased critical hit chance but incoming damage is also increased",
+  "rarity": "Common",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "levelDescription": "Critical hit chance increased by PrimaryBuff% but incoming damage increased by Debuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 12,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

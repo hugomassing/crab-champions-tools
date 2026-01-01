@@ -5,18 +5,12 @@
   "description": "An inaccurate but powerful burst pistol",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 4,
-    "clipSize": 30,
-    "reloadDuration": 0,
     "baseSpread": 0.1,
     "maxSpread": 4,
-    "aimingSpreadMultiplier": 0.5,
-    "verticalRecoil": 0.5,
-    "horizontalRecoil": 0,
-    "recoilInterpSpeed": 8
+    "fireRate": 4,
+    "horizontalRecoil": 0
   },
-  "projectileId": "DA_Projectile_BurstPistol",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_Rifle_Silhouette",
-  "tintColor": "rgb(255, 63, 0)"
+  "tintColor": "rgb(255, 63, 0)",
+  "fireMode": "Burst"
 }

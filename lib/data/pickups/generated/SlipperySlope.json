@@ -1,0 +1,15 @@
+{
+  "id": "SlipperySlope",
+  "gameId": "DA_Perk_SlipperySlope",
+  "type": "Perk",
+  "name": "Slippery Slope",
+  "description": "Gain crystals but also lose health at the start of each island",
+  "rarity": "Greed",
+  "levelDescription": "Gain PrimaryBuff crystals but also lose health equal to Debuff% of your max health at the start of each island",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "baseDebuff": 33,
+  "getDebuffAsMultiplier": false
+}

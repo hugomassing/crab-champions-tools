@@ -1,0 +1,16 @@
+{
+  "id": "TonysAmulet",
+  "gameId": "DA_Relic_TonysAmulet",
+  "type": "Relic",
+  "name": "Tony's Amulet",
+  "description": "Shops contain 5 more goods for sale",
+  "rarity": "Common",
+  "lootPool": "Economy",
+  "spawnWeight": 0.3,
+  "levelDescription": "Shops contain 5 more goods for sale",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

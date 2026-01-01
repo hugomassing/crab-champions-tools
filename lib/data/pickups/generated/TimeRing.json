@@ -1,0 +1,17 @@
+{
+  "id": "TimeRing",
+  "gameId": "DA_Relic_TimeRing",
+  "type": "Relic",
+  "name": "Time Ring",
+  "description": "Damage dealt over time is increased by 250%",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.5,
+  "levelDescription": "Damage dealt over time is increased by 250%",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

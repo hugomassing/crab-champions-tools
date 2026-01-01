@@ -1,0 +1,16 @@
+{
+  "id": "PortalAmulet",
+  "gameId": "DA_Relic_PortalAmulet",
+  "type": "Relic",
+  "name": "Portal Amulet",
+  "description": "Weapon shots are fired from the nearest enemy instead of from your weapon",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "spawnWeight": 0.05,
+  "levelDescription": "Weapon shots are fired from the nearest enemy instead of from your weapon",
+  "iconPath": "T_Icon_Relic_Legendary",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

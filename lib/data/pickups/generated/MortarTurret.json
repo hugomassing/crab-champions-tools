@@ -1,0 +1,16 @@
+{
+  "id": "MortarTurret",
+  "gameId": "DA_AbilityMod_MortarTurret",
+  "type": "AbilityMod",
+  "name": "Mortar Turret",
+  "description": "Abilities spawn mortar turrets when exploding",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Mortar turrets deal PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

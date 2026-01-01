@@ -1,0 +1,16 @@
+{
+  "id": "Slugger",
+  "gameId": "DA_Perk_Slugger",
+  "type": "Perk",
+  "name": "Slugger",
+  "description": "Explosive enemies deal more damage in a greater radius to nearby enemies when eliminated",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "levelDescription": "Explosive enemy explosion damage and radius increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

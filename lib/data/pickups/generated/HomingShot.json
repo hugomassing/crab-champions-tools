@@ -1,0 +1,16 @@
+{
+  "id": "HomingShot",
+  "gameId": "DA_WeaponMod_HomingShot",
+  "type": "WeaponMod",
+  "name": "Homing Shot",
+  "description": "Chance for shots to home towards nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "levelDescription": "PrimaryBuff% chance for shots to home towards nearby enemies",
+  "iconPath": "T_Icon_WeaponMod_HomingShot",
+  "requiresUnlock": true,
+  "baseBuff": 10,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

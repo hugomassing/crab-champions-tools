@@ -1,0 +1,16 @@
+{
+  "id": "RingOfDestruction",
+  "gameId": "DA_Relic_RingOfDestruction",
+  "type": "Relic",
+  "name": "Ring Of Destruction",
+  "description": "Reset all cooldowns and reload weapons when destroying destructible rocks",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Reset all cooldowns and reload weapons when destroying destructible rocks",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

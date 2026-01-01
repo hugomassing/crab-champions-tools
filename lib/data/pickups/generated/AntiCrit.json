@@ -1,0 +1,17 @@
+{
+  "id": "AntiCrit",
+  "gameId": "DA_Perk_AntiCrit",
+  "type": "Perk",
+  "name": "Anti Crit",
+  "description": "Damage increased but critical hit chance reduced",
+  "rarity": "Common",
+  "lootPool": "Critical",
+  "levelDescription": "Damage increased by PrimaryBuff% but critical hit chance reduced by Debuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

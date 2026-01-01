@@ -1,0 +1,16 @@
+{
+  "id": "EagleEye",
+  "gameId": "DA_Perk_EagleEye",
+  "type": "Perk",
+  "name": "Eagle Eye",
+  "description": "Damage increased to distant enemies",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% to distant enemies",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 30,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "Survivor",
+  "gameId": "DA_Perk_Survivor",
+  "type": "Perk",
+  "name": "Survivor",
+  "description": "Block chance increased and incoming damage reduced",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "levelDescription": "Block chance increased and incoming damage reduced by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 8,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

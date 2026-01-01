@@ -1,0 +1,18 @@
+{
+  "id": "IceAura",
+  "gameId": "DA_Perk_IceAura",
+  "type": "Perk",
+  "name": "Ice Aura",
+  "description": "Freeze and damage nearby enemies every few seconds",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "levelDescription": "Deal PrimaryBuff damage and apply SecondaryBuff ice stacks to nearby enemies",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": true,
+  "cooldown": 8,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

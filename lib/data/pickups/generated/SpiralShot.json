@@ -1,0 +1,16 @@
+{
+  "id": "SpiralShot",
+  "gameId": "DA_WeaponMod_SpiralShot",
+  "type": "WeaponMod",
+  "name": "Spiral Shot",
+  "description": "Shots deal more damage but move in spiral patterns",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_SpiralShot",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

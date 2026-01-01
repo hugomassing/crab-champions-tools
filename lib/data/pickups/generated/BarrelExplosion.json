@@ -1,0 +1,17 @@
+{
+  "id": "BarrelExplosion",
+  "gameId": "DA_AbilityMod_BarrelExplosion",
+  "type": "AbilityMod",
+  "name": "Barrel Explosion",
+  "description": "Abilities spawn homing explosive barrels when exploding",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each barrel deals PrimaryBuff damage when exploding",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

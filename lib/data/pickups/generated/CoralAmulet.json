@@ -1,0 +1,16 @@
+{
+  "id": "CoralAmulet",
+  "gameId": "DA_Relic_CoralAmulet",
+  "type": "Relic",
+  "name": "Coral Amulet",
+  "description": "Chests contain 2 more loot choices",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Chests contain 2 more loot choices",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

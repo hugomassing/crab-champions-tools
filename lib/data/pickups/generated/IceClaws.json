@@ -1,0 +1,18 @@
+{
+  "id": "IceClaws",
+  "gameId": "DA_MeleeMod_IceClaws",
+  "type": "MeleeMod",
+  "name": "Ice Claws",
+  "description": "Melee freezes enemies",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee freezes enemies with PrimaryBuff ice stacks",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

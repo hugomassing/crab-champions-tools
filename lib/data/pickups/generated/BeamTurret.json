@@ -1,0 +1,16 @@
+{
+  "id": "BeamTurret",
+  "gameId": "DA_AbilityMod_BeamTurret",
+  "type": "AbilityMod",
+  "name": "Beam Turret",
+  "description": "Abilities spawn beam turrets when exploding",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each beam deals SecondaryBuff damage over a Duration second period",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

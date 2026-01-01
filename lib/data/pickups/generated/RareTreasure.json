@@ -1,0 +1,16 @@
+{
+  "id": "RareTreasure",
+  "gameId": "DA_Perk_RareTreasure",
+  "type": "Perk",
+  "name": "Rare Treasure",
+  "description": "Enemies have a small chance to drop loot when eliminated",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "levelDescription": "Enemies have a PrimaryBuff% chance to drop loot when eliminated",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

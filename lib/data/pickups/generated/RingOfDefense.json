@@ -1,0 +1,17 @@
+{
+  "id": "RingOfDefense",
+  "gameId": "DA_Relic_RingOfDefense",
+  "type": "Relic",
+  "name": "Ring Of Defense",
+  "description": "Incoming damage reduced by 30%",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Incoming damage reduced by PrimaryBuff%",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 30,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

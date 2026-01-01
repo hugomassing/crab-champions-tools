@@ -1,0 +1,17 @@
+{
+  "id": "EnergyRing",
+  "gameId": "DA_AbilityMod_EnergyRing",
+  "type": "AbilityMod",
+  "name": "Energy Ring",
+  "description": "Abilities explode into damaging energy rings",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Energy rings deal PrimaryBuff damage on each hit",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

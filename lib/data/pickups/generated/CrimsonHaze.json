@@ -1,0 +1,16 @@
+{
+  "id": "CrimsonHaze",
+  "gameId": "DA_Perk_CrimsonHaze",
+  "type": "Perk",
+  "name": "Crimson Haze",
+  "description": "Enemies create short lived damaging zones when eliminated",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Damaging zones deal PrimaryBuff damage over a Duration second period",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

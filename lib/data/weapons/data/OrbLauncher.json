@@ -1,5 +1,5 @@
 {
-  "additionalDescription": "Launches energy orbs that travel in an arc and explode on impact. The orbs deal area damage, making it effective against groups. The arcing trajectory allows for indirect fire over obstacles.",
+  "additionalDescription": "Launches energy orbs in an arc that explode on impact. Effective against groups and over obstacles.",
   "tags": ["launcher", "orb", "explosive", "aoe"],
   "tips": [
     "The arc allows you to hit enemies behind cover",

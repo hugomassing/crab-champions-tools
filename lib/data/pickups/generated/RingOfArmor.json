@@ -1,0 +1,16 @@
+{
+  "id": "RingOfArmor",
+  "gameId": "DA_Relic_RingOfArmor",
+  "type": "Relic",
+  "name": "Ring Of Armor",
+  "description": "Gain an armor plate if starting an island with no armor",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain an armor plate if starting an island with no armor",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

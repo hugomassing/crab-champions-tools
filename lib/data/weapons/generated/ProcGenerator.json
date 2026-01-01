@@ -5,15 +5,12 @@
   "description": "Doesn't do much... until it does",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 8,
-    "clipSize": 22,
     "reloadDuration": 1.25,
     "baseSpread": 4,
-    "maxSpread": 25
+    "maxSpread": 25,
+    "fireRate": 8
   },
   "crosshairType": "Dot",
-  "projectileId": "DA_Projectile_ProcGenerator",
   "requiresUnlock": false,
-  "iconPath": "T_UI_Icon_Rifle_Silhouette",
   "tintColor": "rgb(188, 255, 0)"
 }

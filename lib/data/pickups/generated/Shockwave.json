@@ -1,0 +1,16 @@
+{
+  "id": "Shockwave",
+  "gameId": "DA_Perk_Shockwave",
+  "type": "Perk",
+  "name": "Shockwave",
+  "description": "Taking damage sends out a shockwave that damages all visible enemies",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "levelDescription": "Taking damage sends out a shockwave that deals PrimaryBuff damage to all visible enemies",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 150,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

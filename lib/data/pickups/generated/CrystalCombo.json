@@ -1,0 +1,16 @@
+{
+  "id": "CrystalCombo",
+  "gameId": "DA_Perk_CrystalCombo",
+  "type": "Perk",
+  "name": "Crystal Combo",
+  "description": "Enemies drop more crystals depending on your current combo",
+  "rarity": "Common",
+  "lootPool": "Economy",
+  "levelDescription": "Enemies drop PrimaryBuff% more crystals per combo level",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

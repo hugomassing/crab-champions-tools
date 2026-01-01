@@ -1,0 +1,16 @@
+{
+  "id": "TwinRing",
+  "gameId": "DA_Relic_TwinRing",
+  "type": "Relic",
+  "name": "Twin Ring",
+  "description": "All turrets spawn in pairs",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "All turrets spawn in pairs",
+  "iconPath": "T_Icon_Relic_Legendary",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

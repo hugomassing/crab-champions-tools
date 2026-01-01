@@ -1,0 +1,17 @@
+{
+  "id": "LightningShot",
+  "gameId": "DA_WeaponMod_LightningShot",
+  "type": "WeaponMod",
+  "name": "Lightning Shot",
+  "description": "Shots shock enemies (lightning stacks build up on enemies and are released as chain lightning damage when close enough to other enemies)",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "levelDescription": "PrimaryBuff% chance for shots to shock enemies (lightning stacks build up on enemies and are released as chain lightning damage when close enough to other enemies)",
+  "iconPath": "T_Icon_WeaponMod_LightningShot",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

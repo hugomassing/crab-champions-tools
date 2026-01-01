@@ -1,0 +1,17 @@
+{
+  "id": "ReloadArc",
+  "gameId": "DA_WeaponMod_ReloadArc",
+  "type": "WeaponMod",
+  "name": "Reload Arc",
+  "description": "Reloading fires an arc of powerful projectiles",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "levelDescription": "Each projectile deals PrimaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "cooldown": 2,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

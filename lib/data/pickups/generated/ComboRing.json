@@ -1,0 +1,16 @@
+{
+  "id": "ComboRing",
+  "gameId": "DA_Relic_ComboRing",
+  "type": "Relic",
+  "name": "Combo Ring",
+  "description": "Max combo increased by 3",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Max combo increased by 3",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "RingOfValue",
+  "gameId": "DA_Relic_RingOfValue",
+  "type": "Relic",
+  "name": "Ring Of Value",
+  "description": "Shops always contain a pedestal that is discounted by 75%",
+  "rarity": "Epic",
+  "lootPool": "Economy",
+  "spawnWeight": 0.3,
+  "levelDescription": "Shops always contain a pedestal that is discounted by 75%",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "IceStrike",
+  "gameId": "DA_WeaponMod_IceStrike",
+  "type": "WeaponMod",
+  "name": "Ice Strike",
+  "description": "Shots bring down ice strikes that damage and freeze nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "levelDescription": "Ice strikes deal PrimaryBuff damage and apply SecondaryBuff ice stacks",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "cooldown": 5,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "IceShot",
+  "gameId": "DA_WeaponMod_IceShot",
+  "type": "WeaponMod",
+  "name": "Ice Shot",
+  "description": "Shots freeze enemies (the total amount of ice stacks on an enemy is dealt as damage a few seconds after being frozen)",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "levelDescription": "PrimaryBuff% chance for shots to freeze enemies (the total amount of ice stacks on an enemy is dealt as damage a few seconds after being frozen)",
+  "iconPath": "T_Icon_WeaponMod_IceShot",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

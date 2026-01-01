@@ -1,0 +1,16 @@
+{
+  "id": "DoubleTrouble",
+  "gameId": "DA_Perk_DoubleTrouble",
+  "type": "Perk",
+  "name": "Double Trouble",
+  "description": "Max health multiplier increased but so is enemy health",
+  "rarity": "Greed",
+  "levelDescription": "Max health multiplier increased by PrimaryBuff% but enemy health increased by Debuff%",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 50,
+  "getDebuffAsMultiplier": false
+}

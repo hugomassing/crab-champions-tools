@@ -1,0 +1,18 @@
+{
+  "id": "Firestarter",
+  "gameId": "DA_Perk_Firestarter",
+  "type": "Perk",
+  "name": "Firestarter",
+  "description": "Fire strength increased",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "spawnWeight": 1.5,
+  "levelDescription": "Fire strength increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

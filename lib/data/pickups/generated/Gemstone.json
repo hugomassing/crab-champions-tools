@@ -1,0 +1,16 @@
+{
+  "id": "Gemstone",
+  "gameId": "DA_Perk_Gemstone",
+  "type": "Perk",
+  "name": "Gemstone",
+  "description": "Damage increased after clearing each island",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% after clearing each island",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 4,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

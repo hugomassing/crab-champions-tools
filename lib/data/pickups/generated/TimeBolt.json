@@ -1,0 +1,16 @@
+{
+  "id": "TimeBolt",
+  "gameId": "DA_WeaponMod_TimeBolt",
+  "type": "WeaponMod",
+  "name": "Time Bolt",
+  "description": "Chance to fire bolts that deal damage over time along with your shots",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire bolts dealing SecondaryBuff damage over time along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

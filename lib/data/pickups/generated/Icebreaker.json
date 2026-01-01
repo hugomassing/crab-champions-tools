@@ -1,0 +1,17 @@
+{
+  "id": "Icebreaker",
+  "gameId": "DA_Relic_Icebreaker",
+  "type": "Relic",
+  "name": "Icebreaker",
+  "description": "Ice damage is also dealt to nearby enemies",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "spawnWeight": 0.5,
+  "levelDescription": "Ice damage is also dealt to nearby enemies",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

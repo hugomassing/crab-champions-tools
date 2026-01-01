@@ -1,0 +1,17 @@
+{
+  "id": "TimeExplosion",
+  "gameId": "DA_AbilityMod_TimeExplosion",
+  "type": "AbilityMod",
+  "name": "Time Explosion",
+  "description": "Abilities deal more damage but damage is dealt over time",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_GrenadeMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

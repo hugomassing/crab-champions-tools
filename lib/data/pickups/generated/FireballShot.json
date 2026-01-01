@@ -1,0 +1,17 @@
+{
+  "id": "FireballShot",
+  "gameId": "DA_WeaponMod_FireballShot",
+  "type": "WeaponMod",
+  "name": "Fireball Shot",
+  "description": "Chance to fire fireballs along with your shots",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "levelDescription": "PrimaryBuff% chance to fire fireballs that deal SecondaryBuff damage and apply 100 fire debuff stacks along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

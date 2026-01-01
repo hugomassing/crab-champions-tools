@@ -1,0 +1,16 @@
+{
+  "id": "LimitedLoot",
+  "gameId": "DA_Perk_LimitedLoot",
+  "type": "Perk",
+  "name": "Limited Loot",
+  "description": "More crystals drop when eliminating enemies but the amount of loot choices in chests is reduced",
+  "rarity": "Greed",
+  "levelDescription": "PrimaryBuff% more crystals drop when eliminating enemies but the amount of loot choices in chests is reduced by Debuff",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 125,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 1,
+  "getDebuffAsMultiplier": false
+}

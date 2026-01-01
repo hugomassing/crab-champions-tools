@@ -1,0 +1,18 @@
+{
+  "id": "IceRing",
+  "gameId": "DA_Relic_IceRing",
+  "type": "Relic",
+  "name": "Ice Ring",
+  "description": "Ice strength increased by 250% but Fire no longer has any effect",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "spawnWeight": 0.5,
+  "levelDescription": "Ice strength increased by PrimaryBuff% but Fire no longer has any effect",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

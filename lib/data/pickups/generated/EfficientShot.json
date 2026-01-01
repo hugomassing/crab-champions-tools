@@ -1,0 +1,16 @@
+{
+  "id": "EfficientShot",
+  "gameId": "DA_WeaponMod_EfficientShot",
+  "type": "WeaponMod",
+  "name": "Efficient Shot",
+  "description": "Chance to gain ammo when dealing weapon damage",
+  "rarity": "Common",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance to gain ammo when dealing weapon damage",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 5,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

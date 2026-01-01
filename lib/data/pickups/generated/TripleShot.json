@@ -1,0 +1,16 @@
+{
+  "id": "TripleShot",
+  "gameId": "DA_WeaponMod_TripleShot",
+  "type": "WeaponMod",
+  "name": "Triple Shot",
+  "description": "Chance to fire in a triple shot formation",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance to fire in a triple shot formation",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 7,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

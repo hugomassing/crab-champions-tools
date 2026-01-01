@@ -1,0 +1,16 @@
+{
+  "id": "CarePackage",
+  "gameId": "DA_Perk_CarePackage",
+  "type": "Perk",
+  "name": "Care Package",
+  "description": "Get extra chests after clearing every 4th island",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "levelDescription": "Get PrimaryBuff extra chests after clearing every 4th island",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

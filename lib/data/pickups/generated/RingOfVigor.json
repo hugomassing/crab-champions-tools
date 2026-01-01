@@ -1,0 +1,17 @@
+{
+  "id": "RingOfVigor",
+  "gameId": "DA_Relic_RingOfVigor",
+  "type": "Relic",
+  "name": "Ring Of Vigor",
+  "description": "Max health multiplier increased by 3% after clearing each island",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Max health multiplier increased by PrimaryBuff% after clearing each island",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

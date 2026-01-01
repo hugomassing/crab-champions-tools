@@ -1,0 +1,16 @@
+{
+  "id": "SturdyTotems",
+  "gameId": "DA_Perk_SturdyTotems",
+  "type": "Perk",
+  "name": "Sturdy Totems",
+  "description": "Totems (other than XL Totems) have more guaranteed uses before they explode",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "levelDescription": "Totems have PrimaryBuff more guaranteed uses before they explode",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

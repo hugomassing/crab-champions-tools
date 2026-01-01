@@ -1,0 +1,16 @@
+{
+  "id": "Supercharged",
+  "gameId": "DA_WeaponMod_Supercharged",
+  "type": "WeaponMod",
+  "name": "Supercharged",
+  "description": "Fire rate increased",
+  "rarity": "Epic",
+  "lootPool": "Speed",
+  "levelDescription": "Fire rate increased by PrimaryBuff%",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

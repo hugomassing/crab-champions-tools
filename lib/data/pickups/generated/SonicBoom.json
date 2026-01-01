@@ -1,0 +1,17 @@
+{
+  "id": "SonicBoom",
+  "gameId": "DA_WeaponMod_SonicBoom",
+  "type": "WeaponMod",
+  "name": "Sonic Boom",
+  "description": "Reloading damages and knocks back nearby enemies",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "levelDescription": "Reloading deals PrimaryBuff damage and knocks back nearby enemies",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "cooldown": 5,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

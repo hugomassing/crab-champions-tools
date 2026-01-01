@@ -1,0 +1,18 @@
+{
+  "id": "IceStorm",
+  "gameId": "DA_WeaponMod_IceStorm",
+  "type": "WeaponMod",
+  "name": "Ice Storm",
+  "description": "Shots create icy storms that deal damage over time",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "levelDescription": "Ice storms deal PrimaryBuff damage and apply SecondaryBuff ice stacks over a Duration second period",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "cooldown": 6,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

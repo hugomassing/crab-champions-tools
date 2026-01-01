@@ -1,0 +1,18 @@
+{
+  "id": "IceExplosion",
+  "gameId": "DA_AbilityMod_IceExplosion",
+  "type": "AbilityMod",
+  "name": "Ice Explosion",
+  "description": "Abilities explode into ice damage areas",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "spawnWeight": 0.75,
+  "levelDescription": "Ice damage areas apply SecondaryBuff ice stacks over a Duration second period",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

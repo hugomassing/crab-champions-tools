@@ -72,6 +72,12 @@ export interface RawWeaponProperties {
   RecoilInterpSpeed?: number;
   BaseClipSize?: number;
   ReloadDuration?: number;
+  StartingWeaponMod?: {
+    WeaponModDA?: UnrealObjectReference;
+    InventoryInfo?: { Level?: number };
+  };
+  bDualWield?: boolean;
+  FireMode?: string;
   EquipMontage?: UnrealObjectReference;
   EquipSound?: UnrealObjectReference;
   CosmeticFX?: UnrealObjectReference;
@@ -104,5 +110,30 @@ export interface RawWeaponData {
   Properties: RawWeaponProperties;
 }
 
-export type RawGameDataArray = RawAbilityData[] | RawWeaponData[];
+export interface RawPickupProperties {
+  LootPool?: string;
+  Rarity: string;
+  PickupTag?: string;
+  Name: string;
+  Description: string;
+  SpawnWeight?: number;
+  LevelDescription?: string;
+  Icon: UnrealObjectReference;
+  bRequiresUnlock?: boolean;
+  Cooldown?: number;
+  BaseBuff?: number;
+  bGetBuffAsMultiplier?: boolean;
+  bHyperbolicBuff?: boolean;
+  BaseDebuff?: number;
+  bGetDebuffAsMultiplier?: boolean;
+}
+
+export interface RawPickupData {
+  Type: string;
+  Name: string;
+  Class: string;
+  Properties: RawPickupProperties;
+}
+
+export type RawGameDataArray = RawAbilityData[] | RawWeaponData[] | RawPickupData[];
 

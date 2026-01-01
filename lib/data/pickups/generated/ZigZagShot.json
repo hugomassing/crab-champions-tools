@@ -1,0 +1,16 @@
+{
+  "id": "ZigZagShot",
+  "gameId": "DA_WeaponMod_ZigZagShot",
+  "type": "WeaponMod",
+  "name": "Zig Zag Shot",
+  "description": "Shots deal more damage but move in zig zag patterns",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

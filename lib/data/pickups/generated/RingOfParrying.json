@@ -1,0 +1,17 @@
+{
+  "id": "RingOfParrying",
+  "gameId": "DA_Relic_RingOfParrying",
+  "type": "Relic",
+  "name": "Ring Of Parrying",
+  "description": "Heal each time you parry (dash right before you would take damage). The amount healed scales with each island cleared",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Heal PrimaryBuff each time you parry (dash right before you would take damage). The amount healed scales with each island cleared",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

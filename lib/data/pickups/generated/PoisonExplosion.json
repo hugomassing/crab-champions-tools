@@ -1,0 +1,18 @@
+{
+  "id": "PoisonExplosion",
+  "gameId": "DA_AbilityMod_PoisonExplosion",
+  "type": "AbilityMod",
+  "name": "Poison Explosion",
+  "description": "Abilities explode into poison damage areas",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "spawnWeight": 0.75,
+  "levelDescription": "Poison damage areas apply SecondaryBuff poison stacks over a Duration second period",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

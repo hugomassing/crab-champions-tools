@@ -1,0 +1,18 @@
+{
+  "id": "Toxic",
+  "gameId": "DA_Perk_Toxic",
+  "type": "Perk",
+  "name": "Toxic",
+  "description": "Max poison stacks increased",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "spawnWeight": 1.5,
+  "levelDescription": "Max poison stacks increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 40,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

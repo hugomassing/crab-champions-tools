@@ -1,0 +1,16 @@
+{
+  "id": "ElementalExpert",
+  "gameId": "DA_Perk_ElementalExpert",
+  "type": "Perk",
+  "name": "Elemental Expert",
+  "description": "Damage increased to enemies based on the number of unique debuffs (fire, poison, lightning etc.) applied to them",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "levelDescription": "Damage increased to enemies by PrimaryBuff% per unique debuff applied to them",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 15,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

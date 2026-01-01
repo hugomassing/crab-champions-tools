@@ -1,0 +1,16 @@
+{
+  "id": "KnockbackShot",
+  "gameId": "DA_WeaponMod_KnockbackShot",
+  "type": "WeaponMod",
+  "name": "Knockback Shot",
+  "description": "Shots knock enemies back, causing them to take knockback damage",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "levelDescription": "Knockback strength increased by PrimaryBuff%",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

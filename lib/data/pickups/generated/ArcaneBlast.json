@@ -1,0 +1,16 @@
+{
+  "id": "ArcaneBlast",
+  "gameId": "DA_WeaponMod_ArcaneBlast",
+  "type": "WeaponMod",
+  "name": "Arcane Blast",
+  "description": "Chance to fire close range AOE blasts along with your shots",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "levelDescription": "PrimaryBuff% chance to fire close range AOE blasts that deal SecondaryBuff damage and apply 200 arcane debuff stacks per second along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

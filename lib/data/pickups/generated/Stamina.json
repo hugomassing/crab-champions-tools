@@ -1,0 +1,16 @@
+{
+  "id": "Stamina",
+  "gameId": "DA_Perk_Stamina",
+  "type": "Perk",
+  "name": "Stamina",
+  "description": "Gain more dashes",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "levelDescription": "Gain PrimaryBuff more dashes",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

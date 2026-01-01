@@ -1,0 +1,16 @@
+{
+  "id": "ValuedCustomer",
+  "gameId": "DA_Perk_ValuedCustomer",
+  "type": "Perk",
+  "name": "Valued Customer",
+  "description": "Max health increased when making purchases at shops",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Max health increased by PrimaryBuff when making purchases at shops",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

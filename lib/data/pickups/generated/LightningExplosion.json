@@ -1,0 +1,18 @@
+{
+  "id": "LightningExplosion",
+  "gameId": "DA_AbilityMod_LightningExplosion",
+  "type": "AbilityMod",
+  "name": "Lightning Explosion",
+  "description": "Abilities explode into lightning damage areas",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "spawnWeight": 0.75,
+  "levelDescription": "Lightning damage areas apply SecondaryBuff lightning stacks over a Duration second period",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

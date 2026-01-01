@@ -1,0 +1,17 @@
+{
+  "id": "PoisonousEnemies",
+  "gameId": "DA_Perk_PoisonousEnemies",
+  "type": "Perk",
+  "name": "Poisonous Enemies",
+  "description": "Enemies poison all nearby enemies when eliminated",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "levelDescription": "Enemies apply PrimaryBuff poison stacks when eliminated",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

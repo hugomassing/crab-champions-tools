@@ -7,16 +7,11 @@ export type CrosshairType = "Dot" | "Cross" | "Circle";
 export type FormationType = "Single" | "SmallArc" | "LargeArc" | "Line" | "Spread";
 
 export interface WeaponStats {
-  fireRate?: number;
-  clipSize: number;
-  reloadDuration: number;
+  reloadDuration?: number;
   baseSpread?: number;
   maxSpread?: number;
-  spreadRecovery?: number;
-  aimingSpreadMultiplier?: number;
-  verticalRecoil?: number;
+  fireRate?: number;
   horizontalRecoil?: number;
-  recoilInterpSpeed?: number;
 }
 
 export interface Weapon {
@@ -28,12 +23,11 @@ export interface Weapon {
   stats: WeaponStats;
   crosshairType?: CrosshairType;
   formationType?: FormationType;
-  formationSpacing?: number;
-  formationExpansionDampening?: number;
-  projectileId?: string;
   requiresUnlock: boolean;
-  iconPath?: string;
   tintColor?: string;
+  startingWeaponMod?: { weaponModId: string };
+  dualWield?: boolean;
+  fireMode?: string;
 }
 
 export type WeaponsData = Weapon[];

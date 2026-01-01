@@ -1,0 +1,17 @@
+{
+  "id": "Vampire",
+  "gameId": "DA_MeleeMod_Vampire",
+  "type": "MeleeMod",
+  "name": "Vampire",
+  "description": "Heal when eliminating enemies within 3 seconds of them taking melee damage (larger enemies heal more)",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 0.75,
+  "levelDescription": "Heal PrimaryBuff health when eliminating enemies within 3 seconds of them taking melee damage. Medium enemies heal 2x more, large enemies heal 5x more and Elite + Boss enemies heal 10x more",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 5,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

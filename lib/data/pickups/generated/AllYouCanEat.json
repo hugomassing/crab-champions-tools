@@ -1,0 +1,16 @@
+{
+  "id": "AllYouCanEat",
+  "gameId": "DA_Perk_AllYouCanEat",
+  "type": "Perk",
+  "name": "All You Can Eat",
+  "description": "No ammo is used for a short time after eliminating an enemy",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "levelDescription": "No ammo is used for PrimaryBuff seconds after eliminating an enemy",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

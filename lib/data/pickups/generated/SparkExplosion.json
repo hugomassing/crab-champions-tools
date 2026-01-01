@@ -1,0 +1,17 @@
+{
+  "id": "SparkExplosion",
+  "gameId": "DA_AbilityMod_SparkExplosion",
+  "type": "AbilityMod",
+  "name": "Spark Explosion",
+  "description": "Abilities explode into bursts of damaging sparks",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each spark deals PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

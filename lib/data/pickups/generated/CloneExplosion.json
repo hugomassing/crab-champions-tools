@@ -1,0 +1,17 @@
+{
+  "id": "CloneExplosion",
+  "gameId": "DA_AbilityMod_CloneExplosion",
+  "type": "AbilityMod",
+  "name": "Clone Explosion",
+  "description": "Abilities spawn ability copies when exploding",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Abilities spawn PrimaryBuff ability copies when exploding",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

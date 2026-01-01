@@ -1,0 +1,16 @@
+{
+  "id": "FullMetalJacket",
+  "gameId": "DA_Relic_FullMetalJacket",
+  "type": "Relic",
+  "name": "Full Metal Jacket",
+  "description": "All damage penetrates enemy armor",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "All damage penetrates enemy armor",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

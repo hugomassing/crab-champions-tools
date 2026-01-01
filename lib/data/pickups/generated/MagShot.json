@@ -1,0 +1,16 @@
+{
+  "id": "MagShot",
+  "gameId": "DA_WeaponMod_MagShot",
+  "type": "WeaponMod",
+  "name": "Mag Shot",
+  "description": "Shots deal more damage for each bullet remaining in the magazine",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by 3% for each bullet remaining in the magazine (up to a max of PrimaryBuff bullets)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

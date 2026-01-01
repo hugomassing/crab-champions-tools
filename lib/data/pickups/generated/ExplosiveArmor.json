@@ -1,0 +1,16 @@
+{
+  "id": "ExplosiveArmor",
+  "gameId": "DA_Perk_ExplosiveArmor",
+  "type": "Perk",
+  "name": "Explosive Armor",
+  "description": "Create large explosions when breaking enemy armor",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Armor explosions deal PrimaryBuff damage",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": true,
+  "baseBuff": 60,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

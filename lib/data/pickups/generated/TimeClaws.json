@@ -1,0 +1,17 @@
+{
+  "id": "TimeClaws",
+  "gameId": "DA_MeleeMod_TimeClaws",
+  "type": "MeleeMod",
+  "name": "Time Claws",
+  "description": "Melee damage increased but damage is dealt over time",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee damage increased by PrimaryBuff% (+SecondaryBuff damage) but damage is dealt over time",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 150,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "HomingBlades",
+  "gameId": "DA_WeaponMod_HomingBlades",
+  "type": "WeaponMod",
+  "name": "Homing Blades",
+  "description": "Shots that hit enemies have a chance to spawn deadly blades that seek out nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance for shots that hit enemies to spawn blades that deal SecondaryBuff damage per second",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

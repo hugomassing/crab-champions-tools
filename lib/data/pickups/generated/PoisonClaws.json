@@ -1,0 +1,18 @@
+{
+  "id": "PoisonClaws",
+  "gameId": "DA_MeleeMod_PoisonClaws",
+  "type": "MeleeMod",
+  "name": "Poison Claws",
+  "description": "Melee poisons enemies",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee poisons enemies with PrimaryBuff poison stacks",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

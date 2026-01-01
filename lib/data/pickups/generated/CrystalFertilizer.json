@@ -1,0 +1,16 @@
+{
+  "id": "CrystalFertilizer",
+  "gameId": "DA_Perk_CrystalFertilizer",
+  "type": "Perk",
+  "name": "Crystal Fertilizer",
+  "description": "More destructible crystals and health rocks spawn",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "levelDescription": "PrimaryBuff% more destructible crystals and health rocks spawn",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

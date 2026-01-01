@@ -1,0 +1,16 @@
+{
+  "id": "TonysBlackCard",
+  "gameId": "DA_Perk_TonysBlackCard",
+  "type": "Perk",
+  "name": "Tony's Black Card",
+  "description": "Shop prices are discounted",
+  "rarity": "Common",
+  "lootPool": "Economy",
+  "levelDescription": "Shop prices are discounted by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 8,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

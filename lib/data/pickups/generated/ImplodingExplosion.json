@@ -1,0 +1,18 @@
+{
+  "id": "ImplodingExplosion",
+  "gameId": "DA_AbilityMod_ImplodingExplosion",
+  "type": "AbilityMod",
+  "name": "Imploding Explosion",
+  "description": "Abilities deal more damage but have a smaller explosion radius",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Abilities deal PrimaryBuff% more damage (+SecondaryBuff damage) but have a Debuff% smaller explosion radius",
+  "iconPath": "T_Icon_GrenadeMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "LinkShot",
+  "gameId": "DA_WeaponMod_LinkShot",
+  "type": "WeaponMod",
+  "name": "Link Shot",
+  "description": "Chance for shots to burst into 2 link shots on impact",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance for shots that hit enemies to spawn link shots that deal SecondaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_LinkShot",
+  "requiresUnlock": false,
+  "baseBuff": 2.5,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

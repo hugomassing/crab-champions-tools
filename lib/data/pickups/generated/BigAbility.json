@@ -1,0 +1,17 @@
+{
+  "id": "BigAbility",
+  "gameId": "DA_AbilityMod_BigAbility",
+  "type": "AbilityMod",
+  "name": "Big Ability",
+  "description": "Abilities are larger and deal more damage but move 50% slower",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Abilities are PrimaryBuff% larger and deal PrimaryBuff% more damage (+SecondaryBuff damage) but move 50% slower",
+  "iconPath": "T_Icon_GrenadeMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

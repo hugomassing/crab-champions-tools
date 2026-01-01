@@ -1,0 +1,16 @@
+{
+  "id": "SplashDamage",
+  "gameId": "DA_WeaponMod_SplashDamage",
+  "type": "WeaponMod",
+  "name": "Splash Damage",
+  "description": "Shots deal splash damage to nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "Shots deal splash damage to enemies in a PrimaryBuff unit radius",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

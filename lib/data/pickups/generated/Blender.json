@@ -1,0 +1,17 @@
+{
+  "id": "Blender",
+  "gameId": "DA_MeleeMod_Blender",
+  "type": "MeleeMod",
+  "name": "Blender",
+  "description": "Melee cooldowns reduced",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee cooldowns reduced by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

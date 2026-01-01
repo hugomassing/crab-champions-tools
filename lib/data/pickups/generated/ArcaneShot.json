@@ -1,0 +1,16 @@
+{
+  "id": "ArcaneShot",
+  "gameId": "DA_WeaponMod_ArcaneShot",
+  "type": "WeaponMod",
+  "name": "Arcane Shot",
+  "description": "Shots apply arcane to enemies (the total amount of arcane stacks on an enemy is dealt as damage once per second)",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "levelDescription": "PrimaryBuff% chance for shots to apply arcane to enemies (the total amount of arcane stacks on an enemy is dealt as damage once per second)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

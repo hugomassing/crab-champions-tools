@@ -1,0 +1,16 @@
+{
+  "id": "WaveTurret",
+  "gameId": "DA_AbilityMod_WaveTurret",
+  "type": "AbilityMod",
+  "name": "Wave Turret",
+  "description": "Abilities spawn wave turrets when exploding",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Wave turrets deal PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

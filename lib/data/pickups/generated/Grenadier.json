@@ -1,0 +1,17 @@
+{
+  "id": "Grenadier",
+  "gameId": "DA_AbilityMod_Grenadier",
+  "type": "AbilityMod",
+  "name": "Grenadier",
+  "description": "Gain extra uses of your ability",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Gain PrimaryBuff extra uses of your ability",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

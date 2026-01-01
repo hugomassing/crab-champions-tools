@@ -1,0 +1,17 @@
+{
+  "id": "SporeExplosion",
+  "gameId": "DA_AbilityMod_SporeExplosion",
+  "type": "AbilityMod",
+  "name": "Spore Explosion",
+  "description": "Abilities grow explosive mushrooms when exploding",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Mushrooms deal PrimaryBuff damage and apply SecondaryBuff poison stacks when exploding",
+  "iconPath": "T_Icon_WeaponMod_SporeShot",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "PiercingShot",
+  "gameId": "DA_WeaponMod_PiercingShot",
+  "type": "WeaponMod",
+  "name": "Piercing Shot",
+  "description": "Shots pierce through enemies",
+  "rarity": "Epic",
+  "lootPool": "Speed",
+  "levelDescription": "Shots pierce through PrimaryBuff enemies",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

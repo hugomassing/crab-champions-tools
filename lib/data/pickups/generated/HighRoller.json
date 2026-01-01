@@ -1,0 +1,16 @@
+{
+  "id": "HighRoller",
+  "gameId": "DA_Relic_HighRoller",
+  "type": "Relic",
+  "name": "High Roller",
+  "description": "33% chance for 2 extra chests to spawn, 33% chance to do nothing, 33% chance for no chests to spawn at all when clearing islands",
+  "rarity": "Greed",
+  "spawnWeight": 0.3,
+  "levelDescription": "PrimaryBuff% chance for 2 extra chests to spawn, PrimaryBuff% chance to do nothing, PrimaryBuff% chance for no chests to spawn at all when clearing islands",
+  "iconPath": "T_Icon_Relic_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 33,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

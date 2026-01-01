@@ -1,0 +1,17 @@
+{
+  "id": "HeavyShot",
+  "gameId": "DA_WeaponMod_HeavyShot",
+  "type": "WeaponMod",
+  "name": "Heavy Shot",
+  "description": "Shots deal more damage but are heavier",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Shots deal PrimaryBuff% more damage (+SecondaryBuff damage) but are Debuff% heavier",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 15,
+  "getDebuffAsMultiplier": false
+}

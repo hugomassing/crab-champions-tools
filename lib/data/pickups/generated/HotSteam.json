@@ -1,0 +1,18 @@
+{
+  "id": "HotSteam",
+  "gameId": "DA_Perk_HotSteam",
+  "type": "Perk",
+  "name": "Hot Steam",
+  "description": "Enemies take a burst of fire damage when ignited",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "spawnWeight": 1.5,
+  "levelDescription": "Enemies take a burst of PrimaryBuff fire damage when ignited",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 300,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

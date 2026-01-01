@@ -1,0 +1,16 @@
+{
+  "id": "DiceShot",
+  "gameId": "DA_WeaponMod_DiceShot",
+  "type": "WeaponMod",
+  "name": "Dice Shot",
+  "description": "All chance based weapon mods are much more likely to trigger",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "levelDescription": "All chance based weapon mods are PrimaryBuff% more likely to trigger",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

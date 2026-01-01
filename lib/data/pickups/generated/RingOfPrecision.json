@@ -1,0 +1,18 @@
+{
+  "id": "RingOfPrecision",
+  "gameId": "DA_Relic_RingOfPrecision",
+  "type": "Relic",
+  "name": "Ring Of Precision",
+  "description": "Critical hit damage multiplier increased by 150%",
+  "rarity": "Epic",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "spawnWeight": 0.3,
+  "levelDescription": "Critical hit damage multiplier increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 150,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

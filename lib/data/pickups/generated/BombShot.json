@@ -1,0 +1,16 @@
+{
+  "id": "BombShot",
+  "gameId": "DA_WeaponMod_BombShot",
+  "type": "WeaponMod",
+  "name": "Bomb Shot",
+  "description": "Shots that hit enemies have a chance to spawn clusters of bombs nearby",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance for shots that hit enemies to spawn clusters of bombs that deal SecondaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

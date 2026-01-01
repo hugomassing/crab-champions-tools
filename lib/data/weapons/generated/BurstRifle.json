@@ -5,16 +5,11 @@
   "description": "Heavy hitting burst rifle",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 3,
-    "clipSize": 30,
-    "reloadDuration": 0,
     "maxSpread": 4,
-    "verticalRecoil": 3,
-    "recoilInterpSpeed": 8
+    "fireRate": 3
   },
   "crosshairType": "Dot",
-  "projectileId": "DA_Projectile_BurstRifle",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_Rifle_Silhouette",
-  "tintColor": "rgb(255, 89, 0)"
+  "tintColor": "rgb(255, 89, 0)",
+  "fireMode": "Burst"
 }

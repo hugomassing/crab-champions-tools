@@ -1,0 +1,18 @@
+{
+  "id": "RingOfWisdom",
+  "gameId": "DA_Relic_RingOfWisdom",
+  "type": "Relic",
+  "name": "Ring Of Wisdom",
+  "description": "Critical hit chance increased by 2% after clearing each island",
+  "rarity": "Epic",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "spawnWeight": 0.3,
+  "levelDescription": "Critical hit chance increased by PrimaryBuff% after clearing each island",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

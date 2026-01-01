@@ -1,0 +1,16 @@
+{
+  "id": "RisingStar",
+  "gameId": "DA_Perk_RisingStar",
+  "type": "Perk",
+  "name": "Rising Star",
+  "description": "More crystals drop when eliminating enemies but more enemies spawn",
+  "rarity": "Greed",
+  "levelDescription": "PrimaryBuff% more crystals drop when eliminating enemies but Debuff% more enemies spawn",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 125,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "DamageExplosion",
+  "gameId": "DA_AbilityMod_DamageExplosion",
+  "type": "AbilityMod",
+  "name": "Damage Explosion",
+  "description": "Abilities deal more damage",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

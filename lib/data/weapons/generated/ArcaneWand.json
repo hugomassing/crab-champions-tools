@@ -5,15 +5,14 @@
   "description": "Lobs short range arcane balls",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 2,
-    "clipSize": 8,
     "reloadDuration": 1.25,
-    "verticalRecoil": 0,
+    "fireRate": 2,
     "horizontalRecoil": 0
   },
   "crosshairType": "Dot",
-  "projectileId": "DA_Projectile_ArcaneWand",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_Crossbow_Silhouette",
-  "tintColor": "rgb(170, 0, 218)"
+  "tintColor": "rgb(170, 0, 218)",
+  "startingWeaponMod": {
+    "weaponModId": "DA_WeaponMod_ArcaneShot"
+  }
 }

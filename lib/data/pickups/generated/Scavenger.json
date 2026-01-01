@@ -1,0 +1,16 @@
+{
+  "id": "Scavenger",
+  "gameId": "DA_Perk_Scavenger",
+  "type": "Perk",
+  "name": "Scavenger",
+  "description": "Enemies have a 10% chance (100% chance on large enemies) to drop health pickups when eliminated",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Enemies have a 10% chance (100% chance on large enemies) to drop health pickups that heal PrimaryBuff health",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 40,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

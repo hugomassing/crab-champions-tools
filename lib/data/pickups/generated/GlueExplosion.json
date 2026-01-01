@@ -1,0 +1,17 @@
+{
+  "id": "GlueExplosion",
+  "gameId": "DA_AbilityMod_GlueExplosion",
+  "type": "AbilityMod",
+  "name": "Glue Explosion",
+  "description": "Abilities stick to enemies and deal more damage but have a delayed explosion",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_GrenadeMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

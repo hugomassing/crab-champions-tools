@@ -1,0 +1,16 @@
+{
+  "id": "BruteForce",
+  "gameId": "DA_Perk_BruteForce",
+  "type": "Perk",
+  "name": "Brute Force",
+  "description": "Both outgoing and incoming global damage multipliers heavily increased",
+  "rarity": "Greed",
+  "levelDescription": "Global damage multiplier increased by PrimaryBuff% but incoming damage increased by Debuff%",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 25,
+  "getDebuffAsMultiplier": false
+}

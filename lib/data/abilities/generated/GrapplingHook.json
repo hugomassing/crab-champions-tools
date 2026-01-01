@@ -5,7 +5,6 @@
   "description": "Fire off a grappling hook- good for damaging enemies and for movement!",
   "rarity": "Greed",
   "cooldown": 0,
-  "hitmarkerType": "Quiet",
   "projectileId": "DA_Projectile_GrapplingHook",
   "requiresUnlock": true,
   "iconPath": "T_Icon_GrapplingHook"

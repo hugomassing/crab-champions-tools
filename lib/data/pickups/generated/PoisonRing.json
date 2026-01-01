@@ -1,0 +1,18 @@
+{
+  "id": "PoisonRing",
+  "gameId": "DA_Relic_PoisonRing",
+  "type": "Relic",
+  "name": "Poison Ring",
+  "description": "Poison strength and max poison stacks increased by 250% but Lightning no longer has any effect",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "spawnWeight": 0.5,
+  "levelDescription": "Poison strength and max poison stacks increased by PrimaryBuff% but Lightning no longer has any effect",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

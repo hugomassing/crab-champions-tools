@@ -1,0 +1,16 @@
+{
+  "id": "TimeShot",
+  "gameId": "DA_WeaponMod_TimeShot",
+  "type": "WeaponMod",
+  "name": "Time Shot",
+  "description": "Shots deal more damage but damage is dealt over time",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

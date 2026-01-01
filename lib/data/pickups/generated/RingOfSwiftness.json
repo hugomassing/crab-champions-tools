@@ -1,0 +1,17 @@
+{
+  "id": "RingOfSwiftness",
+  "gameId": "DA_Relic_RingOfSwiftness",
+  "type": "Relic",
+  "name": "Ring Of Swiftness",
+  "description": "Gain hugely increased movement speed",
+  "rarity": "Legendary",
+  "lootPool": "Speed",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain hugely increased movement speed",
+  "iconPath": "T_Icon_Relic_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 300,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

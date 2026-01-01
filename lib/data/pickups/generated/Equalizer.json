@@ -1,0 +1,16 @@
+{
+  "id": "Equalizer",
+  "gameId": "DA_Perk_Equalizer",
+  "type": "Perk",
+  "name": "Equalizer",
+  "description": "Damage increased if you currently have an even number of equipped perks",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% if you currently have an even number of equipped perks",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 30,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

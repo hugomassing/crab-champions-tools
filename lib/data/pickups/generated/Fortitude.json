@@ -1,0 +1,16 @@
+{
+  "id": "Fortitude",
+  "gameId": "DA_Perk_Fortitude",
+  "type": "Perk",
+  "name": "Fortitude",
+  "description": "Max health increased after clearing each island",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Max health increased by PrimaryBuff after clearing each island",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

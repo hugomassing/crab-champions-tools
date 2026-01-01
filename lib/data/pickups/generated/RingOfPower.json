@@ -1,0 +1,18 @@
+{
+  "id": "RingOfPower",
+  "gameId": "DA_Relic_RingOfPower",
+  "type": "Relic",
+  "name": "Ring Of Power",
+  "description": "Weapon damage multiplier increased by 400% but fire rate reduced by 80%",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.3,
+  "levelDescription": "Weapon damage multiplier increased by PrimaryBuff% but fire rate reduced by Debuff%",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 400,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 80,
+  "getDebuffAsMultiplier": false
+}

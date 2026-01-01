@@ -1,0 +1,16 @@
+{
+  "id": "BigShot",
+  "gameId": "DA_WeaponMod_BigShot",
+  "type": "WeaponMod",
+  "name": "Big Shot",
+  "description": "Shots are larger and deal more damage but move 40% slower",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Shots are PrimaryBuff% larger and deal PrimaryBuff% more damage (+SecondaryBuff damage) but move 40% slower",
+  "iconPath": "T_Icon_WeaponMod_BigShot",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

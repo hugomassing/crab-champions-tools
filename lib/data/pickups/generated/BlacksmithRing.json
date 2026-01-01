@@ -1,0 +1,16 @@
+{
+  "id": "BlacksmithRing",
+  "gameId": "DA_Relic_BlacksmithRing",
+  "type": "Relic",
+  "name": "Blacksmith Ring",
+  "description": "You can choose 2 enhancements on Anvil islands",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "You can choose 2 enhancements on Anvil islands",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

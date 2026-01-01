@@ -1,0 +1,18 @@
+{
+  "id": "CrystalBarrage",
+  "gameId": "DA_AbilityMod_CrystalBarrage",
+  "type": "AbilityMod",
+  "name": "Crystal Barrage",
+  "description": "Abilities explode into crystal barrages",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Crystal barrages deal PrimaryBuff damage over a Duration second period",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "cooldown": 1,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

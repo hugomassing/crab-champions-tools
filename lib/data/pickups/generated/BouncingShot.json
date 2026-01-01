@@ -1,0 +1,16 @@
+{
+  "id": "BouncingShot",
+  "gameId": "DA_WeaponMod_BouncingShot",
+  "type": "WeaponMod",
+  "name": "Bouncing Shot",
+  "description": "Shots bounce around and deal more damage after each bounce",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) after each bounce (+1 bounce per level)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 150,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

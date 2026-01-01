@@ -1,0 +1,16 @@
+{
+  "id": "RingOfPotential",
+  "gameId": "DA_Relic_RingOfPotential",
+  "type": "Relic",
+  "name": "Ring Of Potential",
+  "description": "Secret chests are 4 times less likely to spawn but are replaced by Legendary chests",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Secret chests are 4 times less likely to spawn but are replaced by Legendary chests",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

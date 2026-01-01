@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_IconBorderTest",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Pickup'",
+        "ObjectPath": "CrabChampions/Content/FX/Pickup/M_Pickup.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "AO_Power",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.881691,
+          "ExpressionGUID": "C2281B53-4BCC512A-B8F23EB0-2591D6BE"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "R_Amount",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.355484,
+          "ExpressionGUID": "A32D3C3A-4D612D89-72576A9C-8159D507"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "PrimaryTint",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.432292,
+            "G": 0.179558,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "B07500"
+          },
+          "ExpressionGUID": "767EB723-4092BB52-B2AEA88D-A77DE5ED"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "LoadedMaterialResources": []
+  }
+]

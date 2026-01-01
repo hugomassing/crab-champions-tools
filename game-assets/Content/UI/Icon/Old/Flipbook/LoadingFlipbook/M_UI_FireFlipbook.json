@@ -1,0 +1,189 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_UI_FireFlipbook",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_3",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "StateId": "08E735D0-4EF389D2-9A28C59E-D51F4790",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries[1]": {
+            "NameHashes": [
+              6338076585572178316
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Tint",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "F9D4A307-41026AE0-E6E4F7A2-8AD960A1"
+            ]
+          },
+          "RuntimeEntries[2]": {
+            "NameHashes": [
+              16565997326691886356
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Flipbook",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "C8EBC76A-4CF315DA-74F4999C-0FBC94D4"
+            ]
+          },
+          "VectorValues": [
+            {
+              "R": 4.0,
+              "G": 1.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "FFFF00"
+            }
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D'T_LoopingFire_04'",
+              "ObjectPath": "CrabChampions/Content/FX/Explosion/Placeholder/T_LoopingFire_04.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          null,
+          {
+            "ObjectName": "Texture2D'ProofOfConcept_LoadingFlipbook'",
+            "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Flipbook/LoadingFlipbook/ProofOfConcept_LoadingFlipbook.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_LoopingFire_04'",
+            "ObjectPath": "CrabChampions/Content/FX/Explosion/Placeholder/T_LoopingFire_04.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "0A66CC5A-4442C0B5-0E784395-9D9C896E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Flipbook'",
+              "ObjectPath": "CrabChampions/Content/Material/Function/MF_Flipbook.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 0.125,
+          "UVChannelIndex": 0,
+          "TextureName": "T_LoopingFire_04"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "Parameters": {
+        "RuntimeEntries[1]": {
+          "NameHashes": [
+            6338076585572178316
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Tint",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "F9D4A307-41026AE0-E6E4F7A2-8AD960A1"
+          ]
+        },
+        "RuntimeEntries[2]": {
+          "NameHashes": [
+            16565997326691886356
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Flipbook",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "C8EBC76A-4CF315DA-74F4999C-0FBC94D4"
+          ]
+        },
+        "VectorValues": [
+          {
+            "R": 4.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        ],
+        "TextureValues": [
+          {
+            "ObjectName": "Texture2D'T_LoopingFire_04'",
+            "ObjectPath": "CrabChampions/Content/FX/Explosion/Placeholder/T_LoopingFire_04.0"
+          }
+        ]
+      },
+      "ReferencedTextures": [
+        null,
+        {
+          "ObjectName": "Texture2D'ProofOfConcept_LoadingFlipbook'",
+          "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Flipbook/LoadingFlipbook/ProofOfConcept_LoadingFlipbook.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_LoopingFire_04'",
+          "ObjectPath": "CrabChampions/Content/FX/Explosion/Placeholder/T_LoopingFire_04.0"
+        }
+      ],
+      "FunctionInfos": [
+        {
+          "StateId": "0A66CC5A-4442C0B5-0E784395-9D9C896E",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_Flipbook'",
+            "ObjectPath": "CrabChampions/Content/Material/Function/MF_Flipbook.0"
+          }
+        }
+      ],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+]

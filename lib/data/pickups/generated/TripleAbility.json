@@ -1,0 +1,17 @@
+{
+  "id": "TripleAbility",
+  "gameId": "DA_AbilityMod_TripleAbility",
+  "type": "AbilityMod",
+  "name": "Triple Ability",
+  "description": "Chance to throw 3 abilities at once",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "spawnWeight": 0.75,
+  "levelDescription": "PrimaryBuff% chance to throw 3 abilities at once",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

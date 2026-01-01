@@ -1,0 +1,16 @@
+{
+  "id": "OrbitingScythes",
+  "gameId": "DA_Perk_OrbitingScythes",
+  "type": "Perk",
+  "name": "Orbiting Scythes",
+  "description": "Gain short lived orbiting scythes after eliminating enemies",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Each scythe deals PrimaryBuff damage per second",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

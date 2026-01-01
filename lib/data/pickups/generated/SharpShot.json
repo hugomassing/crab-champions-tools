@@ -1,0 +1,16 @@
+{
+  "id": "SharpShot",
+  "gameId": "DA_WeaponMod_SharpShot",
+  "type": "WeaponMod",
+  "name": "Sharp Shot",
+  "description": "Shots deal additional flat damage",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Shots deal PrimaryBuff additional flat damage",
+  "iconPath": "T_Icon_WeaponMod_SharpShot",
+  "requiresUnlock": false,
+  "baseBuff": 4,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

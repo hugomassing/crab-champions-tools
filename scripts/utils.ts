@@ -82,3 +82,12 @@ export function writeFile(filePath: string, content: string): void {
   fs.writeFileSync(filePath, content, "utf-8");
 }
 
+/**
+ * Copy a file from source to destination
+ */
+export function copyFile(sourcePath: string, destPath: string): void {
+  const dir = path.dirname(destPath);
+  ensureDirectory(dir);
+  fs.copyFileSync(sourcePath, destPath);
+}
+

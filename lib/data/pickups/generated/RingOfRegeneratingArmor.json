@@ -1,0 +1,16 @@
+{
+  "id": "RingOfRegeneratingArmor",
+  "gameId": "DA_Relic_RingOfRegeneratingArmor",
+  "type": "Relic",
+  "name": "Ring Of Regenerating Armor",
+  "description": "Gain an armor plate at the start of each island",
+  "rarity": "Legendary",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain an armor plate at the start of each island",
+  "iconPath": "T_Icon_Relic_Legendary",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

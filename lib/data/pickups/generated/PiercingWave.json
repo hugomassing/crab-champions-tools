@@ -1,0 +1,16 @@
+{
+  "id": "PiercingWave",
+  "gameId": "DA_WeaponMod_PiercingWave",
+  "type": "WeaponMod",
+  "name": "Piercing Wave",
+  "description": "Chance to fire slow damaging waves along with your shots",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire damaging waves that deal SecondaryBuff damage per second along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

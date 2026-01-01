@@ -1,0 +1,18 @@
+{
+  "id": "PowerPunch",
+  "gameId": "DA_Perk_PowerPunch",
+  "type": "Perk",
+  "name": "Power Punch",
+  "description": "Increased critical hit damage",
+  "rarity": "Common",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "spawnWeight": 1.5,
+  "levelDescription": "Critical hit damage increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 40,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "FastShot",
+  "gameId": "DA_WeaponMod_FastShot",
+  "type": "WeaponMod",
+  "name": "Fast Shot",
+  "description": "Shots are faster and are less affected by gravity",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "levelDescription": "Shots are PrimaryBuff% faster and lighter",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

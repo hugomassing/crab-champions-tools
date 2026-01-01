@@ -1,0 +1,16 @@
+{
+  "id": "Regenerator",
+  "gameId": "DA_Perk_Regenerator",
+  "type": "Perk",
+  "name": "Regenerator",
+  "description": "Health rapidly regenerates for the first 60 seconds of an island",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Regenerate PrimaryBuff health per second",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

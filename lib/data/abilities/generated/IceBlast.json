@@ -5,7 +5,6 @@
   "description": "Freezes nearby enemies",
   "rarity": "Greed",
   "cooldown": 6,
-  "hitmarkerType": "Quiet",
   "projectileId": "DA_Projectile_IceBlast",
   "requiresUnlock": true,
   "iconPath": "T_Icon_IceBlast"

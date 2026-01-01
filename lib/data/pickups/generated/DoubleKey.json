@@ -1,0 +1,13 @@
+{
+  "id": "DoubleKey",
+  "gameId": "DA_Consumable_DoubleKey",
+  "type": "Consumable",
+  "name": "Double Key",
+  "description": "Used in the lobby to permanently unlock new content for future runs",
+  "rarity": "Epic",
+  "iconPath": "T_Icon_Key_Masked",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

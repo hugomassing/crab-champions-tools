@@ -1,0 +1,17 @@
+{
+  "id": "AuraShot",
+  "gameId": "DA_WeaponMod_AuraShot",
+  "type": "WeaponMod",
+  "name": "Aura Shot",
+  "description": "Shots are surrounded by auras that deal constant damage",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 1.5,
+  "levelDescription": "Each aura deals PrimaryBuff damage per second",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

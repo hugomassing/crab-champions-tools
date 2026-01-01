@@ -1,0 +1,16 @@
+{
+  "id": "SparkShot",
+  "gameId": "DA_WeaponMod_SparkShot",
+  "type": "WeaponMod",
+  "name": "Spark Shot",
+  "description": "Chance for shots to create damaging sparks on impact",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance for shots to create bursts of sparks on impact that deal SecondaryBuff damage per second",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

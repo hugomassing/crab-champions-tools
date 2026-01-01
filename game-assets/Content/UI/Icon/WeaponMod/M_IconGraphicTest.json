@@ -1,0 +1,283 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_IconGraphicTest",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_5",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "TwoSided": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "03EBF54C-41EB8281-382ED697-1F7527B1",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              3775951208358729996,
+              4764585026242092100,
+              9181066939711291626,
+              11643042056197865302,
+              13296560145870563776
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Emissive",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Tile",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Pow",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Distortion_Amount",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Amt",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "DF74ACBF-43D06439-3F70CAA4-FE3347EC",
+              "7DB519B7-4FDC1126-E4279E9A-5244534F",
+              "519B762A-49D51767-4951BCB9-63E83735",
+              "ECDE7956-4CA50748-039A319D-E52C9693",
+              "AB6ADB86-461E0634-BC84C49E-E0BECAB4"
+            ]
+          },
+          "RuntimeEntries[2]": {
+            "NameHashes": [
+              2245359913982605895
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Graphic",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "14663D22-4B588465-107DB894-B618AB0E"
+            ]
+          },
+          "ScalarValues": [
+            0.5,
+            1.0,
+            40.0,
+            2.0,
+            5.0
+          ],
+          "TextureValues": [
+            {
+              "ObjectName": "Texture2D'T_Icon_Perk_Epic'",
+              "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Epic.0"
+            }
+          ]
+        },
+        "ReferencedTextures": [
+          {
+            "ObjectName": "Texture2D'T_Icon_Perk_Epic'",
+            "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Epic.0"
+          },
+          null,
+          {
+            "ObjectName": "Texture2D'T_Noise_16'",
+            "ObjectPath": "CrabChampions/Content/Texture/Noise/T_Noise_16.0"
+          },
+          {
+            "ObjectName": "Texture2D'T_Spark_02'",
+            "ObjectPath": "CrabChampions/Content/FX/Texture/Spark/T_Spark_02.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "2D2559CF-41428D04-D20388A7-443E8508",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_UVs'",
+              "ObjectPath": "CrabChampions/Content/Material/Function/MF_UVs.0"
+            }
+          },
+          {
+            "StateId": "4CA6DC1F-44C7C360-8B6118A8-21E8C464",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_4WayPannerTexture'",
+              "ObjectPath": "CrabChampions/Content/Material/Function/MF_4WayPannerTexture.0"
+            }
+          },
+          {
+            "StateId": "AF129EF1-4B8BE598-684A9D98-713763CA",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_PowerMultiply'",
+              "ObjectPath": "CrabChampions/Content/Material/Function/MF_PowerMultiply.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Noise_16"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Spark_02"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "Parameters": {
+        "RuntimeEntries": {
+          "NameHashes": [
+            3775951208358729996,
+            4764585026242092100,
+            9181066939711291626,
+            11643042056197865302,
+            13296560145870563776
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Emissive",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Tile",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Pow",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Distortion_Amount",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            {
+              "Name": "Amt",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "DF74ACBF-43D06439-3F70CAA4-FE3347EC",
+            "7DB519B7-4FDC1126-E4279E9A-5244534F",
+            "519B762A-49D51767-4951BCB9-63E83735",
+            "ECDE7956-4CA50748-039A319D-E52C9693",
+            "AB6ADB86-461E0634-BC84C49E-E0BECAB4"
+          ]
+        },
+        "RuntimeEntries[2]": {
+          "NameHashes": [
+            2245359913982605895
+          ],
+          "ParameterInfos": [
+            {
+              "Name": "Graphic",
+              "Association": "GlobalParameter",
+              "Index": -1
+            }
+          ],
+          "ExpressionGuids": [
+            "14663D22-4B588465-107DB894-B618AB0E"
+          ]
+        },
+        "ScalarValues": [
+          0.5,
+          1.0,
+          40.0,
+          2.0,
+          5.0
+        ],
+        "TextureValues": [
+          {
+            "ObjectName": "Texture2D'T_Icon_Perk_Epic'",
+            "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Epic.0"
+          }
+        ]
+      },
+      "ReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_Icon_Perk_Epic'",
+          "ObjectPath": "CrabChampions/Content/UI/Icon/Perk/T_Icon_Perk_Epic.0"
+        },
+        null,
+        {
+          "ObjectName": "Texture2D'T_Noise_16'",
+          "ObjectPath": "CrabChampions/Content/Texture/Noise/T_Noise_16.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Spark_02'",
+          "ObjectPath": "CrabChampions/Content/FX/Texture/Spark/T_Spark_02.0"
+        }
+      ],
+      "FunctionInfos": [
+        {
+          "StateId": "2D2559CF-41428D04-D20388A7-443E8508",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_UVs'",
+            "ObjectPath": "CrabChampions/Content/Material/Function/MF_UVs.0"
+          }
+        },
+        {
+          "StateId": "4CA6DC1F-44C7C360-8B6118A8-21E8C464",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_4WayPannerTexture'",
+            "ObjectPath": "CrabChampions/Content/Material/Function/MF_4WayPannerTexture.0"
+          }
+        },
+        {
+          "StateId": "AF129EF1-4B8BE598-684A9D98-713763CA",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_PowerMultiply'",
+            "ObjectPath": "CrabChampions/Content/Material/Function/MF_PowerMultiply.0"
+          }
+        }
+      ],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+]

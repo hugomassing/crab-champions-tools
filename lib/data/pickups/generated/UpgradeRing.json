@@ -1,0 +1,15 @@
+{
+  "id": "UpgradeRing",
+  "gameId": "DA_Relic_UpgradeRing",
+  "type": "Relic",
+  "name": "Upgrade Ring",
+  "description": "All chests are much more likely to contain upgrades to your existing loot but the amount of loot choices in chests is reduced by 2",
+  "rarity": "Greed",
+  "spawnWeight": 0.3,
+  "levelDescription": "All chests are much more likely to contain upgrades to your existing loot but the amount of loot choices in chests is reduced by 2",
+  "iconPath": "T_Icon_Relic_Greed",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

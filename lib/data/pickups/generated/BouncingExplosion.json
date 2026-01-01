@@ -1,0 +1,17 @@
+{
+  "id": "BouncingExplosion",
+  "gameId": "DA_AbilityMod_BouncingExplosion",
+  "type": "AbilityMod",
+  "name": "Bouncing Explosion",
+  "description": "Abilities gain bounces and explode on each bounce",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Abilities gain PrimaryBuff bounces and explode on each bounce",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

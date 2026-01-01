@@ -1,0 +1,16 @@
+{
+  "id": "DuplicationRing",
+  "gameId": "DA_Relic_DuplicationRing",
+  "type": "Relic",
+  "name": "Duplication Ring",
+  "description": "Get an extra chest when flawlessly clearing elite or boss islands",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Get an extra chest when flawlessly clearing elite or boss islands",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

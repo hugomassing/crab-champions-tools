@@ -1,0 +1,17 @@
+{
+  "id": "RingOfFury",
+  "gameId": "DA_Relic_RingOfFury",
+  "type": "Relic",
+  "name": "Ring Of Fury",
+  "description": "Global damage multiplier increased by 50% for 5 seconds after eliminating an enemy",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.3,
+  "levelDescription": "Global damage multiplier increased by PrimaryBuff% for 5 seconds after eliminating an enemy",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

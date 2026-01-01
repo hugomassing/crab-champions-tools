@@ -1,0 +1,17 @@
+{
+  "id": "Powerslide",
+  "gameId": "DA_Perk_Powerslide",
+  "type": "Perk",
+  "name": "Powerslide",
+  "description": "Sliding shoots out fiery sparks that damage and ignite nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Speed",
+  "pickupTag": "Fire",
+  "levelDescription": "Sliding constantly deals PrimaryBuff damage and applies SecondaryBuff fire stacks to nearby enemies",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 10,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

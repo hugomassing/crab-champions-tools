@@ -1,0 +1,17 @@
+{
+  "id": "BlindFire",
+  "gameId": "DA_WeaponMod_BlindFire",
+  "type": "WeaponMod",
+  "name": "Blind Fire",
+  "description": "Shots deal more damage but spread is heavily increased",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) but spread increased by Debuff%",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 25,
+  "getDebuffAsMultiplier": false
+}

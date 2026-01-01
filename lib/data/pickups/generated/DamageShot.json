@@ -1,0 +1,16 @@
+{
+  "id": "DamageShot",
+  "gameId": "DA_WeaponMod_DamageShot",
+  "type": "WeaponMod",
+  "name": "Damage Shot",
+  "description": "Shots deal more damage",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_DamageShot",
+  "requiresUnlock": false,
+  "baseBuff": 150,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

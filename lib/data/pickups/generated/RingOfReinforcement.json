@@ -1,0 +1,17 @@
+{
+  "id": "RingOfReinforcement",
+  "gameId": "DA_Relic_RingOfReinforcement",
+  "type": "Relic",
+  "name": "Ring Of Reinforcement",
+  "description": "Gain 2 extra armor plates each time you gain armor",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain 2 extra armor plates each time you gain armor",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

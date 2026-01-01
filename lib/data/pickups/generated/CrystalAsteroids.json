@@ -1,0 +1,16 @@
+{
+  "id": "CrystalAsteroids",
+  "gameId": "DA_Perk_CrystalAsteroids",
+  "type": "Perk",
+  "name": "Crystal Asteroids",
+  "description": "Chance for asteroids containing bonus loot to spawn on each island",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance for asteroids containing bonus loot to spawn on each island",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

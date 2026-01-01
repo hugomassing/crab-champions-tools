@@ -1,0 +1,16 @@
+{
+  "id": "ElementalSpecialist",
+  "gameId": "DA_Perk_ElementalSpecialist",
+  "type": "Perk",
+  "name": "Elemental Specialist",
+  "description": "Damage increased to enemies if they have exactly one debuff (fire, poison, lightning etc.) applied to them",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "levelDescription": "Damage increased to enemies by PrimaryBuff% if they have exactly one debuff applied to them",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

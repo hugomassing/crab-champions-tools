@@ -1,0 +1,16 @@
+{
+  "id": "SpeedDemon",
+  "gameId": "DA_Perk_SpeedDemon",
+  "type": "Perk",
+  "name": "Speed Demon",
+  "description": "Movement speed increased",
+  "rarity": "Common",
+  "lootPool": "Speed",
+  "levelDescription": "Movement speed increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

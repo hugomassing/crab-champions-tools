@@ -1,0 +1,16 @@
+{
+  "id": "TotemEnthusiast",
+  "gameId": "DA_Perk_TotemEnthusiast",
+  "type": "Perk",
+  "name": "Totem Enthusiast",
+  "description": "More totems spawn",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "levelDescription": "PrimaryBuff more totems spawn any time a natural totem spawn happens",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

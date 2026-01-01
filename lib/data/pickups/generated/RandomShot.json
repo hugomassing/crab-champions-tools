@@ -1,0 +1,16 @@
+{
+  "id": "RandomShot",
+  "gameId": "DA_WeaponMod_RandomShot",
+  "type": "WeaponMod",
+  "name": "Random Shot",
+  "description": "Shots apply random debuffs to enemies",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "levelDescription": "PrimaryBuff% chance for shots to apply random debuffs to enemies",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

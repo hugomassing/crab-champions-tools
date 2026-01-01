@@ -1,0 +1,16 @@
+{
+  "id": "Vitality",
+  "gameId": "DA_Perk_Vitality",
+  "type": "Perk",
+  "name": "Vitality",
+  "description": "Damage increased when at high (more than 75%) health",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Damage increased by PrimaryBuff% when at high (more than 75%) health",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 30,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

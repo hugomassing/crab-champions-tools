@@ -1,0 +1,17 @@
+{
+  "id": "PoisonShot",
+  "gameId": "DA_WeaponMod_PoisonShot",
+  "type": "WeaponMod",
+  "name": "Poison Shot",
+  "description": "Shots poison enemies (each stack of poison causes enemies to take increased damage: 50 poison stacks = 50% more damage taken)",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "levelDescription": "PrimaryBuff% chance for shots to poison enemies (each stack of poison causes enemies to take increased damage: 50 poison stacks = 50% more damage taken)",
+  "iconPath": "T_Icon_WeaponMod_PoisonShot",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

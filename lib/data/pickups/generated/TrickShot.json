@@ -1,0 +1,17 @@
+{
+  "id": "TrickShot",
+  "gameId": "DA_WeaponMod_TrickShot",
+  "type": "WeaponMod",
+  "name": "Trick Shot",
+  "description": "Shots deal more damage when hipfiring but less damage when aiming",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) when hipfiring but reduced by Debuff% when aiming",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 25,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "DaggerBlast",
+  "gameId": "DA_AbilityMod_DaggerBlast",
+  "type": "AbilityMod",
+  "name": "Dagger Blast",
+  "description": "Abilities explode into clusters of daggers",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each dagger deals PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

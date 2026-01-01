@@ -1,0 +1,16 @@
+{
+  "id": "ChaoticShot",
+  "gameId": "DA_WeaponMod_ChaoticShot",
+  "type": "WeaponMod",
+  "name": "Chaotic Shot",
+  "description": "Shots deal more damage but move in random patterns",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

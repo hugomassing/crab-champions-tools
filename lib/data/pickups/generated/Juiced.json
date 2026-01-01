@@ -1,0 +1,16 @@
+{
+  "id": "Juiced",
+  "gameId": "DA_WeaponMod_Juiced",
+  "type": "WeaponMod",
+  "name": "Juiced",
+  "description": "Increased damage, fire rate and reload speed",
+  "rarity": "Epic",
+  "lootPool": "Speed",
+  "levelDescription": "Damage, fire rate and reload speed increased by PrimaryBuff%",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 15,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

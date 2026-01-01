@@ -1,0 +1,16 @@
+{
+  "id": "SplitShot",
+  "gameId": "DA_WeaponMod_SplitShot",
+  "type": "WeaponMod",
+  "name": "Split Shot",
+  "description": "Chance for shots to split into 4 copies",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance for shots to split into 4 copies",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 6,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

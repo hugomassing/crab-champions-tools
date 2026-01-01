@@ -1,0 +1,16 @@
+{
+  "id": "BeamShot",
+  "gameId": "DA_WeaponMod_BeamShot",
+  "type": "WeaponMod",
+  "name": "Beam Shot",
+  "description": "Chance to fire damaging beams along with your shots",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire damaging beams that deal SecondaryBuff damage over a Duration second period along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

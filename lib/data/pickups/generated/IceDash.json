@@ -1,0 +1,17 @@
+{
+  "id": "IceDash",
+  "gameId": "DA_Perk_IceDash",
+  "type": "Perk",
+  "name": "Ice Dash",
+  "description": "Dashing freezes and knocks back nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Ice",
+  "levelDescription": "Apply PrimaryBuff ice stacks to nearby enemies when dashing",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

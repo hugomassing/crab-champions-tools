@@ -1,0 +1,16 @@
+{
+  "id": "Driller",
+  "gameId": "DA_Perk_Driller",
+  "type": "Perk",
+  "name": "Driller",
+  "description": "Destroying destructible rocks has a chance to spawn loot",
+  "rarity": "Common",
+  "lootPool": "Luck",
+  "levelDescription": "Destroying destructible rocks has a PrimaryBuff% chance to spawn loot. Chance is shared with teammates that also have Driller",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 5,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

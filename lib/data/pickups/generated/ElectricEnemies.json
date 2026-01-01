@@ -1,0 +1,17 @@
+{
+  "id": "ElectricEnemies",
+  "gameId": "DA_Perk_ElectricEnemies",
+  "type": "Perk",
+  "name": "Electric Enemies",
+  "description": "Enemies shock all nearby enemies when eliminated",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "levelDescription": "Enemies apply PrimaryBuff lightning stacks when eliminated",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 200,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

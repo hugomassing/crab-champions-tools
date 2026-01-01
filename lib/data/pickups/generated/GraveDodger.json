@@ -1,0 +1,16 @@
+{
+  "id": "GraveDodger",
+  "gameId": "DA_Perk_GraveDodger",
+  "type": "Perk",
+  "name": "Grave Dodger",
+  "description": "Heal for a percentage of your max health when reaching 1 health (triggers once per island)",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "levelDescription": "Heal for PrimaryBuff% of your max health when reaching 1 health",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

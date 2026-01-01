@@ -1,0 +1,16 @@
+{
+  "id": "BonusChests",
+  "gameId": "DA_Perk_BonusChests",
+  "type": "Perk",
+  "name": "Bonus Chests",
+  "description": "Get extra chests after every 200 eliminations",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "levelDescription": "Get PrimaryBuff extra chests after every 200 eliminations",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

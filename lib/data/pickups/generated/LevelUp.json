@@ -1,0 +1,16 @@
+{
+  "id": "LevelUp",
+  "gameId": "DA_Perk_LevelUp",
+  "type": "Perk",
+  "name": "Level Up",
+  "description": "Random mods and perks are upgraded to the next level after clearing every 3rd island",
+  "rarity": "Legendary",
+  "lootPool": "Skill",
+  "levelDescription": "PrimaryBuff random mods and perks are upgraded to the next level after clearing every 3rd island",
+  "iconPath": "T_Icon_Perk_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

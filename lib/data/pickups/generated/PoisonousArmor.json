@@ -1,0 +1,17 @@
+{
+  "id": "PoisonousArmor",
+  "gameId": "DA_Perk_PoisonousArmor",
+  "type": "Perk",
+  "name": "Poisonous Armor",
+  "description": "Poison nearby enemies when breaking enemy armor",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "levelDescription": "Armor explosions apply PrimaryBuff poison stacks",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 40,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

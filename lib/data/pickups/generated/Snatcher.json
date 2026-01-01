@@ -1,0 +1,16 @@
+{
+  "id": "Snatcher",
+  "gameId": "DA_Perk_Snatcher",
+  "type": "Perk",
+  "name": "Snatcher",
+  "description": "Enemies eliminated at close range drop more crystals",
+  "rarity": "Common",
+  "lootPool": "Economy",
+  "levelDescription": "Enemies eliminated at close range drop PrimaryBuff% more crystals",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

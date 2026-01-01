@@ -1,0 +1,16 @@
+{
+  "id": "DrillShot",
+  "gameId": "DA_WeaponMod_DrillShot",
+  "type": "WeaponMod",
+  "name": "Drill Shot",
+  "description": "Chance for shots to spawn damaging drills on impact",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance for shots that hit enemies to spawn drills that deal SecondaryBuff damage per second",
+  "iconPath": "T_Icon_WeaponMod_DrillShot",
+  "requiresUnlock": false,
+  "baseBuff": 2.5,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

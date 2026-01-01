@@ -1,0 +1,18 @@
+{
+  "id": "UltraMushroom",
+  "gameId": "DA_AbilityMod_UltraMushroom",
+  "type": "AbilityMod",
+  "name": "Ultra Mushroom",
+  "description": "Abilities grow gigantic explosive mushrooms when exploding",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Mushrooms deal PrimaryBuff damage when exploding",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": true,
+  "cooldown": 4,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

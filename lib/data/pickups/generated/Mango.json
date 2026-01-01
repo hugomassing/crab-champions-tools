@@ -1,0 +1,17 @@
+{
+  "id": "Mango",
+  "gameId": "DA_Perk_Mango",
+  "type": "Perk",
+  "name": "Mango",
+  "description": "Max health increased",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "spawnWeight": 1.5,
+  "levelDescription": "Max health increased by PrimaryBuff",
+  "iconPath": "T_Icon_Perk_Mango",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

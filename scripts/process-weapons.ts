@@ -19,13 +19,18 @@ import {
   validateRarity,
   validateCrosshairType,
   validateFormationType,
-  extractAssetName,
-  extractProjectileId,
+  validateFireMode,
+  extractWeaponModId,
   hexToRgb,
 } from "./validate";
 import { getWeaponMappingByGameId } from "../lib/data/weapons/index";
 
-const WEAPONS_DIR = path.join(PATHS.gameAssets, "Content", "Blueprint", "Weapon");
+const WEAPONS_DIR = path.join(
+  PATHS.gameAssets,
+  "Content",
+  "Blueprint",
+  "Weapon"
+);
 const OUTPUT_DIR = path.join(PATHS.output, "weapons", "generated");
 
 /**
@@ -45,23 +50,22 @@ function normalizeWeapon(raw: RawWeaponData, fileName: string): Weapon {
   const rarity = validateRarity(raw.Properties.Rarity, fileName);
   const crosshairType = validateCrosshairType(raw.Properties.CrosshairType);
   const formationType = validateFormationType(raw.Properties.FormationType);
-  const projectileId = extractProjectileId(raw.Properties.ProjectileDA);
-  const iconPath = extractAssetName(raw.Properties.Icon?.ObjectPath);
   const tintColor = raw.Properties.Tint?.Hex
     ? hexToRgb(raw.Properties.Tint.Hex)
     : undefined;
+  const weaponModId = raw.Properties.StartingWeaponMod
+    ? extractWeaponModId(raw.Properties.StartingWeaponMod)
+    : undefined;
+  const startingWeaponMod = weaponModId ? { weaponModId } : undefined;
+  const dualWield = raw.Properties.bDualWield;
+  const fireMode = validateFireMode(raw.Properties.FireMode);
 
   const stats: WeaponStats = {
-    fireRate: raw.Properties.BaseFireRate,
-    clipSize: raw.Properties.BaseClipSize ?? 0,
-    reloadDuration: raw.Properties.ReloadDuration ?? 0,
+    reloadDuration: raw.Properties.ReloadDuration,
     baseSpread: raw.Properties.BaseSpread,
     maxSpread: raw.Properties.MaxSpread,
-    spreadRecovery: raw.Properties.SpreadRecovery,
-    aimingSpreadMultiplier: raw.Properties.AimingSpreadMultiplier,
-    verticalRecoil: raw.Properties.VerticalRecoil,
+    fireRate: raw.Properties.BaseFireRate,
     horizontalRecoil: raw.Properties.HorizontalRecoil,
-    recoilInterpSpeed: raw.Properties.RecoilInterpSpeed,
   };
 
   return {
@@ -73,12 +77,11 @@ function normalizeWeapon(raw: RawWeaponData, fileName: string): Weapon {
     stats,
     crosshairType,
     formationType,
-    formationSpacing: raw.Properties.FormationSpacing,
-    formationExpansionDampening: raw.Properties.FormationExpansionDampening,
-    projectileId,
     requiresUnlock: raw.Properties.bRequiresUnlock ?? false,
-    iconPath,
     tintColor,
+    startingWeaponMod,
+    dualWield,
+    fireMode,
   };
 }
 
@@ -146,7 +149,9 @@ async function processWeapons() {
         writeJSON(outputFile, normalized);
         processed.push(normalized.id);
       } catch (error) {
-        const errorMsg = `Error processing ${filePath}: ${error instanceof Error ? error.message : String(error)}`;
+        const errorMsg = `Error processing ${filePath}: ${
+          error instanceof Error ? error.message : String(error)
+        }`;
         console.error(errorMsg);
         errors.push(errorMsg);
       }
@@ -173,4 +178,3 @@ async function processWeapons() {
 }
 
 processWeapons();
-

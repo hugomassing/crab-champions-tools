@@ -1,0 +1,16 @@
+{
+  "id": "HealthIsPower",
+  "gameId": "DA_Perk_HealthIsPower",
+  "type": "Perk",
+  "name": "Health Is Power",
+  "description": "Damage increased by 1% for every 25 health you have",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "levelDescription": "Damage increased by 1% for every 25 health you have (up to a cap of PrimaryBuff health)",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 2500,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

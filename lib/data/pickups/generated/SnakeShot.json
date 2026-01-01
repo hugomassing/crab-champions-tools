@@ -1,0 +1,16 @@
+{
+  "id": "SnakeShot",
+  "gameId": "DA_WeaponMod_SnakeShot",
+  "type": "WeaponMod",
+  "name": "Snake Shot",
+  "description": "Shots deal more damage but move in snakelike patterns",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

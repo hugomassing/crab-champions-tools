@@ -1,0 +1,16 @@
+{
+  "id": "BlacksmithAmulet",
+  "gameId": "DA_Relic_BlacksmithAmulet",
+  "type": "Relic",
+  "name": "Blacksmith Amulet",
+  "description": "Gain 2 more anvil choices on Anvil islands",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Gain 2 more anvil choices on anvil islands",
+  "iconPath": "T_Icon_Relic_Rare",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

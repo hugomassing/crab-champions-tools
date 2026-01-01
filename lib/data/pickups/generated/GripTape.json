@@ -1,0 +1,16 @@
+{
+  "id": "GripTape",
+  "gameId": "DA_WeaponMod_GripTape",
+  "type": "WeaponMod",
+  "name": "Grip Tape",
+  "description": "Spread (including formation spread) and recoil heavily reduced",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "levelDescription": "Spread (including formation spread) and recoil reduced by PrimaryBuff%",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

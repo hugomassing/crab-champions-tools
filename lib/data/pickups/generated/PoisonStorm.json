@@ -1,0 +1,18 @@
+{
+  "id": "PoisonStorm",
+  "gameId": "DA_WeaponMod_PoisonStorm",
+  "type": "WeaponMod",
+  "name": "Poison Storm",
+  "description": "Shots create poisonous storms that deal damage over time",
+  "rarity": "Legendary",
+  "lootPool": "Elemental",
+  "pickupTag": "Poison",
+  "levelDescription": "Poison storms deal PrimaryBuff damage and apply SecondaryBuff poison stacks over a Duration second period",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "cooldown": 4,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

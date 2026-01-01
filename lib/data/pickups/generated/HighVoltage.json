@@ -1,0 +1,18 @@
+{
+  "id": "HighVoltage",
+  "gameId": "DA_Perk_HighVoltage",
+  "type": "Perk",
+  "name": "High Voltage",
+  "description": "Lightning strength increased",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "spawnWeight": 1.5,
+  "levelDescription": "Lightning strength increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

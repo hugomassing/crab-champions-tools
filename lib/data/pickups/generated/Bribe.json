@@ -1,0 +1,16 @@
+{
+  "id": "Bribe",
+  "gameId": "DA_Perk_Bribe",
+  "type": "Perk",
+  "name": "Bribe",
+  "description": "Max health multiplier increased but lose crystals when taking damage",
+  "rarity": "Greed",
+  "levelDescription": "Max health multiplier increased by PrimaryBuff% but lose Debuff% of your crystals when taking damage",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 5,
+  "getDebuffAsMultiplier": false
+}

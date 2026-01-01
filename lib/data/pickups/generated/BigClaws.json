@@ -1,0 +1,17 @@
+{
+  "id": "BigClaws",
+  "gameId": "DA_MeleeMod_BigClaws",
+  "type": "MeleeMod",
+  "name": "Big Claws",
+  "description": "Melee range increased",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee range increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 20,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_UI_LoadingFlipbook",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Masked",
+      "StateId": "6BF1DB0A-42862254-BE647AA9-C973AF2B",
+      "CachedExpressionData": {
+        "ReferencedTextures": [
+          null,
+          {
+            "ObjectName": "Texture2D'ProofOfConcept_LoadingFlipbook'",
+            "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Flipbook/LoadingFlipbook/ProofOfConcept_LoadingFlipbook.0"
+          }
+        ],
+        "FunctionInfos": [
+          {
+            "StateId": "0A66CC5A-4442C0B5-0E784395-9D9C896E",
+            "Function": {
+              "ObjectName": "MaterialFunction'MF_Flipbook'",
+              "ObjectPath": "CrabChampions/Content/Material/Function/MF_Flipbook.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "ReferencedTextures": [
+        null,
+        {
+          "ObjectName": "Texture2D'ProofOfConcept_LoadingFlipbook'",
+          "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Flipbook/LoadingFlipbook/ProofOfConcept_LoadingFlipbook.0"
+        }
+      ],
+      "FunctionInfos": [
+        {
+          "StateId": "0A66CC5A-4442C0B5-0E784395-9D9C896E",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_Flipbook'",
+            "ObjectPath": "CrabChampions/Content/Material/Function/MF_Flipbook.0"
+          }
+        }
+      ],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+]

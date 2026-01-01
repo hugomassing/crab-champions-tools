@@ -1,0 +1,18 @@
+{
+  "id": "FireClaws",
+  "gameId": "DA_MeleeMod_FireClaws",
+  "type": "MeleeMod",
+  "name": "Fire Claws",
+  "description": "Melee ignites enemies",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee ignites enemies with PrimaryBuff fire stacks",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

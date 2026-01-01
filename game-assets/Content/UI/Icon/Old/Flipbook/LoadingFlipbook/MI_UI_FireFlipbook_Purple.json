@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_UI_FireFlipbook_Purple",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_UI_FireFlipbook'",
+        "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Flipbook/LoadingFlipbook/M_UI_FireFlipbook.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Tint",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.524672,
+            "G": 0.0,
+            "B": 4.0,
+            "A": 1.0,
+            "Hex": "C000FF"
+          },
+          "ExpressionGUID": "F9D4A307-41026AE0-E6E4F7A2-8AD960A1"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Flipbook",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_LoopingFire_Purple_01'",
+            "ObjectPath": "CrabChampions/Content/FX/Explosion/Placeholder/T_LoopingFire_Purple_01.0"
+          },
+          "ExpressionGUID": "C8EBC76A-4CF315DA-74F4999C-0FBC94D4"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        null,
+        {
+          "ObjectName": "Texture2D'ProofOfConcept_LoadingFlipbook'",
+          "ObjectPath": "CrabChampions/Content/UI/Icon/Old/Flipbook/LoadingFlipbook/ProofOfConcept_LoadingFlipbook.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_LoopingFire_04'",
+          "ObjectPath": "CrabChampions/Content/FX/Explosion/Placeholder/T_LoopingFire_04.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 0.125,
+          "UVChannelIndex": 0,
+          "TextureName": "T_LoopingFire_Purple_01"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

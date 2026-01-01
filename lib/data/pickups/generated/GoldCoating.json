@@ -1,0 +1,16 @@
+{
+  "id": "GoldCoating",
+  "gameId": "DA_Perk_GoldCoating",
+  "type": "Perk",
+  "name": "Gold Coating",
+  "description": "Gain crystals when healing (doesn't work in shops)",
+  "rarity": "Epic",
+  "lootPool": "Economy",
+  "levelDescription": "Gain PrimaryBuff% of healing as crystals (doesn't work in shops)",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

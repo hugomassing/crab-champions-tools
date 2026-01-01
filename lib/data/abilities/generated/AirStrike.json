@@ -7,7 +7,6 @@
   "cooldown": 10,
   "spawnType": "AboveCrosshair",
   "spawnDelay": 0.01,
-  "hitmarkerType": "Loud",
   "projectileId": "DA_Projectile_AirStrike",
   "requiresUnlock": true,
   "iconPath": "T_Icon_AirStrike"

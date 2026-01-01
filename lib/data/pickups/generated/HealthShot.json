@@ -1,0 +1,16 @@
+{
+  "id": "HealthShot",
+  "gameId": "DA_WeaponMod_HealthShot",
+  "type": "WeaponMod",
+  "name": "Health Shot",
+  "description": "Heal when damaging enemies",
+  "rarity": "Epic",
+  "lootPool": "Health",
+  "levelDescription": "Heal PrimaryBuff health when damaging enemies",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 1,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

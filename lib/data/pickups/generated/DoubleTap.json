@@ -1,0 +1,16 @@
+{
+  "id": "DoubleTap",
+  "gameId": "DA_WeaponMod_DoubleTap",
+  "type": "WeaponMod",
+  "name": "Double Tap",
+  "description": "Chance for shots to deal damage twice",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance for shots to deal damage twice",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 6,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

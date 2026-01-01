@@ -1,0 +1,18 @@
+{
+  "id": "LightningRing",
+  "gameId": "DA_Relic_LightningRing",
+  "type": "Relic",
+  "name": "Lightning Ring",
+  "description": "Lightning strength increased by 250% but Poison no longer has any effect",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "spawnWeight": 0.5,
+  "levelDescription": "Lightning strength increased by PrimaryBuff% but Poison no longer has any effect",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 250,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

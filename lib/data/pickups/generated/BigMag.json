@@ -1,0 +1,16 @@
+{
+  "id": "BigMag",
+  "gameId": "DA_WeaponMod_BigMag",
+  "type": "WeaponMod",
+  "name": "Big Mag",
+  "description": "Mag size increased",
+  "rarity": "Common",
+  "lootPool": "Skill",
+  "levelDescription": "Mag size increased by PrimaryBuff%",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 40,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

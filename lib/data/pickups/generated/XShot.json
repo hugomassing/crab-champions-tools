@@ -1,0 +1,16 @@
+{
+  "id": "XShot",
+  "gameId": "DA_WeaponMod_XShot",
+  "type": "WeaponMod",
+  "name": "X Shot",
+  "description": "Chance to fire in an X shot formation",
+  "rarity": "Epic",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance to fire in an X shot formation",
+  "iconPath": "T_Icon_WeaponMod_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 4,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

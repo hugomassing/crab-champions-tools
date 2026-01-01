@@ -1,0 +1,16 @@
+{
+  "id": "SentryTurret",
+  "gameId": "DA_AbilityMod_SentryTurret",
+  "type": "AbilityMod",
+  "name": "Sentry Turret",
+  "description": "Abilities spawn sentry turrets when exploding",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.75,
+  "levelDescription": "Sentry turrets deal PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

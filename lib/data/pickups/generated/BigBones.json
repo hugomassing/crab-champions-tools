@@ -1,0 +1,16 @@
+{
+  "id": "BigBones",
+  "gameId": "DA_Perk_BigBones",
+  "type": "Perk",
+  "name": "Big Bones",
+  "description": "Max health and global damage multipliers increased but you grow larger",
+  "rarity": "Greed",
+  "levelDescription": "Max health and global damage multipliers increased by PrimaryBuff% but you grow Debuff% larger",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 25,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 10,
+  "getDebuffAsMultiplier": false
+}

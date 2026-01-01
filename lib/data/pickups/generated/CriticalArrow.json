@@ -1,0 +1,18 @@
+{
+  "id": "CriticalArrow",
+  "gameId": "DA_Perk_CriticalArrow",
+  "type": "Perk",
+  "name": "Critical Arrow",
+  "description": "Chance for critical hits to fire damaging arrows at enemies",
+  "rarity": "Common",
+  "lootPool": "Critical",
+  "pickupTag": "Critical",
+  "spawnWeight": 1.5,
+  "levelDescription": "PrimaryBuff% chance for critical hits to fire arrows at enemies that deal SecondaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_CriticalArrow",
+  "requiresUnlock": false,
+  "baseBuff": 12,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

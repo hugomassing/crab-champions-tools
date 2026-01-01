@@ -1,0 +1,17 @@
+{
+  "id": "SpinningBlade",
+  "gameId": "DA_AbilityMod_SpinningBlade",
+  "type": "AbilityMod",
+  "name": "Spinning Blade",
+  "description": "Abilities explode into spinning blades",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Spinning blades deal PrimaryBuff damage per second",
+  "iconPath": "T_Icon_GrenadeMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

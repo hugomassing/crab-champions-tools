@@ -5,14 +5,10 @@
   "description": "Devastating damage but slow firing rocket launcher",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 0.9,
-    "clipSize": 5,
     "reloadDuration": 1.75,
     "baseSpread": 0.1,
-    "verticalRecoil": 4
+    "fireRate": 0.9
   },
-  "projectileId": "DA_Projectile_RocketLauncher",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_CoconutLauncher_Silhouette",
   "tintColor": "rgb(255, 89, 0)"
 }

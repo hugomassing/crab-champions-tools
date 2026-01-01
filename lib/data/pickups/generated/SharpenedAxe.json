@@ -1,0 +1,16 @@
+{
+  "id": "SharpenedAxe",
+  "gameId": "DA_WeaponMod_SharpenedAxe",
+  "type": "WeaponMod",
+  "name": "Sharpened Axe",
+  "description": "Chance to fire spinning axes along with your shots",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance to fire spinning axes that deal SecondaryBuff damage per second along with your shots",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

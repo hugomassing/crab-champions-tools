@@ -1,0 +1,17 @@
+{
+  "id": "FireShot",
+  "gameId": "DA_WeaponMod_FireShot",
+  "type": "WeaponMod",
+  "name": "Fire Shot",
+  "description": "Shots burn enemies (enemies take constant damage based on the number of fire stacks applied)",
+  "rarity": "Common",
+  "lootPool": "Elemental",
+  "pickupTag": "Fire",
+  "levelDescription": "PrimaryBuff% chance for shots to burn enemies (enemies take constant damage based on the number of fire stacks applied)",
+  "iconPath": "T_Icon_WeaponMod_FireShot",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

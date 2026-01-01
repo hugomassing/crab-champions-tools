@@ -1,0 +1,17 @@
+{
+  "id": "SteadyShot",
+  "gameId": "DA_WeaponMod_SteadyShot",
+  "type": "WeaponMod",
+  "name": "Steady Shot",
+  "description": "Shots deal more damage when aiming but less damage when hipfiring",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage) when aiming but reduced by Debuff% when hipfiring",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 75,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 25,
+  "getDebuffAsMultiplier": false
+}

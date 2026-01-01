@@ -1,0 +1,16 @@
+{
+  "id": "ProximityBarrage",
+  "gameId": "DA_WeaponMod_ProximityBarrage",
+  "type": "WeaponMod",
+  "name": "Proximity Barrage",
+  "description": "Shots that hit enemies have a chance to spawn powerful missiles that seek out nearby enemies",
+  "rarity": "Legendary",
+  "lootPool": "Damage",
+  "levelDescription": "PrimaryBuff% chance for shots that hit enemies to spawn missiles that deal SecondaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": false,
+  "baseBuff": 3,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "Juggernaut",
+  "gameId": "DA_Perk_Juggernaut",
+  "type": "Perk",
+  "name": "Juggernaut",
+  "description": "Max health multiplier increased but more enemies spawn",
+  "rarity": "Greed",
+  "levelDescription": "Max health multiplier increased by PrimaryBuff% but Debuff% more enemies spawn",
+  "iconPath": "T_Icon_Perk_Greed",
+  "requiresUnlock": false,
+  "baseBuff": 60,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "baseDebuff": 20,
+  "getDebuffAsMultiplier": false
+}

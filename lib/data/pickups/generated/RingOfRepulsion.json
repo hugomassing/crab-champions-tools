@@ -1,0 +1,16 @@
+{
+  "id": "RingOfRepulsion",
+  "gameId": "DA_Relic_RingOfRepulsion",
+  "type": "Relic",
+  "name": "Ring Of Repulsion",
+  "description": "Dashing repels nearby enemy projectiles",
+  "rarity": "Epic",
+  "lootPool": "Skill",
+  "spawnWeight": 0.3,
+  "levelDescription": "Dashing repels nearby enemy projectiles",
+  "iconPath": "T_Icon_Relic_Epic",
+  "requiresUnlock": false,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

@@ -5,17 +5,11 @@
   "description": "Fires short range high spread orbs",
   "rarity": "Greed",
   "stats": {
-    "fireRate": 15,
-    "clipSize": 42,
-    "reloadDuration": 0,
     "baseSpread": 1,
     "maxSpread": 5,
-    "spreadRecovery": 0.2,
-    "verticalRecoil": 5,
+    "fireRate": 15,
     "horizontalRecoil": 2.5
   },
-  "projectileId": "DA_Projectile_OrbLauncher",
   "requiresUnlock": true,
-  "iconPath": "T_UI_Icon_OrbLauncher_Silhouette",
   "tintColor": "rgb(0, 99, 188)"
 }

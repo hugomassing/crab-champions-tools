@@ -1,0 +1,16 @@
+{
+  "id": "LandmineShot",
+  "gameId": "DA_WeaponMod_LandmineShot",
+  "type": "WeaponMod",
+  "name": "Landmine Shot",
+  "description": "Chance for shots that hit enemies to spawn landmines nearby",
+  "rarity": "Legendary",
+  "lootPool": "Luck",
+  "levelDescription": "PrimaryBuff% chance for shots that hit enemies to spawn landmines that deal SecondaryBuff damage",
+  "iconPath": "T_Icon_WeaponMod_Legendary",
+  "requiresUnlock": true,
+  "baseBuff": 4,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

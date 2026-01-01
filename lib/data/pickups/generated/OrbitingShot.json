@@ -1,0 +1,17 @@
+{
+  "id": "OrbitingShot",
+  "gameId": "DA_WeaponMod_OrbitingShot",
+  "type": "WeaponMod",
+  "name": "Orbiting Shot",
+  "description": "Shots deal more damage but orbit around the spawn point",
+  "rarity": "Common",
+  "lootPool": "Damage",
+  "spawnWeight": 0.25,
+  "levelDescription": "Damage increased by PrimaryBuff% (+SecondaryBuff damage)",
+  "iconPath": "T_Icon_WeaponMod_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

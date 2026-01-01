@@ -1,0 +1,17 @@
+{
+  "id": "LandmineExplosion",
+  "gameId": "DA_AbilityMod_LandmineExplosion",
+  "type": "AbilityMod",
+  "name": "Landmine Explosion",
+  "description": "Abilities spawn landmines when exploding",
+  "rarity": "Epic",
+  "lootPool": "Damage",
+  "spawnWeight": 0.75,
+  "levelDescription": "Each landmine deals PrimaryBuff damage when exploding",
+  "iconPath": "T_Icon_GrenadeMod_Epic",
+  "requiresUnlock": true,
+  "baseBuff": 100,
+  "getBuffAsMultiplier": true,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}

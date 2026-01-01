@@ -1,0 +1,16 @@
+{
+  "id": "Bulletproof",
+  "gameId": "DA_Perk_Bulletproof",
+  "type": "Perk",
+  "name": "Bulletproof",
+  "description": "Block chance increased",
+  "rarity": "Common",
+  "lootPool": "Health",
+  "levelDescription": "Block chance increased by PrimaryBuff%",
+  "iconPath": "T_Icon_Perk_Rare",
+  "requiresUnlock": false,
+  "baseBuff": 6,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": true,
+  "getDebuffAsMultiplier": false
+}

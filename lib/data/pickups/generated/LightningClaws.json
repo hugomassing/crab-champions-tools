@@ -1,0 +1,18 @@
+{
+  "id": "LightningClaws",
+  "gameId": "DA_MeleeMod_LightningClaws",
+  "type": "MeleeMod",
+  "name": "Lightning Claws",
+  "description": "Melee shocks enemies",
+  "rarity": "Epic",
+  "lootPool": "Elemental",
+  "pickupTag": "Lightning",
+  "spawnWeight": 0.75,
+  "levelDescription": "Melee shocks enemies with PrimaryBuff lightning stacks",
+  "iconPath": "T_Icon_Perk_Epic",
+  "requiresUnlock": false,
+  "baseBuff": 50,
+  "getBuffAsMultiplier": false,
+  "hyperbolicBuff": false,
+  "getDebuffAsMultiplier": false
+}
