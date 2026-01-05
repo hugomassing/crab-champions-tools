@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import NavBar from "@/components/navigation/NavBar";
 import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants";
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         <NavBar />
         <main className="min-h-screen">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
